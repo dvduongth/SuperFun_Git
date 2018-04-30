@@ -1,0 +1,75 @@
+{
+    "General": {
+        "usdExchangeRate": 22275,
+        "iosNetRevRate": 0.7,
+        "androidNetRevRate": 0.7
+    },
+    "InAppPurchase": {
+        "pack_1": {
+            "xu": 167,
+            "usdCost": 0.99,
+            "gold": 5010000,
+            "vPoint": 167,
+            "localeCost": {
+                "vi": 22000,
+                "th": 35,
+                "international": 0.99
+            }
+        },
+        "pack_2": {
+            "xu": 836,
+            "usdCost": 4.99,
+            "gold": 31350000,
+            "vPoint": 836,
+            "localeCost": {
+                "vi": 109000,
+                "th": 179,
+                "international": 4.99
+            }
+        },
+        "pack_3": {
+            "xu": 1672,
+            "usdCost": 9.99,
+            "gold": 87780000,
+            "vPoint": 1672,
+            "localeCost": {
+                "vi": 219000,
+                "th": 349,
+                "international": 9.99
+            }
+        },
+        "pack_4": {
+            "xu": 3344,
+            "usdCost": 19.99,
+            "gold": 225720000,
+            "vPoint": 3344,
+            "localeCost": {
+                "vi": 449000,
+                "th": 699,
+                "international": 19.99
+            }
+        },
+        "pack_5": {
+            "xu": 8360,
+            "usdCost": 49.99,
+            "gold": 689700000,
+            "vPoint": 8360,
+            "localeCost": {
+                "vi": 1099000,
+                "th": 1750,
+                "international": 49.99
+            }
+        },
+        "pack_6": {
+            "xu": 16720,
+            "usdCost": 99.99,
+            "gold": 1567500000,
+            "vPoint": 16720,
+            "localeCost": {
+                "vi": 2199000,
+                "th": 3500,
+                "international": 99.99
+            }
+        }
+    }
+}

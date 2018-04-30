@@ -1,0 +1,752 @@
+{
+  "ID": "4c8a58d5-c33a-45fa-ba10-16e986f77aa7",
+  "Version": "2.3.2.3",
+  "Name": "Gui_BuyGold",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 2,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Default",
+              "Path": "Default/Sprite.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0405,
+              "Y": 0.0719
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 545.0,
+            "RightMargin": 545.0,
+            "TopMargin": 297.0,
+            "BottomMargin": 297.0,
+            "Tag": 21,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 23.0,
+                  "Y": 585.9534
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 12.7381
+                },
+                "PreSize": {
+                  "X": 15.0217,
+                  "Y": 2.1087
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": -322.5,
+                "RightMargin": -322.5,
+                "TopMargin": -588.4534,
+                "BottomMargin": 537.4534,
+                "Tag": 738,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 364.0723,
+                      "Y": 62.9749
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5269,
+                      "Y": 0.6492
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 239.5723,
+                    "RightMargin": 202.4277,
+                    "TopMargin": 11.5251,
+                    "BottomMargin": 40.4749,
+                    "Tag": 742,
+                    "ActionTag": 502493956,
+                    "Size": {
+                      "X": 249.0,
+                      "Y": 45.0
+                    },
+                    "Name": "Sprite_3",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1597525926,
+                "Size": {
+                  "X": 691.0,
+                  "Y": 97.0
+                },
+                "Name": "payment_title_slot_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 23.0,
+                  "Y": 423.0404
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.661
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 123.0,
+                "RightMargin": 123.0,
+                "TopMargin": 101.9596,
+                "BottomMargin": 308.0404,
+                "Tag": 739,
+                "ActionTag": -1350609947,
+                "Size": {
+                  "X": 890.0,
+                  "Y": 230.0
+                },
+                "Name": "payment_slot",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 255,
+                "Scale9Height": 202,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 17.6088,
+                  "Y": 193.4229
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3828,
+                  "Y": 4.2048
+                },
+                "PreSize": {
+                  "X": 6.1957,
+                  "Y": 4.8696
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": -124.8912,
+                "RightMargin": -114.1088,
+                "TopMargin": -259.4229,
+                "BottomMargin": 81.4229,
+                "Tag": 23,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "100,000",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -1.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 170.58,
+                      "Y": 176.3452
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5985,
+                      "Y": 0.7873
+                    },
+                    "PreSize": {
+                      "X": 0.2737,
+                      "Y": 0.1295
+                    },
+                    "LeftMargin": 90.58,
+                    "RightMargin": 114.42,
+                    "TopMargin": 32.1548,
+                    "BottomMargin": 160.8452,
+                    "Tag": 1059,
+                    "ActionTag": -1406201733,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 31.0
+                    },
+                    "Name": "gold",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gold_icon.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 196.9943,
+                      "Y": 171.4585
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6912,
+                      "Y": 0.7654
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 174.4943,
+                    "RightMargin": 65.5057,
+                    "TopMargin": 35.0415,
+                    "BottomMargin": 153.9585,
+                    "Tag": 27,
+                    "ActionTag": 111886610,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Sprite_4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "15,000 vnd",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -1.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 142.5,
+                      "Y": 43.69
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.195
+                    },
+                    "PreSize": {
+                      "X": 0.3895,
+                      "Y": 0.1295
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 86.5,
+                    "RightMargin": 86.5,
+                    "TopMargin": 164.81,
+                    "BottomMargin": 28.19,
+                    "CallBackType": "Touch",
+                    "Tag": 30,
+                    "ActionTag": -531491021,
+                    "Size": {
+                      "X": 137.0,
+                      "Y": 37.0
+                    },
+                    "Name": "cost",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1936486356,
+                "Size": {
+                  "X": 285.0,
+                  "Y": 224.0
+                },
+                "Name": "btn_sms_1",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 255,
+                "Scale9Height": 202,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 29.7528,
+                  "Y": 195.5459
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6468,
+                  "Y": 4.251
+                },
+                "PercentWidthEnable": true,
+                "PercentWidthEnabled": true,
+                "PreSize": {
+                  "X": 0.2509,
+                  "Y": 4.8696
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 23.9821,
+                "RightMargin": 10.4765,
+                "TopMargin": -261.5459,
+                "BottomMargin": 83.5459,
+                "Tag": 24,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "1000,000",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -1.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 170.5807,
+                      "Y": 176.35
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5985,
+                      "Y": 0.7873
+                    },
+                    "PreSize": {
+                      "X": 0.3158,
+                      "Y": 0.1295
+                    },
+                    "LeftMargin": 78.5807,
+                    "RightMargin": 114.4193,
+                    "TopMargin": 32.15,
+                    "BottomMargin": 160.85,
+                    "Tag": 28,
+                    "ActionTag": 1569611633,
+                    "Size": {
+                      "X": 92.0,
+                      "Y": 31.0
+                    },
+                    "Name": "gold",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gold_icon.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 196.4513,
+                      "Y": 171.46
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6893,
+                      "Y": 0.7654
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 173.9513,
+                    "RightMargin": 66.0487,
+                    "TopMargin": 35.04,
+                    "BottomMargin": 153.96,
+                    "Tag": 29,
+                    "ActionTag": -1488720326,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 80.0
+                    },
+                    "Name": "Sprite_4_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 24,
+                    "LabelText": "15,000 vnd",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -1.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 205.8771,
+                      "Y": 43.6901
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7223,
+                      "Y": 0.195
+                    },
+                    "PreSize": {
+                      "X": 0.3895,
+                      "Y": 0.1295
+                    },
+                    "LeftMargin": 68.8771,
+                    "RightMargin": 79.1453,
+                    "TopMargin": 161.8099,
+                    "BottomMargin": 25.1901,
+                    "Tag": 31,
+                    "ActionTag": 896344525,
+                    "Size": {
+                      "X": 137.0,
+                      "Y": 37.0
+                    },
+                    "Name": "cost",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 828978135,
+                "Size": {
+                  "X": 11.5414,
+                  "Y": 224.0
+                },
+                "Name": "btn_sms_2",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1567882456,
+            "Size": {
+              "X": 46.0,
+              "Y": 46.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1067.6655,
+              "Y": 589.9318
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9398,
+              "Y": 0.9218
+            },
+            "PreSize": {
+              "X": 0.0475,
+              "Y": 0.0875
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 1040.6655,
+            "RightMargin": 41.3345,
+            "TopMargin": 22.0682,
+            "BottomMargin": 561.9318,
+            "Tag": 22,
+            "ActionTag": -757452614,
+            "Size": {
+              "X": 54.0,
+              "Y": 56.0
+            },
+            "Name": "close_btn",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../Default/Button_Normal.png",
+        "../../../../Default/Sprite.png",
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../lobby/gold_icon.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

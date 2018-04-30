@@ -1,0 +1,1515 @@
+{
+  "ID": "b466456d-8f8f-4a92-8d0b-125e26e6aa84",
+  "Version": "2.3.2.3",
+  "Name": "Gui_SettingLobby",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 452,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/setting_lobby/lobby_setting_bg.png",
+              "Plist": ""
+            },
+            "Scale9Width": 656,
+            "Scale9Height": 506,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.5775,
+              "Y": 0.7906
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 240.0,
+            "RightMargin": 240.0,
+            "TopMargin": 67.0,
+            "BottomMargin": 67.0,
+            "Tag": 1272,
+            "Children": [
+              {
+                "FontSize": 26,
+                "LabelText": "Tùy Chỉnh",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 327.8032,
+                  "Y": 469.9728
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4997,
+                  "Y": 0.9288
+                },
+                "PreSize": {
+                  "X": 0.1601,
+                  "Y": 0.0573
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 263.2704,
+                "RightMargin": 263.7296,
+                "TopMargin": 16.049,
+                "BottomMargin": 449.951,
+                "Tag": 398,
+                "ActionTag": -1413778137,
+                "Size": {
+                  "X": 129.0,
+                  "Y": 40.0
+                },
+                "Name": "Text_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 14,
+                "Scale9OriginY": 11,
+                "Scale9Width": 30,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 615.5507,
+                  "Y": 458.9462
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9383,
+                  "Y": 0.907
+                },
+                "PreSize": {
+                  "X": 0.0884,
+                  "Y": 0.1107
+                },
+                "LeftMargin": 586.5507,
+                "RightMargin": 11.4493,
+                "TopMargin": 19.0538,
+                "BottomMargin": 430.9462,
+                "Tag": 454,
+                "ActionTag": -1442313983,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 56.0
+                },
+                "Name": "btn_close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/setting_lobby/icon_setting_music.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 113.8738,
+                  "Y": 405.3268
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1736,
+                  "Y": 0.801
+                },
+                "PreSize": {
+                  "X": 0.064,
+                  "Y": 0.0632
+                },
+                "LeftMargin": 92.8738,
+                "RightMargin": 521.1262,
+                "TopMargin": 84.6732,
+                "BottomMargin": 389.3268,
+                "Tag": 460,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "localize/text_music.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 20.8028,
+                      "Y": -15.6857
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4953,
+                      "Y": -0.4902
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -39.1972,
+                    "RightMargin": -38.8028,
+                    "TopMargin": 30.6857,
+                    "BottomMargin": -32.6857,
+                    "Tag": 461,
+                    "ActionTag": -1137238883,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 34.0
+                    },
+                    "Name": "text",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1666112630,
+                "Size": {
+                  "X": 42.0,
+                  "Y": 32.0
+                },
+                "Name": "icon_music",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 268.6544,
+                  "Y": 388.702
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4095,
+                  "Y": 0.7682
+                },
+                "PreSize": {
+                  "X": 0.1555,
+                  "Y": 0.0988
+                },
+                "LeftMargin": 217.6544,
+                "RightMargin": 336.3456,
+                "TopMargin": 92.298,
+                "BottomMargin": 363.702,
+                "Tag": 459,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 76.553,
+                      "Y": 24.5101
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7505,
+                      "Y": 0.4902
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 50.053,
+                    "RightMargin": -1.053,
+                    "TopMargin": -0.5101,
+                    "BottomMargin": -1.4899,
+                    "Tag": 399,
+                    "ActionTag": -821997047,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "element",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1952193712,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 50.0
+                },
+                "VisibleForFrame": false,
+                "Name": "btn_music",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/setting_lobby/icon_setting_soud.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 113.7568,
+                  "Y": 319.9599
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1734,
+                  "Y": 0.6323
+                },
+                "PreSize": {
+                  "X": 0.0701,
+                  "Y": 0.0771
+                },
+                "LeftMargin": 90.7568,
+                "RightMargin": 519.2432,
+                "TopMargin": 166.5401,
+                "BottomMargin": 300.4599,
+                "Tag": 457,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "localize/text_soud.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 23.1357,
+                      "Y": -11.3653
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5029,
+                      "Y": -0.2914
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -37.3643,
+                    "RightMargin": -37.6357,
+                    "TopMargin": 35.8653,
+                    "BottomMargin": -25.8653,
+                    "Tag": 395,
+                    "ActionTag": -2049349564,
+                    "Size": {
+                      "X": 121.0,
+                      "Y": 29.0
+                    },
+                    "Name": "text_sound",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 657554594,
+                "Size": {
+                  "X": 46.0,
+                  "Y": 39.0
+                },
+                "Name": "icon_sound",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 16,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 268.65,
+                  "Y": 306.5622
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4095,
+                  "Y": 0.6059
+                },
+                "PreSize": {
+                  "X": 0.1555,
+                  "Y": 0.0988
+                },
+                "LeftMargin": 217.65,
+                "RightMargin": 336.35,
+                "TopMargin": 174.4378,
+                "BottomMargin": 281.5622,
+                "Tag": 462,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 25.55,
+                      "Y": 24.1298
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2505,
+                      "Y": 0.4826
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -0.95,
+                    "RightMargin": 49.95,
+                    "TopMargin": -0.1298,
+                    "BottomMargin": -1.8702,
+                    "Tag": 400,
+                    "ActionTag": -59033446,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "element",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1317481482,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 50.0
+                },
+                "VisibleForFrame": false,
+                "Name": "btn_sound",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/setting_lobby/icon_setting_send_error.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 426.1191,
+                  "Y": 405.7457
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6496,
+                  "Y": 0.8019
+                },
+                "PreSize": {
+                  "X": 0.061,
+                  "Y": 0.0791
+                },
+                "LeftMargin": 406.1191,
+                "RightMargin": 209.8809,
+                "TopMargin": 80.2543,
+                "BottomMargin": 385.7457,
+                "Tag": 456,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "localize/text_send_error.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 19.8073,
+                      "Y": -9.8477
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4952,
+                      "Y": -0.2462
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -25.1927,
+                    "RightMargin": -24.8073,
+                    "TopMargin": 35.8477,
+                    "BottomMargin": -23.8477,
+                    "Tag": 396,
+                    "ActionTag": -872556094,
+                    "Size": {
+                      "X": 90.0,
+                      "Y": 28.0
+                    },
+                    "Name": "Sprite_3",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1672368512,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 40.0
+                },
+                "Name": "icon_support",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/setting_lobby/setting_btn.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/setting_lobby/setting_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 91,
+                "Scale9Height": 36,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 557.1417,
+                  "Y": 392.5658
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8493,
+                  "Y": 0.7758
+                },
+                "PreSize": {
+                  "X": 0.1845,
+                  "Y": 0.1146
+                },
+                "LeftMargin": 496.6417,
+                "RightMargin": 38.3583,
+                "TopMargin": 84.4342,
+                "BottomMargin": 363.5658,
+                "Tag": 464,
+                "Children": [
+                  {
+                    "FontSize": 22,
+                    "LabelText": "Báo lỗi",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60.5,
+                      "Y": 31.9986
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5517
+                    },
+                    "PreSize": {
+                      "X": 0.5868,
+                      "Y": 0.5
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 25.0,
+                    "RightMargin": 25.0,
+                    "TopMargin": 11.5,
+                    "BottomMargin": 17.5,
+                    "Tag": 24,
+                    "ActionTag": 1249130643,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 36.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1909849358,
+                "Size": {
+                  "X": 121.0,
+                  "Y": 58.0
+                },
+                "Name": "btn_support",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/setting_lobby/icon_setting_gift_code.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 425.6182,
+                  "Y": 320.1447
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6488,
+                  "Y": 0.6327
+                },
+                "PreSize": {
+                  "X": 0.0655,
+                  "Y": 0.0593
+                },
+                "LeftMargin": 404.1182,
+                "RightMargin": 208.8818,
+                "TopMargin": 170.8553,
+                "BottomMargin": 305.1447,
+                "Tag": 455,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "localize/text_gift_code.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 21.4018,
+                      "Y": -17.7469
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4977,
+                      "Y": -0.5916
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -37.5982,
+                    "RightMargin": -37.4018,
+                    "TopMargin": 35.7469,
+                    "BottomMargin": -29.7469,
+                    "Tag": 397,
+                    "ActionTag": 694437321,
+                    "Size": {
+                      "X": 118.0,
+                      "Y": 24.0
+                    },
+                    "Name": "text",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1129075896,
+                "Size": {
+                  "X": 43.0,
+                  "Y": 30.0
+                },
+                "Name": "Sprite_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/setting_lobby/setting_btn.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/setting_lobby/setting_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 91,
+                "Scale9Height": 36,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 557.1401,
+                  "Y": 305.5835
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8493,
+                  "Y": 0.6039
+                },
+                "PreSize": {
+                  "X": 0.1845,
+                  "Y": 0.1146
+                },
+                "LeftMargin": 496.6401,
+                "RightMargin": 38.3599,
+                "TopMargin": 171.4165,
+                "BottomMargin": 276.5835,
+                "Tag": 463,
+                "Children": [
+                  {
+                    "FontSize": 19,
+                    "LabelText": "Nhập code",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.4965,
+                      "Y": 31.9986
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5165,
+                      "Y": 0.5517
+                    },
+                    "PreSize": {
+                      "X": 0.5868,
+                      "Y": 0.5
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 6.5,
+                    "RightMargin": 2.5,
+                    "TopMargin": 10.0014,
+                    "BottomMargin": 15.9986,
+                    "Tag": 25,
+                    "ActionTag": -1295767840,
+                    "Size": {
+                      "X": 112.0,
+                      "Y": 32.0
+                    },
+                    "Name": "text_0",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1159712556,
+                "Size": {
+                  "X": 121.0,
+                  "Y": 58.0
+                },
+                "Name": "btn_giftcode",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 23,
+                "LabelText": "Tài Khoản",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 171.5045,
+                  "Y": 234.9797
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2614,
+                  "Y": 0.4644
+                },
+                "PreSize": {
+                  "X": 0.1074,
+                  "Y": 0.0531
+                },
+                "LeftMargin": 171.5045,
+                "RightMargin": 368.4955,
+                "TopMargin": 254.0203,
+                "BottomMargin": 217.9797,
+                "Tag": 393,
+                "ActionTag": -2089810599,
+                "Size": {
+                  "X": 118.0,
+                  "Y": 34.0
+                },
+                "Name": "uid_text_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 23,
+                "LabelText": "ID: 214587",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 355.6644,
+                  "Y": 236.0641
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5422,
+                  "Y": 0.4665
+                },
+                "PreSize": {
+                  "X": 0.1074,
+                  "Y": 0.0531
+                },
+                "LeftMargin": 355.6644,
+                "RightMargin": 178.3356,
+                "TopMargin": 252.9359,
+                "BottomMargin": 219.0641,
+                "Tag": 465,
+                "ActionTag": 392071706,
+                "Size": {
+                  "X": 122.0,
+                  "Y": 34.0
+                },
+                "Name": "uid_text",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/setting_lobby/setting_social_selected.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 255.93,
+                  "Y": 139.2364
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3901,
+                  "Y": 0.2752
+                },
+                "PreSize": {
+                  "X": 0.1618,
+                  "Y": 0.2345
+                },
+                "LeftMargin": 192.43,
+                "RightMargin": 336.57,
+                "TopMargin": 291.2636,
+                "BottomMargin": 63.7364,
+                "Tag": 466,
+                "ActionTag": -181313915,
+                "Size": {
+                  "X": 127.0,
+                  "Y": 151.0
+                },
+                "Name": "current_social",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_zingme.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_zingme.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 58,
+                "Scale9Height": 85,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 107.8609,
+                  "Y": 118.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1644,
+                  "Y": 0.2332
+                },
+                "PreSize": {
+                  "X": 0.1341,
+                  "Y": 0.2115
+                },
+                "LeftMargin": 63.8609,
+                "RightMargin": 504.1391,
+                "TopMargin": 334.5,
+                "BottomMargin": 64.5,
+                "Tag": 70,
+                "ActionTag": 1806317781,
+                "Size": {
+                  "X": 88.0,
+                  "Y": 107.0
+                },
+                "Name": "btn_zingme",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_facebook.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_facebook.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 58,
+                "Scale9Height": 85,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 255.9271,
+                  "Y": 118.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3901,
+                  "Y": 0.2332
+                },
+                "PreSize": {
+                  "X": 0.1341,
+                  "Y": 0.2115
+                },
+                "LeftMargin": 211.9271,
+                "RightMargin": 356.0729,
+                "TopMargin": 334.5,
+                "BottomMargin": 64.5,
+                "Tag": 468,
+                "ActionTag": -1311007533,
+                "Size": {
+                  "X": 88.0,
+                  "Y": 107.0
+                },
+                "Name": "btn_fb",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_google.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_google.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 58,
+                "Scale9Height": 85,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 405.8329,
+                  "Y": 118.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6186,
+                  "Y": 0.2332
+                },
+                "PreSize": {
+                  "X": 0.1341,
+                  "Y": 0.2115
+                },
+                "LeftMargin": 361.8329,
+                "RightMargin": 206.1671,
+                "TopMargin": 334.5,
+                "BottomMargin": 64.5,
+                "Tag": 467,
+                "ActionTag": 1030077692,
+                "Size": {
+                  "X": 88.0,
+                  "Y": 107.0
+                },
+                "Name": "btn_google",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_zalo.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_zalo.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 58,
+                "Scale9Height": 85,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 558.1581,
+                  "Y": 118.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8509,
+                  "Y": 0.2332
+                },
+                "PreSize": {
+                  "X": 0.1341,
+                  "Y": 0.2115
+                },
+                "LeftMargin": 514.1581,
+                "RightMargin": 53.8419,
+                "TopMargin": 334.5,
+                "BottomMargin": 64.5,
+                "Tag": 69,
+                "ActionTag": -1200274065,
+                "Size": {
+                  "X": 88.0,
+                  "Y": 107.0
+                },
+                "Name": "btn_zalo",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 537628881,
+            "Size": {
+              "X": 656.0,
+              "Y": 506.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../button/x.png",
+        "../../../Default/Button_Normal.png",
+        "../../../Default/Sprite.png",
+        "../../../fonts/font_game_bold.ttf",
+        "../../../lobby/icon_facebook.png",
+        "../../../lobby/icon_google.png",
+        "../../../lobby/icon_zalo.png",
+        "../../../lobby/icon_zingme.png",
+        "../../../lobby/setting_lobby/icon_setting_gift_code.png",
+        "../../../lobby/setting_lobby/icon_setting_music.png",
+        "../../../lobby/setting_lobby/icon_setting_send_error.png",
+        "../../../lobby/setting_lobby/icon_setting_soud.png",
+        "../../../lobby/setting_lobby/lobby_setting_bg.png",
+        "../../../lobby/setting_lobby/setting_btn.png",
+        "../../../lobby/setting_lobby/setting_social_selected.png",
+        "../../../localize/text_gift_code.png",
+        "../../../localize/text_music.png",
+        "../../../localize/text_send_error.png",
+        "../../../localize/text_soud.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

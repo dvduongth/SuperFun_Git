@@ -1,0 +1,116 @@
+<dragonBones name="Looby_star4" frameRate="24" version="2.3">
+ <armature name="Looby_star4">
+  <bone name="Symbol 1">
+   <transform x="17.55" y="-3.8" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="Symbol 2">
+   <transform x="10.45" y="-4.9" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="Symbol 3">
+   <transform x="5.9" y="-2.15" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="Symbol 4">
+   <transform x="0.65" y="-1.1" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="Symbol 5">
+   <transform x="-5.45" y="-1.1" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="Symbol 6">
+   <transform x="-10.95" y="1.25" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="Symbol 7">
+   <transform x="-19.15" y="-1.4" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="Symbol 1" parent="Symbol 1" z="0" blendMode="add">
+    <display name="Symbol 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Symbol 2" parent="Symbol 2" z="1" blendMode="add">
+    <display name="Symbol 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Symbol 3" parent="Symbol 3" z="2" blendMode="add">
+    <display name="Symbol 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.6" pY="17.3"/>
+    </display>
+   </slot>
+   <slot name="Symbol 4" parent="Symbol 4" z="3" blendMode="add">
+    <display name="Symbol 4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="22.85" pY="18.35"/>
+    </display>
+   </slot>
+   <slot name="Symbol 5" parent="Symbol 5" z="4" blendMode="add">
+    <display name="Symbol 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18.5" pY="18.35"/>
+    </display>
+   </slot>
+   <slot name="Symbol 6" parent="Symbol 6" z="5" blendMode="add">
+    <display name="Symbol 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="13.05" pY="16"/>
+    </display>
+   </slot>
+   <slot name="Symbol 7" parent="Symbol 7" z="6" blendMode="add">
+    <display name="Symbol 7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="4.85" pY="3.85"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="21" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="Symbol 1" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="0" tweenEasing="0" duration="4">
+     <transform x="17.55" y="-3.8" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="17.55" y="-3.8" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Symbol 2" scale="1" offset="0">
+    <frame duration="10" displayIndex="-1"/>
+    <frame z="1" duration="2">
+     <transform x="10.45" y="-4.9" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="9" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Symbol 3" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="2" duration="2">
+     <transform x="5.9" y="-2.15" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="11" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Symbol 4" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="3" duration="2">
+     <transform x="0.65" y="-1.1" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="13" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Symbol 5" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="4" duration="2">
+     <transform x="-5.45" y="-1.1" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="15" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Symbol 6" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="5" duration="2">
+     <transform x="-10.95" y="1.25" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="17" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Symbol 7" scale="1" offset="0">
+    <frame z="6" duration="2">
+     <transform x="-19.15" y="-1.4" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="19" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

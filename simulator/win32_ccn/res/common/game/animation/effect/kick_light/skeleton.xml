@@ -1,0 +1,24 @@
+<dragonBones name="kick_light" frameRate="24" version="2.3">
+ <armature name="kick_light">
+  <bone name="Layer 1">
+   <transform x="-0.5" y="-64.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 1" parent="Layer 1" z="0" blendMode="add">
+    <display name="Symbol 2" type="image">
+     <transform x="0" y="64.65" skX="0" skY="0" scX="1" scY="1" pX="31.4" pY="143.3"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="2" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-0.5" y="-64.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-6.5" y="-98.5" skX="4" skY="4" scX="1" scY="1" pX="0.1" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

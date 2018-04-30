@@ -1,0 +1,126 @@
+{
+    "Interval": {
+        "TREASURE_HUNTING": {
+            "startDate": "01\/11\/2016-00:00:00",
+            "endDate": "31\/12\/2016-23:59:59"
+        }
+    },
+    "TreasureHunting": {
+        "1": {
+            "coinCost": 100,
+            "outcome": {
+                "1": {
+                    "prob": 20,
+                    "reward": "CHEST_1;5"
+                },
+                "2": {
+                    "prob": 20,
+                    "reward": "NEXT_ROUND_BONUS;2"
+                },
+                "3": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "4": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "5": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "6": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                }
+            }
+        },
+        "2": {
+            "coinCost": 100,
+            "outcome": {
+                "1": {
+                    "prob": 20,
+                    "reward": "CHEST_1;5"
+                },
+                "2": {
+                    "prob": 20,
+                    "reward": "NEXT_ROUND_BONUS;2"
+                },
+                "3": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "4": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "5": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "6": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                }
+            }
+        },
+        "3": {
+            "coinCost": 100,
+            "outcome": {
+                "1": {
+                    "prob": 20,
+                    "reward": "CHEST_1;5"
+                },
+                "2": {
+                    "prob": 20,
+                    "reward": "NEXT_ROUND_BONUS;2"
+                },
+                "3": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "4": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "5": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "6": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                }
+            }
+        },
+        "4": {
+            "coinCost": 100,
+            "outcome": {
+                "1": {
+                    "prob": 20,
+                    "reward": "CHEST_1;5"
+                },
+                "2": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "3": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "4": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "5": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                },
+                "6": {
+                    "prob": 20,
+                    "reward": "GOLD;5000"
+                }
+            }
+        }
+    }
+}

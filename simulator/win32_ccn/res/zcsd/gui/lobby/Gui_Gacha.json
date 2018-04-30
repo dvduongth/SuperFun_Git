@@ -1,0 +1,1555 @@
+{
+  "ID": "16622165-df22-45e8-895c-fe04eb97faf9",
+  "Version": "2.3.2.3",
+  "Name": "Gui_Gacha",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 482,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/gacha/gacha_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8486,
+              "Y": 0.8906
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 86.0,
+            "RightMargin": 86.0,
+            "TopMargin": 35.0,
+            "BottomMargin": 35.0,
+            "Tag": 483,
+            "Children": [
+              {
+                "FontSize": 27,
+                "LabelText": "CHỌN RƯƠNG ĐỂ MỞ",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 482.0,
+                  "Y": 540.443
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9481
+                },
+                "PreSize": {
+                  "X": 0.1124,
+                  "Y": 0.0568
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 334.5,
+                "RightMargin": 334.5,
+                "TopMargin": 9.557,
+                "BottomMargin": 520.443,
+                "Tag": 113,
+                "ActionTag": 34751392,
+                "Size": {
+                  "X": 295.0,
+                  "Y": 40.0
+                },
+                "Name": "title",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 12,
+                "Scale9OriginY": 11,
+                "Scale9Width": 34,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 924.7189,
+                  "Y": 517.066
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9593,
+                  "Y": 0.9071
+                },
+                "PreSize": {
+                  "X": 0.0511,
+                  "Y": 0.0875
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 895.7189,
+                "RightMargin": 10.2811,
+                "TopMargin": 24.934,
+                "BottomMargin": 489.066,
+                "Tag": 485,
+                "ActionTag": 1292201878,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 56.0
+                },
+                "Name": "btn_exit",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -2033731111,
+            "Size": {
+              "X": 964.0,
+              "Y": 570.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 568.0007,
+              "Y": 322.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5031
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 568.0007,
+            "RightMargin": 567.9993,
+            "TopMargin": 318.0,
+            "BottomMargin": 322.0,
+            "Tag": 486,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/gacha/gacha_slot.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -222.2172,
+                  "Y": -50.505
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "LeftEdge",
+                "LeftMargin": -348.2172,
+                "RightMargin": 96.2172,
+                "TopMargin": 10.005,
+                "BottomMargin": -91.005,
+                "Tag": 487,
+                "Children": [
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 120.2291,
+                      "Y": 128.0003
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.4771,
+                      "Y": 1.5803
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 120.2291,
+                    "RightMargin": 131.7709,
+                    "TopMargin": -47.0003,
+                    "BottomMargin": 128.0003,
+                    "Tag": 488,
+                    "ActionTag": 985126644,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "silver_chest",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "button/button_yellow_3.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "button/button_yellow_3.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 231,
+                    "Scale9Height": 51,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 125.92,
+                      "Y": -127.9601
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4997,
+                      "Y": -1.5798
+                    },
+                    "PreSize": {
+                      "X": 1.0357,
+                      "Y": 0.9012
+                    },
+                    "LeftMargin": -4.58,
+                    "RightMargin": -4.42,
+                    "TopMargin": 172.4601,
+                    "BottomMargin": -164.4601,
+                    "Tag": 491,
+                    "Children": [
+                      {
+                        "FontSize": 26,
+                        "LabelText": "Miễn phí",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 130.5,
+                          "Y": 41.61
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.57
+                        },
+                        "PreSize": {
+                          "X": 0.614,
+                          "Y": 0.2479
+                        },
+                        "HorizontalEdge": "BothEdge",
+                        "VerticalEdge": "BothEdge",
+                        "LeftMargin": 72.0,
+                        "RightMargin": 72.0,
+                        "TopMargin": 11.39,
+                        "BottomMargin": 21.61,
+                        "Tag": 569,
+                        "ActionTag": -1168415327,
+                        "Size": {
+                          "X": 117.0,
+                          "Y": 40.0
+                        },
+                        "Name": "label_open_1_silver_chest_cost",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -305818187,
+                    "Size": {
+                      "X": 261.0,
+                      "Y": 73.0
+                    },
+                    "Name": "btn_open_1_silver_chest",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "button/button_green_0.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "button/button_green_0.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 231,
+                    "Scale9Height": 51,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 125.9172,
+                      "Y": -40.9622
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4997,
+                      "Y": -0.5057
+                    },
+                    "PreSize": {
+                      "X": 1.0357,
+                      "Y": 0.9012
+                    },
+                    "LeftMargin": -4.5828,
+                    "RightMargin": -4.4172,
+                    "TopMargin": 85.4622,
+                    "BottomMargin": -77.4622,
+                    "Tag": 494,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lobby/gacha/1_0001_Rounded-Rectangle-1.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6742,
+                          "Y": 35.056
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2013,
+                          "ScaleY": 1.1789
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7114,
+                          "Y": 0.4802
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 131.6742,
+                        "RightMargin": 21.3258,
+                        "TopMargin": 21.944,
+                        "BottomMargin": 19.056,
+                        "Tag": 114,
+                        "ActionTag": -1341883863,
+                        "Size": {
+                          "X": 108.0,
+                          "Y": 32.0
+                        },
+                        "Alpha": 177,
+                        "Name": "Sprite_2",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "10",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 51.0315,
+                          "Y": 54.4305
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1955,
+                          "Y": 0.7456
+                        },
+                        "PreSize": {
+                          "X": 0.614,
+                          "Y": 0.2479
+                        },
+                        "LeftMargin": 35.0315,
+                        "RightMargin": 193.9685,
+                        "TopMargin": 0.0695,
+                        "BottomMargin": 35.9305,
+                        "Tag": 567,
+                        "ActionTag": -250172528,
+                        "Size": {
+                          "X": 32.0,
+                          "Y": 37.0
+                        },
+                        "Name": "text_number",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "Rương",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.7881,
+                          "Y": 30.0154
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2137,
+                          "Y": 0.4112
+                        },
+                        "PreSize": {
+                          "X": 0.614,
+                          "Y": 0.2479
+                        },
+                        "LeftMargin": 15.7881,
+                        "RightMargin": 165.2119,
+                        "TopMargin": 24.4846,
+                        "BottomMargin": 11.5154,
+                        "Tag": 115,
+                        "ActionTag": 1445095389,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 37.0
+                        },
+                        "Name": "text_gacha",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 28,
+                        "LabelText": "200",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Right",
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 242.0831,
+                          "Y": 39.2571
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.9275,
+                          "Y": 0.5378
+                        },
+                        "PreSize": {
+                          "X": 0.614,
+                          "Y": 0.2479
+                        },
+                        "LeftMargin": 189.0831,
+                        "RightMargin": 18.9169,
+                        "TopMargin": 12.2429,
+                        "BottomMargin": 17.7571,
+                        "Tag": 570,
+                        "ActionTag": -1017262923,
+                        "Size": {
+                          "X": 53.0,
+                          "Y": 43.0
+                        },
+                        "Name": "label_open_10_silver_chest_cost",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lobby/gold_icon.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 127.6795,
+                          "Y": 36.5497
+                        },
+                        "Scale": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4892,
+                          "Y": 0.5007
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 75.1795,
+                        "RightMargin": 80.8205,
+                        "TopMargin": -3.5497,
+                        "BottomMargin": -3.4503,
+                        "Tag": 496,
+                        "ActionTag": 992072350,
+                        "Size": {
+                          "X": 105.0,
+                          "Y": 80.0
+                        },
+                        "Name": "Sprite_13",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 45508303,
+                    "Size": {
+                      "X": 261.0,
+                      "Y": 73.0
+                    },
+                    "Name": "btn_open_10_silver_chest",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": 1012308385,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 81.0
+                },
+                "Name": "chest_slot_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/gacha/gacha_slot.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 219.4618,
+                  "Y": -51.0468
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "RightEdge",
+                "LeftMargin": 93.4618,
+                "RightMargin": -345.4618,
+                "TopMargin": 10.5468,
+                "BottomMargin": -91.5468,
+                "Tag": 498,
+                "Children": [
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 120.1666,
+                      "Y": 127.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.4769,
+                      "Y": 1.5802
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 120.1666,
+                    "RightMargin": 131.8334,
+                    "TopMargin": -46.9999,
+                    "BottomMargin": 127.9999,
+                    "Tag": 509,
+                    "ActionTag": 430594208,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "gold_chest",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "button/button_green_0.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "button/button_green_0.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 231,
+                    "Scale9Height": 51,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 125.9371,
+                      "Y": -41.2254
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4998,
+                      "Y": -0.509
+                    },
+                    "PreSize": {
+                      "X": 1.0357,
+                      "Y": 0.9012
+                    },
+                    "LeftMargin": -4.5629,
+                    "RightMargin": -4.4371,
+                    "TopMargin": 85.7254,
+                    "BottomMargin": -77.7254,
+                    "Tag": 116,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lobby/gacha/1_0001_Rounded-Rectangle-1.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6742,
+                          "Y": 35.056
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2013,
+                          "ScaleY": 1.1789
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7114,
+                          "Y": 0.4802
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 131.6742,
+                        "RightMargin": 21.3258,
+                        "TopMargin": 21.944,
+                        "BottomMargin": 19.056,
+                        "Tag": 117,
+                        "ActionTag": 143497089,
+                        "Size": {
+                          "X": 108.0,
+                          "Y": 32.0
+                        },
+                        "Alpha": 177,
+                        "Name": "Sprite_2",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "10",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 51.0315,
+                          "Y": 54.4305
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1955,
+                          "Y": 0.7456
+                        },
+                        "PreSize": {
+                          "X": 0.614,
+                          "Y": 0.2479
+                        },
+                        "LeftMargin": 35.0315,
+                        "RightMargin": 193.9685,
+                        "TopMargin": 0.0695,
+                        "BottomMargin": 35.9305,
+                        "Tag": 118,
+                        "ActionTag": 1010238940,
+                        "Size": {
+                          "X": 32.0,
+                          "Y": 37.0
+                        },
+                        "Name": "text_number",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "Rương",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.7881,
+                          "Y": 30.0154
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2137,
+                          "Y": 0.4112
+                        },
+                        "PreSize": {
+                          "X": 0.614,
+                          "Y": 0.2479
+                        },
+                        "LeftMargin": 15.7881,
+                        "RightMargin": 165.2119,
+                        "TopMargin": 24.4846,
+                        "BottomMargin": 11.5154,
+                        "Tag": 119,
+                        "ActionTag": 1824575290,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 37.0
+                        },
+                        "Name": "text_gacha",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 28,
+                        "LabelText": "200",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Right",
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 242.0831,
+                          "Y": 39.2571
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.9275,
+                          "Y": 0.5378
+                        },
+                        "PreSize": {
+                          "X": 0.614,
+                          "Y": 0.2479
+                        },
+                        "LeftMargin": 189.0831,
+                        "RightMargin": 18.9169,
+                        "TopMargin": 12.2429,
+                        "BottomMargin": 17.7571,
+                        "Tag": 120,
+                        "ActionTag": 1503210791,
+                        "Size": {
+                          "X": 53.0,
+                          "Y": 43.0
+                        },
+                        "Name": "label_open_10_golden_chest_cost",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lobby/g_icon.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 131.3432,
+                          "Y": 36.6897
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5032,
+                          "Y": 0.5026
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 110.8432,
+                        "RightMargin": 109.1568,
+                        "TopMargin": 15.8103,
+                        "BottomMargin": 16.1897,
+                        "Tag": 121,
+                        "ActionTag": 832434096,
+                        "Size": {
+                          "X": 41.0,
+                          "Y": 41.0
+                        },
+                        "Name": "Sprite_13",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 472228818,
+                    "Size": {
+                      "X": 261.0,
+                      "Y": 73.0
+                    },
+                    "Name": "btn_open_10_golden_chest",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "button/button_yellow_3.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "button/button_yellow_3.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 231,
+                    "Scale9Height": 51,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 125.9401,
+                      "Y": -129.2253
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4998,
+                      "Y": -1.5954
+                    },
+                    "PreSize": {
+                      "X": 1.0357,
+                      "Y": 0.9012
+                    },
+                    "LeftMargin": -4.5599,
+                    "RightMargin": -4.4401,
+                    "TopMargin": 173.7253,
+                    "BottomMargin": -165.7253,
+                    "Tag": 122,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lobby/gacha/1_0001_Rounded-Rectangle-1.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 1,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 185.6742,
+                          "Y": 35.056
+                        },
+                        "Scale": {
+                          "ScaleX": 1.2013,
+                          "ScaleY": 1.1789
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7114,
+                          "Y": 0.4802
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 131.6742,
+                        "RightMargin": 21.3258,
+                        "TopMargin": 21.944,
+                        "BottomMargin": 19.056,
+                        "Tag": 123,
+                        "ActionTag": -1584201486,
+                        "Size": {
+                          "X": 108.0,
+                          "Y": 32.0
+                        },
+                        "Alpha": 177,
+                        "Name": "Sprite_2",
+                        "ctype": "SpriteObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "1",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 51.0315,
+                          "Y": 54.4305
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1955,
+                          "Y": 0.7456
+                        },
+                        "PreSize": {
+                          "X": 0.614,
+                          "Y": 0.2479
+                        },
+                        "LeftMargin": 35.0315,
+                        "RightMargin": 193.9685,
+                        "TopMargin": 0.0695,
+                        "BottomMargin": 35.9305,
+                        "Tag": 124,
+                        "ActionTag": -440691276,
+                        "Size": {
+                          "X": 15.0,
+                          "Y": 37.0
+                        },
+                        "Name": "text_number",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "Rương",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 55.7881,
+                          "Y": 30.0154
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2137,
+                          "Y": 0.4112
+                        },
+                        "PreSize": {
+                          "X": 0.614,
+                          "Y": 0.2479
+                        },
+                        "LeftMargin": 15.7881,
+                        "RightMargin": 165.2119,
+                        "TopMargin": 24.4846,
+                        "BottomMargin": 11.5154,
+                        "Tag": 125,
+                        "ActionTag": 2073253529,
+                        "Size": {
+                          "X": 80.0,
+                          "Y": 37.0
+                        },
+                        "Name": "text_gacha",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 28,
+                        "LabelText": "200",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Right",
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowOffsetX": 0.0,
+                        "ShadowOffsetY": -2.0,
+                        "ShadowEnabled": true,
+                        "AnchorPoint": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 242.0831,
+                          "Y": 39.2571
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.9275,
+                          "Y": 0.5378
+                        },
+                        "PreSize": {
+                          "X": 0.614,
+                          "Y": 0.2479
+                        },
+                        "LeftMargin": 189.0831,
+                        "RightMargin": 18.9169,
+                        "TopMargin": 12.2429,
+                        "BottomMargin": 17.7571,
+                        "Tag": 126,
+                        "ActionTag": 1495042042,
+                        "Size": {
+                          "X": 53.0,
+                          "Y": 43.0
+                        },
+                        "Name": "label_open_1_golden_chest_cost",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lobby/g_icon.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 131.3432,
+                          "Y": 36.6897
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5032,
+                          "Y": 0.5026
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": 110.8432,
+                        "RightMargin": 109.1568,
+                        "TopMargin": 15.8103,
+                        "BottomMargin": 16.1897,
+                        "Tag": 127,
+                        "ActionTag": -1402633628,
+                        "Size": {
+                          "X": 41.0,
+                          "Y": 41.0
+                        },
+                        "Name": "Sprite_13",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 1333172337,
+                    "Size": {
+                      "X": 261.0,
+                      "Y": 73.0
+                    },
+                    "Name": "btn_open_1_golden_chest",
+                    "ctype": "ButtonObjectData"
+                  }
+                ],
+                "ActionTag": -511060337,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 81.0
+                },
+                "Name": "chest_slot_2",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 315361019,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "center_node",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../button/button_green_0.png",
+        "../../../button/button_yellow_3.png",
+        "../../../button/x.png",
+        "../../../fonts/font_game_bold.ttf",
+        "../../../lobby/g_icon.png",
+        "../../../lobby/gacha/1_0001_Rounded-Rectangle-1.png",
+        "../../../lobby/gacha/gacha_bg.png",
+        "../../../lobby/gacha/gacha_slot.png",
+        "../../../lobby/gold_icon.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

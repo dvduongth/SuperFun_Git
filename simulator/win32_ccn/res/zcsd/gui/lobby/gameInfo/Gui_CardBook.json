@@ -1,0 +1,542 @@
+{
+  "ID": "d62b1b01-0f12-4a0d-8e8a-c9ae0bdf316f",
+  "Version": "2.3.2.3",
+  "Name": "Gui_CardBook",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 111,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/version2/game_info/game_book/book_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8477,
+              "Y": 0.9391
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 86.5,
+            "RightMargin": 86.5,
+            "TopMargin": 19.5,
+            "BottomMargin": 19.5,
+            "Tag": 119,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/game_info/game_book/book_title.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 481.5,
+                  "Y": 572.1914
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9521
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 426.0,
+                "RightMargin": 426.0,
+                "TopMargin": 6.3086,
+                "BottomMargin": 549.6914,
+                "Tag": 165,
+                "ActionTag": 687730414,
+                "Size": {
+                  "X": 111.0,
+                  "Y": 45.0
+                },
+                "Name": "book_title_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 28,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 921.3478,
+                  "Y": 562.6064
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9567,
+                  "Y": 0.9361
+                },
+                "PreSize": {
+                  "X": 0.0602,
+                  "Y": 0.0932
+                },
+                "LeftMargin": 892.3478,
+                "RightMargin": 12.6522,
+                "TopMargin": 10.3936,
+                "BottomMargin": 534.6064,
+                "Tag": 120,
+                "ActionTag": -252963695,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 56.0
+                },
+                "Name": "btn_close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/game_info/game_book/btn_book_skill.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/game_info/game_book/btn_book_skill.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 155,
+                "Scale9Height": 28,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 722.92,
+                  "Y": 506.02
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 127,
+                  "G": 127,
+                  "B": 127
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7507,
+                  "Y": 0.842
+                },
+                "PreSize": {
+                  "X": 0.1921,
+                  "Y": 0.0832
+                },
+                "LeftMargin": 630.42,
+                "RightMargin": 147.58,
+                "TopMargin": 69.98,
+                "BottomMargin": 481.02,
+                "Tag": 121,
+                "ActionTag": -1812785818,
+                "Size": {
+                  "X": 185.0,
+                  "Y": 50.0
+                },
+                "Name": "btn_skill",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/game_info/game_book/btn_book_dice.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/game_info/game_book/btn_book_dice.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 155,
+                "Scale9Height": 28,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 538.33,
+                  "Y": 506.02
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 127,
+                  "G": 127,
+                  "B": 127
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.559,
+                  "Y": 0.842
+                },
+                "PreSize": {
+                  "X": 0.1921,
+                  "Y": 0.0832
+                },
+                "LeftMargin": 445.83,
+                "RightMargin": 332.17,
+                "TopMargin": 69.98,
+                "BottomMargin": 481.02,
+                "Tag": 122,
+                "ActionTag": -1664182329,
+                "Size": {
+                  "X": 185.0,
+                  "Y": 50.0
+                },
+                "Name": "btn_dice",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/game_info/game_book/btn_book_card.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/game_info/game_book/btn_book_card.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 155,
+                "Scale9Height": 28,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 353.53,
+                  "Y": 506.02
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3671,
+                  "Y": 0.842
+                },
+                "PreSize": {
+                  "X": 0.1921,
+                  "Y": 0.0832
+                },
+                "LeftMargin": 261.03,
+                "RightMargin": 516.97,
+                "TopMargin": 69.98,
+                "BottomMargin": 481.02,
+                "Tag": 123,
+                "ActionTag": -153464243,
+                "Size": {
+                  "X": 185.0,
+                  "Y": 50.0
+                },
+                "Name": "btn_card",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/game_info/game_book/btn_book_character.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/game_info/game_book/btn_book_character.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 155,
+                "Scale9Height": 28,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 169.03,
+                  "Y": 506.02
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 127,
+                  "G": 127,
+                  "B": 127
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1755,
+                  "Y": 0.842
+                },
+                "PreSize": {
+                  "X": 0.1921,
+                  "Y": 0.0832
+                },
+                "LeftMargin": 76.53,
+                "RightMargin": 701.47,
+                "TopMargin": 69.98,
+                "BottomMargin": 481.02,
+                "Tag": 124,
+                "ActionTag": -1714737437,
+                "Size": {
+                  "X": 185.0,
+                  "Y": 50.0
+                },
+                "Name": "btn_character",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/Sprite.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 481.2819,
+                  "Y": 265.8699
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4998,
+                  "Y": 0.4424
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 26.2819,
+                "RightMargin": 26.7181,
+                "TopMargin": 136.6301,
+                "BottomMargin": 67.3699,
+                "Tag": 139,
+                "ActionTag": 799117820,
+                "Size": {
+                  "X": 46.0,
+                  "Y": 46.0
+                },
+                "Name": "book_card_demo_1",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 146923499,
+            "Size": {
+              "X": 963.0,
+              "Y": 601.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../button/x.png",
+        "../../../../Default/Button_Disable.png",
+        "../../../../Default/Sprite.png",
+        "../../../../lobby/version2/game_info/game_book/book_bg.png",
+        "../../../../lobby/version2/game_info/game_book/book_title.png",
+        "../../../../lobby/version2/game_info/game_book/btn_book_card.png",
+        "../../../../lobby/version2/game_info/game_book/btn_book_character.png",
+        "../../../../lobby/version2/game_info/game_book/btn_book_dice.png",
+        "../../../../lobby/version2/game_info/game_book/btn_book_skill.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

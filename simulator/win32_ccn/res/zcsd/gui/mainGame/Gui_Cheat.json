@@ -1,0 +1,761 @@
+{
+  "ID": "eab79143-4b2e-47de-8e4b-e2157cc82652",
+  "Version": "2.3.2.3",
+  "Name": "Gui_Cheat",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 157,
+        "Children": [
+          {
+            "FlipX": true,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/setting/_0010_Shape-431.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.8
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.4287,
+              "Y": 0.4812
+            },
+            "LeftMargin": 324.5,
+            "RightMargin": 324.5,
+            "TopMargin": 166.0,
+            "BottomMargin": 166.0,
+            "Tag": 158,
+            "ActionTag": 1274996198,
+            "Size": {
+              "X": 487.0,
+              "Y": 308.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "NormalBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Normal.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Press.png",
+              "Plist": ""
+            },
+            "DisableBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Disable.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Normal.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Disable.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 400.7997,
+              "Y": 559.06
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3528,
+              "Y": 0.8735
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 380.7997,
+            "RightMargin": 715.2003,
+            "TopMargin": 60.94,
+            "BottomMargin": 539.06,
+            "Tag": 159,
+            "ActionTag": 618349936,
+            "Size": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Name": "checkbox_dice_cheat",
+            "ctype": "CheckBoxObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "game/test/_0003_Xu-c-Xa-c.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 79,
+            "Scale9Height": 99,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 422.6938,
+              "Y": 482.5749
+            },
+            "Scale": {
+              "ScaleX": 0.7085,
+              "ScaleY": 0.6918
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3721,
+              "Y": 0.754
+            },
+            "PreSize": {
+              "X": 0.096,
+              "Y": 0.1891
+            },
+            "LeftMargin": 368.1938,
+            "RightMargin": 658.8062,
+            "TopMargin": 96.9251,
+            "BottomMargin": 422.0749,
+            "Tag": 160,
+            "ActionTag": 1294334409,
+            "Size": {
+              "X": 109.0,
+              "Y": 121.0
+            },
+            "Name": "btn_dice_1",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "game/test/_0003_Xu-c-Xa-c.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 79,
+            "Scale9Height": 99,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 616.3057,
+              "Y": 482.5748
+            },
+            "Scale": {
+              "ScaleX": 0.6609,
+              "ScaleY": 0.659
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5425,
+              "Y": 0.754
+            },
+            "PreSize": {
+              "X": 0.096,
+              "Y": 0.1891
+            },
+            "LeftMargin": 561.8057,
+            "RightMargin": 465.1943,
+            "TopMargin": 96.9252,
+            "BottomMargin": 422.0748,
+            "Tag": 161,
+            "ActionTag": -2142797991,
+            "Size": {
+              "X": 109.0,
+              "Y": 121.0
+            },
+            "Name": "btn_dice_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "1",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game_bold.ttf",
+              "Plist": ""
+            },
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 485.4829,
+              "Y": 483.6328
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4274,
+              "Y": 0.7557
+            },
+            "PreSize": {
+              "X": 0.0194,
+              "Y": 0.0828
+            },
+            "LeftMargin": 474.4829,
+            "RightMargin": 639.5171,
+            "TopMargin": 129.8672,
+            "BottomMargin": 457.1328,
+            "Tag": 162,
+            "ActionTag": -508510707,
+            "Size": {
+              "X": 22.0,
+              "Y": 53.0
+            },
+            "Name": "label_dice_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "1",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game_bold.ttf",
+              "Plist": ""
+            },
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 676.3146,
+              "Y": 483.6345
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5953,
+              "Y": 0.7557
+            },
+            "PreSize": {
+              "X": 0.0194,
+              "Y": 0.0828
+            },
+            "LeftMargin": 665.3146,
+            "RightMargin": 448.6854,
+            "TopMargin": 129.8655,
+            "BottomMargin": 457.1345,
+            "Tag": 163,
+            "ActionTag": -696834460,
+            "Size": {
+              "X": 22.0,
+              "Y": 53.0
+            },
+            "Name": "label_dice_2",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 28,
+            "LabelText": "Cheat xúc sắc",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game_bold.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 442.6495,
+              "Y": 558.6487
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3897,
+              "Y": 0.8729
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.0641
+            },
+            "LeftMargin": 442.6495,
+            "RightMargin": 480.3505,
+            "TopMargin": 60.8513,
+            "BottomMargin": 538.1487,
+            "Tag": 438,
+            "ActionTag": -1911741195,
+            "Size": {
+              "X": 213.0,
+              "Y": 41.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "game/setting/_0009_Forma-1-copy-5.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 11,
+            "Scale9OriginY": 11,
+            "Scale9Width": 12,
+            "Scale9Height": 15,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 348.7432,
+              "Y": 324.4979
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.307,
+              "Y": 0.507
+            },
+            "PreSize": {
+              "X": 0.0698,
+              "Y": 0.1201
+            },
+            "LeftMargin": 331.7432,
+            "RightMargin": 770.2568,
+            "TopMargin": 297.0021,
+            "BottomMargin": 305.9979,
+            "Tag": 169,
+            "ActionTag": 1239392411,
+            "Size": {
+              "X": 34.0,
+              "Y": 37.0
+            },
+            "Name": "btn_show",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 28,
+            "LabelText": "Cheat Skill 100%",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game_bold.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 442.65,
+              "Y": 378.1705
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3897,
+              "Y": 0.5909
+            },
+            "PreSize": {
+              "X": 0.1364,
+              "Y": 0.0641
+            },
+            "LeftMargin": 442.65,
+            "RightMargin": 538.35,
+            "TopMargin": 241.3295,
+            "BottomMargin": 357.6705,
+            "Tag": 23,
+            "ActionTag": 1051812663,
+            "Size": {
+              "X": 239.0,
+              "Y": 41.0
+            },
+            "Name": "Text_6",
+            "ctype": "TextObjectData"
+          },
+          {
+            "NormalBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Normal.png",
+              "Plist": ""
+            },
+            "PressedBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Press.png",
+              "Plist": ""
+            },
+            "DisableBackFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBox_Disable.png",
+              "Plist": ""
+            },
+            "NodeNormalFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Normal.png",
+              "Plist": ""
+            },
+            "NodeDisableFileData": {
+              "Type": "Default",
+              "Path": "Default/CheckBoxNode_Disable.png",
+              "Plist": ""
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 400.8,
+              "Y": 376.4506
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3528,
+              "Y": 0.5882
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 380.8,
+            "RightMargin": 715.2,
+            "TopMargin": 243.5494,
+            "BottomMargin": 356.4506,
+            "Tag": 14,
+            "ActionTag": -898668249,
+            "Size": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Name": "cb_cheat_skill",
+            "ctype": "CheckBoxObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "button/button_yellow_2.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 258,
+            "Scale9Height": 61,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 574.704,
+              "Y": 298.9963
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5059,
+              "Y": 0.4672
+            },
+            "PreSize": {
+              "X": 0.2535,
+              "Y": 0.1297
+            },
+            "LeftMargin": 430.704,
+            "RightMargin": 417.296,
+            "TopMargin": 299.5037,
+            "BottomMargin": 257.4963,
+            "Tag": 22,
+            "Children": [
+              {
+                "FontSize": 30,
+                "LabelText": "Đồng ý",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 144.0,
+                  "Y": 47.31
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.57
+                },
+                "PreSize": {
+                  "X": 0.125,
+                  "Y": 0.3494
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 87.5,
+                "RightMargin": 87.5,
+                "TopMargin": 12.69,
+                "BottomMargin": 24.31,
+                "CallBackType": "Click",
+                "Tag": 467,
+                "ActionTag": -863018648,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 46.0
+                },
+                "Name": "Text_2",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1055634616,
+            "Size": {
+              "X": 288.0,
+              "Y": 83.0
+            },
+            "Name": "btn_cheat_skill",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../button/button_yellow_2.png",
+        "../../../Default/Button_Disable.png",
+        "../../../Default/CheckBox_Disable.png",
+        "../../../Default/CheckBox_Normal.png",
+        "../../../Default/CheckBox_Press.png",
+        "../../../Default/CheckBoxNode_Disable.png",
+        "../../../Default/CheckBoxNode_Normal.png",
+        "../../../fonts/font_game_bold.ttf",
+        "../../../game/setting/_0009_Forma-1-copy-5.png",
+        "../../../game/setting/_0010_Shape-431.png",
+        "../../../game/test/_0003_Xu-c-Xa-c.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

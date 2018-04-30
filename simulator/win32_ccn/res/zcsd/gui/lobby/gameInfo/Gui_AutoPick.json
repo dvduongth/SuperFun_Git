@@ -1,0 +1,673 @@
+{
+  "ID": "ec83d21d-2251-4f13-be74-9f4d5d470fc4",
+  "Version": "2.3.2.3",
+  "Name": "Gui_AutoPick",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 51,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/game_info/upgrade_character/Rounded-Rectangle-652.png",
+              "Plist": ""
+            },
+            "Scale9Width": 290,
+            "Scale9Height": 402,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.2553,
+              "Y": 0.6281
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 423.0,
+            "RightMargin": 423.0,
+            "TopMargin": 119.0,
+            "BottomMargin": 119.0,
+            "Tag": 1284,
+            "Children": [
+              {
+                "FontSize": 16,
+                "LabelText": "Các nhân vật cùng loại sẽ\nđược chọn làm nguyên liệu\n nâng cấp",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold_italic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineSize": 2,
+                "OutlineColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 262.238,
+                  "Y": 16.9766
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 191,
+                  "G": 191,
+                  "B": 191
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9043,
+                  "Y": 0.0422
+                },
+                "PreSize": {
+                  "X": 0.2042,
+                  "Y": 0.1266
+                },
+                "LeftMargin": 32.238,
+                "RightMargin": 27.762,
+                "TopMargin": 304.0234,
+                "BottomMargin": 16.9766,
+                "Tag": 56,
+                "ActionTag": -170055241,
+                "Size": {
+                  "X": 230.0,
+                  "Y": 81.0
+                },
+                "Name": "Text_11",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 26,
+                "LabelText": "Chọn tự động",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Right",
+                "OutlineSize": 2,
+                "OutlineColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 224.8944,
+                  "Y": 376.4678
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7755,
+                  "Y": 0.9365
+                },
+                "PreSize": {
+                  "X": 0.1937,
+                  "Y": 0.0656
+                },
+                "LeftMargin": 4.8944,
+                "RightMargin": 65.1056,
+                "TopMargin": 4.5322,
+                "BottomMargin": 355.4678,
+                "Tag": 57,
+                "ActionTag": 1905537978,
+                "Size": {
+                  "X": 220.0,
+                  "Y": 42.0
+                },
+                "Name": "text_select",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 14,
+                "Scale9OriginY": 11,
+                "Scale9Width": 30,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 257.4183,
+                  "Y": 372.2518
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8876,
+                  "Y": 0.926
+                },
+                "PreSize": {
+                  "X": 0.0511,
+                  "Y": 0.0875
+                },
+                "LeftMargin": 228.4183,
+                "RightMargin": 3.5817,
+                "TopMargin": 1.7482,
+                "BottomMargin": 344.2518,
+                "Tag": 131,
+                "ActionTag": -1284567170,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 56.0
+                },
+                "Name": "closeBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/game_info/upgrade_character/Rounded-Rectangle-64.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/game_info/upgrade_character/Rounded-Rectangle-64.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 216,
+                "Scale9Height": 45,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 145.9314,
+                  "Y": 289.5171
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5032,
+                  "Y": 0.7202
+                },
+                "PreSize": {
+                  "X": 0.8966,
+                  "Y": 0.1766
+                },
+                "LeftMargin": 15.9314,
+                "RightMargin": 14.0686,
+                "TopMargin": 76.9829,
+                "BottomMargin": 254.0171,
+                "Tag": 53,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Chọn nhân vật B",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.4985
+                    },
+                    "Position": {
+                      "X": 121.498,
+                      "Y": 39.8452
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0944
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4673,
+                      "Y": 0.5612
+                    },
+                    "PreSize": {
+                      "X": 0.6846,
+                      "Y": 0.4648
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 32.5008,
+                    "RightMargin": 49.4992,
+                    "TopMargin": 14.605,
+                    "BottomMargin": 23.395,
+                    "Tag": 58,
+                    "ActionTag": -1897412489,
+                    "Size": {
+                      "X": 176.0,
+                      "Y": 33.0
+                    },
+                    "Name": "text_select_0",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1674559098,
+                "Size": {
+                  "X": 260.0,
+                  "Y": 71.0
+                },
+                "Name": "pickBBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/game_info/upgrade_character/Rounded-Rectangle-64-copy1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/game_info/upgrade_character/Rounded-Rectangle-64-copy1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 216,
+                "Scale9Height": 45,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 145.9314,
+                  "Y": 138.1049
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5032,
+                  "Y": 0.3435
+                },
+                "PreSize": {
+                  "X": 0.8966,
+                  "Y": 0.1766
+                },
+                "LeftMargin": 15.9314,
+                "RightMargin": 14.0686,
+                "TopMargin": 228.3951,
+                "BottomMargin": 102.6049,
+                "Tag": 54,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Chọn nhân vật D",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.4985
+                    },
+                    "Position": {
+                      "X": 124.41,
+                      "Y": 43.3597
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0944
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4785,
+                      "Y": 0.6107
+                    },
+                    "PreSize": {
+                      "X": 0.6885,
+                      "Y": 0.4648
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 34.9139,
+                    "RightMargin": 46.0861,
+                    "TopMargin": 11.0939,
+                    "BottomMargin": 26.9061,
+                    "Tag": 59,
+                    "ActionTag": -1137831919,
+                    "Size": {
+                      "X": 177.0,
+                      "Y": 33.0
+                    },
+                    "Name": "text_select_1",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -18561696,
+                "Size": {
+                  "X": 260.0,
+                  "Y": 71.0
+                },
+                "Name": "pickDBtn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/game_info/upgrade_character/Rounded-Rectangle-64-copy-21.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/game_info/upgrade_character/Rounded-Rectangle-64-copy-21.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 216,
+                "Scale9Height": 45,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 145.9314,
+                  "Y": 213.8112
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5032,
+                  "Y": 0.5319
+                },
+                "PreSize": {
+                  "X": 0.8966,
+                  "Y": 0.1766
+                },
+                "LeftMargin": 15.9314,
+                "RightMargin": 14.0686,
+                "TopMargin": 152.6888,
+                "BottomMargin": 178.3112,
+                "Tag": 55,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Chọn nhân vật C",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.4985
+                    },
+                    "Position": {
+                      "X": 127.686,
+                      "Y": 42.5787
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0944
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4911,
+                      "Y": 0.5997
+                    },
+                    "PreSize": {
+                      "X": 0.7,
+                      "Y": 0.4648
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 36.6979,
+                    "RightMargin": 41.3021,
+                    "TopMargin": 11.8732,
+                    "BottomMargin": 26.1268,
+                    "Tag": 60,
+                    "ActionTag": -1737515401,
+                    "Size": {
+                      "X": 181.0,
+                      "Y": 33.0
+                    },
+                    "Name": "text_select_2",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1820990553,
+                "Size": {
+                  "X": 260.0,
+                  "Y": 71.0
+                },
+                "Name": "pickCBtn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1174580831,
+            "Size": {
+              "X": 290.0,
+              "Y": 402.0
+            },
+            "Name": "mainImg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../button/x.png",
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../fonts/font_game_bold_italic.ttf",
+        "../../../../lobby/game_info/upgrade_character/Rounded-Rectangle-64.png",
+        "../../../../lobby/game_info/upgrade_character/Rounded-Rectangle-64-copy1.png",
+        "../../../../lobby/game_info/upgrade_character/Rounded-Rectangle-64-copy-21.png",
+        "../../../../lobby/game_info/upgrade_character/Rounded-Rectangle-652.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

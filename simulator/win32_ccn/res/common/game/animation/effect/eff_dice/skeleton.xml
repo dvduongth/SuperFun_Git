@@ -1,0 +1,50 @@
+<dragonBones name="eff_dice" frameRate="24" version="2.3">
+ <armature name="eff_dice">
+  <bone name="Layer 1">
+   <transform x="-0.1" y="-0.05" skX="0" skY="0" scX="0.23" scY="0.23"/>
+  </bone>
+  <bone name="Layer 2">
+   <transform x="-0.15" y="-0.1" skX="0" skY="0" scX="0.23" scY="0.23"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 1" parent="Layer 1" z="0">
+    <display name="dicetouchring" type="image">
+     <transform x="0" y="34.25" skX="0" skY="0" scX="1" scY="1" pX="50.45" pY="82.3"/>
+    </display>
+   </slot>
+   <slot name="Layer 2" parent="Layer 2" z="1">
+    <display name="dicetouchring" type="image">
+     <transform x="0" y="34.25" skX="0" skY="0" scX="1" scY="1" pX="50.45" pY="82.3"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="13" scale="1" loop="0" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 1" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="5">
+     <transform x="-0.1" y="-0.05" skX="0" skY="0" scX="0.23" scY="0.23" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="4">
+     <transform x="-0.1" y="-0.1" skX="0" skY="0" scX="0.66" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-0.15" y="-0.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 2" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="-0.15" y="-0.1" skX="0" skY="0" scX="0.23" scY="0.23" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="4">
+     <transform x="-0.1" y="-0.1" skX="0" skY="0" scX="0.66" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="-0.15" y="-0.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

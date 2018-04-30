@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Symbol 1SAO.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,155},{70,70}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{3,3},{70,70}}</string>
+                <key>sourceSize</key>
+                <string>{76,76}</string>
+            </dict>
+            <key>sprite 76 copy 2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{20,153}}</string>
+                <key>offset</key>
+                <string>{-3,-23}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{17,59},{20,153}}</string>
+                <key>sourceSize</key>
+                <string>{60,225}</string>
+            </dict>
+            <key>sprite 76 copy 3.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{114,1},{19,137}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{1,0},{19,137}}</string>
+                <key>sourceSize</key>
+                <string>{21,137}</string>
+            </dict>
+            <key>sprite 76 copy.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{22,21},{18,120}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,120}}</string>
+                <key>sourceSize</key>
+                <string>{18,120}</string>
+            </dict>
+            <key>sprite 76.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,226},{24,112}}</string>
+                <key>offset</key>
+                <string>{-2,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,1},{24,112}}</string>
+                <key>sourceSize</key>
+                <string>{28,114}</string>
+            </dict>
+            <key>sprite 78 copy 2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{41,1},{62,62}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,62}}</string>
+                <key>sourceSize</key>
+                <string>{62,62}</string>
+            </dict>
+            <key>sprite 78 copy.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{41,64},{62,62}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,62}}</string>
+                <key>sourceSize</key>
+                <string>{62,62}</string>
+            </dict>
+            <key>sprite 78.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{72,127},{62,62}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{62,62}}</string>
+                <key>sourceSize</key>
+                <string>{62,62}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>texture.png</string>
+            <key>size</key>
+            <string>{256,256}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:9d5bc1699f3bff811a5d9ac685a3c99b:1/1$</string>
+            <key>textureFileName</key>
+            <string>texture.png</string>
+        </dict>
+    </dict>
+</plist>

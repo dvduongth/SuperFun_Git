@@ -1,0 +1,46 @@
+{
+    "Dice": {
+        "DICE_1": {
+            "incDiceControl": 0.01,
+            "defaultUnlocked": 1,
+            "isAvailable": 1,
+            "conditionUnlock": "NONE"
+        },
+        "DICE_2": {
+            "incDiceControl": 0.03,
+            "defaultUnlocked": 0,
+            "isAvailable": 1,
+            "conditionUnlock": "FIRST_SMS"
+        },
+        "DICE_3": {
+            "incDiceControl": 0.04,
+            "defaultUnlocked": 0,
+            "isAvailable": 1,
+            "conditionUnlock": "FIRST_CARD"
+        },
+        "DICE_4": {
+            "incDiceControl": 0.06,
+            "defaultUnlocked": 0,
+            "isAvailable": 1,
+            "conditionUnlock": "PAYING_ACCUMMULATE"
+        },
+        "DICE_5": {
+            "incDiceControl": 0.08,
+            "defaultUnlocked": 0,
+            "isAvailable": 1,
+            "conditionUnlock": "PAYING_ACCUMMULATE"
+        },
+        "DICE_6": {
+            "incDiceControl": 0.1,
+            "defaultUnlocked": 0,
+            "isAvailable": 0,
+            "conditionUnlock": "COMING_SOON"
+        },
+        "DICE_7": {
+            "incDiceControl": 0.15,
+            "defaultUnlocked": 0,
+            "isAvailable": 0,
+            "conditionUnlock": "COMING_SOON"
+        }
+    }
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Symbol 16 copy 3.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,164},{54,54}}</string>
+                <key>offset</key>
+                <string>{-2,2}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{54,54}}</string>
+                <key>sourceSize</key>
+                <string>{58,58}</string>
+            </dict>
+            <key>Symbol 1g.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,33},{130,104}}</string>
+                <key>offset</key>
+                <string>{22,4}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{44,26},{130,104}}</string>
+                <key>sourceSize</key>
+                <string>{174,164}</string>
+            </dict>
+            <key>Symbol 4 copy 3.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{31,106}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{31,106}}</string>
+                <key>sourceSize</key>
+                <string>{31,106}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>texture.png</string>
+            <key>size</key>
+            <string>{128,256}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:43747ecf185ed536ed64f0075b70102b:1/1$</string>
+            <key>textureFileName</key>
+            <string>texture.png</string>
+        </dict>
+    </dict>
+</plist>

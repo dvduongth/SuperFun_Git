@@ -1,0 +1,21 @@
+
+material golden
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit ring2.png
+			{
+				texture_alias ring2.png
+				texture ring2.png
+			}
+		}
+
+	}
+
+}

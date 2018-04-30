@@ -1,0 +1,235 @@
+<dragonBones name="gui_result_lose" frameRate="24" version="2.3">
+ <armature name="gui_result_lose">
+  <bone name="Layer 11">
+   <transform x="-372.35" y="64.95" skX="0" skY="0" scX="2.46" scY="2.46"/>
+  </bone>
+  <bone name="Layer 12">
+   <transform x="-372.35" y="64.95" skX="0" skY="0" scX="2.46" scY="2.46"/>
+  </bone>
+  <bone name="Layer 14">
+   <transform x="-372.3" y="64.95" skX="0" skY="0" scX="3.1" scY="3.1"/>
+  </bone>
+  <bone name="nguahdam">
+   <transform x="-281.6" y="-8.6" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="nguahdam_0">
+   <transform x="262.55" y="-16.6" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="nguahnhat">
+   <transform x="-201.65" y="-40.55" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="nguahnhat_0">
+   <transform x="186.45" y="-39.55" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="Rounded Rectangle 47 copy 7.png">
+   <transform x="-7.1" y="82.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="thua_font.png">
+   <transform x="-8" y="-38.55" skX="0" skY="0" scX="4.06" scY="4.06"/>
+  </bone>
+  <bone name="mang nhen.png">
+   <transform x="180.55" y="-25.05" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="mang nhen.png_0">
+   <transform x="-179.55" y="-25.05" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 11" parent="Layer 11" z="0">
+    <display name="Symbol 3" type="image">
+     <transform x="150.1" y="-34.1" skX="0" skY="0" scX="1" scY="1" pX="167.6" pY="146.4"/>
+    </display>
+   </slot>
+   <slot name="Layer 12" parent="Layer 12" z="1">
+    <display name="Symbol 3" type="image">
+     <transform x="150.1" y="-34.1" skX="0" skY="0" scX="1" scY="1" pX="167.6" pY="146.4"/>
+    </display>
+   </slot>
+   <slot name="Layer 14" parent="Layer 14" z="2" blendMode="add">
+    <display name="Symbol 3" type="image">
+     <transform x="150.1" y="-34.05" skX="0" skY="0" scX="1" scY="1" pX="167.6" pY="146.4"/>
+    </display>
+   </slot>
+   <slot name="nguahdam" parent="nguahdam" z="3">
+    <display name="nguahongdam" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="69.5" pY="83.5"/>
+    </display>
+   </slot>
+   <slot name="nguahdam_0" parent="nguahdam_0" z="4">
+    <display name="nguahongdam" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="69.5" pY="83.5"/>
+    </display>
+   </slot>
+   <slot name="nguahnhat" parent="nguahnhat" z="5">
+    <display name="nguahongnhat" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="69.5" pY="83.5"/>
+    </display>
+   </slot>
+   <slot name="nguahnhat_0" parent="nguahnhat_0" z="6">
+    <display name="nguahongnhat" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="69.5" pY="83.5"/>
+    </display>
+   </slot>
+   <slot name="Rounded Rectangle 47 copy 7.png" parent="Rounded Rectangle 47 copy 7.png" z="7">
+    <display name="br" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="410" pY="96.5"/>
+    </display>
+   </slot>
+   <slot name="thua_font.png" parent="thua_font.png" z="8">
+    <display name="thua" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="134" pY="50.5"/>
+    </display>
+   </slot>
+   <slot name="mang nhen.png" parent="mang nhen.png" z="9">
+    <display name="Symbol 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="67.5" pY="47"/>
+    </display>
+   </slot>
+   <slot name="mang nhen.png_0" parent="mang nhen.png_0" z="10">
+    <display name="Symbol 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="67.5" pY="47"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="27" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 11" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="0" tweenEasing="1" duration="14">
+     <transform x="-372.35" y="64.95" skX="0" skY="0" scX="2.46" scY="2.46" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-372.35" y="64.75" skX="0" skY="0" scX="2.5" scY="2.5" pX="-0.05" pY="0.05"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 12" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="1" duration="8">
+     <transform x="-372.35" y="64.95" skX="0" skY="0" scX="2.46" scY="2.46" pX="0" pY="0"/>
+    </frame>
+    <frame duration="15" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 14" scale="1" offset="0">
+    <frame duration="1" displayIndex="-1"/>
+    <frame z="2" tweenEasing="0" duration="2">
+     <transform x="-372.3" y="64.95" skX="0" skY="0" scX="3.1" scY="3.1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="3">
+     <transform x="-372.4" y="64.9" skX="0" skY="0" scX="2.38" scY="2.38" pX="-0.05" pY="-0.05"/>
+    </frame>
+    <frame duration="21" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nguahdam" scale="1" offset="0">
+    <frame z="3" duration="4">
+     <transform x="-281.6" y="-8.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="-281.6" y="-8.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="-281.6" y="-8.6" skX="4.22" skY="4.22" scX="1.12" scY="1.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="4">
+     <transform x="-281.6" y="-8.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="14">
+     <transform x="-281.6" y="-8.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="-281.6" y="-8.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="nguahdam_0" scale="1" offset="0">
+    <frame z="4" duration="4">
+     <transform x="262.55" y="-16.6" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="2">
+     <transform x="262.55" y="-16.6" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="2">
+     <transform x="262.55" y="-16.6" skX="-1.96" skY="-1.96" scX="-1.1" scY="1.1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="4">
+     <transform x="262.55" y="-16.6" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="14">
+     <transform x="262.55" y="-16.6" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="262.55" y="-16.6" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="nguahnhat" scale="1" offset="0">
+    <frame z="5" duration="2">
+     <transform x="-201.65" y="-40.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="2">
+     <transform x="-201.65" y="-40.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="2">
+     <transform x="-201.65" y="-40.55" skX="7.22" skY="7.22" scX="1.12" scY="1.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="5">
+     <transform x="-201.65" y="-40.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="14">
+     <transform x="-201.65" y="-40.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="2">
+     <transform x="-201.65" y="-40.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="nguahnhat_0" scale="1" offset="0">
+    <frame z="6" duration="2">
+     <transform x="186.45" y="-39.55" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="2">
+     <transform x="186.45" y="-39.55" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="2">
+     <transform x="186.45" y="-39.55" skX="-15" skY="-15" scX="-1.12" scY="1.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="5">
+     <transform x="186.45" y="-39.55" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="16">
+     <transform x="186.45" y="-39.55" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Rounded Rectangle 47 copy 7.png" scale="1" offset="0">
+    <frame z="7" tweenEasing="0" duration="2">
+     <transform x="-7.1" y="82.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="7" duration="25">
+     <transform x="-7.1" y="82.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="thua_font.png" scale="1" offset="0">
+    <frame z="8" tweenEasing="0" duration="3">
+     <transform x="-8" y="-38.55" skX="0" skY="0" scX="4.06" scY="4.06" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="1">
+     <transform x="-8" y="-38.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="1">
+     <transform x="-8" y="-38.55" skX="0" skY="0" scX="1.11" scY="1.11" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="22">
+     <transform x="-8" y="-38.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="mang nhen.png" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="9" duration="23">
+     <transform x="180.55" y="-25.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="mang nhen.png_0" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="10" duration="23">
+     <transform x="-179.55" y="-25.05" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

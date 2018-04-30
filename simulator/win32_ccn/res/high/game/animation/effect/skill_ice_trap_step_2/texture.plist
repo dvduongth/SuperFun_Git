@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Symbol 11.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{359,197},{135,133}}</string>
+                <key>offset</key>
+                <string>{1,-1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{150,151},{135,133}}</string>
+                <key>sourceSize</key>
+                <string>{433,433}</string>
+            </dict>
+            <key>Symbol 12.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{195,279},{163,177}}</string>
+                <key>offset</key>
+                <string>{3,7}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{138,121},{163,177}}</string>
+                <key>sourceSize</key>
+                <string>{433,433}</string>
+            </dict>
+            <key>Symbol 13.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{243,1},{195,233}}</string>
+                <key>offset</key>
+                <string>{1,21}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{120,79},{195,233}}</string>
+                <key>sourceSize</key>
+                <string>{433,433}</string>
+            </dict>
+            <key>Symbol 14.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{241,277}}</string>
+                <key>offset</key>
+                <string>{-9,31}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{87,47},{241,277}}</string>
+                <key>sourceSize</key>
+                <string>{433,433}</string>
+            </dict>
+            <key>Symbol 14X.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,279},{193,195}}</string>
+                <key>offset</key>
+                <string>{1,-7}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{57,62},{193,195}}</string>
+                <key>sourceSize</key>
+                <string>{305,305}</string>
+            </dict>
+            <key>Symbol 18.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{195,457},{40,57}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{40,57}}</string>
+                <key>sourceSize</key>
+                <string>{40,57}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>texture.png</string>
+            <key>size</key>
+            <string>{512,512}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:c32945519ae1774ea141a0ea29a2e130:1/1$</string>
+            <key>textureFileName</key>
+            <string>texture.png</string>
+        </dict>
+    </dict>
+</plist>

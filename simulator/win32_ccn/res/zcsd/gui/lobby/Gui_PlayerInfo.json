@@ -1,0 +1,675 @@
+{
+  "ID": "6c9da470-f0cf-4db6-b878-5e69d12d3233",
+  "Version": "2.3.2.3",
+  "Name": "Gui_PlayerInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 838,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 249.8064,
+              "Y": 610.7433
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2199,
+              "Y": 0.9543
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "LeftMargin": 249.8064,
+            "RightMargin": 886.1936,
+            "TopMargin": 29.2567,
+            "BottomMargin": 610.7433,
+            "Tag": 842,
+            "ActionTag": 1432709150,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "VisibleForFrame": false,
+            "Name": "btn_vip",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_button_setting.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "lobby/lobby_button_setting.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 19,
+            "Scale9Height": 27,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1102.3181,
+              "Y": 606.786
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9704,
+              "Y": 0.9481
+            },
+            "PreSize": {
+              "X": 0.0414,
+              "Y": 0.0734
+            },
+            "HorizontalEdge": "RightEdge",
+            "LeftMargin": 1078.8181,
+            "RightMargin": 10.1819,
+            "TopMargin": 9.714,
+            "BottomMargin": 583.286,
+            "Tag": 843,
+            "ActionTag": -447597857,
+            "Size": {
+              "X": 47.0,
+              "Y": 47.0
+            },
+            "Name": "btn_setting",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 10,
+            "Scale9Width": 16,
+            "Scale9Height": 16,
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1101.7502,
+              "Y": 611.5768
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9699,
+              "Y": 0.9556
+            },
+            "PreSize": {
+              "X": 0.049,
+              "Y": 0.075
+            },
+            "HorizontalEdge": "RightEdge",
+            "LeftMargin": 1078.2502,
+            "RightMargin": 10.7498,
+            "TopMargin": 4.4232,
+            "BottomMargin": 587.5768,
+            "Tag": 844,
+            "ActionTag": -1853535606,
+            "Size": {
+              "X": 47.0,
+              "Y": 48.0
+            },
+            "VisibleForFrame": false,
+            "Name": "btn_tip",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/player_info_bar_slot_comp.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 773.6085,
+              "Y": 608.7614
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.681,
+              "Y": 0.9512
+            },
+            "PreSize": {
+              "X": 0.1382,
+              "Y": 0.0562
+            },
+            "HorizontalEdge": "RightEdge",
+            "LeftMargin": 695.1085,
+            "RightMargin": 283.8915,
+            "TopMargin": 13.2386,
+            "BottomMargin": 590.7614,
+            "Tag": 845,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/gold_icon.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -1.0108,
+                  "Y": 16.413
+                },
+                "Scale": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0064,
+                  "Y": 0.4559
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -53.5108,
+                "RightMargin": 105.5108,
+                "TopMargin": -20.413,
+                "BottomMargin": -23.587,
+                "Tag": 846,
+                "ActionTag": 493476256,
+                "Size": {
+                  "X": 105.0,
+                  "Y": 80.0
+                },
+                "Name": "Sprite_5",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/button_cong.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/button_cong.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 11,
+                "Scale9OriginY": 11,
+                "Scale9Width": 27,
+                "Scale9Height": 27,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 151.0,
+                  "Y": 15.8254
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9618,
+                  "Y": 0.4396
+                },
+                "PreSize": {
+                  "X": 0.3121,
+                  "Y": 1.3611
+                },
+                "LeftMargin": 126.5,
+                "RightMargin": -18.5,
+                "TopMargin": -4.3254,
+                "BottomMargin": -8.6746,
+                "Tag": 847,
+                "ActionTag": 432007037,
+                "Size": {
+                  "X": 49.0,
+                  "Y": 49.0
+                },
+                "Name": "btn_add_gold",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 18,
+                "LabelText": "123M456",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 25.8719,
+                  "Y": 19.3502
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1648,
+                  "Y": 0.5375
+                },
+                "PreSize": {
+                  "X": 0.1049,
+                  "Y": 0.4915
+                },
+                "LeftMargin": 25.8719,
+                "RightMargin": 85.1281,
+                "TopMargin": 3.6498,
+                "BottomMargin": 6.3502,
+                "Tag": 848,
+                "ActionTag": -1740935968,
+                "Size": {
+                  "X": 82.0,
+                  "Y": 26.0
+                },
+                "Name": "user_gold",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1794392693,
+            "Size": {
+              "X": 157.0,
+              "Y": 36.0
+            },
+            "Name": "gold_slot",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/player_info_bar_slot_comp.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 971.4515,
+              "Y": 608.9095
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8552,
+              "Y": 0.9514
+            },
+            "PreSize": {
+              "X": 0.1382,
+              "Y": 0.0562
+            },
+            "HorizontalEdge": "RightEdge",
+            "LeftMargin": 892.9515,
+            "RightMargin": 86.0485,
+            "TopMargin": 13.0905,
+            "BottomMargin": 590.9095,
+            "Tag": 849,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/button_cong.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/button_cong.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 11,
+                "Scale9OriginY": 11,
+                "Scale9Width": 27,
+                "Scale9Height": 27,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 151.0,
+                  "Y": 16.6421
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9618,
+                  "Y": 0.4623
+                },
+                "PreSize": {
+                  "X": 0.3057,
+                  "Y": 1.3333
+                },
+                "LeftMargin": 127.0,
+                "RightMargin": -18.0,
+                "TopMargin": -4.6421,
+                "BottomMargin": -7.3579,
+                "Tag": 850,
+                "ActionTag": 45468782,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 48.0
+                },
+                "Name": "btn_add_xu",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/g_icon.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 7.8301,
+                  "Y": 15.7241
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0499,
+                  "Y": 0.4368
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -12.6699,
+                "RightMargin": 128.6699,
+                "TopMargin": -0.2241,
+                "BottomMargin": -4.7759,
+                "Tag": 851,
+                "ActionTag": 1515913071,
+                "Size": {
+                  "X": 41.0,
+                  "Y": 41.0
+                },
+                "Name": "Sprite_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 18,
+                "LabelText": "789M1011",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.9506,
+                  "Y": 19.35
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2035,
+                  "Y": 0.5375
+                },
+                "PreSize": {
+                  "X": 0.0717,
+                  "Y": 0.3729
+                },
+                "LeftMargin": 31.9506,
+                "RightMargin": 90.0494,
+                "TopMargin": 3.65,
+                "BottomMargin": 6.35,
+                "Tag": 852,
+                "ActionTag": -1064413617,
+                "Size": {
+                  "X": 93.0,
+                  "Y": 26.0
+                },
+                "Name": "user_xu",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 2132530885,
+            "Size": {
+              "X": 157.0,
+              "Y": 36.0
+            },
+            "Name": "g_slot",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Default/Button_Disable.png",
+        "../../../Default/Button_Normal.png",
+        "../../../fonts/font_game_bold.ttf",
+        "../../../lobby/button_cong.png",
+        "../../../lobby/g_icon.png",
+        "../../../lobby/gold_icon.png",
+        "../../../lobby/lobby_button_setting.png",
+        "../../../lobby/player_info_bar_slot_comp.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

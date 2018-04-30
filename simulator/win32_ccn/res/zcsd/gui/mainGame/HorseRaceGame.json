@@ -1,0 +1,815 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.3.0",
+  "Name": "HorseRaceGame",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/horseRaceMinigame/bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.7738,
+              "Y": 0.8719
+            },
+            "LeftMargin": 128.5,
+            "RightMargin": 128.5,
+            "TopMargin": 41.0,
+            "BottomMargin": 41.0,
+            "Tag": 5,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": 879.0,
+                "TopMargin": 558.0,
+                "Tag": 10,
+                "ActionTag": -648858954,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "raceLayer",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/rem.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 51.511,
+                  "Y": 244.1747
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0586,
+                  "Y": 0.4376
+                },
+                "PreSize": {
+                  "X": 0.1217,
+                  "Y": 0.8907
+                },
+                "LeftMargin": -1.989,
+                "RightMargin": 773.989,
+                "TopMargin": 65.3253,
+                "BottomMargin": -4.3253,
+                "Tag": 10,
+                "ActionTag": 1218658784,
+                "Size": {
+                  "X": 107.0,
+                  "Y": 497.0
+                },
+                "Name": "leftCurtain",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/rem.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 825.3496,
+                  "Y": 242.9335
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.939,
+                  "Y": 0.4354
+                },
+                "PreSize": {
+                  "X": 0.1217,
+                  "Y": 0.8907
+                },
+                "LeftMargin": 771.8496,
+                "RightMargin": 0.1504,
+                "TopMargin": 66.5665,
+                "BottomMargin": -5.5665,
+                "Tag": 11,
+                "ActionTag": 90865947,
+                "Size": {
+                  "X": 107.0,
+                  "Y": 497.0
+                },
+                "Name": "rightCurtain",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/Rounded Rectangle 10 copy 4.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 438.0901,
+                  "Y": 448.0455
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4984,
+                  "Y": 0.8029
+                },
+                "PreSize": {
+                  "X": 1.0068,
+                  "Y": 0.2007
+                },
+                "LeftMargin": -4.4099,
+                "RightMargin": -1.5901,
+                "TopMargin": 53.9545,
+                "BottomMargin": 392.0455,
+                "Tag": 6,
+                "ActionTag": -936126590,
+                "Size": {
+                  "X": 885.0,
+                  "Y": 112.0
+                },
+                "Name": "topcurtain",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/truongduanguatitle.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 446.5641,
+                  "Y": 562.7452
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.508,
+                  "Y": 1.0085
+                },
+                "PreSize": {
+                  "X": 0.7065,
+                  "Y": 0.2491
+                },
+                "LeftMargin": 136.0641,
+                "RightMargin": 121.9359,
+                "TopMargin": -74.2452,
+                "BottomMargin": 493.2452,
+                "Tag": 5,
+                "ActionTag": -1582550443,
+                "Size": {
+                  "X": 621.0,
+                  "Y": 139.0
+                },
+                "Name": "title",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 486.1107,
+                  "Y": 598.8893
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.553,
+                  "Y": 1.0733
+                },
+                "PreSize": {
+                  "X": 0.5017,
+                  "Y": 0.086
+                },
+                "LeftMargin": 265.6107,
+                "RightMargin": 172.3893,
+                "TopMargin": -64.8893,
+                "BottomMargin": 574.8893,
+                "Tag": 7,
+                "ActionTag": -1236436147,
+                "Size": {
+                  "X": 441.0,
+                  "Y": 48.0
+                },
+                "Name": "colorball",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": 879.0,
+                "TopMargin": 558.0,
+                "Tag": 19,
+                "Children": [
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 440.0,
+                      "Y": 280.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 440.0,
+                    "RightMargin": -440.0,
+                    "TopMargin": -280.0,
+                    "BottomMargin": 280.0,
+                    "Tag": 15,
+                    "ActionTag": 1816418029,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "fogContainer",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/Ellipse 19 copy 5.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 1
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 599.8455,
+                      "Y": 372.5668
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 411.8455,
+                    "RightMargin": -787.8455,
+                    "TopMargin": -632.0668,
+                    "BottomMargin": 113.0668,
+                    "Tag": 17,
+                    "ActionTag": 683799190,
+                    "Size": {
+                      "X": 376.0,
+                      "Y": 519.0
+                    },
+                    "Alpha": 204,
+                    "Name": "Sprite_4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/Ellipse 19 copy 5.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 1
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 277.135,
+                      "Y": 370.6025
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 89.135,
+                    "RightMargin": -465.135,
+                    "TopMargin": -630.1025,
+                    "BottomMargin": 111.1025,
+                    "Tag": 18,
+                    "ActionTag": 1962882068,
+                    "Size": {
+                      "X": 376.0,
+                      "Y": 519.0
+                    },
+                    "Alpha": 204,
+                    "Name": "Sprite_4_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/nguado.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 215,
+                    "Scale9Height": 299,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 252.5943,
+                      "Y": 302.7992
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 130.0943,
+                    "RightMargin": -375.0943,
+                    "TopMargin": -463.2992,
+                    "BottomMargin": 142.2992,
+                    "Tag": 4,
+                    "ActionTag": -114586505,
+                    "Size": {
+                      "X": 245.0,
+                      "Y": 321.0
+                    },
+                    "Name": "leftHorse",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/nguaxanh.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 219,
+                    "Scale9Height": 304,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 625.3344,
+                      "Y": 306.5875
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 500.8344,
+                    "RightMargin": -749.8344,
+                    "TopMargin": -469.5875,
+                    "BottomMargin": 143.5875,
+                    "Tag": 5,
+                    "ActionTag": -1958737909,
+                    "Size": {
+                      "X": 249.0,
+                      "Y": 326.0
+                    },
+                    "Name": "rightHorse",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/Ellipse 21 copy.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 277.8513,
+                      "Y": 189.5557
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 159.8513,
+                    "RightMargin": -395.8513,
+                    "TopMargin": -232.5557,
+                    "BottomMargin": 146.5557,
+                    "Tag": 21,
+                    "ActionTag": 1104536671,
+                    "Size": {
+                      "X": 236.0,
+                      "Y": 86.0
+                    },
+                    "Name": "shadow_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/Ellipse 21 copy.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 604.8226,
+                      "Y": 191.2713
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 486.8226,
+                    "RightMargin": -722.8226,
+                    "TopMargin": -234.2713,
+                    "BottomMargin": 148.2713,
+                    "Tag": 20,
+                    "ActionTag": -603211627,
+                    "Size": {
+                      "X": 236.0,
+                      "Y": 86.0
+                    },
+                    "Name": "shadow",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/chonnguachienthang.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 448.5278,
+                      "Y": 554.8043
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 105.5278,
+                    "RightMargin": -791.5278,
+                    "TopMargin": -605.8043,
+                    "BottomMargin": 503.8043,
+                    "Tag": 14,
+                    "ActionTag": -769207299,
+                    "Size": {
+                      "X": 686.0,
+                      "Y": 102.0
+                    },
+                    "Name": "titleChonNguaChienThang",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/Rectangle 17 copy 2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 438.5415,
+                      "Y": 57.4267
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 7.5415,
+                    "RightMargin": -869.5415,
+                    "TopMargin": -110.9267,
+                    "BottomMargin": 3.9267,
+                    "Tag": 16,
+                    "ActionTag": -989252571,
+                    "Size": {
+                      "X": 862.0,
+                      "Y": 107.0
+                    },
+                    "Name": "chuthich",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -69833451,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "selectHorseCtn",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": 953446860,
+            "Size": {
+              "X": 879.0,
+              "Y": 558.0
+            },
+            "Name": "background",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../game/horseRaceMinigame/2.png",
+        "../../../game/horseRaceMinigame/bg.png",
+        "../../../game/horseRaceMinigame/chonnguachienthang.png",
+        "../../../game/horseRaceMinigame/Ellipse 19 copy 5.png",
+        "../../../game/horseRaceMinigame/Ellipse 21 copy.png",
+        "../../../game/horseRaceMinigame/nguado.png",
+        "../../../game/horseRaceMinigame/nguaxanh.png",
+        "../../../game/horseRaceMinigame/Rectangle 17 copy 2.png",
+        "../../../game/horseRaceMinigame/rem.png",
+        "../../../game/horseRaceMinigame/Rounded Rectangle 10 copy 4.png",
+        "../../../game/horseRaceMinigame/truongduanguatitle.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

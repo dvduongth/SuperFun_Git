@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>CAU copy 2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,84},{90,80}}</string>
+                <key>offset</key>
+                <string>{-1,1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{2,0},{90,80}}</string>
+                <key>sourceSize</key>
+                <string>{96,82}</string>
+            </dict>
+            <key>CAU copy 4.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{98,82}}</string>
+                <key>offset</key>
+                <string>{0,8}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{5,3},{98,82}}</string>
+                <key>sourceSize</key>
+                <string>{108,104}</string>
+            </dict>
+            <key>Duplicate Items Folder/Symbol 2 copy 2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{100,1},{25,25}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{2,2},{25,25}}</string>
+                <key>sourceSize</key>
+                <string>{29,29}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>texture.png</string>
+            <key>size</key>
+            <string>{128,256}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:3a6a40a8e8a364773393c898033d6458:1/1$</string>
+            <key>textureFileName</key>
+            <string>texture.png</string>
+        </dict>
+    </dict>
+</plist>

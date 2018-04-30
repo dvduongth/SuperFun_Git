@@ -1,0 +1,456 @@
+{
+  "ID": "60e8db7b-e570-4d1f-b575-7ce6a301692c",
+  "Version": "2.3.2.3",
+  "Name": "Gui_BuyGPromotion",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 3,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/popup_bg.png",
+              "Plist": ""
+            },
+            "Scale9Width": 747,
+            "Scale9Height": 527,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6576,
+              "Y": 0.8234
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 194.5,
+            "RightMargin": 194.5,
+            "TopMargin": 56.5,
+            "BottomMargin": 56.5,
+            "Tag": 73,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 28,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 707.585,
+                  "Y": 488.997
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9472,
+                  "Y": 0.9279
+                },
+                "PreSize": {
+                  "X": 0.0776,
+                  "Y": 0.1063
+                },
+                "LeftMargin": 678.585,
+                "RightMargin": 10.415,
+                "TopMargin": 10.0029,
+                "BottomMargin": 460.997,
+                "Tag": 172,
+                "ActionTag": 1624028860,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 56.0
+                },
+                "Name": "btn_close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "button/button_green_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/button_green_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 143,
+                "Scale9Height": 37,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 377.0,
+                  "Y": 65.4963
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5047,
+                  "Y": 0.1243
+                },
+                "PreSize": {
+                  "X": 0.2316,
+                  "Y": 0.112
+                },
+                "LeftMargin": 290.5,
+                "RightMargin": 283.5,
+                "TopMargin": 432.0037,
+                "BottomMargin": 35.9963,
+                "Tag": 173,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "Đồng ý",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 86.5,
+                      "Y": 33.63
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.57
+                    },
+                    "PreSize": {
+                      "X": 0.6069,
+                      "Y": 0.4915
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 61.5,
+                    "RightMargin": 61.5,
+                    "TopMargin": 6.87,
+                    "BottomMargin": 15.13,
+                    "Tag": 477,
+                    "ActionTag": 1399343250,
+                    "Size": {
+                      "X": 91.0,
+                      "Y": 37.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1455830197,
+                "Size": {
+                  "X": 173.0,
+                  "Y": 59.0
+                },
+                "Name": "btn_ok",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Hãy nạp 1 thẻ điện thoại mệnh giá bất kỳ\nĐể nhận được những phần quà giá trị",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 377.0,
+                  "Y": 391.4617
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7586
+                },
+                "PreSize": {
+                  "X": 0.5743,
+                  "Y": 0.1101
+                },
+                "LeftMargin": 162.5,
+                "RightMargin": 155.5,
+                "TopMargin": 106.5383,
+                "BottomMargin": 362.4617,
+                "Tag": 174,
+                "ActionTag": -795719638,
+                "Size": {
+                  "X": 429.0,
+                  "Y": 62.0
+                },
+                "Name": "Text_16",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 22,
+                "LabelText": "KHUYẾN MÃI ĐẶC BIỆT",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 377.0,
+                  "Y": 333.4478
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.6462
+                },
+                "PreSize": {
+                  "X": 0.2641,
+                  "Y": 0.0625
+                },
+                "LeftMargin": 227.0,
+                "RightMargin": 227.0,
+                "TopMargin": 162.5522,
+                "BottomMargin": 313.4478,
+                "Tag": 175,
+                "ActionTag": -1707515002,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 40.0
+                },
+                "Name": "Text_16_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 35,
+                "LabelText": "Thông báo",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 373.5,
+                  "Y": 497.9195
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9448
+                },
+                "PreSize": {
+                  "X": 0.2071,
+                  "Y": 0.0812
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 277.4791,
+                "RightMargin": 277.5209,
+                "TopMargin": 2.5804,
+                "BottomMargin": 471.4195,
+                "Tag": 478,
+                "ActionTag": -593461252,
+                "Size": {
+                  "X": 192.0,
+                  "Y": 53.0
+                },
+                "Name": "title",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1352620840,
+            "Size": {
+              "X": 747.0,
+              "Y": 527.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../button/button_green_1.png",
+        "../../../../button/x.png",
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../lobby/popup_bg.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -1,0 +1,527 @@
+{
+  "ID": "ee76ff87-7577-44d9-9372-cdf5cdb63d10",
+  "Version": "2.3.2.3",
+  "Name": "Gui_Vip_Info",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 433,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/version2/vip/vip_bg_common.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8415,
+              "Y": 0.8375
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 90.0,
+            "RightMargin": 90.0,
+            "TopMargin": 52.0,
+            "BottomMargin": 52.0,
+            "Tag": 434,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/vip/vip_bg3.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 478.0,
+                  "Y": 276.8519
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5165
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 9.4999,
+                "RightMargin": 9.5001,
+                "TopMargin": 26.6481,
+                "BottomMargin": 44.3519,
+                "Tag": 622,
+                "ActionTag": -1355870663,
+                "Size": {
+                  "X": 937.0,
+                  "Y": 465.0
+                },
+                "Name": "vip_bg3_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/vip/vip_title.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 478.0,
+                  "Y": 515.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9608
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 233.5,
+                "RightMargin": 233.5,
+                "TopMargin": -16.5,
+                "BottomMargin": 477.5,
+                "Tag": 623,
+                "ActionTag": 2075299040,
+                "Size": {
+                  "X": 489.0,
+                  "Y": 75.0
+                },
+                "Name": "vip_title_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 28,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 916.4967,
+                  "Y": 508.0194
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9587,
+                  "Y": 0.9478
+                },
+                "PreSize": {
+                  "X": 0.0607,
+                  "Y": 0.1045
+                },
+                "LeftMargin": 887.4967,
+                "RightMargin": 10.5033,
+                "TopMargin": -0.0194,
+                "BottomMargin": 480.0194,
+                "Tag": 435,
+                "ActionTag": -1919385745,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 56.0
+                },
+                "Name": "btn_close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 18,
+                "LabelText": "* Trong thời gian hiệu lực của VIP, bạn phải đăng nhập hàng ngày để nhận quà",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold_italic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 479.7997,
+                  "Y": 33.7148
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5019,
+                  "Y": 0.0629
+                },
+                "PreSize": {
+                  "X": 0.7972,
+                  "Y": 0.0559
+                },
+                "LeftMargin": 106.2997,
+                "RightMargin": 102.7003,
+                "TopMargin": 489.2852,
+                "BottomMargin": 20.7148,
+                "Tag": 437,
+                "ActionTag": -218320218,
+                "Size": {
+                  "X": 747.0,
+                  "Y": 26.0
+                },
+                "Name": "Text_4_0_0_0_0_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "10 Ngày",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 740.678,
+                  "Y": 429.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7748,
+                  "Y": 0.8004
+                },
+                "PreSize": {
+                  "X": 0.1601,
+                  "Y": 0.0796
+                },
+                "LeftMargin": 740.678,
+                "RightMargin": 65.322,
+                "TopMargin": 88.5,
+                "BottomMargin": 410.5,
+                "Tag": 438,
+                "ActionTag": -1934938405,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 37.0
+                },
+                "Name": "timeRemainLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "VIP",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 139,
+                  "G": 105,
+                  "B": 20
+                },
+                "ShadowOffsetX": 3.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 332.8428,
+                  "Y": 428.9998
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3482,
+                  "Y": 0.8004
+                },
+                "PreSize": {
+                  "X": 0.0352,
+                  "Y": 0.0624
+                },
+                "LeftMargin": 312.3428,
+                "RightMargin": 602.6572,
+                "TopMargin": 88.5002,
+                "BottomMargin": 410.4998,
+                "Tag": 620,
+                "ActionTag": 987918858,
+                "Size": {
+                  "X": 41.0,
+                  "Y": 37.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/vip/vip_avatar_slot.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 494.1396,
+                  "Y": 331.9099
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5169,
+                  "Y": 0.6192
+                },
+                "PreSize": {
+                  "X": 0.2521,
+                  "Y": 0.2313
+                },
+                "LeftMargin": 373.6396,
+                "RightMargin": 341.3604,
+                "TopMargin": 142.0901,
+                "BottomMargin": 269.9099,
+                "Tag": 443,
+                "Children": [
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "Tên nhân vật",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.813,
+                      "Y": -1.6463
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4847,
+                      "Y": -0.0133
+                    },
+                    "PreSize": {
+                      "X": 0.8299,
+                      "Y": 0.3226
+                    },
+                    "LeftMargin": 16.813,
+                    "RightMargin": 24.187,
+                    "TopMargin": 105.6463,
+                    "BottomMargin": -21.6463,
+                    "Tag": 444,
+                    "ActionTag": 1549858983,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 40.0
+                    },
+                    "Name": "display_name",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 36932689,
+                "Size": {
+                  "X": 241.0,
+                  "Y": 124.0
+                },
+                "Name": "avatar_slot",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1099331832,
+            "Size": {
+              "X": 956.0,
+              "Y": 536.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../button/x.png",
+        "../../../../Default/Button_Disable.png",
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../fonts/font_game_bold_italic.ttf",
+        "../../../../lobby/version2/vip/vip_avatar_slot.png",
+        "../../../../lobby/version2/vip/vip_bg_common.png",
+        "../../../../lobby/version2/vip/vip_bg3.png",
+        "../../../../lobby/version2/vip/vip_title.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

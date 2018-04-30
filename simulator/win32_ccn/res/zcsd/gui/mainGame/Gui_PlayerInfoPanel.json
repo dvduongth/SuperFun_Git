@@ -1,0 +1,1863 @@
+{
+  "ID": "1df26bd9-c2c7-4def-a7ef-952279f9058c",
+  "Version": "2.3.2.3",
+  "Name": "Gui_PlayerInfoPanel",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 420,
+        "Children": [
+          {
+            "FlipX": true,
+            "FlipY": true,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/mainBoard/playerInfo/avatar_blue.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 450.9328,
+              "Y": 32.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3969,
+              "Y": 0.0508
+            },
+            "PreSize": {
+              "X": 0.1743,
+              "Y": 0.0984
+            },
+            "HorizontalEdge": "LeftEdge",
+            "VerticalEdge": "BottomEdge",
+            "LeftMargin": 351.9328,
+            "RightMargin": 586.0672,
+            "TopMargin": 576.0,
+            "BottomMargin": 1.0,
+            "Tag": 421,
+            "Children": [
+              {
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0163,
+                  "Y": 0.9571
+                },
+                "RightMargin": 11.0,
+                "TopMargin": -4.0,
+                "Tag": 422,
+                "ActionTag": -418892417,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 67.0
+                },
+                "Name": "panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "Server_money: 999999",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 114.3948,
+                  "Y": 122.7729
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4995,
+                  "Y": 1.3492
+                },
+                "PreSize": {
+                  "X": 0.6657,
+                  "Y": 0.3494
+                },
+                "LeftMargin": 0.8948,
+                "RightMargin": 1.1052,
+                "TopMargin": -46.2729,
+                "BottomMargin": 108.2729,
+                "Tag": 423,
+                "ActionTag": 858503231,
+                "Size": {
+                  "X": 227.0,
+                  "Y": 29.0
+                },
+                "VisibleForFrame": false,
+                "Name": "server_money",
+                "ctype": "TextObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 165.4273,
+                  "Y": 31.245
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.8355,
+                  "Y": 0.496
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 165.4273,
+                "RightMargin": 32.5727,
+                "TopMargin": 31.755,
+                "BottomMargin": 31.245,
+                "Tag": 424,
+                "ActionTag": 1538691124,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "avatar_pos",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 14,
+                "LabelText": "Player 1",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 62.585,
+                  "Y": 21.0863
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3161,
+                  "Y": 0.3347
+                },
+                "PreSize": {
+                  "X": 0.7075,
+                  "Y": 0.3651
+                },
+                "LeftMargin": 62.585,
+                "RightMargin": -14.585,
+                "TopMargin": 30.4137,
+                "BottomMargin": 9.5863,
+                "Tag": 425,
+                "ActionTag": -802247213,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 23.0
+                },
+                "Name": "name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/gold_icon.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.5997,
+                  "Y": 41.2766
+                },
+                "Scale": {
+                  "ScaleX": 0.2,
+                  "ScaleY": 0.2
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3313,
+                  "Y": 0.6552
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 13.0997,
+                "RightMargin": 79.9003,
+                "TopMargin": -18.2766,
+                "BottomMargin": 1.2766,
+                "Tag": 480,
+                "ActionTag": -443268761,
+                "Size": {
+                  "X": 105.0,
+                  "Y": 80.0
+                },
+                "Name": "gold_icon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "0",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 77.4541,
+                  "Y": 45.0081
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3912,
+                  "Y": 0.7144
+                },
+                "PreSize": {
+                  "X": 0.4717,
+                  "Y": 0.4921
+                },
+                "LeftMargin": 77.4541,
+                "RightMargin": 20.5459,
+                "TopMargin": 2.4919,
+                "BottomMargin": 29.5081,
+                "Tag": 426,
+                "ActionTag": 570871701,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 31.0
+                },
+                "Name": "gold",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 35,
+                "LabelText": "10",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 164.3495,
+                  "Y": 35.0927
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.83,
+                  "Y": 0.557
+                },
+                "PreSize": {
+                  "X": 0.2391,
+                  "Y": 0.7571
+                },
+                "LeftMargin": 142.3495,
+                "RightMargin": 11.6505,
+                "TopMargin": 2.4073,
+                "BottomMargin": 9.5927,
+                "Tag": 427,
+                "ActionTag": 1808048414,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 51.0
+                },
+                "Name": "text_countdown",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 16,
+                "LabelText": "45%",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 35.0927,
+                  "Y": 38.1305
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1772,
+                  "Y": 0.6052
+                },
+                "PreSize": {
+                  "X": 0.533,
+                  "Y": 0.4603
+                },
+                "LeftMargin": 17.0927,
+                "RightMargin": 144.9073,
+                "TopMargin": 12.3695,
+                "BottomMargin": 25.6305,
+                "Tag": 41,
+                "ActionTag": 1759778572,
+                "Size": {
+                  "X": 36.0,
+                  "Y": 25.0
+                },
+                "Name": "rank",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 465326544,
+            "Size": {
+              "X": 198.0,
+              "Y": 63.0
+            },
+            "Name": "playerInfo_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FlipX": true,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/mainBoard/playerInfo/avatar_green.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1131.0,
+              "Y": 296.2032
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9956,
+              "Y": 0.4628
+            },
+            "PreSize": {
+              "X": 0.1734,
+              "Y": 0.0984
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "BottomEdge",
+            "LeftMargin": 934.0,
+            "RightMargin": 5.0,
+            "TopMargin": 312.2968,
+            "BottomMargin": 264.7032,
+            "Tag": 428,
+            "Children": [
+              {
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0163,
+                  "Y": 0.9571
+                },
+                "RightMargin": -3.0,
+                "TopMargin": 3.0,
+                "Tag": 429,
+                "ActionTag": -114921933,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 67.0
+                },
+                "Name": "panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Server_money: 999999",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 113.909,
+                  "Y": 122.6574
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4953,
+                  "Y": 1.3479
+                },
+                "PreSize": {
+                  "X": 0.6657,
+                  "Y": 0.3494
+                },
+                "LeftMargin": 0.409,
+                "RightMargin": 2.591,
+                "TopMargin": -46.1574,
+                "BottomMargin": 108.1574,
+                "Tag": 430,
+                "ActionTag": -907170764,
+                "Size": {
+                  "X": 227.0,
+                  "Y": 29.0
+                },
+                "VisibleForFrame": false,
+                "Name": "server_money",
+                "ctype": "TextObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 165.2964,
+                  "Y": 31.5598
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.8391,
+                  "Y": 0.5009
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 165.2964,
+                "RightMargin": 31.7036,
+                "TopMargin": 31.4402,
+                "BottomMargin": 31.5598,
+                "Tag": 431,
+                "ActionTag": -1687732872,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "avatar_pos",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 14,
+                "LabelText": "Player 1",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 62.3875,
+                  "Y": 16.7304
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2957,
+                  "Y": 0.2656
+                },
+                "PreSize": {
+                  "X": 0.7109,
+                  "Y": 0.3651
+                },
+                "LeftMargin": 62.3875,
+                "RightMargin": -1.3875,
+                "TopMargin": 34.7696,
+                "BottomMargin": 5.2304,
+                "Tag": 432,
+                "ActionTag": -643547114,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 23.0
+                },
+                "Name": "name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/gold_icon.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61.1325,
+                  "Y": 37.096
+                },
+                "Scale": {
+                  "ScaleX": 0.2,
+                  "ScaleY": 0.2
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3103,
+                  "Y": 0.5888
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 8.6325,
+                "RightMargin": 83.3675,
+                "TopMargin": -14.096,
+                "BottomMargin": -2.904,
+                "Tag": 481,
+                "ActionTag": -988175620,
+                "Size": {
+                  "X": 105.0,
+                  "Y": 80.0
+                },
+                "Name": "icon_gold",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "0",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.2267,
+                  "Y": 40.4363
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3768,
+                  "Y": 0.6418
+                },
+                "PreSize": {
+                  "X": 0.5435,
+                  "Y": 0.4429
+                },
+                "LeftMargin": 74.2267,
+                "RightMargin": 22.7733,
+                "TopMargin": 7.0637,
+                "BottomMargin": 24.9363,
+                "Tag": 433,
+                "ActionTag": -1184128330,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 31.0
+                },
+                "Name": "gold",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 35,
+                "LabelText": "10",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 164.4855,
+                  "Y": 36.6761
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.835,
+                  "Y": 0.5822
+                },
+                "PreSize": {
+                  "X": 0.2391,
+                  "Y": 0.7571
+                },
+                "LeftMargin": 142.4855,
+                "RightMargin": 10.5145,
+                "TopMargin": 0.8239,
+                "BottomMargin": 11.1761,
+                "Tag": 434,
+                "ActionTag": 210844755,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 51.0
+                },
+                "Name": "text_countdown",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 16,
+                "LabelText": "45%",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 34.2575,
+                  "Y": 28.3122
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1739,
+                  "Y": 0.4494
+                },
+                "PreSize": {
+                  "X": 0.533,
+                  "Y": 0.4603
+                },
+                "LeftMargin": 7.2575,
+                "RightMargin": 135.7425,
+                "TopMargin": 23.6878,
+                "BottomMargin": 17.3122,
+                "Tag": 40,
+                "ActionTag": -1143173913,
+                "Size": {
+                  "X": 36.0,
+                  "Y": 25.0
+                },
+                "Name": "rank",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -205298429,
+            "Size": {
+              "X": 197.0,
+              "Y": 63.0
+            },
+            "Name": "playerInfo_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/mainBoard/playerInfo/avatar_red.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 661.6064,
+              "Y": 607.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5824,
+              "Y": 0.9492
+            },
+            "PreSize": {
+              "X": 0.1734,
+              "Y": 0.0984
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 563.1064,
+            "RightMargin": 375.8936,
+            "TopMargin": 1.0,
+            "BottomMargin": 576.0,
+            "Tag": 435,
+            "Children": [
+              {
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.8618,
+                  "Y": 1.0635
+                },
+                "RightMargin": 30.0,
+                "TopMargin": -4.0,
+                "Tag": 436,
+                "ActionTag": 1053872887,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 67.0
+                },
+                "Name": "panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Server_money: 999999",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 113.8302,
+                  "Y": -26.6327
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4949,
+                  "Y": -0.2927
+                },
+                "PreSize": {
+                  "X": 0.6657,
+                  "Y": 0.3494
+                },
+                "LeftMargin": 0.3302,
+                "RightMargin": 2.6698,
+                "TopMargin": 103.1327,
+                "BottomMargin": -41.1327,
+                "Tag": 437,
+                "ActionTag": -1775411593,
+                "Size": {
+                  "X": 227.0,
+                  "Y": 29.0
+                },
+                "VisibleForFrame": false,
+                "Name": "server_money",
+                "ctype": "TextObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 30.4832,
+                  "Y": 30.8798
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.1547,
+                  "Y": 0.4902
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 30.4832,
+                "RightMargin": 166.5168,
+                "TopMargin": 32.1202,
+                "BottomMargin": 30.8798,
+                "Tag": 438,
+                "ActionTag": -1594665931,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "avatar_pos",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 14,
+                "LabelText": "Player 1",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 63.3495,
+                  "Y": 18.277
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3216,
+                  "Y": 0.2901
+                },
+                "PreSize": {
+                  "X": 0.6912,
+                  "Y": 0.3651
+                },
+                "LeftMargin": 63.3495,
+                "RightMargin": -16.3495,
+                "TopMargin": 33.223,
+                "BottomMargin": 6.777,
+                "Tag": 439,
+                "ActionTag": -1063127376,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 23.0
+                },
+                "Name": "name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/gold_icon.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 73.6368,
+                  "Y": 39.0868
+                },
+                "Scale": {
+                  "ScaleX": 0.2,
+                  "ScaleY": 0.2
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3738,
+                  "Y": 0.6204
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 21.1368,
+                "RightMargin": 70.8632,
+                "TopMargin": -16.0868,
+                "BottomMargin": -0.9132,
+                "Tag": 482,
+                "ActionTag": 1798272353,
+                "Size": {
+                  "X": 105.0,
+                  "Y": 80.0
+                },
+                "Name": "icon_gold",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "0",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 86.1391,
+                  "Y": 41.9637
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4373,
+                  "Y": 0.6661
+                },
+                "PreSize": {
+                  "X": 0.4608,
+                  "Y": 0.4921
+                },
+                "LeftMargin": 86.1391,
+                "RightMargin": 10.8609,
+                "TopMargin": 5.5363,
+                "BottomMargin": 26.4637,
+                "Tag": 440,
+                "ActionTag": 1642539646,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 31.0
+                },
+                "Name": "gold",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 35,
+                "LabelText": "10",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1659,
+                  "Y": 35.3429
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1582,
+                  "Y": 0.561
+                },
+                "PreSize": {
+                  "X": 0.2391,
+                  "Y": 0.7571
+                },
+                "LeftMargin": 9.1659,
+                "RightMargin": 143.8341,
+                "TopMargin": 2.1571,
+                "BottomMargin": 9.8429,
+                "Tag": 441,
+                "ActionTag": -465962170,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 51.0
+                },
+                "Name": "text_countdown",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 16,
+                "LabelText": "45%",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 165.3983,
+                  "Y": 28.5789
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8396,
+                  "Y": 0.4536
+                },
+                "PreSize": {
+                  "X": 0.533,
+                  "Y": 0.4603
+                },
+                "LeftMargin": 138.3983,
+                "RightMargin": 4.6017,
+                "TopMargin": 23.4211,
+                "BottomMargin": 17.5789,
+                "Tag": 38,
+                "ActionTag": -53347392,
+                "Size": {
+                  "X": 36.0,
+                  "Y": 25.0
+                },
+                "Name": "rank",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 2045207097,
+            "Size": {
+              "X": 197.0,
+              "Y": 63.0
+            },
+            "Name": "playerInfo_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FlipY": true,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/mainBoard/playerInfo/avatar_yellow.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 5.0,
+              "Y": 287.7897
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0044,
+              "Y": 0.4497
+            },
+            "PreSize": {
+              "X": 0.1734,
+              "Y": 0.0984
+            },
+            "HorizontalEdge": "LeftEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 5.0,
+            "RightMargin": 934.0,
+            "TopMargin": 320.7103,
+            "BottomMargin": 256.2897,
+            "Tag": 442,
+            "Children": [
+              {
+                "BackColorAlpha": 0,
+                "ComboBoxIndex": 1,
+                "SingleColor": {},
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0163,
+                  "Y": 0.9571
+                },
+                "RightMargin": -3.0,
+                "TopMargin": 3.0,
+                "Tag": 443,
+                "ActionTag": 1306127793,
+                "Size": {
+                  "X": 187.0,
+                  "Y": 67.0
+                },
+                "Name": "panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Server_money: 999999",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 118.4232,
+                  "Y": -23.6923
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5149,
+                  "Y": -0.2604
+                },
+                "PreSize": {
+                  "X": 0.6657,
+                  "Y": 0.3494
+                },
+                "LeftMargin": 4.9232,
+                "RightMargin": -1.9232,
+                "TopMargin": 100.1923,
+                "BottomMargin": -38.1923,
+                "Tag": 444,
+                "ActionTag": -2101555674,
+                "Size": {
+                  "X": 227.0,
+                  "Y": 29.0
+                },
+                "VisibleForFrame": false,
+                "Name": "server_money",
+                "ctype": "TextObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 31.1001,
+                  "Y": 31.6687
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.1579,
+                  "Y": 0.5027
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 31.1001,
+                "RightMargin": 165.8999,
+                "TopMargin": 31.3313,
+                "BottomMargin": 31.6687,
+                "Tag": 445,
+                "ActionTag": -1498744284,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "avatar_pos",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 14,
+                "LabelText": "Player 1",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {},
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": 0.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 68.7472,
+                  "Y": 21.6562
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.349,
+                  "Y": 0.3437
+                },
+                "PreSize": {
+                  "X": 0.7177,
+                  "Y": 0.3651
+                },
+                "LeftMargin": 68.7472,
+                "RightMargin": -21.7472,
+                "TopMargin": 29.8438,
+                "BottomMargin": 10.1562,
+                "Tag": 446,
+                "ActionTag": 1597572703,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 23.0
+                },
+                "Name": "name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/gold_icon.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 74.1526,
+                  "Y": 44.712
+                },
+                "Scale": {
+                  "ScaleX": 0.2,
+                  "ScaleY": 0.2
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3764,
+                  "Y": 0.7097
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 21.6526,
+                "RightMargin": 70.3474,
+                "TopMargin": -21.712,
+                "BottomMargin": 4.712,
+                "Tag": 483,
+                "ActionTag": -994696990,
+                "Size": {
+                  "X": 105.0,
+                  "Y": 80.0
+                },
+                "Name": "icon_gold",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "0",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 26,
+                  "G": 26,
+                  "B": 26
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 86.828,
+                  "Y": 47.7711
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4408,
+                  "Y": 0.7583
+                },
+                "PreSize": {
+                  "X": 0.4785,
+                  "Y": 0.4921
+                },
+                "LeftMargin": 86.828,
+                "RightMargin": 10.172,
+                "TopMargin": -0.2711,
+                "BottomMargin": 32.2711,
+                "Tag": 447,
+                "ActionTag": -495819740,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 31.0
+                },
+                "Name": "gold",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 35,
+                "LabelText": "10",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.122,
+                  "Y": 35.9602
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.158,
+                  "Y": 0.5708
+                },
+                "PreSize": {
+                  "X": 0.2391,
+                  "Y": 0.7571
+                },
+                "LeftMargin": 9.122,
+                "RightMargin": 143.878,
+                "TopMargin": 1.5398,
+                "BottomMargin": 10.4602,
+                "Tag": 448,
+                "ActionTag": 497390392,
+                "Size": {
+                  "X": 44.0,
+                  "Y": 51.0
+                },
+                "Name": "text_countdown",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 16,
+                "LabelText": "45%",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 166.4001,
+                  "Y": 37.5802
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8447,
+                  "Y": 0.5965
+                },
+                "PreSize": {
+                  "X": 0.533,
+                  "Y": 0.4603
+                },
+                "LeftMargin": 139.4001,
+                "RightMargin": 3.5999,
+                "TopMargin": 14.4198,
+                "BottomMargin": 26.5802,
+                "Tag": 39,
+                "ActionTag": 942610403,
+                "Size": {
+                  "X": 36.0,
+                  "Y": 25.0
+                },
+                "Name": "rank",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1633987252,
+            "Size": {
+              "X": 197.0,
+              "Y": 63.0
+            },
+            "Name": "playerInfo_3",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../fonts/font_game_bold.ttf",
+        "../../../game/mainBoard/playerInfo/avatar_blue.png",
+        "../../../game/mainBoard/playerInfo/avatar_green.png",
+        "../../../game/mainBoard/playerInfo/avatar_red.png",
+        "../../../game/mainBoard/playerInfo/avatar_yellow.png",
+        "../../../lobby/gold_icon.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

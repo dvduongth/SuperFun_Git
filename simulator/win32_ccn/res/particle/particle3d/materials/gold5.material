@@ -1,0 +1,21 @@
+
+material gold5
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit gold.png
+			{
+				texture_alias gold.png
+				texture gold.png
+			}
+		}
+
+	}
+
+}

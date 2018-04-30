@@ -1,0 +1,466 @@
+{
+  "ID": "7db85c71-ff0f-468c-9f4f-54232f3702cb",
+  "Version": "2.3.2.3",
+  "Name": "Popup_TutorialWin",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 22,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/tutorial/tut_bg_2.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 15,
+            "Scale9Width": 1144,
+            "Scale9Height": 261,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0002,
+              "Y": 302.0005
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4719
+            },
+            "PreSize": {
+              "X": 1.0335,
+              "Y": 0.4547
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": -18.9998,
+            "RightMargin": -19.0002,
+            "TopMargin": 192.4995,
+            "BottomMargin": 156.5005,
+            "Tag": 28,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/tutorial/tut_title_slot.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 587.0,
+                  "Y": 279.6846
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9611
+                },
+                "PreSize": {
+                  "X": 0.5698,
+                  "Y": 0.2887
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 252.5,
+                "RightMargin": 252.5,
+                "TopMargin": -30.6846,
+                "BottomMargin": 237.6846,
+                "Tag": 98,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "localize/tut_win_solutions.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 334.5,
+                      "Y": 56.0001
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 108.5,
+                    "RightMargin": 108.5,
+                    "TopMargin": 5.4999,
+                    "BottomMargin": 33.5001,
+                    "Tag": 99,
+                    "ActionTag": -1002922736,
+                    "Size": {
+                      "X": 452.0,
+                      "Y": 45.0
+                    },
+                    "Name": "text",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1719532151,
+                "Size": {
+                  "X": 669.0,
+                  "Y": 84.0
+                },
+                "Name": "titleSlot",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/tutorial/tut_npc.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 223.4292,
+                  "Y": 70.362
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1903,
+                  "Y": 0.2418
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 99.9292,
+                "RightMargin": 827.0707,
+                "TopMargin": -0.8619,
+                "BottomMargin": -151.138,
+                "Tag": 101,
+                "ActionTag": 766689179,
+                "Size": {
+                  "X": 247.0,
+                  "Y": 443.0
+                },
+                "Name": "imgNPC",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "1. Đưa 2 ngựa về chuồng",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 424.0062,
+                  "Y": 195.3377
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3612,
+                  "Y": 0.6713
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 424.0062,
+                "RightMargin": 359.9938,
+                "TopMargin": 73.6623,
+                "BottomMargin": 173.3377,
+                "Tag": 31,
+                "ActionTag": -360410913,
+                "Size": {
+                  "X": 368.0,
+                  "Y": 41.0
+                },
+                "Name": "lbWinSolution1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "2. Đối thủ bị phá sản",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 424.0062,
+                  "Y": 151.6983
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3612,
+                  "Y": 0.5213
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 424.0062,
+                "RightMargin": 446.9938,
+                "TopMargin": 118.8017,
+                "BottomMargin": 131.1983,
+                "Tag": 32,
+                "ActionTag": 109498075,
+                "Size": {
+                  "X": 303.0,
+                  "Y": 41.0
+                },
+                "Name": "lbWinSolution2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "3. Chiếm 4 trại ngựa",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 424.0061,
+                  "Y": 108.0483
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3612,
+                  "Y": 0.3713
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 424.0061,
+                "RightMargin": 453.9939,
+                "TopMargin": 162.4517,
+                "BottomMargin": 87.5483,
+                "Tag": 33,
+                "ActionTag": 674837230,
+                "Size": {
+                  "X": 296.0,
+                  "Y": 41.0
+                },
+                "Name": "lbWinSolution3",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "4. Thắng bằng so điểm",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 424.0061,
+                  "Y": 64.3983
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3612,
+                  "Y": 0.2213
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 424.0061,
+                "RightMargin": 416.9939,
+                "TopMargin": 206.1017,
+                "BottomMargin": 43.8983,
+                "Tag": 30,
+                "ActionTag": -1793397160,
+                "Size": {
+                  "X": 333.0,
+                  "Y": 41.0
+                },
+                "Name": "lbWinSolution4",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -986591703,
+            "Size": {
+              "X": 1174.0,
+              "Y": 291.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../game/tutorial/tut_bg_2.png",
+        "../../../../game/tutorial/tut_npc.png",
+        "../../../../game/tutorial/tut_title_slot.png",
+        "../../../../localize/tut_win_solutions.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

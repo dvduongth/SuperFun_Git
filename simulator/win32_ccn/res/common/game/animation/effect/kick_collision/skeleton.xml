@@ -1,0 +1,124 @@
+<dragonBones name="kick_collision" frameRate="24" version="2.3">
+ <armature name="kick_collision">
+  <bone name="boss2ATK2fx_08.png">
+   <transform x="-37.95" y="-11.65" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="vong sang trang">
+   <transform x="1.55" y="3.45" skX="0" skY="0" scX="0.51" scY="0.51"/>
+  </bone>
+  <bone name="Layer 11">
+   <transform x="5.05" y="-0.85" skX="-9.99" skY="-9.99" scX="0.24" scY="0.24"/>
+  </bone>
+  <bone name="Layer 3">
+   <transform x="2.6" y="-0.4" skX="0" skY="0" scX="0.11" scY="0.11"/>
+  </bone>
+  <skin name="default">
+   <slot name="boss2ATK2fx_08.png" parent="boss2ATK2fx_08.png" z="0">
+    <display name="boss2ATK2fx_10.png" type="image">
+     <transform x="-150" y="-128" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="boss2ATK2fx_11.png" type="image">
+     <transform x="-150" y="-128" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="boss2ATK2fx_12.png" type="image">
+     <transform x="-150" y="-128" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="boss2ATK2fx_13.png" type="image">
+     <transform x="-150" y="-128" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="boss2ATK2fx_14.png" type="image">
+     <transform x="-150" y="-128" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="boss2ATK2fx_15.png" type="image">
+     <transform x="-150" y="-128" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="boss2ATK2fx_16.png" type="image">
+     <transform x="-150" y="-128" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+   <slot name="vong sang trang" parent="vong sang trang" z="1" blendMode="add">
+    <display name="Symbol 11 copy" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="89.55" pY="89"/>
+    </display>
+   </slot>
+   <slot name="Layer 11" parent="Layer 11" z="2" blendMode="add">
+    <display name="lights" type="image">
+     <transform x="0" y="49.55" skX="0" skY="0" scX="1" scY="1" pX="356.75" pY="169.1"/>
+    </display>
+   </slot>
+   <slot name="Layer 3" parent="Layer 3" z="3" blendMode="add">
+    <display name="sl" type="image">
+     <transform x="0" y="124.45" skX="0" skY="0" scX="1" scY="1" pX="135.1" pY="248.65"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="11" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="boss2ATK2fx_08.png" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="-37.95" y="-11.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="-37.95" y="-11.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="-37.95" y="-11.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="-37.95" y="-11.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="-37.95" y="-11.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="-37.95" y="-11.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="-37.95" y="-11.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+   <timeline name="vong sang trang" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="1" tweenEasing="-1" duration="2">
+     <transform x="1.55" y="3.45" skX="0" skY="0" scX="0.51" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="1.55" y="3.45" skX="0" skY="0" scX="0.89" scY="0.89" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 11" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="5.05" y="-0.85" skX="-9.99" skY="-9.99" scX="0.24" scY="0.24" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="2">
+     <transform x="5.05" y="-0.8" skX="-9.82" skY="-9.82" scX="0.43" scY="0.43" pX="0" pY="-0.2"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="75" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="5" y="-0.8" skX="-9.99" skY="-9.99" scX="0.38" scY="0.38" pX="0.1" pY="-0.05"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 3" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="3">
+     <transform x="2.6" y="-0.4" skX="0" skY="0" scX="0.11" scY="0.11" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0.96" duration="2">
+     <transform x="2.6" y="-0.4" skX="0" skY="0" scX="0.51" scY="0.51" pX="0" pY="-0.1"/>
+    </frame>
+    <frame z="3" tweenEasing="1" duration="4">
+     <transform x="2.6" y="-0.35" skX="0" skY="0" scX="0.56" scY="0.56" pX="0" pY="-0.2"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="2.6" y="-0.4" skX="0" skY="0" scX="0.63" scY="0.63" pX="0" pY="-0.05"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

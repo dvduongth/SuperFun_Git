@@ -1,0 +1,486 @@
+{
+  "ID": "3fffc1cf-f59d-42f0-b5d7-e989cc869d7b",
+  "Version": "2.3.2.3",
+  "Name": "Popup_TutorialComplete",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 12,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/tutorial/tut_bg_3.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0106,
+              "Y": 196.005
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5634,
+              "Y": 0.3063
+            },
+            "PreSize": {
+              "X": 0.6875,
+              "Y": 0.4328
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 249.5106,
+            "RightMargin": 105.4895,
+            "TopMargin": 305.495,
+            "BottomMargin": 57.505,
+            "Tag": 14,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/tutorial/tut_npc.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -45.5951,
+                  "Y": 165.422
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0584,
+                  "Y": 0.5972
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -169.0951,
+                "RightMargin": 703.0951,
+                "TopMargin": -109.922,
+                "BottomMargin": -56.078,
+                "Tag": 20,
+                "ActionTag": 384456125,
+                "Size": {
+                  "X": 247.0,
+                  "Y": 443.0
+                },
+                "Name": "imgNPC",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "Chúc mừng\nBạn đã hoàn thành khóa huấn luyện xuất xắc!\nChúc bạn có những trải nghiệm thú vị!",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 91.5197,
+                  "Y": 192.0172
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1172,
+                  "Y": 0.6932
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 91.5197,
+                "RightMargin": 80.4803,
+                "TopMargin": 29.4828,
+                "BottomMargin": 136.5172,
+                "Tag": 15,
+                "ActionTag": 431066990,
+                "Size": {
+                  "X": 609.0,
+                  "Y": 111.0
+                },
+                "Name": "text",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "Nguyễn Mỹ Linh",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 251.7726,
+                  "Y": 229.2689
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3224,
+                  "Y": 0.8277
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 251.7726,
+                "RightMargin": 327.2274,
+                "TopMargin": 29.2311,
+                "BottomMargin": 210.7689,
+                "Tag": 89,
+                "ActionTag": -1922172427,
+                "Size": {
+                  "X": 202.0,
+                  "Y": 37.0
+                },
+                "Name": "lbUserName",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "button/btn_orange_0.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/btn_orange_0.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 220,
+                "Scale9Height": 49,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 217.1174,
+                  "Y": 58.2425
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.278,
+                  "Y": 0.2103
+                },
+                "PreSize": {
+                  "X": 0.3201,
+                  "Y": 0.2563
+                },
+                "LeftMargin": 92.1174,
+                "RightMargin": 438.8826,
+                "TopMargin": 183.2575,
+                "BottomMargin": 22.7425,
+                "Tag": 16,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "localize/tut_watch_again.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 141.18,
+                      "Y": 35.1903
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5647,
+                      "Y": 0.4956
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 91.68,
+                    "RightMargin": 59.32,
+                    "TopMargin": 19.8097,
+                    "BottomMargin": 19.1903,
+                    "Tag": 86,
+                    "ActionTag": 522314645,
+                    "Size": {
+                      "X": 99.0,
+                      "Y": 32.0
+                    },
+                    "Name": "text",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -140974814,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 71.0
+                },
+                "Name": "btnReplay",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "button/button_green_3.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/button_green_3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 220,
+                "Scale9Height": 49,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 515.0378,
+                  "Y": 56.4123
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6595,
+                  "Y": 0.2037
+                },
+                "PreSize": {
+                  "X": 0.3201,
+                  "Y": 0.2563
+                },
+                "LeftMargin": 390.0378,
+                "RightMargin": 140.9622,
+                "TopMargin": 185.0877,
+                "BottomMargin": 20.9123,
+                "Tag": 17,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "localize/tut_start_playing.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 150.3092,
+                      "Y": 40.762
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6012,
+                      "Y": 0.5741
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 74.8092,
+                    "RightMargin": 24.1908,
+                    "TopMargin": 13.738,
+                    "BottomMargin": 24.262,
+                    "Tag": 87,
+                    "ActionTag": 1130792284,
+                    "Size": {
+                      "X": 151.0,
+                      "Y": 33.0
+                    },
+                    "Name": "text",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 11861762,
+                "Size": {
+                  "X": 250.0,
+                  "Y": 71.0
+                },
+                "Name": "btnExit",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1853667025,
+            "Size": {
+              "X": 781.0,
+              "Y": 277.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../button/btn_orange_0.png",
+        "../../../../button/button_green_3.png",
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../game/tutorial/tut_bg_3.png",
+        "../../../../game/tutorial/tut_npc.png",
+        "../../../../localize/tut_start_playing.png",
+        "../../../../localize/tut_watch_again.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

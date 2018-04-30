@@ -1,0 +1,18 @@
+
+material ring_defMat
+{
+	technique
+	{
+		pass
+		{
+			scene_blend add
+
+			texture_unit
+			{
+				texture RingColor.jpg
+			}
+		}
+
+	}
+
+}

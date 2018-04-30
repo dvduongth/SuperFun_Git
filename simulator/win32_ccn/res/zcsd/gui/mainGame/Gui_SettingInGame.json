@@ -1,0 +1,701 @@
+{
+  "ID": "698f5c36-37fb-41a2-96de-8eeadcfd7506",
+  "Version": "2.3.2.3",
+  "Name": "Gui_SettingInGame",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/setting/_0010_Shape-431.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 2.7632,
+              "Y": 319.8671
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0024,
+              "Y": 0.4998
+            },
+            "PreSize": {
+              "X": 0.4287,
+              "Y": 0.4812
+            },
+            "LeftMargin": -240.7368,
+            "RightMargin": 889.7368,
+            "TopMargin": 166.1329,
+            "BottomMargin": 165.8671,
+            "Tag": 2,
+            "ActionTag": -1036338053,
+            "Size": {
+              "X": 487.0,
+              "Y": 308.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "Cài đặt",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 109.7464,
+              "Y": 448.0309
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0966,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.0898,
+              "Y": 0.0328
+            },
+            "LeftMargin": 75.2464,
+            "RightMargin": 991.7537,
+            "TopMargin": 181.4691,
+            "BottomMargin": 437.5309,
+            "Tag": 399,
+            "ActionTag": -1838411915,
+            "Size": {
+              "X": 69.0,
+              "Y": 21.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/setting/_0008_Shape-432-copy.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 116.6682,
+              "Y": 426.4872
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1027,
+              "Y": 0.6664
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 46.1682,
+            "RightMargin": 948.8318,
+            "TopMargin": 212.5128,
+            "BottomMargin": 425.4872,
+            "Tag": 5,
+            "ActionTag": -1968782335,
+            "Size": {
+              "X": 141.0,
+              "Y": 2.0
+            },
+            "Name": "Sprite_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "game/setting/_0006_Forma-1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 17,
+            "Scale9Height": 26,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 56.2214,
+              "Y": 373.5
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0586,
+              "Y": 0.5836
+            },
+            "PreSize": {
+              "X": 0.049,
+              "Y": 0.075
+            },
+            "LeftMargin": 32.7214,
+            "RightMargin": 880.2786,
+            "TopMargin": 242.5,
+            "BottomMargin": 349.5,
+            "Tag": 8,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "Tắt tiếng",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61.8692,
+                  "Y": 22.0231
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3164,
+                  "Y": 0.4588
+                },
+                "PreSize": {
+                  "X": 0.088,
+                  "Y": 0.0328
+                },
+                "LeftMargin": 61.8692,
+                "RightMargin": -114.8692,
+                "TopMargin": 15.4769,
+                "BottomMargin": 11.5231,
+                "Tag": 400,
+                "ActionTag": 1603655140,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 21.0
+                },
+                "Name": "label_sound",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/setting/prevent.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 23.977,
+                  "Y": 23.8368
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0211,
+                  "Y": 0.0372
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -1.523,
+                "RightMargin": 1086.5229,
+                "TopMargin": 590.1632,
+                "BottomMargin": -2.1632,
+                "Tag": 1,
+                "ActionTag": -1199455645,
+                "Size": {
+                  "X": 51.0,
+                  "Y": 52.0
+                },
+                "VisibleForFrame": false,
+                "Name": "prevent_sound",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -2087400484,
+            "Size": {
+              "X": 47.0,
+              "Y": 48.0
+            },
+            "Name": "btn_sound",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "game/setting/_0009_Forma-1-copy-5.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 11,
+            "Scale9OriginY": 11,
+            "Scale9Width": 12,
+            "Scale9Height": 15,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 224.4783,
+              "Y": 323.6071
+            },
+            "Scale": {
+              "ScaleX": 1.5,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1976,
+              "Y": 0.5056
+            },
+            "PreSize": {
+              "X": 0.0698,
+              "Y": 0.1201
+            },
+            "LeftMargin": 207.4783,
+            "RightMargin": 894.5217,
+            "TopMargin": 297.8929,
+            "BottomMargin": 305.1071,
+            "Tag": 14,
+            "ActionTag": 1268558695,
+            "Size": {
+              "X": 34.0,
+              "Y": 37.0
+            },
+            "Name": "btn_show",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "game/setting/_0003_Forma-1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 17,
+            "Scale9Height": 26,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 55.5741,
+              "Y": 299.2473
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0579,
+              "Y": 0.4676
+            },
+            "PreSize": {
+              "X": 0.049,
+              "Y": 0.075
+            },
+            "LeftMargin": 32.0741,
+            "RightMargin": 880.9259,
+            "TopMargin": 316.7527,
+            "BottomMargin": 275.2473,
+            "Tag": 15,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "Tắt nhạc",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 62.5953,
+                  "Y": 22.3342
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3318,
+                  "Y": 0.4653
+                },
+                "PreSize": {
+                  "X": 0.088,
+                  "Y": 0.0328
+                },
+                "LeftMargin": 62.5953,
+                "RightMargin": -115.5953,
+                "TopMargin": 15.1658,
+                "BottomMargin": 11.8342,
+                "Tag": 401,
+                "ActionTag": 1363181068,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 21.0
+                },
+                "Name": "label_music",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/setting/prevent.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 23.5331,
+                  "Y": 23.9166
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5007,
+                  "Y": 0.4983
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -1.9669,
+                "RightMargin": -2.0331,
+                "TopMargin": -1.9166,
+                "BottomMargin": -2.0834,
+                "Tag": 1,
+                "ActionTag": 1187156866,
+                "Size": {
+                  "X": 51.0,
+                  "Y": 52.0
+                },
+                "VisibleForFrame": false,
+                "Name": "prevent_music",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1836031651,
+            "Size": {
+              "X": 47.0,
+              "Y": 48.0
+            },
+            "Name": "btn_music",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "game/setting/_0002_Shape-230-copy.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 17,
+            "Scale9Height": 26,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 56.2241,
+              "Y": 223.496
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.9355
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0586,
+              "Y": 0.3492
+            },
+            "PreSize": {
+              "X": 0.049,
+              "Y": 0.075
+            },
+            "LeftMargin": 32.7241,
+            "RightMargin": 880.2759,
+            "TopMargin": 392.504,
+            "BottomMargin": 199.496,
+            "Tag": 16,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "Rời phòng",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61.5993,
+                  "Y": 23.2231
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.3106,
+                  "Y": 0.4838
+                },
+                "PreSize": {
+                  "X": 0.0898,
+                  "Y": 0.0328
+                },
+                "LeftMargin": 61.5993,
+                "RightMargin": -115.5993,
+                "TopMargin": 14.2769,
+                "BottomMargin": 12.7231,
+                "Tag": 402,
+                "ActionTag": 345574405,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 21.0
+                },
+                "Name": "label_leave_room",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -667726038,
+            "Size": {
+              "X": 47.0,
+              "Y": 48.0
+            },
+            "Name": "btn_leave_room",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Default/Button_Disable.png",
+        "../../../game/setting/_0002_Shape-230-copy.png",
+        "../../../game/setting/_0003_Forma-1.png",
+        "../../../game/setting/_0006_Forma-1.png",
+        "../../../game/setting/_0008_Shape-432-copy.png",
+        "../../../game/setting/_0009_Forma-1-copy-5.png",
+        "../../../game/setting/_0010_Shape-431.png",
+        "../../../game/setting/prevent.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

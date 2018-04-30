@@ -1,0 +1,1795 @@
+{
+  "ID": "943cf6eb-742b-4ae7-99bd-a35db6be0802",
+  "Version": "2.3.2.3",
+  "Name": "Gui_InviteFriend",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 173,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/invite_friend/bg_invite_friend.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8363,
+              "Y": 0.9781
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 93.0,
+            "RightMargin": 93.0,
+            "TopMargin": 7.0,
+            "BottomMargin": 7.0,
+            "Tag": 174,
+            "Children": [
+              {
+                "FontSize": 28,
+                "LabelText": "THÊM BẠN THÊM VUI",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 144,
+                  "G": 0,
+                  "B": 59
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 144,
+                  "G": 0,
+                  "B": 59
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 475.0001,
+                  "Y": 595.1886
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9508
+                },
+                "PreSize": {
+                  "X": 0.1105,
+                  "Y": 0.052
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 331.0001,
+                "RightMargin": 330.9999,
+                "TopMargin": 9.3114,
+                "BottomMargin": 573.6886,
+                "Tag": 1226,
+                "ActionTag": -1261091204,
+                "Size": {
+                  "X": 288.0,
+                  "Y": 43.0
+                },
+                "Name": "Text_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 28,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 912.9523,
+                  "Y": 573.6691
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.961,
+                  "Y": 0.9164
+                },
+                "PreSize": {
+                  "X": 0.0624,
+                  "Y": 0.1063
+                },
+                "LeftMargin": 883.9523,
+                "RightMargin": 8.0477,
+                "TopMargin": 24.3309,
+                "BottomMargin": 545.6691,
+                "Tag": 175,
+                "ActionTag": 143204137,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 56.0
+                },
+                "Name": "btn_close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "DANH SÁCH BẠN BÈ",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 59,
+                  "G": 44,
+                  "B": 21
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 59,
+                  "G": 44,
+                  "B": 21
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 742.1229,
+                  "Y": 505.7513
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 254,
+                  "G": 228,
+                  "B": 117
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7812,
+                  "Y": 0.8079
+                },
+                "PreSize": {
+                  "X": 0.2137,
+                  "Y": 0.052
+                },
+                "LeftMargin": 640.6229,
+                "RightMargin": 106.3771,
+                "TopMargin": 104.7487,
+                "BottomMargin": 490.2513,
+                "Tag": 1228,
+                "ActionTag": 565429197,
+                "Size": {
+                  "X": 203.0,
+                  "Y": 31.0
+                },
+                "Name": "Text_4",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 18,
+                "LabelText": "Mời càng nhiều bạn, nhận vạn phần quà",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 338.3693,
+                  "Y": 465.9867
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 1,
+                  "G": 253,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3562,
+                  "Y": 0.7444
+                },
+                "PreSize": {
+                  "X": 0.4474,
+                  "Y": 0.052
+                },
+                "LeftMargin": 147.8693,
+                "RightMargin": 421.1307,
+                "TopMargin": 147.0133,
+                "BottomMargin": 452.9867,
+                "Tag": 1229,
+                "ActionTag": 174899758,
+                "Size": {
+                  "X": 381.0,
+                  "Y": 26.0
+                },
+                "Name": "Text_5",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/invite_friend/invite_friend_gift_slot_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/invite_friend/invite_friend_gift_slot_2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 232,
+                "Scale9Height": 120,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 162.1823,
+                  "Y": 263.0522
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1707,
+                  "Y": 0.4202
+                },
+                "PreSize": {
+                  "X": 0.2758,
+                  "Y": 0.2268
+                },
+                "LeftMargin": 31.1823,
+                "RightMargin": 656.8177,
+                "TopMargin": 291.9478,
+                "BottomMargin": 192.0522,
+                "Tag": 176,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gift_gold_5.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 136.8592,
+                      "Y": 87.1346
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5284,
+                      "Y": 0.5412
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 78.3592,
+                    "RightMargin": 63.6408,
+                    "TopMargin": 21.8654,
+                    "BottomMargin": 35.1346,
+                    "Tag": 177,
+                    "ActionTag": 279503592,
+                    "Size": {
+                      "X": 117.0,
+                      "Y": 104.0
+                    },
+                    "Name": "gift_icon",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "Gift Description",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 131.0,
+                      "Y": 26.2872
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1851
+                    },
+                    "PreSize": {
+                      "X": 0.7407,
+                      "Y": 0.1937
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 31.0,
+                    "RightMargin": 31.0,
+                    "TopMargin": 100.2128,
+                    "BottomMargin": 10.7872,
+                    "Tag": 178,
+                    "ActionTag": 1235378255,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 31.0
+                    },
+                    "Name": "gift_text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/invite_friend/invite_number_slot.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.6349,
+                      "Y": 101.9392
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1971,
+                      "Y": 0.7179
+                    },
+                    "PreSize": {
+                      "X": 0.3893,
+                      "Y": 0.5352
+                    },
+                    "LeftMargin": 0.6349,
+                    "RightMargin": 159.3651,
+                    "TopMargin": 2.0608,
+                    "BottomMargin": 63.9392,
+                    "Tag": 219,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lobby/invite_friend/invite_10.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 34.637,
+                          "Y": 45.7556
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -35.1417,
+                        "RotationSkewY": -35.1419,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3396,
+                          "Y": 0.602
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -6.863,
+                        "RightMargin": 25.863,
+                        "TopMargin": 14.7444,
+                        "BottomMargin": 30.2556,
+                        "Tag": 220,
+                        "ActionTag": -210254950,
+                        "Size": {
+                          "X": 83.0,
+                          "Y": 31.0
+                        },
+                        "Name": "invite_10_2",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 357524820,
+                    "Size": {
+                      "X": 102.0,
+                      "Y": 76.0
+                    },
+                    "Name": "gift_number_slot",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -767736507,
+                "Size": {
+                  "X": 262.0,
+                  "Y": 142.0
+                },
+                "Name": "gift_slot_1",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/invite_friend/invite_friend_gift_slot_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/invite_friend/invite_friend_gift_slot_2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 232,
+                "Scale9Height": 120,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 428.6009,
+                  "Y": 263.05
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4512,
+                  "Y": 0.4202
+                },
+                "PreSize": {
+                  "X": 0.2758,
+                  "Y": 0.2268
+                },
+                "LeftMargin": 297.6009,
+                "RightMargin": 390.3991,
+                "TopMargin": 291.95,
+                "BottomMargin": 192.05,
+                "Tag": 180,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gift_dice_5.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 136.8607,
+                      "Y": 87.1299
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5284,
+                      "Y": 0.5412
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 78.3607,
+                    "RightMargin": 63.6393,
+                    "TopMargin": 21.8701,
+                    "BottomMargin": 35.1299,
+                    "Tag": 181,
+                    "ActionTag": 1801385392,
+                    "Size": {
+                      "X": 88.0,
+                      "Y": 68.0
+                    },
+                    "Name": "gift_icon",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "Gift Description",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 131.0,
+                      "Y": 26.29
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1851
+                    },
+                    "PreSize": {
+                      "X": 0.7407,
+                      "Y": 0.1937
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 31.0,
+                    "RightMargin": 31.0,
+                    "TopMargin": 100.21,
+                    "BottomMargin": 10.79,
+                    "Tag": 182,
+                    "ActionTag": 327086401,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 31.0
+                    },
+                    "Name": "gift_text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/invite_friend/invite_number_slot.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.63,
+                      "Y": 101.94
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1971,
+                      "Y": 0.7179
+                    },
+                    "PreSize": {
+                      "X": 0.3893,
+                      "Y": 0.5352
+                    },
+                    "LeftMargin": 0.63,
+                    "RightMargin": 159.37,
+                    "TopMargin": 2.06,
+                    "BottomMargin": 63.94,
+                    "Tag": 221,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lobby/invite_friend/invite_30.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 33.5615,
+                          "Y": 45.9787
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -36.7663,
+                        "RotationSkewY": -36.7663,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.329,
+                          "Y": 0.605
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -8.9385,
+                        "RightMargin": 25.9385,
+                        "TopMargin": 13.0213,
+                        "BottomMargin": 28.9787,
+                        "Tag": 222,
+                        "ActionTag": 315657293,
+                        "Size": {
+                          "X": 85.0,
+                          "Y": 34.0
+                        },
+                        "Name": "invite_30_4",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 320743106,
+                    "Size": {
+                      "X": 102.0,
+                      "Y": 76.0
+                    },
+                    "Name": "gift_number_slot",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1111174783,
+                "Size": {
+                  "X": 262.0,
+                  "Y": 142.0
+                },
+                "Name": "gift_slot_2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/invite_friend/invite_friend_gift_slot_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/invite_friend/invite_friend_gift_slot_2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 232,
+                "Scale9Height": 120,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 162.18,
+                  "Y": 114.6407
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1707,
+                  "Y": 0.1831
+                },
+                "PreSize": {
+                  "X": 0.2758,
+                  "Y": 0.2268
+                },
+                "LeftMargin": 31.18,
+                "RightMargin": 656.82,
+                "TopMargin": 440.3593,
+                "BottomMargin": 43.6407,
+                "Tag": 184,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gift_gold_3.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 136.8602,
+                      "Y": 87.13
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5284,
+                      "Y": 0.5412
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 78.3602,
+                    "RightMargin": 63.6398,
+                    "TopMargin": 21.87,
+                    "BottomMargin": 35.13,
+                    "Tag": 185,
+                    "ActionTag": 1353373933,
+                    "Size": {
+                      "X": 88.0,
+                      "Y": 84.0
+                    },
+                    "Name": "gift_icon",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "Gift Description",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 131.0,
+                      "Y": 26.29
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1851
+                    },
+                    "PreSize": {
+                      "X": 0.7407,
+                      "Y": 0.1937
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 31.0,
+                    "RightMargin": 31.0,
+                    "TopMargin": 100.21,
+                    "BottomMargin": 10.79,
+                    "Tag": 186,
+                    "ActionTag": 328167590,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 31.0
+                    },
+                    "Name": "gift_text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/invite_friend/invite_number_slot.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.63,
+                      "Y": 101.94
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1971,
+                      "Y": 0.7179
+                    },
+                    "PreSize": {
+                      "X": 0.3893,
+                      "Y": 0.5352
+                    },
+                    "LeftMargin": 0.63,
+                    "RightMargin": 159.37,
+                    "TopMargin": 2.06,
+                    "BottomMargin": 63.94,
+                    "Tag": 223,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lobby/invite_friend/invite_50.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 32.7735,
+                          "Y": 46.2711
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -35.8199,
+                        "RotationSkewY": -35.8201,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3213,
+                          "Y": 0.6088
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -9.7265,
+                        "RightMargin": 26.7265,
+                        "TopMargin": 12.7289,
+                        "BottomMargin": 29.2711,
+                        "Tag": 224,
+                        "ActionTag": -1534442421,
+                        "Size": {
+                          "X": 85.0,
+                          "Y": 34.0
+                        },
+                        "Name": "invite_10_2",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1830319595,
+                    "Size": {
+                      "X": 102.0,
+                      "Y": 76.0
+                    },
+                    "Name": "gift_number_slot",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1785312554,
+                "Size": {
+                  "X": 262.0,
+                  "Y": 142.0
+                },
+                "Name": "gift_slot_3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/invite_friend/invite_friend_gift_slot_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/invite_friend/invite_friend_gift_slot_2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 232,
+                "Scale9Height": 120,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 428.6,
+                  "Y": 114.64
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4512,
+                  "Y": 0.1831
+                },
+                "PreSize": {
+                  "X": 0.2758,
+                  "Y": 0.2268
+                },
+                "LeftMargin": 297.6,
+                "RightMargin": 390.4,
+                "TopMargin": 440.36,
+                "BottomMargin": 43.64,
+                "Tag": 188,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gift_coin_2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 136.86,
+                      "Y": 87.1298
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5284,
+                      "Y": 0.5412
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 78.36,
+                    "RightMargin": 63.64,
+                    "TopMargin": 21.8702,
+                    "BottomMargin": 35.1298,
+                    "Tag": 190,
+                    "ActionTag": -1373627137,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 75.0
+                    },
+                    "Name": "gift_icon",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "Gift Description",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 131.0,
+                      "Y": 26.29
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1851
+                    },
+                    "PreSize": {
+                      "X": 0.7407,
+                      "Y": 0.1937
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 31.0,
+                    "RightMargin": 31.0,
+                    "TopMargin": 100.21,
+                    "BottomMargin": 10.79,
+                    "Tag": 191,
+                    "ActionTag": -533057134,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 31.0
+                    },
+                    "Name": "gift_text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/invite_friend/invite_number_slot.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.63,
+                      "Y": 101.94
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1971,
+                      "Y": 0.7179
+                    },
+                    "PreSize": {
+                      "X": 0.3893,
+                      "Y": 0.5352
+                    },
+                    "LeftMargin": 0.63,
+                    "RightMargin": 159.37,
+                    "TopMargin": 2.06,
+                    "BottomMargin": 63.94,
+                    "Tag": 225,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "lobby/invite_friend/invite_100.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 33.8629,
+                          "Y": 42.9811
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "RotationSkewX": -38.7242,
+                        "RotationSkewY": -38.7239,
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.332,
+                          "Y": 0.5655
+                        },
+                        "PreSize": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "LeftMargin": -15.6371,
+                        "RightMargin": 18.6371,
+                        "TopMargin": 16.0189,
+                        "BottomMargin": 25.9811,
+                        "Tag": 226,
+                        "ActionTag": -930396125,
+                        "Size": {
+                          "X": 99.0,
+                          "Y": 34.0
+                        },
+                        "Name": "invite_10_2",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": 1977048547,
+                    "Size": {
+                      "X": 102.0,
+                      "Y": 76.0
+                    },
+                    "Name": "gift_number_slot",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1693804105,
+                "Size": {
+                  "X": 262.0,
+                  "Y": 142.0
+                },
+                "Name": "gift_slot_4",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "button/button_green_0.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/button_green_0.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 231,
+                "Scale9Height": 51,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 786.3781,
+                  "Y": 86.0155
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8278,
+                  "Y": 0.1374
+                },
+                "PreSize": {
+                  "X": 0.2611,
+                  "Y": 0.1166
+                },
+                "LeftMargin": 662.3781,
+                "RightMargin": 39.6219,
+                "TopMargin": 503.4845,
+                "BottomMargin": 49.5155,
+                "Tag": 192,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Mời bạn",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 124.0,
+                      "Y": 40.15
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.55
+                    },
+                    "PreSize": {
+                      "X": 0.4234,
+                      "Y": 0.3973
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 82.0,
+                    "RightMargin": 82.0,
+                    "TopMargin": 17.35,
+                    "BottomMargin": 24.65,
+                    "Tag": 1227,
+                    "ActionTag": -1952402834,
+                    "Size": {
+                      "X": 84.0,
+                      "Y": 31.0
+                    },
+                    "Name": "Text_3",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1626990288,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 73.0
+                },
+                "Name": "btn_invite",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/invite_friend/button_refresh.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/invite_friend/button_refresh.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 46,
+                "Scale9Height": 52,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 614.5339,
+                  "Y": 85.6748
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6469,
+                  "Y": 0.1535
+                },
+                "PreSize": {
+                  "X": 0.08,
+                  "Y": 0.1326
+                },
+                "LeftMargin": 576.5339,
+                "RightMargin": 297.4661,
+                "TopMargin": 435.3253,
+                "BottomMargin": 48.6748,
+                "Tag": 193,
+                "ActionTag": 1248117958,
+                "Size": {
+                  "X": 76.0,
+                  "Y": 74.0
+                },
+                "Name": "btn_refresh",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "100",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 121,
+                  "G": 56,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 121,
+                  "G": 56,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 403.272,
+                  "Y": 413.9141
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4245,
+                  "Y": 0.6612
+                },
+                "PreSize": {
+                  "X": 0.0317,
+                  "Y": 0.0453
+                },
+                "LeftMargin": 379.272,
+                "RightMargin": 522.728,
+                "TopMargin": 193.0859,
+                "BottomMargin": 394.9141,
+                "Tag": 194,
+                "ActionTag": 1784349704,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 38.0
+                },
+                "Name": "invited_friend_number",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Phần thưởng sẽ được gửi vào hòm thư của bạn",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_italic.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 267.7219,
+                  "Y": 30.7152
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 3,
+                  "G": 234,
+                  "B": 180
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2818,
+                  "Y": 0.055
+                },
+                "PreSize": {
+                  "X": 0.44,
+                  "Y": 0.0448
+                },
+                "LeftMargin": 34.2219,
+                "RightMargin": 448.7781,
+                "TopMargin": 513.7849,
+                "BottomMargin": 17.2152,
+                "Tag": 195,
+                "ActionTag": 429787311,
+                "Size": {
+                  "X": 467.0,
+                  "Y": 27.0
+                },
+                "Name": "Text_9",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "Số bạn đã mời:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 283.4324,
+                  "Y": 412.4725
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 1,
+                  "G": 253,
+                  "B": 254
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2983,
+                  "Y": 0.6589
+                },
+                "PreSize": {
+                  "X": 0.4474,
+                  "Y": 0.052
+                },
+                "LeftMargin": 197.4324,
+                "RightMargin": 580.5676,
+                "TopMargin": 197.5275,
+                "BottomMargin": 396.4725,
+                "Tag": 1230,
+                "ActionTag": -1388413025,
+                "Size": {
+                  "X": 172.0,
+                  "Y": 32.0
+                },
+                "Name": "Text_5_0",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 514483178,
+            "Size": {
+              "X": 950.0,
+              "Y": 626.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../button/button_green_0.png",
+        "../../../button/x.png",
+        "../../../fonts/font_game_bold.ttf",
+        "../../../fonts/font_game_italic.ttf",
+        "../../../lobby/gift_coin_2.png",
+        "../../../lobby/gift_dice_5.png",
+        "../../../lobby/gift_gold_3.png",
+        "../../../lobby/gift_gold_5.png",
+        "../../../lobby/invite_friend/bg_invite_friend.png",
+        "../../../lobby/invite_friend/button_refresh.png",
+        "../../../lobby/invite_friend/invite_10.png",
+        "../../../lobby/invite_friend/invite_100.png",
+        "../../../lobby/invite_friend/invite_30.png",
+        "../../../lobby/invite_friend/invite_50.png",
+        "../../../lobby/invite_friend/invite_friend_gift_slot_2.png",
+        "../../../lobby/invite_friend/invite_number_slot.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

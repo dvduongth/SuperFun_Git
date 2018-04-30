@@ -1,0 +1,282 @@
+{
+  "ID": "0a8c9481-2bc0-4028-aed5-3ed5f8d28e0a",
+  "Version": "2.3.2.3",
+  "Name": "Gui_Ranking_Event",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 35,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/bxh_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -0.002,
+              "Y": -0.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -212.502,
+            "RightMargin": -212.498,
+            "TopMargin": -196.9998,
+            "BottomMargin": -197.0002,
+            "Tag": 36,
+            "ActionTag": -637329988,
+            "Size": {
+              "X": 425.0,
+              "Y": 394.0
+            },
+            "Name": "sprBg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "ĐUA TỐP NHẬN QUÀ",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game_bold.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 108,
+              "G": 1,
+              "B": 53
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 108,
+              "G": 1,
+              "B": 53
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -26.0272,
+              "Y": 164.4991
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.191,
+              "Y": 0.0453
+            },
+            "LeftMargin": -184.0272,
+            "RightMargin": -131.9728,
+            "TopMargin": -187.4991,
+            "BottomMargin": 141.4991,
+            "Tag": 270,
+            "ActionTag": 1860803795,
+            "Size": {
+              "X": 316.0,
+              "Y": 46.0
+            },
+            "Name": "lbTitle",
+            "ctype": "TextObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -194.8725,
+              "Y": -177.4629
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -194.8725,
+            "RightMargin": -195.1275,
+            "TopMargin": -67.5371,
+            "BottomMargin": -177.4629,
+            "Tag": 271,
+            "ActionTag": 372300251,
+            "Size": {
+              "X": 390.0,
+              "Y": 245.0
+            },
+            "Name": "pnTableView",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": -196.0,
+              "Y": 71.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -196.0,
+            "RightMargin": 196.0,
+            "TopMargin": -71.0,
+            "BottomMargin": 71.0,
+            "Tag": 355,
+            "ActionTag": 1041998534,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "nodeMyInfo",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "button/x.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 28,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 177.0265,
+              "Y": 163.5382
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0616,
+              "Y": 0.1197
+            },
+            "LeftMargin": 148.0265,
+            "RightMargin": -206.0265,
+            "TopMargin": -191.5382,
+            "BottomMargin": 135.5382,
+            "Tag": 272,
+            "ActionTag": 38552980,
+            "Size": {
+              "X": 58.0,
+              "Y": 56.0
+            },
+            "Name": "btnClose",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../button/x.png",
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../lobby/bxh_bg.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

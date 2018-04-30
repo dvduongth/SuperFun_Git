@@ -1,0 +1,808 @@
+{
+    "Channel": {
+        "1": {
+            "name": "TAP_SU",
+            "minGold": 30000,
+            "betLevel": {
+                "1": 1,
+                "2": 2,
+                "3": 3
+            }
+        },
+        "2": {
+            "name": "PHU_HO",
+            "minGold": 150000,
+            "betLevel": {
+                "1": 4,
+                "2": 5,
+                "3": 6,
+                "4": 7
+            }
+        },
+        "3": {
+            "name": "DAI_GIA",
+            "minGold": 300000,
+            "betLevel": {
+                "1": 8,
+                "2": 9,
+                "3": 10,
+                "4": 11
+            }
+        },
+        "4": {
+            "name": "TRIEU_PHU",
+            "minGold": 1500000,
+            "betLevel": {
+                "1": 12,
+                "2": 13,
+                "3": 14
+            }
+        },
+        "5": {
+            "name": "TY_PHU",
+            "minGold": 3000000,
+            "betLevel": {
+                "1": 15,
+                "2": 16,
+                "3": 17
+            }
+        }
+    },
+    "BetLevel": {
+        "1": {
+            "bet": 1000,
+            "min": 10000,
+            "max": 150000,
+            "kickFee": [
+                1000,
+                2000,
+                5000
+            ],
+            "consecutiveKickFee": 3000,
+            "bomFee": 3000,
+            "tax": [
+                1000,
+                2000,
+                4000,
+                8000
+            ],
+            "escapeFee": 1000,
+            "summonFee": 2000,
+            "firstLoad4": 1000,
+            "firstLoad1": 1000,
+            "racingMGBet": 2000,
+            "tuxiMGBet": 2000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 100,
+                    "expLoser": 25
+                },
+                "3": {
+                    "expWinner": 150,
+                    "expLoser": 37.5
+                },
+                "4": {
+                    "expWinner": 200,
+                    "expLoser": 50
+                }
+            }
+        },
+        "2": {
+            "bet": 2000,
+            "min": 20000,
+            "max": 150000,
+            "kickFee": [
+                2000,
+                4000,
+                10000
+            ],
+            "consecutiveKickFee": 6000,
+            "bomFee": 6000,
+            "tax": [
+                2000,
+                4000,
+                8000,
+                16000
+            ],
+            "escapeFee": 2000,
+            "summonFee": 4000,
+            "firstLoad4": 2000,
+            "firstLoad1": 2000,
+            "racingMGBet": 4000,
+            "tuxiMGBet": 4000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 200,
+                    "expLoser": 50
+                },
+                "3": {
+                    "expWinner": 300,
+                    "expLoser": 75
+                },
+                "4": {
+                    "expWinner": 400,
+                    "expLoser": 100
+                }
+            }
+        },
+        "3": {
+            "bet": 5000,
+            "min": 50000,
+            "max": 150000,
+            "kickFee": [
+                5000,
+                10000,
+                25000
+            ],
+            "consecutiveKickFee": 15000,
+            "bomFee": 15000,
+            "tax": [
+                5000,
+                10000,
+                20000,
+                40000
+            ],
+            "escapeFee": 5000,
+            "summonFee": 10000,
+            "firstLoad4": 5000,
+            "firstLoad1": 5000,
+            "racingMGBet": 10000,
+            "tuxiMGBet": 10000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 500,
+                    "expLoser": 125
+                },
+                "3": {
+                    "expWinner": 750,
+                    "expLoser": 187.5
+                },
+                "4": {
+                    "expWinner": 1000,
+                    "expLoser": 250
+                }
+            }
+        },
+        "4": {
+            "bet": 10000,
+            "min": 100000,
+            "max": 3000000,
+            "kickFee": [
+                10000,
+                20000,
+                50000
+            ],
+            "consecutiveKickFee": 30000,
+            "bomFee": 30000,
+            "tax": [
+                10000,
+                20000,
+                40000,
+                80000
+            ],
+            "escapeFee": 10000,
+            "summonFee": 20000,
+            "firstLoad4": 10000,
+            "firstLoad1": 10000,
+            "racingMGBet": 20000,
+            "tuxiMGBet": 20000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 1000,
+                    "expLoser": 250
+                },
+                "3": {
+                    "expWinner": 1500,
+                    "expLoser": 375,
+                    "bonus": "CHEST_1:1"
+                },
+                "4": {
+                    "expWinner": 2000,
+                    "expLoser": 500
+                }
+            }
+        },
+        "5": {
+            "bet": 20000,
+            "min": 200000,
+            "max": 3000000,
+            "kickFee": [
+                20000,
+                40000,
+                100000
+            ],
+            "consecutiveKickFee": 60000,
+            "bomFee": 60000,
+            "tax": [
+                20000,
+                40000,
+                80000,
+                160000
+            ],
+            "escapeFee": 20000,
+            "summonFee": 40000,
+            "firstLoad4": 20000,
+            "firstLoad1": 20000,
+            "racingMGBet": 40000,
+            "tuxiMGBet": 40000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 2000,
+                    "expLoser": 500
+                },
+                "3": {
+                    "expWinner": 3000,
+                    "expLoser": 750,
+                    "bonus": "CHEST_1:1"
+                },
+                "4": {
+                    "expWinner": 4000,
+                    "expLoser": 1000
+                }
+            }
+        },
+        "6": {
+            "bet": 50000,
+            "min": 500000,
+            "max": 3000000,
+            "kickFee": [
+                50000,
+                100000,
+                250000
+            ],
+            "consecutiveKickFee": 150000,
+            "bomFee": 150000,
+            "tax": [
+                50000,
+                100000,
+                200000,
+                400000
+            ],
+            "escapeFee": 50000,
+            "summonFee": 100000,
+            "firstLoad4": 50000,
+            "firstLoad1": 50000,
+            "racingMGBet": 100000,
+            "tuxiMGBet": 100000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 5000,
+                    "expLoser": 1250
+                },
+                "3": {
+                    "expWinner": 7500,
+                    "expLoser": 1875,
+                    "bonus": "CHEST_1:1"
+                },
+                "4": {
+                    "expWinner": 10000,
+                    "expLoser": 2500
+                }
+            }
+        },
+        "7": {
+            "bet": 100000,
+            "min": 1000000,
+            "max": 3000000,
+            "kickFee": [
+                100000,
+                200000,
+                500000
+            ],
+            "consecutiveKickFee": 300000,
+            "bomFee": 300000,
+            "tax": [
+                100000,
+                200000,
+                400000,
+                800000
+            ],
+            "escapeFee": 100000,
+            "summonFee": 200000,
+            "firstLoad4": 100000,
+            "firstLoad1": 100000,
+            "racingMGBet": 200000,
+            "tuxiMGBet": 200000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 10000,
+                    "expLoser": 2500
+                },
+                "3": {
+                    "expWinner": 15000,
+                    "expLoser": 3750,
+                    "bonus": "CHEST_1:1"
+                },
+                "4": {
+                    "expWinner": 20000,
+                    "expLoser": 5000
+                }
+            }
+        },
+        "8": {
+            "bet": 200000,
+            "min": 2000000,
+            "max": 60000000,
+            "kickFee": [
+                200000,
+                400000,
+                1000000
+            ],
+            "consecutiveKickFee": 600000,
+            "bomFee": 600000,
+            "tax": [
+                200000,
+                400000,
+                800000,
+                1600000
+            ],
+            "escapeFee": 200000,
+            "summonFee": 400000,
+            "firstLoad4": 200000,
+            "firstLoad1": 200000,
+            "racingMGBet": 400000,
+            "tuxiMGBet": 400000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 20000,
+                    "expLoser": 5000
+                },
+                "3": {
+                    "expWinner": 30000,
+                    "expLoser": 7500,
+                    "bonus": "CHEST_2:1"
+                },
+                "4": {
+                    "expWinner": 40000,
+                    "expLoser": 10000
+                }
+            }
+        },
+        "9": {
+            "bet": 500000,
+            "min": 5000000,
+            "max": 60000000,
+            "kickFee": [
+                500000,
+                1000000,
+                2500000
+            ],
+            "consecutiveKickFee": 1500000,
+            "bomFee": 1500000,
+            "tax": [
+                500000,
+                1000000,
+                2000000,
+                4000000
+            ],
+            "escapeFee": 500000,
+            "summonFee": 1000000,
+            "firstLoad4": 500000,
+            "firstLoad1": 500000,
+            "racingMGBet": 1000000,
+            "tuxiMGBet": 1000000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 50000,
+                    "expLoser": 12500
+                },
+                "3": {
+                    "expWinner": 75000,
+                    "expLoser": 18750,
+                    "bonus": "CHEST_2:1"
+                },
+                "4": {
+                    "expWinner": 100000,
+                    "expLoser": 25000
+                }
+            }
+        },
+        "10": {
+            "bet": 1000000,
+            "min": 10000000,
+            "max": 60000000,
+            "kickFee": [
+                1000000,
+                2000000,
+                5000000
+            ],
+            "consecutiveKickFee": 3000000,
+            "bomFee": 3000000,
+            "tax": [
+                1000000,
+                2000000,
+                4000000,
+                8000000
+            ],
+            "escapeFee": 1000000,
+            "summonFee": 2000000,
+            "firstLoad4": 1000000,
+            "firstLoad1": 1000000,
+            "racingMGBet": 2000000,
+            "tuxiMGBet": 2000000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 100000,
+                    "expLoser": 25000
+                },
+                "3": {
+                    "expWinner": 150000,
+                    "expLoser": 37500,
+                    "bonus": "CHEST_2:1"
+                },
+                "4": {
+                    "expWinner": 200000,
+                    "expLoser": 50000
+                }
+            }
+        },
+        "11": {
+            "bet": 2000000,
+            "min": 20000000,
+            "max": 60000000,
+            "kickFee": [
+                2000000,
+                4000000,
+                10000000
+            ],
+            "consecutiveKickFee": 6000000,
+            "bomFee": 6000000,
+            "tax": [
+                2000000,
+                4000000,
+                8000000,
+                16000000
+            ],
+            "escapeFee": 2000000,
+            "summonFee": 4000000,
+            "firstLoad4": 2000000,
+            "firstLoad1": 2000000,
+            "racingMGBet": 4000000,
+            "tuxiMGBet": 4000000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 200000,
+                    "expLoser": 50000
+                },
+                "3": {
+                    "expWinner": 300000,
+                    "expLoser": 75000,
+                    "bonus": "CHEST_2:1"
+                },
+                "4": {
+                    "expWinner": 400000,
+                    "expLoser": 100000
+                }
+            }
+        },
+        "12": {
+            "bet": 3000000,
+            "min": 30000000,
+            "max": 300000000,
+            "kickFee": [
+                3000000,
+                6000000,
+                15000000
+            ],
+            "consecutiveKickFee": 9000000,
+            "bomFee": 9000000,
+            "tax": [
+                3000000,
+                6000000,
+                12000000,
+                24000000
+            ],
+            "escapeFee": 3000000,
+            "summonFee": 6000000,
+            "firstLoad4": 3000000,
+            "firstLoad1": 3000000,
+            "racingMGBet": 6000000,
+            "tuxiMGBet": 6000000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 300000,
+                    "expLoser": 75000
+                },
+                "3": {
+                    "expWinner": 450000,
+                    "expLoser": 112500,
+                    "bonus": "CHEST_2:1"
+                },
+                "4": {
+                    "expWinner": 600000,
+                    "expLoser": 150000
+                }
+            }
+        },
+        "13": {
+            "bet": 5000000,
+            "min": 50000000,
+            "max": 300000000,
+            "kickFee": [
+                5000000,
+                10000000,
+                25000000
+            ],
+            "consecutiveKickFee": 15000000,
+            "bomFee": 15000000,
+            "tax": [
+                5000000,
+                10000000,
+                20000000,
+                40000000
+            ],
+            "escapeFee": 5000000,
+            "summonFee": 10000000,
+            "firstLoad4": 5000000,
+            "firstLoad1": 5000000,
+            "racingMGBet": 10000000,
+            "tuxiMGBet": 10000000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 500000,
+                    "expLoser": 125000
+                },
+                "3": {
+                    "expWinner": 750000,
+                    "expLoser": 187500,
+                    "bonus": "CHEST_2:1"
+                },
+                "4": {
+                    "expWinner": 1000000,
+                    "expLoser": 250000
+                }
+            }
+        },
+        "14": {
+            "bet": 10000000,
+            "min": 100000000,
+            "max": 300000000,
+            "kickFee": [
+                10000000,
+                20000000,
+                50000000
+            ],
+            "consecutiveKickFee": 30000000,
+            "bomFee": 30000000,
+            "tax": [
+                10000000,
+                20000000,
+                40000000,
+                80000000
+            ],
+            "escapeFee": 10000000,
+            "summonFee": 20000000,
+            "firstLoad4": 10000000,
+            "firstLoad1": 10000000,
+            "racingMGBet": 20000000,
+            "tuxiMGBet": 20000000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 1000000,
+                    "expLoser": 250000
+                },
+                "3": {
+                    "expWinner": 1500000,
+                    "expLoser": 375000,
+                    "bonus": "CHEST_2:1"
+                },
+                "4": {
+                    "expWinner": 2000000,
+                    "expLoser": 500000
+                }
+            }
+        },
+        "15": {
+            "bet": 20000000,
+            "min": 200000000,
+            "max": -1,
+            "kickFee": [
+                20000000,
+                40000000,
+                100000000
+            ],
+            "consecutiveKickFee": 60000000,
+            "bomFee": 60000000,
+            "tax": [
+                20000000,
+                40000000,
+                80000000,
+                160000000
+            ],
+            "escapeFee": 20000000,
+            "summonFee": 40000000,
+            "firstLoad4": 20000000,
+            "firstLoad1": 20000000,
+            "racingMGBet": 40000000,
+            "tuxiMGBet": 40000000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 2000000,
+                    "expLoser": 500000
+                },
+                "3": {
+                    "expWinner": 3000000,
+                    "expLoser": 750000
+                },
+                "4": {
+                    "expWinner": 4000000,
+                    "expLoser": 1000000
+                }
+            }
+        },
+        "16": {
+            "bet": 50000000,
+            "min": 500000000,
+            "max": -1,
+            "kickFee": [
+                50000000,
+                100000000,
+                250000000
+            ],
+            "consecutiveKickFee": 150000000,
+            "bomFee": 150000000,
+            "tax": [
+                50000000,
+                100000000,
+                200000000,
+                400000000
+            ],
+            "escapeFee": 50000000,
+            "summonFee": 100000000,
+            "firstLoad4": 50000000,
+            "firstLoad1": 50000000,
+            "racingMGBet": 100000000,
+            "tuxiMGBet": 100000000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 5000000,
+                    "expLoser": 1250000
+                },
+                "3": {
+                    "expWinner": 7500000,
+                    "expLoser": 1875000
+                },
+                "4": {
+                    "expWinner": 10000000,
+                    "expLoser": 2500000
+                }
+            }
+        },
+        "17": {
+            "bet": 100000000,
+            "min": 1000000000,
+            "max": -1,
+            "kickFee": [
+                100000000,
+                200000000,
+                500000000
+            ],
+            "consecutiveKickFee": 300000000,
+            "bomFee": 300000000,
+            "tax": [
+                100000000,
+                200000000,
+                400000000,
+                800000000
+            ],
+            "escapeFee": 100000000,
+            "summonFee": 200000000,
+            "firstLoad4": 100000000,
+            "firstLoad1": 100000000,
+            "racingMGBet": 200000000,
+            "tuxiMGBet": 200000000,
+            "endGameRewardSingle": {
+                "2": {
+                    "expWinner": 10000000,
+                    "expLoser": 2500000
+                },
+                "3": {
+                    "expWinner": 15000000,
+                    "expLoser": 3750000
+                },
+                "4": {
+                    "expWinner": 20000000,
+                    "expLoser": 5000000
+                }
+            }
+        }
+    },
+    "EndGameFactorSingle": {
+        "2": {
+            "ALL_BANKRUPT": {
+                "winnerExpRate": 1,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 1,
+                "fineGoldRateWithoutOnStable": 2
+            },
+            "OVER_TURN": {
+                "winnerExpRate": 1,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 2,
+                "fineGoldRateWithoutOnStable": 4
+            },
+            "OVER_TIME": {
+                "winnerExpRate": 1,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 2,
+                "fineGoldRateWithoutOnStable": 4
+            },
+            "COMPLETE_STABLE": {
+                "winnerExpRate": 1,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 3,
+                "fineGoldRateWithoutOnStable": 6
+            },
+            "COMPLETE_LIGHT": {
+                "winnerExpRate": 1,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 5,
+                "fineGoldRateWithoutOnStable": 10
+            }
+        },
+        "3": {
+            "ALL_BANKRUPT": {
+                "winnerExpRate": 1,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 1,
+                "fineGoldRateWithoutOnStable": 2
+            },
+            "OVER_TURN": {
+                "winnerExpRate": 1,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 2,
+                "fineGoldRateWithoutOnStable": 4
+            },
+            "OVER_TIME": {
+                "winnerExpRate": 1,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 2,
+                "fineGoldRateWithoutOnStable": 4
+            },
+            "COMPLETE_STABLE": {
+                "winnerExpRate": 1,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 3,
+                "fineGoldRateWithoutOnStable": 6
+            },
+            "COMPLETE_LIGHT": {
+                "winnerExpRate": 1,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 5,
+                "fineGoldRateWithoutOnStable": 10
+            }
+        },
+        "4": {
+            "ALL_BANKRUPT": {
+                "winnerExpRate": 2,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 1,
+                "fineGoldRateWithoutOnStable": 2
+            },
+            "OVER_TURN": {
+                "winnerExpRate": 2,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 2,
+                "fineGoldRateWithoutOnStable": 4
+            },
+            "OVER_TIME": {
+                "winnerExpRate": 2,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 2,
+                "fineGoldRateWithoutOnStable": 4
+            },
+            "COMPLETE_STABLE": {
+                "winnerExpRate": 2,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 3,
+                "fineGoldRateWithoutOnStable": 6
+            },
+            "COMPLETE_LIGHT": {
+                "winnerExpRate": 2,
+                "loserExpRate": 1,
+                "fineGoldRateOnStable": 5,
+                "fineGoldRateWithoutOnStable": 10
+            }
+        }
+    }
+}

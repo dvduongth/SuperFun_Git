@@ -1,0 +1,21 @@
+
+material ParticleUniverse/Rain_01
+{
+	technique
+	{
+		pass
+		{
+			lighting add
+			scene_blend add
+			depth_write add
+
+			texture_unit
+			{
+				texture testPU.png
+				tex_address_mode clamp
+			}
+		}
+
+	}
+
+}

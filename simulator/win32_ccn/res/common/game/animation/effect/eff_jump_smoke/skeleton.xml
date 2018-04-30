@@ -1,0 +1,57 @@
+<dragonBones name="eff_jump_smoke" frameRate="24" version="2.3">
+ <armature name="eff_jump_smoke">
+  <bone name="Layer 2">
+   <transform x="1.6" y="-2.9" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 2" parent="Layer 2" z="0">
+    <display name="Pre-comp 2_00011.png" type="image">
+     <transform x="-31" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="Pre-comp 2_00012.png" type="image">
+     <transform x="-31" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="Pre-comp 2_00014.png" type="image">
+     <transform x="-31" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="Pre-comp 2_00016.png" type="image">
+     <transform x="-31" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="Pre-comp 2_00018.png" type="image">
+     <transform x="-31" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="Pre-comp 2_00020.png" type="image">
+     <transform x="-31" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="Pre-comp 2_00022.png" type="image">
+     <transform x="-31" y="-25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="13" scale="1" loop="0" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 2" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="1.6" y="-2.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="1.6" y="-2.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="1.6" y="-2.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="1.6" y="-2.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="1.6" y="-2.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="1.6" y="-2.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="2">
+     <transform x="1.6" y="-2.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

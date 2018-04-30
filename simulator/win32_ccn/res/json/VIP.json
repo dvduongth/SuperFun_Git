@@ -1,0 +1,27 @@
+{
+    "BasicVIP": {
+        "grossCost": 100000,
+        "coinCost": 1000,
+        "durationInSec": 864000,
+        "registrationRewards": {
+            "1": {
+                "item": "COIN",
+                "q": 150
+            },
+            "2": {
+                "item": "CHEST_1",
+                "q": 10
+            },
+            "3": {
+                "item": "CHEST_2",
+                "q": 5
+            },
+            "4": {
+                "item": "GOLD",
+                "q": 100000
+            }
+        },
+        "dailyLoginGoldBonusRate": 0.05,
+        "winningGameGoldBonusRate": 0.2
+    }
+}

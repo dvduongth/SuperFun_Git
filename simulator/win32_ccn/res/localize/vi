@@ -1,0 +1,353 @@
+lang_auto_text    ="Thử hiển thị localize text trên gui"
+lang_hello    ="Xin chào!"
+
+Summon	=	"Xuất quân"
+Zoo		=	"Sở thú"
+Up_tile	=	"Nâng ô đất"
+
+Cancel	=	"Bỏ qua"
+Ok		=	"Đồng ý"
+Notification = "Thông báo"
+
+Change_character	=	"Đổi Nhân Vật"
+Upgrade		=	"Nâng Cấp"
+Buy			=	"Mua"
+Sell		=	"Bán Nhân Vật"
+Select		=	"Chọn"
+Select_Upcase		=	"CHỌN"
+Sort_2line	=	"Sắp\n xếp
+Select_character = "Chọn Nhân Vật"
+
+
+Pay_for_summon_description	=	"Trả phí để xuất quân ngay?"
+Pay_for_escape_description	=	"Trả phí để thoát khỏi sở thú ngay?"
+Up_tile_description	=	"Bạn sẽ được nâng 1 ô đất \nbất kỳ trong hàng để chặn đối thủ."
+
+turn_sound_on	=	"Bật tiếng"
+turn_sound_off	=	"Tắt tiếng"
+turn_music_on	=	"Bật nhạc"
+turn_music_off	=	"Tắt nhạc"
+
+day				=	"Ngày"
+hour			=	"Giờ"
+minute			=	"Phút"
+seconds			=	"Giây"
+
+free			=	"Miễn phí"
+open_after		=	"Mở sau"
+remain			=	"Còn"
+
+receive_gift	=	"Nhận Quà"
+received		=	"Đã nhận"
+RECEIVED			=	"ĐÃ NHẬN"
+
+friend			=	"Bạn"
+
+Day				=	"Ngày"
+
+Mail box		=	"HỘP THƯ"
+open_mail		=	"Mở Thư"
+No_mail			=	"Hộp thư trống"
+
+Paying_card_success_congrats		=	"Chúc mừng bạn đã nạp thẻ\nthành công"
+SMS_success_congrats				=	"Chúc mừng bạn đã gửi tin nhắn\nthành công"
+
+First_paying_card_congrats			=	"Chúc mừng bạn đã nhận được những món quà sự kiện\n Nạp thẻ lần đầu"
+First_SMS_congrats					=	"Chúc mừng bạn đã nhận được những món quà sự kiện\n Nhắn tin lần đầu"
+
+Gift_congrats						=	"Chúc mừng bạn đã nhận được phần thưởng"
+
+invite_friend_over_invite_friend_per_day	=	"Mỗi ngày chỉ được mời tối đa @Value bạn!\nNgày mai lại mời tiếp nha!"
+invite_at_least_one		=	"Bạn phải chọn tối thiểu 1 người bạn"
+wrong_selection = "Nhân vật đang sử dụng không thể làm\nnguyên liệu nâng cấp"
+not_select_yet = "Bạn chưa chọn Nhân vật để nâng cấp"
+nomore_money = "Không đủ tiền"
+not_enough_money_to_play = "Bạn không đủ tiền cược!!!\nVào Cửa Hàng mua để chơi tiếp."
+level_limited = "Thẻ đã đạt giới hạn.\nKhông thể nâng cấp tiếp"
+
+character_name_CH_D_1 = "Trấn Thành"
+character_name_CH_D_2 = "Ngọc Trinh"
+character_name_CH_C_1 = "Hồng Đăng"
+character_name_CH_C_2 = "Việt Hương"
+character_name_CH_B_1 = "Phan Anh"
+character_name_CH_B_2 = "Elly Trần"
+character_name_CH_B_3 = "Minh Hằng"
+character_name_CH_A_1 = "Đông Nhi"
+character_name_CH_A_2 = "Noo Phước Thịnh"
+character_name_CH_A_3 = "An Nguy"
+character_name_CH_S_1 = "Hoài Linh"
+
+SELFIE_FAILED_NOTIFICATION		=		"Chia sẻ thất bại!\nCó thể do chưa cài ứng dụng Facebook"
+
+CH_D_1_character_selfie_say		=		"Thật là vi diệu, vi diệu"
+CH_D_2_character_selfie_say		=		"Thật là vi diệu, vi diệu"
+CH_C_1_character_selfie_say		=		"Thật là vi diệu, vi diệu"
+CH_C_2_character_selfie_say		=		"Thật là vi diệu, vi diệu"
+CH_B_1_character_selfie_say		=		"Gương kia ngự ở trên tường,\nTối nay ai sẽ ra đường cùng ta?"
+CH_B_2_character_selfie_say		=		"Gương kia ngự ở trên tường,\nTối nay ai sẽ ra đường cùng ta?"
+CH_B_3_character_selfie_say		=		"Gương kia ngự ở trên tường,\nTối nay ai sẽ ra đường cùng ta?"
+CH_A_1_character_selfie_say		=		"Gương kia ngự ở trên tường,\nTối nay ai sẽ ra đường cùng ta?"
+CH_A_2_character_selfie_say		=		"Thật là vi diệu, vi diệu"
+CH_A_3_character_selfie_say		=		"Gương kia ngự ở trên tường,\nTối nay ai sẽ ra đường cùng ta?"
+CH_S_1_character_selfie_say		=		"Thật là vi diệu, vi diệu"
+
+dice_name_1 = "Vô Thường"
+dice_name_2 = "Bạch Ngà"
+dice_name_3 = "Thiên Mộc"
+dice_name_4 = "Vô Quang"
+dice_name_5 = "Hoàng Kim"
+dice_name_6 = "Kẹo ngọt"
+
+dice_condition_1 = "Miễn phí"
+dice_condition_2 = "Có được khi nạp thẻ\nlần đầu bằng SMS"
+dice_condition_3 = "Có được khi nạp thẻ\nlần đầu bằng thẻ cào"
+dice_condition_4 = "Có được khi đạt mức\nnạp thẻ tích lũy"
+dice_condition_5 = "Có được khi đạt mức\nnạp thẻ tích lũy"
+dice_condition_6 = ""
+
+dice_description_1 = "Kỹ năng đổ chính xác"
+dice_description_2 = "Kỹ năng đổ chính xác"
+dice_description_3 = "Kỹ năng đổ chính xác"
+dice_description_4 = "Kỹ năng đổ chính xác"
+dice_description_5 = "Kỹ năng đổ chính xác"
+dice_description_6 = "Kỹ năng đổ chính xác"
+dice_description_7 = "Kỹ năng đổ chính xác"
+
+shop = "Cửa Hàng"
+
+gui_dice_shop_select_btn_lb = "Chọn"
+gui_dice_shop_unlock_btn_lb = "Mở khóa"
+gui_dice_shop_using_btn_lb = "Đang sử dụng"
+
+fortune_1_description = "Nhảy tới cổng chuồng tiếp theo"
+fortune_2_description = "Đi lùi 8 bước"
+fortune_3_description = "Hoán chỗ với một nhân vật khác"
+fortune_4_description = "Nhảy tới cổng chuồng nhà đối thủ"
+fortune_5_description = "Tất cả nhân vật của mình đi tới 3 bước"
+fortune_6_description = "Đổ lại khí vận"
+
+silver_chest = "Rương bạc"
+golden_chest = "Rương vàng"
+violet_chest = "Rương đặc biệt"
+
+zalo_payment_display_name	=	"Nạp Xu"
+zalo_payment_display_info	=	"Nạp nhiều nhận khuyến mại nhiều"
+zalo_payment_description	=	""
+
+cheat_payment_enter_number_failed	=	"Bạn cần nhập 1 con số"
+
+trade_success		=		"Giao dịch thành công!"
+sell_character_success	=	"Bán nhân vật thành công"
+sell_character_description = "Chọn Nhân Vật để bán từ danh sách bên dưới. Khi bán nhân vật bạn sẽ nhận được Vàng!"
+sell_no_character	=		"Bạn không còn nhân vật nào để bán"
+sell_choose_character	=	"Bạn hãy chọn nhân vật từ \ndanh sách nhân vật bên dưới. \nSau khi bán nhân vật bạn sẽ \nnhận được tiền"
+
+share_success		=		"Chia sẻ thành công"
+share_success_condition_false	=	"Chia sẻ thành công.\nBạn chỉ nhận được vàng khi số vàng\nnhỏ hơn @Value"
+
+reward_info			=		"Thông tin quà tặng"
+payment_paid		=		"Đã nạp"
+
+
+not_skill			=		"Không có kĩ năng đặc biệt"
+
+skill_name_101 = "Đá Hậu"
+skill_name_102 = "Ám Sát"
+skill_name_103 = "Động Đất"
+skill_name_104 = "Lôi Điện"
+skill_name_105 = "Cuồng Phong"
+skill_name_106 = "Háu Đá"
+
+skill_name_201 = "Phi Nước Đại"
+skill_name_202 = "Đi Lùi"
+skill_name_203 = "Vua Trò Chơi"
+skill_name_204 = "Hoán Đổi"
+skill_name_205 = "Chạy nước rút"
+skill_name_206 = "Tăng Tốc"
+
+skill_name_301 = "Mưa Tiền"
+skill_name_302 = "Móng Ngựa Vàng"
+skill_name_303 = "Mỏ Vàng"
+skill_name_304 = "Ăn Trộm"
+skill_name_305 = "Miễn Thuế"
+skill_name_306 = "Giảm Thuế"
+
+skill_name_402 = "Bẫy Băng"
+skill_name_403 = "Trưởng Thành"
+skill_name_404 = "Điều Khiển"
+skill_name_405 = "Khiên Hộ Mệnh"
+skill_name_406 = "Phản Đòn"
+skill_name_407 = "Hồi Sinh"
+
+skill_description_101 = "Xác suất &chance% đá ngựa phía sau."
+skill_description_102 = "Xác suất &chance% Ám sát một ngựa bất kỳ."
+skill_description_103 = "Xác suất &chance% gây động đất khi đổ số chẵn."
+skill_description_104 = "Xác suất &chance% phóng điện khi có đối thủ trong 6 ô phía trước."
+skill_description_105 = "Xác suất &chance% đá tất cả ngựa trên đường đi khi đổ số lẻ."
+skill_description_106 = "Xác suất &chance% đá ngựa gần nhất ngay sau khi xuất quân."
+
+skill_description_201 = "Xác suất &chance% di chuyển gấp đôi số điểm đổ."
+skill_description_202 = "Xác suất &chance% đi lùi khi xuất quân."
+skill_description_203 = "Xác suất &chance% đến ô Vua trò chơi khi xuất quân."
+skill_description_204 = "Xác suất &chance% đổi chỗ với một ngựa trên bàn."
+skill_description_205 = "Xác suất &chance% chạy tới ô Trại ngựa gần nhất."
+skill_description_206 = "Xác suất &chance% được thêm một lượt khi dừng ở ô Xuất phát bất kỳ."
+
+skill_description_301 = "Xác suất &chance% thu mỗi người 2 lần mức cược khi được Đi trước."
+skill_description_302 = "Xác suất &chance% nhận được gấp đôi tiền đá."
+skill_description_303 = "Xác suất &chance% nhận gấp đôi tiền khi Lên Đỉnh."
+skill_description_304 = "Xác suất &chance% trộm tiền khi dừng ở Trại ngựa."
+skill_description_305 = "Xác suất &chance% được miễn thuế khi dừng ở ô Thu thuế."
+skill_description_306 = "Xác suất &chance% được giảm &value% thuế khi dừng ở ô Thu thuế."
+
+skill_description_402 = "Xác suất &chance% đặt Bẫy băng trước khi di chuyển."
+skill_description_403 = "Tăng &value% kinh nghiệm sau mỗi ván."
+skill_description_404 = "Tăng &value% chính xác khi đổ xúc xắc."
+skill_description_405 = "Xác suất &chance% không mất tiền khi bị đá."
+skill_description_406 = "Xác suất &chance% phản đòn khi bị đá."
+skill_description_407 = "Xác suất &chance% xuất quân ngay sau khi bị đá."
+
+skill_description_1		=	"Xác xuất: @Rate%\nPhạm vi: @Value ô"
+skill_description_2		=	"Xác xuất: @Rate%\nPhạm vi: @Value ô phía trước"
+skill_description_3		=	"Xác xuất: @Rate%\nPhạm vi: @Value ô"
+skill_description_4		=	"Xác xuất: @Rate%"
+skill_description_5		=	"Xác xuất: @Rate%"
+skill_description_6		=	"Xác xuất: @Rate%"
+skill_description_7		=	"Xác xuất: @Rate%"
+skill_description_8		=	"Xác xuất: @Rate%"
+skill_description_9		=	"Xác xuất: @Rate%"
+
+skill_common_description_1		=	"Tấn công đối thủ phía trước"
+skill_common_description_2		=	"Tấn công đối thủ phía trước"
+skill_common_description_3		=	"Di chuyển về phía trước và tấn công\nđối thủ"
+skill_common_description_4		=	"Đi lùi ngay sau khi xuất quân"
+skill_common_description_5		=	"Nhảy thẳng về cổng chuồng.\nĐiều kiện: Kích hoạt khi đá được đối thủ"
+skill_common_description_6		=	"Đổi chỗ với đối thủ trên bàn chơi.\nĐiều kiện: Kích hoạt khi đá được đối thủ"
+skill_common_description_7		=	"Đi tới MiniGame.\nĐiều kiện: Kích hoạt khi đá được đối thủ"
+skill_common_description_8		=	"Tránh bị trừ tiền khi bị đá lần đầu tiên"
+skill_common_description_9		=	"Nhân đôi kinh nghiệm sau khi ván đấu\nkết thúc"
+
+Accumulate_description  =	"Khi tiến hành <color = #ff9000> NẠP THẺ </color>, Bạn sẽ nhận được <color = #00fc11> ĐIỂM TÍCH LŨY </color>\nĐạt <color = #00fc11> MỐC ĐIỂM TÍCH LŨY </color>, Bạn sẽ nhận được <color = #ffc501> PHẦN QUÀ TƯƠNG XỨNG! </color>"
+
+Accumulate_info_title	=	"Các trường hợp không được tính tích lũy:"
+Accumulate_info_content =	"- Nạp thẻ khuyến mãi lần đầu\n- Mua vàng khuyến mãi lần đầu\n- Số tiền nạp VIP thành công( phần dư của\n mệnh giá thẻ nạp VIP vẫn sẽ được tính tích lũy\n như bình thường)"
+
+request_invite_message		=	"Mời bạn chơi game"
+title_share_facebook		=	"Cùng chơi CCN nào"
+
+coming_soon_notification	=	"Chức năng này sẽ sớm được cập nhật!";
+
+bankrupt_notification				=	"Bạn đã bị phá sản";
+minigame_not_enough_player		    =	"Không đủ người tham gia minigame";
+minigame_not_enough_money		    =	"Không đủ tiền tham gia minigame.\nVui lòng chờ người chơi khác";
+
+CONTINUOUS_LOGIN_EVENT_SUBJECT		=	"Qùa tặng hàng ngày"
+CONTINUOUS_LOGIN_EVENT_CONTENT		=	"Bạn nhận được quà tặng hàng ngày"
+
+DAILY_MISSION_GIFT_SUBJECT		    =	"Qùa tặng nhiệm vụ"
+DAILY_MISSION_GIFT_CONTENT		    =	"Bạn nhận được quà khi hoàn thành nhiệm vụ"
+
+DAILY_MISSION_ACHIEVEMENT_GIFT_SUBJECT		    =	"Qùa tặng tích lũy"
+DAILY_MISSION_ACHIEVEMENT_GIFT_CONTENT		    =	"Bạn nhận được quà khi hoàn thành tích lũy"
+
+FIRST_PAYING_SMS_BONUS_SUBJECT		=	"Quà tặng nhắn tin lần đầu"
+FIRST_PAYING_SMS_BONUS_CONTENT		=	"Bạn nhận được quà tặng nhắn tin lần đầu"
+
+FIRST_PAYING_CARD_BONUS_SUBJECT		=	"Quà tặng nạp thẻ lần đầu"
+FIRST_PAYING_CARD_BONUS_CONTENT		=	"Bạn nhận được quà tặng nạp thẻ lần đầu"
+
+INVITE_FRIEND_BONUS_SUBJECT			=	"Quà tặng mời bạn"
+INVITE_FRIEND_BONUS_CONTENT			=	"Bạn nhận được quà tặng mời bạn"
+
+PAYING_ACCUMULATE_BONUS_SUBJECT		=	"Quà tặng tích lũy"
+PAYING_ACCUMULATE_BONUS_CONTENT		=	"Bạn nhận được quà tặng tích lũy"
+
+SELFIE_CHAR_BONUS_SUBJECT			=	"Quà tặng Selfie"
+SELFIE_CHAR_BONUS_CONTENT			=	"Bạn nhận được quà tặng tự sướng"
+
+VIP_DAILY_GIFT_SUBJECT				=	"Quà tặng VIP hàng ngày"
+VIP_DAILY_GIFT_CONTENT				=	"Bạn nhận được quà tặng VIP hàng ngày"
+
+WEEKLY_SCORE_RANKING_GIFT_SUBJECT		    =	"Qùa Xếp hạng tuần"
+WEEKLY_SCORE_RANKING_GIFT_CONTENT		    =	"Bạn nhận được quà khi thuộc top xếp hạng"
+
+
+
+Loading_Phase_0"	=	"Đang tải dữ liệu..."
+Loading_Phase_1"	=	"Đang tải dữ liệu..."
+Loading_Phase_2"	=	"Đang tải dữ liệu..."
+
+Disconnect_reason_0	=	"Không nhận được tương tác từ máy chủ"
+Disconnect_reason_1	=	"Bạn bị Kick bởi máy chủ"
+Disconnect_reason_2	=	"Bạn bị khóa tài khoản bởi máy chủ"
+Disconnect_reason_3	=	"Tài khoản của bạn được đăng nhập từ\n1 thiết bị khác"
+Disconnect_reason_4	=	"Lỗi không xác định"
+Disconnect_reason_5	=	"Gặp lỗi trong quá trình Handshake với máy chủ"
+
+OwnBoom = "Kích hoạt bom trong 3 lượt"
+ResetBoom = "Làm mới bom"
+warn_4_light = "Sắp chiếm đủ 4 trại ngựa"
+remaining_turn = "Số lượt còn lại"
+AC_1_description = "Tham gia @value ván chơi"
+AC_2_description = "Chiến thắng @value ván chơi"
+AC_3_description = "Chiến thắng @value ván chơi liên tiếp"
+AC_4_description = "Nâng cấp nhân vật @value lần"
+AC_5_description = "Có @value ngựa lên chuồng thành sao"
+AC_6_description = "Thắng bằng lên chuồng @value lần"
+AC_7_description = "Chiếm trại ngựa @value lần"
+AC_8_description = "Thắng bằng chiếm trại ngựa @value lần"
+AC_9_description = "Làm đại gia cá ngựa @value lần"
+AC_10_description = "Làm @value đối thủ khác phá sản"
+AC_11_description = "Chơi ở kênh Tập sự @value lần"
+AC_12_description = "Chơi ở kênh Phú hộ @value lần"
+AC_13_description = "Chơi ở kênh Đại gia @value lần"
+AC_14_description = "Chơi ở kênh Triệu phú @value lần"
+AC_15_description = "Chơi ở kênh Tỷ phú @value lần"
+AC_16_description = "Thu được @value Gold"
+AC_17_description = "Tiêu @value Gold"
+AC_18_description = "Đá thường @value lần"
+AC_19_description = "Đá đối thủ @value lần"
+AC_20_description = "Kích hoạt bom @value lần"
+AC_21_description = "Bẫy bom đối thủ @value lần"
+AC_22_description = "Thu thuế @value lần"
+AC_23_description = "Gấp 2 lần thuế @value lần"
+AC_24_description = "Gấp 4 lần thuế @value lần"
+AC_25_description = "Gấp 8 lần thuế @value lần"
+AC_26_description = "Nạp @valueG"
+AC_27_description = "Sử dụng @valueG"
+AC_28_description = "Mở @value rương bất kỳ"
+AC_29_description = "Mở @value rương vàng"
+
+bet_money = "Mức tiền cược"
+bet = "Cược"
+not_enough_condition = "Không đủ điều kiện chơi kênh này!"
+
+Tutorial_help_description			=	"Xin chào <color = #ff9000> @name </color> \nMình có thể giúp gì cho bạn"
+Tutorial_roll_dice_description		=	"Giữ thanh lực đến \nvị trí mong muốn rồi \nthả tay"
+Tutorial_move_description_step_1 	=	"MỖI NGƯỜI CÓ 2 NGỰA ĐỂ SỬ DỤNG\n TRONG MỖI BÀN CHƠI";
+Tutorial_move_description_step_2 	=	"TUNG XÚC XẮC ĐỂ DI CHUYỂN";
+Tutorial_move_description_step_3 	=	"TUNG XÚC XẮC ĐÔI HOẶC (1,6) ĐỂ XUẤT QUÂN";
+Tutorial_win_solutions				=	"CÁC CÁCH CHIẾN THẮNG"
+Tutorial_win_description_time_out	=	"Khi hết thời gian, người chơi có điểm số \ncao nhất là người chiến thắng"
+draw = "Hòa"
+win = "Thắng"
+lose = "Thua"
+shop_changemoney_title = "Khi có thẻ Khuyến Mại bạn sẽ được cộng thêm % số Vàng khi đổi từ G sang Vàng"
+shop_tab_card_note = "Tỷ giá 100VND = 1G, Nạp nhiều khuyến mại nhiều!"
+shop_tab_card_title = "Chọn Thẻ Nạp"
+shop_tab_IAP_title = "Nạp tiền bằng IAP"
+shop_tab_card_num_card = "Mã Số Thẻ:"
+shop_tab_card_num_seri = "Số Seri:"
+shop_tab_card_txt_num_card = "Nhập mã số thẻ"
+shop_tab_card_txt_num_seri = "Nhập số Seri"
+shop_tab_card_ViettelName = "Thẻ cào Viettel"
+shop_tab_card_MobiName = "Thẻ cào MobiPhone"
+shop_tab_card_VinaName = "Thẻ cào VinaPhone"
+shop_tab_card_Seri_Invalid = "Số Seri không hợp lệ"
+shop_tab_card_Pincode_Invalid = "Số Pin không hợp lệ"
+
+return_home = "Về Sảnh"
+max_slot_inv = "Bạn đã đầy túi đồ!\nHãy nâng cấp nhân vật \nhoặc bán nhân vật nhé."
+not_response = "Không nhận được phản hồi."
+
+

@@ -1,0 +1,2759 @@
+{
+  "ID": "f36ae5e8-e5e1-44bb-98ec-192f704914f9",
+  "Version": "2.3.2.3",
+  "Name": "Gui_MiniGame_TuXi",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 568.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 568.0,
+            "RightMargin": 568.0,
+            "TopMargin": 640.0,
+            "Tag": 155,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bg_result_player_0.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -21.758,
+                  "Y": 31.7931
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -267.258,
+                "RightMargin": -223.742,
+                "TopMargin": -63.7931,
+                "BottomMargin": -0.2069,
+                "Tag": 344,
+                "ActionTag": 578976424,
+                "Size": {
+                  "X": 491.0,
+                  "Y": 64.0
+                },
+                "Name": "bg_selection",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/keo_vang.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 218,
+                "Scale9Height": 292,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -139.2375,
+                  "Y": 37.675
+                },
+                "Scale": {
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
+                },
+                "RotationSkewX": -20.0003,
+                "RotationSkewY": -19.9997,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -263.2375,
+                "RightMargin": 15.2375,
+                "TopMargin": -194.675,
+                "BottomMargin": -119.325,
+                "Tag": 373,
+                "ActionTag": 733698162,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 314.0
+                },
+                "Name": "selection_01",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/tang_da.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 218,
+                "Scale9Height": 293,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -19.2356,
+                  "Y": 57.68
+                },
+                "Scale": {
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
+                },
+                "RotationSkewY": 0.0029,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -143.2356,
+                "RightMargin": -104.7644,
+                "TopMargin": -215.18,
+                "BottomMargin": -99.82,
+                "Tag": 374,
+                "ActionTag": -891750444,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 315.0
+                },
+                "Name": "selection_02",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/la_chan_bac.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 218,
+                "Scale9Height": 292,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 119.5318,
+                  "Y": 49.7373
+                },
+                "Scale": {
+                  "ScaleX": 0.6,
+                  "ScaleY": 0.6
+                },
+                "RotationSkewX": 9.9999,
+                "RotationSkewY": 10.0027,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -4.4682,
+                "RightMargin": -243.5318,
+                "TopMargin": -206.7373,
+                "BottomMargin": -107.2627,
+                "Tag": 375,
+                "ActionTag": -1189209752,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 314.0
+                },
+                "Name": "selection_03",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FlipX": true,
+                "FlipY": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/playerInfo/avatar_blue.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -343.9,
+                  "Y": 42.7868
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": -442.9,
+                "RightMargin": 244.9,
+                "TopMargin": -74.2868,
+                "BottomMargin": 11.2868,
+                "Tag": 65,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Cuoc: 300",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 173.9074,
+                      "Y": 84.8231
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8783,
+                      "Y": 1.3464
+                    },
+                    "PreSize": {
+                      "X": 0.6657,
+                      "Y": 0.3494
+                    },
+                    "LeftMargin": 69.9074,
+                    "RightMargin": 24.0926,
+                    "TopMargin": -36.3231,
+                    "BottomMargin": 70.3231,
+                    "Tag": 102,
+                    "ActionTag": -1871135128,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 29.0
+                    },
+                    "Name": "bet_money",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 165.4273,
+                      "Y": 31.245
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.8355,
+                      "Y": 0.496
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 165.4273,
+                    "RightMargin": 32.5727,
+                    "TopMargin": 31.755,
+                    "BottomMargin": 31.245,
+                    "Tag": 68,
+                    "ActionTag": 1909919445,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "avatar_pos",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 14,
+                    "LabelText": "Player 1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.585,
+                      "Y": 21.0863
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3161,
+                      "Y": 0.3347
+                    },
+                    "PreSize": {
+                      "X": 0.7075,
+                      "Y": 0.3651
+                    },
+                    "LeftMargin": 62.585,
+                    "RightMargin": -14.585,
+                    "TopMargin": 30.4137,
+                    "BottomMargin": 9.5863,
+                    "Tag": 69,
+                    "ActionTag": -1495806144,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 23.0
+                    },
+                    "Name": "name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gold_icon.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.5997,
+                      "Y": 41.2766
+                    },
+                    "Scale": {
+                      "ScaleX": 0.2,
+                      "ScaleY": 0.2
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3313,
+                      "Y": 0.6552
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 13.0997,
+                    "RightMargin": 79.9003,
+                    "TopMargin": -18.2766,
+                    "BottomMargin": 1.2766,
+                    "Tag": 70,
+                    "ActionTag": -622379357,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 80.0
+                    },
+                    "Name": "gold_icon",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "0",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.4541,
+                      "Y": 45.0081
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3912,
+                      "Y": 0.7144
+                    },
+                    "PreSize": {
+                      "X": 0.4717,
+                      "Y": 0.4921
+                    },
+                    "LeftMargin": 77.4541,
+                    "RightMargin": 20.5459,
+                    "TopMargin": 2.4919,
+                    "BottomMargin": 29.5081,
+                    "Tag": 71,
+                    "ActionTag": -207779189,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 31.0
+                    },
+                    "Name": "gold",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 274474816,
+                "Size": {
+                  "X": 198.0,
+                  "Y": 63.0
+                },
+                "Name": "playerInfo_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 48,
+                "LabelText": "ĐANG XEM",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 35.9738
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -135.0,
+                "RightMargin": -135.0,
+                "TopMargin": -70.9738,
+                "BottomMargin": 0.9738,
+                "Tag": 68,
+                "ActionTag": -1039258144,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 70.0
+                },
+                "Name": "lbViewing_0",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1603185791,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "nodePlayer0",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1136.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 1136.0,
+            "TopMargin": 320.0,
+            "BottomMargin": 320.0,
+            "Tag": 156,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bai_up.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -146.2965,
+                  "Y": 13.9654
+                },
+                "Scale": {
+                  "ScaleX": 0.3,
+                  "ScaleY": 0.3
+                },
+                "RotationSkewX": -14.9982,
+                "RotationSkewY": -14.9887,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -270.2965,
+                "RightMargin": 22.2965,
+                "TopMargin": -170.9654,
+                "BottomMargin": -143.0346,
+                "Tag": 338,
+                "ActionTag": 490707507,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 314.0
+                },
+                "Name": "selection_11",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bai_up.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -125.6733,
+                  "Y": 19.0305
+                },
+                "Scale": {
+                  "ScaleX": 0.3,
+                  "ScaleY": 0.3
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -249.6733,
+                "RightMargin": 1.6733,
+                "TopMargin": -176.0305,
+                "BottomMargin": -137.9695,
+                "Tag": 339,
+                "ActionTag": 531048419,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 314.0
+                },
+                "Name": "selection_12",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bai_up.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -103.7062,
+                  "Y": 16.9134
+                },
+                "Scale": {
+                  "ScaleX": 0.3,
+                  "ScaleY": 0.3
+                },
+                "RotationSkewX": 9.9998,
+                "RotationSkewY": 9.9992,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -227.7062,
+                "RightMargin": -20.2938,
+                "TopMargin": -173.9134,
+                "BottomMargin": -140.0866,
+                "Tag": 340,
+                "ActionTag": 740287731,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 314.0
+                },
+                "Name": "selection_13",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/playerInfo/avatar_green.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -23.4736,
+                  "Y": -44.0478
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": -220.4736,
+                "RightMargin": 23.4736,
+                "TopMargin": 12.5478,
+                "BottomMargin": -75.5478,
+                "Tag": 74,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Cuoc: 300",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 192.0015,
+                      "Y": -19.0238
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9746,
+                      "Y": -0.302
+                    },
+                    "PreSize": {
+                      "X": 0.6657,
+                      "Y": 0.3494
+                    },
+                    "LeftMargin": 88.0015,
+                    "RightMargin": 4.9985,
+                    "TopMargin": 67.5238,
+                    "BottomMargin": -33.5238,
+                    "Tag": 76,
+                    "ActionTag": 907396241,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 29.0
+                    },
+                    "Name": "bet_money",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 165.2964,
+                      "Y": 31.5598
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.8391,
+                      "Y": 0.5009
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 165.2964,
+                    "RightMargin": 31.7036,
+                    "TopMargin": 31.4402,
+                    "BottomMargin": 31.5598,
+                    "Tag": 77,
+                    "ActionTag": 1073496393,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "avatar_pos",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 14,
+                    "LabelText": "Player 1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 62.3875,
+                      "Y": 16.7304
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2957,
+                      "Y": 0.2656
+                    },
+                    "PreSize": {
+                      "X": 0.7109,
+                      "Y": 0.3651
+                    },
+                    "LeftMargin": 62.3875,
+                    "RightMargin": -1.3875,
+                    "TopMargin": 34.7696,
+                    "BottomMargin": 5.2304,
+                    "Tag": 78,
+                    "ActionTag": -392579542,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 23.0
+                    },
+                    "Name": "name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gold_icon.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 61.1325,
+                      "Y": 37.096
+                    },
+                    "Scale": {
+                      "ScaleX": 0.2,
+                      "ScaleY": 0.2
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3103,
+                      "Y": 0.5888
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 8.6325,
+                    "RightMargin": 83.3675,
+                    "TopMargin": -14.096,
+                    "BottomMargin": -2.904,
+                    "Tag": 79,
+                    "ActionTag": -881603082,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 80.0
+                    },
+                    "Name": "icon_gold",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "0",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -1.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 74.2267,
+                      "Y": 40.4363
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3768,
+                      "Y": 0.6418
+                    },
+                    "PreSize": {
+                      "X": 0.5435,
+                      "Y": 0.4429
+                    },
+                    "LeftMargin": 74.2267,
+                    "RightMargin": 22.7733,
+                    "TopMargin": 7.0637,
+                    "BottomMargin": 24.9363,
+                    "Tag": 80,
+                    "ActionTag": 20647579,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 31.0
+                    },
+                    "Name": "gold",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1248848684,
+                "Size": {
+                  "X": 197.0,
+                  "Y": 63.0
+                },
+                "Name": "playerInfo_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bg_text_result.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -336.6915,
+                  "Y": -31.8458
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -420.1915,
+                "RightMargin": 253.1915,
+                "TopMargin": -9.1542,
+                "BottomMargin": -72.8458,
+                "Tag": 367,
+                "Children": [
+                  {
+                    "FontSize": 36,
+                    "LabelText": "Thắng",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.5,
+                      "Y": 41.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6826,
+                      "Y": 0.6463
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 26.5,
+                    "RightMargin": 26.5,
+                    "TopMargin": 14.5,
+                    "BottomMargin": 14.5,
+                    "Tag": 370,
+                    "ActionTag": 305013713,
+                    "Size": {
+                      "X": 114.0,
+                      "Y": 53.0
+                    },
+                    "Name": "text_1",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1241068610,
+                "Size": {
+                  "X": 167.0,
+                  "Y": 82.0
+                },
+                "Name": "sprTextResult_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 48,
+                "LabelText": "ĐANG XEM",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -134.9985,
+                  "Y": 29.1907
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -269.9985,
+                "RightMargin": -0.0015,
+                "TopMargin": -64.1907,
+                "BottomMargin": -5.8093,
+                "Tag": 67,
+                "ActionTag": 1457298608,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 70.0
+                },
+                "Name": "lbViewing_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -253538747,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "nodePlayer1",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 568.0,
+              "Y": 640.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 568.0,
+            "RightMargin": 568.0,
+            "BottomMargin": 640.0,
+            "Tag": 157,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bai_up.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -42.6011,
+                  "Y": -63.8879
+                },
+                "Scale": {
+                  "ScaleX": 0.3,
+                  "ScaleY": 0.3
+                },
+                "RotationSkewX": -15.0012,
+                "RotationSkewY": -14.9982,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -166.6011,
+                "RightMargin": -81.3989,
+                "TopMargin": -93.1121,
+                "BottomMargin": -220.8879,
+                "Tag": 332,
+                "ActionTag": -1515252410,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 314.0
+                },
+                "Name": "selection_21",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bai_up.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -21.9769,
+                  "Y": -58.8261
+                },
+                "Scale": {
+                  "ScaleX": 0.3,
+                  "ScaleY": 0.3
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -145.9769,
+                "RightMargin": -102.0231,
+                "TopMargin": -98.1739,
+                "BottomMargin": -215.8261,
+                "Tag": 333,
+                "ActionTag": -59038391,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 314.0
+                },
+                "Name": "selection_22",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bai_up.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -0.0115,
+                  "Y": -60.9412
+                },
+                "Scale": {
+                  "ScaleX": 0.3,
+                  "ScaleY": 0.3
+                },
+                "RotationSkewX": 10.0028,
+                "RotationSkewY": 9.9969,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -124.0115,
+                "RightMargin": -123.9885,
+                "TopMargin": -96.0588,
+                "BottomMargin": -217.9412,
+                "Tag": 334,
+                "ActionTag": -346678228,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 314.0
+                },
+                "Name": "selection_23",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/playerInfo/avatar_red.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.4314,
+                  "Y": -125.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -98.0686,
+                "RightMargin": -98.9314,
+                "TopMargin": 93.5,
+                "BottomMargin": -156.5,
+                "Tag": 83,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Cuoc: 300",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 28.83,
+                      "Y": -21.63
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1463,
+                      "Y": -0.3433
+                    },
+                    "PreSize": {
+                      "X": 0.6657,
+                      "Y": 0.3494
+                    },
+                    "LeftMargin": 28.83,
+                    "RightMargin": 64.17,
+                    "TopMargin": 70.13,
+                    "BottomMargin": -36.13,
+                    "Tag": 85,
+                    "ActionTag": 656892260,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 29.0
+                    },
+                    "Name": "bet_money",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 30.4832,
+                      "Y": 30.8798
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.1547,
+                      "Y": 0.4902
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 30.4832,
+                    "RightMargin": 166.5168,
+                    "TopMargin": 32.1202,
+                    "BottomMargin": 30.8798,
+                    "Tag": 86,
+                    "ActionTag": 424071997,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "avatar_pos",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 14,
+                    "LabelText": "Player 1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 63.3495,
+                      "Y": 18.277
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3216,
+                      "Y": 0.2901
+                    },
+                    "PreSize": {
+                      "X": 0.6912,
+                      "Y": 0.3651
+                    },
+                    "LeftMargin": 63.3495,
+                    "RightMargin": -16.3495,
+                    "TopMargin": 33.223,
+                    "BottomMargin": 6.777,
+                    "Tag": 87,
+                    "ActionTag": -1051592615,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 23.0
+                    },
+                    "Name": "name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gold_icon.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 73.6368,
+                      "Y": 39.0868
+                    },
+                    "Scale": {
+                      "ScaleX": 0.2,
+                      "ScaleY": 0.2
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3738,
+                      "Y": 0.6204
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 21.1368,
+                    "RightMargin": 70.8632,
+                    "TopMargin": -16.0868,
+                    "BottomMargin": -0.9132,
+                    "Tag": 88,
+                    "ActionTag": -189717955,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 80.0
+                    },
+                    "Name": "icon_gold",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "0",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 86.1391,
+                      "Y": 41.9637
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4373,
+                      "Y": 0.6661
+                    },
+                    "PreSize": {
+                      "X": 0.4608,
+                      "Y": 0.4921
+                    },
+                    "LeftMargin": 86.1391,
+                    "RightMargin": 10.8609,
+                    "TopMargin": 5.5363,
+                    "BottomMargin": 26.4637,
+                    "Tag": 89,
+                    "ActionTag": 1420676027,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 31.0
+                    },
+                    "Name": "gold",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1536766471,
+                "Size": {
+                  "X": 197.0,
+                  "Y": 63.0
+                },
+                "Name": "playerInfo_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bg_text_result.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.4449,
+                  "Y": -266.2159
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -83.0551,
+                "RightMargin": -83.9449,
+                "TopMargin": 225.2159,
+                "BottomMargin": -307.2159,
+                "Tag": 366,
+                "Children": [
+                  {
+                    "FontSize": 36,
+                    "LabelText": "Thắng",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.5,
+                      "Y": 41.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6826,
+                      "Y": 0.6463
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 26.5,
+                    "RightMargin": 26.5,
+                    "TopMargin": 14.5,
+                    "BottomMargin": 14.5,
+                    "Tag": 371,
+                    "ActionTag": 1553605797,
+                    "Size": {
+                      "X": 114.0,
+                      "Y": 53.0
+                    },
+                    "Name": "text_2",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1193009101,
+                "Size": {
+                  "X": 167.0,
+                  "Y": 82.0
+                },
+                "Name": "sprTextResult_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 48,
+                "LabelText": "ĐANG XEM",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -50.0305
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -135.0,
+                "RightMargin": -135.0,
+                "TopMargin": 15.0305,
+                "BottomMargin": -85.0305,
+                "Tag": 66,
+                "ActionTag": 1361899057,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 70.0
+                },
+                "Name": "lbViewing_2",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -519277725,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "nodePlayer2",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "RightMargin": 1136.0,
+            "TopMargin": 320.0,
+            "BottomMargin": 320.0,
+            "Tag": 158,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bai_up.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 104.0224,
+                  "Y": 7.6412
+                },
+                "Scale": {
+                  "ScaleX": 0.3,
+                  "ScaleY": 0.3
+                },
+                "RotationSkewX": -14.9982,
+                "RotationSkewY": -14.9883,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -19.9776,
+                "RightMargin": -228.0224,
+                "TopMargin": -164.6412,
+                "BottomMargin": -149.3588,
+                "Tag": 335,
+                "ActionTag": -1232025029,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 314.0
+                },
+                "Name": "selection_31",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bai_up.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 124.6495,
+                  "Y": 12.7018
+                },
+                "Scale": {
+                  "ScaleX": 0.3,
+                  "ScaleY": 0.3
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 0.6495,
+                "RightMargin": -248.6495,
+                "TopMargin": -169.7018,
+                "BottomMargin": -144.2982,
+                "Tag": 336,
+                "ActionTag": -1254859135,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 314.0
+                },
+                "Name": "selection_32",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bai_up.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 146.6133,
+                  "Y": 10.5854
+                },
+                "Scale": {
+                  "ScaleX": 0.3,
+                  "ScaleY": 0.3
+                },
+                "RotationSkewX": 9.9998,
+                "RotationSkewY": 9.9995,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 22.6133,
+                "RightMargin": -270.6133,
+                "TopMargin": -167.5854,
+                "BottomMargin": -146.4146,
+                "Tag": 337,
+                "ActionTag": 1446953805,
+                "Size": {
+                  "X": 248.0,
+                  "Y": 314.0
+                },
+                "Name": "selection_33",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipY": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/playerInfo/avatar_yellow.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 24.3384,
+                  "Y": -44.0478
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 24.3384,
+                "RightMargin": -221.3384,
+                "TopMargin": 12.5478,
+                "BottomMargin": -75.5478,
+                "Tag": 92,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "Cuoc: 300",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 28.6852,
+                      "Y": -19.0238
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1456,
+                      "Y": -0.302
+                    },
+                    "PreSize": {
+                      "X": 0.6657,
+                      "Y": 0.3494
+                    },
+                    "LeftMargin": 28.6852,
+                    "RightMargin": 64.3148,
+                    "TopMargin": 67.5238,
+                    "BottomMargin": -33.5238,
+                    "Tag": 94,
+                    "ActionTag": -1434847560,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 29.0
+                    },
+                    "Name": "bet_money",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 31.1001,
+                      "Y": 31.6687
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.1579,
+                      "Y": 0.5027
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 31.1001,
+                    "RightMargin": 165.8999,
+                    "TopMargin": 31.3313,
+                    "BottomMargin": 31.6687,
+                    "Tag": 95,
+                    "ActionTag": -1741922744,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "avatar_pos",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 14,
+                    "LabelText": "Player 1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {},
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": 0.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 68.7472,
+                      "Y": 21.6562
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.349,
+                      "Y": 0.3437
+                    },
+                    "PreSize": {
+                      "X": 0.7177,
+                      "Y": 0.3651
+                    },
+                    "LeftMargin": 68.7472,
+                    "RightMargin": -21.7472,
+                    "TopMargin": 29.8438,
+                    "BottomMargin": 10.1562,
+                    "Tag": 96,
+                    "ActionTag": -2138799825,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 23.0
+                    },
+                    "Name": "name",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gold_icon.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 74.1526,
+                      "Y": 44.712
+                    },
+                    "Scale": {
+                      "ScaleX": 0.2,
+                      "ScaleY": 0.2
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3764,
+                      "Y": 0.7097
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 21.6526,
+                    "RightMargin": 70.3474,
+                    "TopMargin": -21.712,
+                    "BottomMargin": 4.712,
+                    "Tag": 97,
+                    "ActionTag": -394936923,
+                    "Size": {
+                      "X": 105.0,
+                      "Y": 80.0
+                    },
+                    "Name": "icon_gold",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 20,
+                    "LabelText": "0",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 26,
+                      "G": 26,
+                      "B": 26
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 86.828,
+                      "Y": 47.7711
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4408,
+                      "Y": 0.7583
+                    },
+                    "PreSize": {
+                      "X": 0.4785,
+                      "Y": 0.4921
+                    },
+                    "LeftMargin": 86.828,
+                    "RightMargin": 10.172,
+                    "TopMargin": -0.2711,
+                    "BottomMargin": 32.2711,
+                    "Tag": 98,
+                    "ActionTag": -1823126834,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 31.0
+                    },
+                    "Name": "gold",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -834019180,
+                "Size": {
+                  "X": 197.0,
+                  "Y": 63.0
+                },
+                "Name": "playerInfo_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bg_text_result.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 332.0033,
+                  "Y": -31.8457
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 248.5033,
+                "RightMargin": -415.5033,
+                "TopMargin": -9.1543,
+                "BottomMargin": -72.8457,
+                "Tag": 368,
+                "Children": [
+                  {
+                    "FontSize": 36,
+                    "LabelText": "Thắng",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.5,
+                      "Y": 41.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6826,
+                      "Y": 0.6463
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 26.5,
+                    "RightMargin": 26.5,
+                    "TopMargin": 14.5,
+                    "BottomMargin": 14.5,
+                    "Tag": 372,
+                    "ActionTag": 1095673611,
+                    "Size": {
+                      "X": 114.0,
+                      "Y": 53.0
+                    },
+                    "Name": "text_3",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 917921159,
+                "Size": {
+                  "X": 167.0,
+                  "Y": 82.0
+                },
+                "Name": "sprTextResult_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 48,
+                "LabelText": "ĐANG XEM",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 146.734,
+                  "Y": 37.8032
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 11.734,
+                "RightMargin": -281.734,
+                "TopMargin": -72.8032,
+                "BottomMargin": 2.8032,
+                "Tag": 65,
+                "ActionTag": 1667684657,
+                "Size": {
+                  "X": 270.0,
+                  "Y": 70.0
+                },
+                "Name": "lbViewing_3",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1932773884,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "nodePlayer3",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 568.0,
+            "RightMargin": 568.0,
+            "TopMargin": 320.0,
+            "BottomMargin": 320.0,
+            "Tag": 53,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/minigametuxi/bg_text_result.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -83.5,
+                "RightMargin": -83.5,
+                "TopMargin": -41.0,
+                "BottomMargin": -41.0,
+                "Tag": 54,
+                "Children": [
+                  {
+                    "FontSize": 36,
+                    "LabelText": "START",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.5,
+                      "Y": 41.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.6826,
+                      "Y": 0.6463
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 26.5,
+                    "RightMargin": 26.5,
+                    "TopMargin": 14.5,
+                    "BottomMargin": 14.5,
+                    "Tag": 55,
+                    "ActionTag": 253254427,
+                    "Size": {
+                      "X": 104.0,
+                      "Y": 53.0
+                    },
+                    "Name": "lbCountDownTime",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "LabelText": "CHỌN 1 LÁ BÀI BẤT KỲ",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.5334,
+                      "Y": -23.083
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5002,
+                      "Y": -0.2815
+                    },
+                    "PreSize": {
+                      "X": 0.6826,
+                      "Y": 0.6463
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": -123.9631,
+                    "RightMargin": -124.0369,
+                    "TopMargin": 78.584,
+                    "BottomMargin": -49.584,
+                    "Tag": 56,
+                    "ActionTag": 1454465987,
+                    "Size": {
+                      "X": 415.0,
+                      "Y": 53.0
+                    },
+                    "Name": "lbNote",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 185785135,
+                "Size": {
+                  "X": 167.0,
+                  "Y": 82.0
+                },
+                "Name": "sprCountDownTime",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -69490162,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "ndCountDownTime",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../fonts/font_game_bold.ttf",
+        "../../../game/mainBoard/playerInfo/avatar_blue.png",
+        "../../../game/mainBoard/playerInfo/avatar_green.png",
+        "../../../game/mainBoard/playerInfo/avatar_red.png",
+        "../../../game/mainBoard/playerInfo/avatar_yellow.png",
+        "../../../game/minigametuxi/bai_up.png",
+        "../../../game/minigametuxi/bg_result_player_0.png",
+        "../../../game/minigametuxi/bg_text_result.png",
+        "../../../game/minigametuxi/keo_vang.png",
+        "../../../game/minigametuxi/la_chan_bac.png",
+        "../../../game/minigametuxi/tang_da.png",
+        "../../../lobby/gold_icon.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

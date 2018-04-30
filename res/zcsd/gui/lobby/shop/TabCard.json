@@ -1,0 +1,1162 @@
+{
+  "ID": "92f83d05-fa1a-49c7-b965-9ab65ede4ae5",
+  "Version": "2.3.2.3",
+  "Name": "TabCard",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 333,
+        "Children": [
+          {
+            "FontSize": 23,
+            "LabelText": "Chọn Thẻ Nạp",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game_bold.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": -1.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4991,
+              "ScaleY": 0.409
+            },
+            "Position": {
+              "X": 228.6299,
+              "Y": 389.9518
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 230,
+              "G": 230,
+              "B": 250
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.3158,
+              "Y": 0.1295
+            },
+            "LeftMargin": 144.2853,
+            "RightMargin": -313.2853,
+            "TopMargin": -411.2263,
+            "BottomMargin": 375.2263,
+            "Tag": 335,
+            "ActionTag": 524557574,
+            "Size": {
+              "X": 169.0,
+              "Y": 36.0
+            },
+            "Name": "lbTitle",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "lobby/shop/card/btnNap.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "lobby/shop/card/btnNap.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 210,
+            "Scale9Height": 116,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 850.2158,
+              "Y": 106.3993
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 730.2158,
+            "RightMargin": -970.2158,
+            "TopMargin": -175.3993,
+            "BottomMargin": 37.3993,
+            "Tag": 418,
+            "Children": [
+              {
+                "FontSize": 31,
+                "LabelText": "Nạp Thẻ",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.4991,
+                  "ScaleY": 0.409
+                },
+                "Position": {
+                  "X": 120.4158,
+                  "Y": 73.6832
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 230,
+                  "G": 230,
+                  "B": 250
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5017,
+                  "Y": 0.5339
+                },
+                "PreSize": {
+                  "X": 0.3158,
+                  "Y": 0.1295
+                },
+                "LeftMargin": 53.0399,
+                "RightMargin": 51.9601,
+                "TopMargin": 36.5418,
+                "BottomMargin": 54.4582,
+                "Tag": 419,
+                "ActionTag": 1080041527,
+                "Size": {
+                  "X": 135.0,
+                  "Y": 47.0
+                },
+                "Name": "lbTitle_0",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 16654625,
+            "Size": {
+              "X": 240.0,
+              "Y": 138.0
+            },
+            "Name": "btnConfirm",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/shop/card/bgText.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 517.7046,
+              "Y": 141.5482
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 348.7046,
+            "RightMargin": -686.7046,
+            "TopMargin": -171.5482,
+            "BottomMargin": 111.5482,
+            "Tag": 431,
+            "ActionTag": 833252448,
+            "Size": {
+              "X": 338.0,
+              "Y": 60.0
+            },
+            "Name": "bgTextNumCard",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 23,
+            "LabelText": "Mã Số Thẻ:",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "R": 155,
+              "G": 153,
+              "B": 153
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": -1.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4991,
+              "ScaleY": 0.409
+            },
+            "Position": {
+              "X": 245.4219,
+              "Y": 142.6283
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 185.5322,
+            "RightMargin": -305.5322,
+            "TopMargin": -162.1299,
+            "BottomMargin": 129.1299,
+            "Tag": 432,
+            "ActionTag": 135386179,
+            "Size": {
+              "X": 120.0,
+              "Y": 33.0
+            },
+            "Name": "lbNumCard",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 23,
+            "LabelText": "Số Seri:",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "R": 155,
+              "G": 153,
+              "B": 153
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": -1.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4991,
+              "ScaleY": 0.409
+            },
+            "Position": {
+              "X": 223.4625,
+              "Y": 85.0373
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 185.5324,
+            "RightMargin": -261.5324,
+            "TopMargin": -104.539,
+            "BottomMargin": 71.539,
+            "Tag": 433,
+            "ActionTag": -146831495,
+            "Size": {
+              "X": 76.0,
+              "Y": 33.0
+            },
+            "Name": "lbNumSeri",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/shop/card/bgText.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 517.7183,
+              "Y": 78.8919
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 348.7183,
+            "RightMargin": -686.7183,
+            "TopMargin": -108.8919,
+            "BottomMargin": 48.8919,
+            "Tag": 434,
+            "ActionTag": 1460163253,
+            "Size": {
+              "X": 338.0,
+              "Y": 60.0
+            },
+            "Name": "bgTextSeriCard",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 18,
+            "LabelText": " Tỷ giá 100VND = 1G, Nạp nhiều khuyến mại nhiều!",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "R": 93,
+              "G": 83,
+              "B": 83
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": -1.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4991,
+              "ScaleY": 0.409
+            },
+            "Position": {
+              "X": 352.6898,
+              "Y": 28.7314
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "G": 165,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 133.5934,
+            "RightMargin": -572.5934,
+            "TopMargin": -44.6873,
+            "BottomMargin": 17.6873,
+            "Tag": 435,
+            "ActionTag": -667008100,
+            "Size": {
+              "X": 444.0,
+              "Y": 27.0
+            },
+            "Name": "lbNote",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 25,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "Mã số thẻ",
+            "MaxLengthEnable": true,
+            "MaxLengthText": 30,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.4149
+            },
+            "Position": {
+              "X": 362.6054,
+              "Y": 134.7814
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 362.6054,
+            "RightMargin": -662.6054,
+            "TopMargin": -158.1856,
+            "BottomMargin": 118.1856,
+            "Tag": 436,
+            "ActionTag": 1793362572,
+            "Size": {
+              "X": 300.0,
+              "Y": 40.0
+            },
+            "Name": "txtNumCard",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontSize": 25,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "Số Seri",
+            "MaxLengthEnable": true,
+            "MaxLengthText": 30,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 0.4149
+            },
+            "Position": {
+              "X": 363.4185,
+              "Y": 71.9308
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 363.4185,
+            "RightMargin": -663.4185,
+            "TopMargin": -95.3351,
+            "BottomMargin": 55.3351,
+            "Tag": 437,
+            "ActionTag": -1896757045,
+            "Size": {
+              "X": 300.0,
+              "Y": 40.0
+            },
+            "Name": "txtSeri",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "lobby/shop/card/1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "lobby/shop/card/1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 199,
+            "Scale9Height": 121,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 278.0286,
+              "Y": 289.591
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 163.5286,
+            "RightMargin": -392.5286,
+            "TopMargin": -361.091,
+            "BottomMargin": 218.091,
+            "Tag": 438,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/card/viettel.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 115.3507,
+                  "Y": 76.1398
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5037,
+                  "Y": 0.5324
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 25.3507,
+                "RightMargin": 23.6493,
+                "TopMargin": 13.3602,
+                "BottomMargin": 22.6398,
+                "Tag": 421,
+                "ActionTag": 2011042969,
+                "Size": {
+                  "X": 180.0,
+                  "Y": 107.0
+                },
+                "Name": "viettel_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 18,
+                "LabelText": "Thẻ cào Viettel",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "R": 77,
+                  "G": 77,
+                  "B": 77
+                },
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.4991,
+                  "ScaleY": 0.409
+                },
+                "Position": {
+                  "X": 116.46,
+                  "Y": -12.3796
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 113,
+                  "G": 249,
+                  "B": 240
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5086,
+                  "Y": -0.0866
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 49.5832,
+                "RightMargin": 45.4168,
+                "TopMargin": 140.6056,
+                "BottomMargin": -22.6056,
+                "Tag": 422,
+                "ActionTag": 175853647,
+                "Size": {
+                  "X": 134.0,
+                  "Y": 25.0
+                },
+                "Name": "lbViettelName",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1111067300,
+            "Size": {
+              "X": 229.0,
+              "Y": 143.0
+            },
+            "Name": "btnViettel",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "lobby/shop/card/1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "lobby/shop/card/1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 199,
+            "Scale9Height": 121,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 566.41,
+              "Y": 290.5905
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 451.91,
+            "RightMargin": -680.91,
+            "TopMargin": -362.0905,
+            "BottomMargin": 219.0905,
+            "Tag": 439,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/card/mobiphone.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 114.3508,
+                  "Y": 77.1397
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4993,
+                  "Y": 0.5394
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 10.8508,
+                "RightMargin": 11.1492,
+                "TopMargin": 49.3603,
+                "BottomMargin": 60.6397,
+                "Tag": 424,
+                "ActionTag": 1323838835,
+                "Size": {
+                  "X": 207.0,
+                  "Y": 33.0
+                },
+                "Name": "viettel_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 18,
+                "LabelText": "Thẻ cào MobiPhone",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "R": 77,
+                  "G": 77,
+                  "B": 77
+                },
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.4991,
+                  "ScaleY": 0.409
+                },
+                "Position": {
+                  "X": 118.4254,
+                  "Y": -13.3791
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 113,
+                  "G": 249,
+                  "B": 240
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5171,
+                  "Y": -0.0936
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 29.09,
+                "RightMargin": 20.91,
+                "TopMargin": 141.6052,
+                "BottomMargin": -23.6052,
+                "Tag": 425,
+                "ActionTag": -72201377,
+                "Size": {
+                  "X": 179.0,
+                  "Y": 25.0
+                },
+                "Name": "lbMobiName",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1467847913,
+            "Size": {
+              "X": 229.0,
+              "Y": 143.0
+            },
+            "Name": "btnMobifone",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "lobby/shop/card/1.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "lobby/shop/card/1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 199,
+            "Scale9Height": 121,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 845.7515,
+              "Y": 289.5894
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 731.2515,
+            "RightMargin": -960.2515,
+            "TopMargin": -361.0894,
+            "BottomMargin": 218.0894,
+            "Tag": 440,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/card/vinaphone.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 117.3513,
+                  "Y": 69.1401
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5125,
+                  "Y": 0.4835
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 16.3513,
+                "RightMargin": 10.6487,
+                "TopMargin": 50.3599,
+                "BottomMargin": 45.6401,
+                "Tag": 427,
+                "ActionTag": 1781929184,
+                "Size": {
+                  "X": 202.0,
+                  "Y": 47.0
+                },
+                "Name": "viettel_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 18,
+                "LabelText": "Thẻ cào VinaPhone",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "R": 77,
+                  "G": 77,
+                  "B": 77
+                },
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -1.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.4991,
+                  "ScaleY": 0.409
+                },
+                "Position": {
+                  "X": 118.4261,
+                  "Y": -12.3779
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 113,
+                  "G": 249,
+                  "B": 240
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5171,
+                  "Y": -0.0866
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 31.586,
+                "RightMargin": 23.414,
+                "TopMargin": 140.604,
+                "BottomMargin": -22.604,
+                "Tag": 428,
+                "ActionTag": 338287698,
+                "Size": {
+                  "X": 174.0,
+                  "Y": 25.0
+                },
+                "Name": "lbVinaName",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1723033752,
+            "Size": {
+              "X": 229.0,
+              "Y": 143.0
+            },
+            "Name": "btnVinafone",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/shop/card/2.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 277.8534,
+              "Y": 292.6558
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 158.3534,
+            "RightMargin": -397.3534,
+            "TopMargin": -369.1558,
+            "BottomMargin": 216.1558,
+            "Tag": 441,
+            "ActionTag": -904515419,
+            "Size": {
+              "X": 239.0,
+              "Y": 153.0
+            },
+            "Name": "sprFocus",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../fonts/font_game.ttf",
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../lobby/shop/card/1.png",
+        "../../../../lobby/shop/card/2.png",
+        "../../../../lobby/shop/card/bgText.png",
+        "../../../../lobby/shop/card/btnNap.png",
+        "../../../../lobby/shop/card/mobiphone.png",
+        "../../../../lobby/shop/card/viettel.png",
+        "../../../../lobby/shop/card/vinaphone.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

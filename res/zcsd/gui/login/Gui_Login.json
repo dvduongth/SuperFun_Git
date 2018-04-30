@@ -1,0 +1,713 @@
+{
+  "ID": "d61b7f48-a811-468c-b3a8-5aee7c91d973",
+  "Version": "2.3.2.3",
+  "Name": "Gui_Login",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 652,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "login/Login.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 653,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "login/logo_ccn.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 531.7697
+                },
+                "Scale": {
+                  "ScaleX": 0.6913,
+                  "ScaleY": 0.6913
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8309
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 334.5,
+                "RightMargin": 334.5,
+                "TopMargin": -23.7697,
+                "BottomMargin": 399.7697,
+                "Tag": 54,
+                "ActionTag": 979545610,
+                "Size": {
+                  "X": 467.0,
+                  "Y": 264.0
+                },
+                "Name": "Sprite_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "Đăng nhập thất bại! Hãy thử lại!",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 568.0,
+                  "Y": 145.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 201,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2266
+                },
+                "PreSize": {
+                  "X": 0.3495,
+                  "Y": 0.0547
+                },
+                "LeftMargin": 369.5,
+                "RightMargin": 369.5,
+                "TopMargin": 477.5,
+                "BottomMargin": 127.5,
+                "Tag": 656,
+                "ActionTag": -1050526474,
+                "Size": {
+                  "X": 397.0,
+                  "Y": 35.0
+                },
+                "VisibleForFrame": false,
+                "Name": "login_notification",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_zingme.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_zingme.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 58,
+                "Scale9Height": 85,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 345.9775,
+                  "Y": 66.6545
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3046,
+                  "Y": 0.1041
+                },
+                "PreSize": {
+                  "X": 0.0775,
+                  "Y": 0.1672
+                },
+                "LeftMargin": 301.9775,
+                "RightMargin": 746.0225,
+                "TopMargin": 519.8455,
+                "BottomMargin": 13.1545,
+                "Tag": 654,
+                "ActionTag": 860531359,
+                "Size": {
+                  "X": 88.0,
+                  "Y": 107.0
+                },
+                "Name": "btn_zingme",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_facebook.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_facebook.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 58,
+                "Scale9Height": 85,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 495.3171,
+                  "Y": 66.6498
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.436,
+                  "Y": 0.1041
+                },
+                "PreSize": {
+                  "X": 0.0775,
+                  "Y": 0.1672
+                },
+                "LeftMargin": 451.3171,
+                "RightMargin": 596.6829,
+                "TopMargin": 519.8502,
+                "BottomMargin": 13.1498,
+                "Tag": 655,
+                "ActionTag": 1764645078,
+                "Size": {
+                  "X": 88.0,
+                  "Y": 107.0
+                },
+                "Name": "btn_facebook",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_google.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_google.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 58,
+                "Scale9Height": 85,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 645.7299,
+                  "Y": 66.6498
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5684,
+                  "Y": 0.1041
+                },
+                "PreSize": {
+                  "X": 0.0775,
+                  "Y": 0.1672
+                },
+                "LeftMargin": 601.7299,
+                "RightMargin": 446.2701,
+                "TopMargin": 519.8502,
+                "BottomMargin": 13.1498,
+                "Tag": 41,
+                "ActionTag": 617751905,
+                "Size": {
+                  "X": 88.0,
+                  "Y": 107.0
+                },
+                "Name": "btn_google",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_zalo.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/icon_zalo.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 58,
+                "Scale9Height": 85,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 787.4697,
+                  "Y": 66.6498
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6932,
+                  "Y": 0.1041
+                },
+                "PreSize": {
+                  "X": 0.0775,
+                  "Y": 0.1672
+                },
+                "LeftMargin": 743.4697,
+                "RightMargin": 304.5303,
+                "TopMargin": 519.8502,
+                "BottomMargin": 13.1498,
+                "Tag": 42,
+                "ActionTag": -840338223,
+                "Size": {
+                  "X": 88.0,
+                  "Y": 107.0
+                },
+                "Name": "btn_zalo",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "login/_0007_Shape-438.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 560.0,
+                  "Y": 195.5975
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.493,
+                  "Y": 0.3056
+                },
+                "PreSize": {
+                  "X": 0.3371,
+                  "Y": 0.0984
+                },
+                "LeftMargin": 368.5,
+                "RightMargin": 384.5,
+                "TopMargin": 412.9025,
+                "BottomMargin": 164.0975,
+                "Tag": 657,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 191.421,
+                      "Y": 32.8266
+                    },
+                    "Scale": {
+                      "ScaleX": 3.8,
+                      "ScaleY": 2.037
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4998,
+                      "Y": 0.5211
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 141.421,
+                    "RightMargin": 141.579,
+                    "TopMargin": 16.6734,
+                    "BottomMargin": 19.3266,
+                    "Tag": 658,
+                    "ActionTag": -1370374960,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 27.0
+                    },
+                    "Alpha": 0,
+                    "Name": "textField_account_name",
+                    "ctype": "TextFieldObjectData"
+                  },
+                  {
+                    "FontSize": 35,
+                    "LabelText": "Enter your account",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 13.6583,
+                      "Y": 32.9195
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0357,
+                      "Y": 0.5225
+                    },
+                    "PreSize": {
+                      "X": 0.8825,
+                      "Y": 0.8095
+                    },
+                    "LeftMargin": 13.6583,
+                    "RightMargin": 31.3417,
+                    "TopMargin": 4.5805,
+                    "BottomMargin": 7.4195,
+                    "Tag": 659,
+                    "ActionTag": 1289098366,
+                    "Size": {
+                      "X": 338.0,
+                      "Y": 51.0
+                    },
+                    "Name": "text_account_name",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -533681840,
+                "Size": {
+                  "X": 383.0,
+                  "Y": 63.0
+                },
+                "Name": "account_slot",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1840798134,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "Updated: ",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 988.1769,
+              "Y": 26.0534
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8699,
+              "Y": 0.0407
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "RightEdge",
+            "LeftMargin": 945.1769,
+            "RightMargin": 104.8231,
+            "TopMargin": 602.4466,
+            "BottomMargin": 14.5534,
+            "Tag": 687,
+            "ActionTag": -335357417,
+            "Size": {
+              "X": 86.0,
+              "Y": 23.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 20,
+            "LabelText": "27/2/17",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1031.771,
+              "Y": 26.05
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9082,
+              "Y": 0.0407
+            },
+            "PreSize": {
+              "X": 0.088,
+              "Y": 0.0359
+            },
+            "HorizontalEdge": "RightEdge",
+            "LeftMargin": 1031.771,
+            "RightMargin": 4.229,
+            "TopMargin": 602.45,
+            "BottomMargin": 14.55,
+            "Tag": 688,
+            "ActionTag": 1494111751,
+            "Size": {
+              "X": 100.0,
+              "Y": 23.0
+            },
+            "Name": "lb_update",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../fonts/font_game_bold.ttf",
+        "../../../lobby/icon_facebook.png",
+        "../../../lobby/icon_google.png",
+        "../../../lobby/icon_zalo.png",
+        "../../../lobby/icon_zingme.png",
+        "../../../login/_0007_Shape-438.png",
+        "../../../login/Login.jpg",
+        "../../../login/logo_ccn.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

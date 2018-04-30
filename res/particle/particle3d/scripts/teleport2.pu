@@ -1,0 +1,219 @@
+system pick1
+{
+    fast_forward                                1 0.1
+    technique 
+    {
+        visual_particle_quota                   20
+        emitted_emitter_quota                   10
+        material                                PUMediaPack/Star_05
+        default_particle_width                  2
+        default_particle_height                 2
+        default_particle_depth                  2
+        spatial_hashing_cell_dimension          5
+        spatial_hashtable_size                  0
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       50
+            time_to_live                        dyn_random
+            {
+                min                             0.5
+                max                             1.75
+            }
+            velocity                            5
+            duration                            500
+            all_particle_dimensions             dyn_random
+            {
+                min                             1
+                max                             5
+            }
+            colour                              0.247059 0.796078 0.980392 1
+            box_width                           2
+            box_height                          5
+            box_depth                           6
+        }
+        affector                                TextureRotator 
+        {
+            use_own_rotation                    true
+            rotation_speed                      dyn_random
+            {
+                min                             1
+                max                             2
+            }
+        }
+        affector                                Colour 
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.8  1 1 1 1
+            time_colour                         1    0 0 0 0
+            colour_operation                    multiply
+        }
+        affector                                Vortex Affector57
+        {
+            rotation_axis                       0 5 0
+        }
+    }
+    technique 
+    {
+        visual_particle_quota                   100
+        emitted_technique_quota                 50
+        emitted_affector_quota                  50
+        emitted_system_quota                    50
+        material                                PUMediaPack/Spark_01
+        default_particle_width                  2.4
+        default_particle_height                 10
+        default_particle_depth                  0
+        spatial_hashing_cell_overlap            10
+        spatial_hashtable_size                  10
+        max_velocity                            0
+        renderer                                Billboard
+        {
+            billboard_type                      oriented_shape
+            billboard_origin                    bottom_center
+        }
+        emitter                                 Point ElectroPoint
+        {
+            time_to_live                        0.5
+            duration                            500
+            direction                           0 0 0
+            emits                               emitter_particle ElectroCircle
+            colour                              0 1 1 0
+        }
+        emitter                                 Circle ElectroCircle
+        {
+            emission_rate                       16
+            time_to_live                        2
+            velocity                            1.2
+            colour                              0.52549 0.435294 0.890196 1
+            force_emission                      true
+            radius                              6
+            step                                0.4
+            emit_random                         false
+        }
+        affector                                Align 
+        {
+            exclude_emitter                     ElectroPoint 
+            resize                              true
+        }
+        affector                                Randomiser 
+        {
+            exclude_emitter                     ElectroPoint 
+            max_deviation_x                     0.06
+            max_deviation_y                     0.12
+            max_deviation_z                     0.06
+            time_step                           0.01
+            use_direction                       false
+        }
+        affector                                Colour 
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.8  1 1 1 1
+            time_colour                         1    0 0 0 0
+            colour_operation                    multiply
+        }
+        observer                                OnClear 
+        {
+            handler                             DoStopSystem 
+            {
+            }
+        }
+    }
+    technique 
+    {
+        visual_particle_quota                   100
+        emitted_emitter_quota                   100
+        emitted_technique_quota                 0
+        emitted_affector_quota                  100
+        emitted_system_quota                    0
+        material                                PUMediaPack/Streak_04
+        default_particle_width                  10
+        default_particle_height                 100
+        default_particle_depth                  100
+        spatial_hashing_cell_dimension          0
+        spatial_hashtable_size                  0
+        spatial_hashing_update_interval         0
+        renderer                                Billboard
+        {
+            billboard_origin                    bottom_center
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       160
+            time_to_live                        0.2
+            duration                            500
+            particle_width                      dyn_random
+            {
+                min                             2.4
+                max                             6
+            }
+            particle_height                     dyn_random
+            {
+                min                             9.6
+                max                             28.8
+            }
+            direction                           0 0 0
+            colour                              0.0352941 0.803922 0.968627 1
+            box_width                           5
+            box_height                          10
+            box_depth                           10
+        }
+        affector                                Colour 
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.8  1 1 1 1
+            time_colour                         1    0 0 0 0
+            colour_operation                    multiply
+        }
+    }
+    technique 
+    {
+        visual_particle_quota                   20
+        emitted_emitter_quota                   0
+        material                                PUMediaPack/Star_03
+        renderer                                Billboard
+        {
+        }
+        emitter                                 Box 
+        {
+            emission_rate                       80
+            time_to_live                        dyn_random
+            {
+                min                             1
+                max                             2
+            }
+            velocity                            dyn_random
+            {
+                min                             0.6
+                max                             6
+            }
+            duration                            500
+            all_particle_dimensions             dyn_random
+            {
+                min                             0.6
+                max                             6.6
+            }
+            colour                              0.847059 0.733333 1 1
+            box_width                           7.5
+            box_height                          0.3
+            box_depth                           7.5
+        }
+        affector                                TextureRotator 
+        {
+            use_own_rotation                    true
+            rotation_speed                      dyn_random
+            {
+                min                             2
+                max                             6
+            }
+        }
+        affector                                Colour 
+        {
+            time_colour                         0    1 1 1 1
+            time_colour                         0.8  1 1 1 1
+            time_colour                         1    0 0 0 0
+            colour_operation                    multiply
+        }
+    }
+}

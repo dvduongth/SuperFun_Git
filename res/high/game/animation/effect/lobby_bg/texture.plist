@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Symbol 10.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{279,381}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{279,381}}</string>
+                <key>sourceSize</key>
+                <string>{279,381}</string>
+            </dict>
+            <key>Symbol 3.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,504},{106,2}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{10,0},{106,2}}</string>
+                <key>sourceSize</key>
+                <string>{126,2}</string>
+            </dict>
+            <key>Symbol 9 copy 2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{281,1},{176,96}}</string>
+                <key>offset</key>
+                <string>{-3,1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,11},{176,96}}</string>
+                <key>sourceSize</key>
+                <string>{182,120}</string>
+            </dict>
+            <key>Symbol 9 copy.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{184,383},{168,120}}</string>
+                <key>offset</key>
+                <string>{-7,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{168,120}}</string>
+                <key>sourceSize</key>
+                <string>{182,120}</string>
+            </dict>
+            <key>Symbol 9.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,383},{182,120}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{182,120}}</string>
+                <key>sourceSize</key>
+                <string>{182,120}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>texture.png</string>
+            <key>size</key>
+            <string>{512,512}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:8617473e9ec85d81297cadb9e8bb1fc7:1/1$</string>
+            <key>textureFileName</key>
+            <string>texture.png</string>
+        </dict>
+    </dict>
+</plist>

@@ -1,0 +1,662 @@
+{
+  "ID": "ab2c934e-b212-464e-83bb-95cc7d25f84f",
+  "Version": "2.3.2.3",
+  "Name": "Popup_PayForSummon",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 30,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/popup_in_game/popup_ig_slot.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8424,
+              "Y": 0.325
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 89.5,
+            "RightMargin": 89.5,
+            "TopMargin": 216.0,
+            "BottomMargin": 216.0,
+            "Tag": 31,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/popup_in_game/popup_ig_title.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 491.7791,
+                  "Y": 196.7573
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5139,
+                  "Y": 0.9459
+                },
+                "PreSize": {
+                  "X": 0.4013,
+                  "Y": 0.2452
+                },
+                "LeftMargin": 299.7791,
+                "RightMargin": 273.2209,
+                "TopMargin": -14.2573,
+                "BottomMargin": 171.2573,
+                "Tag": 49,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "LabelText": "Xuất quân",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 192.0,
+                      "Y": 28.05
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 56,
+                      "G": 37,
+                      "B": 0
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.55
+                    },
+                    "PreSize": {
+                      "X": 0.2734,
+                      "Y": 0.5686
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 139.5,
+                    "RightMargin": 139.5,
+                    "TopMargin": 8.45,
+                    "BottomMargin": 13.55,
+                    "Tag": 50,
+                    "ActionTag": -1003918215,
+                    "Size": {
+                      "X": 137.0,
+                      "Y": 37.0
+                    },
+                    "Name": "text_summon",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1494387210,
+                "Size": {
+                  "X": 384.0,
+                  "Y": 51.0
+                },
+                "Name": "title_slot",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "Trả phí để được xuất quân ngay?",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 478.5,
+                  "Y": 60.5112
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "B": 222
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2909
+                },
+                "PreSize": {
+                  "X": 0.2983,
+                  "Y": 0.0655
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 290.0001,
+                "RightMargin": 289.9999,
+                "TopMargin": 131.4888,
+                "BottomMargin": 44.5112,
+                "Tag": 32,
+                "ActionTag": 1160585750,
+                "Size": {
+                  "X": 377.0,
+                  "Y": 32.0
+                },
+                "Name": "text_pay_for_summon",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "game/popup_in_game/popup_ig_btn_green.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 144,
+                "Scale9Height": 45,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 580.0377,
+                  "Y": -36.3459
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6061,
+                  "Y": -0.1747
+                },
+                "PercentWidthEnable": true,
+                "PercentWidthEnabled": true,
+                "PreSize": {
+                  "X": 0.1818,
+                  "Y": 0.3221
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 493.0464,
+                "RightMargin": 289.971,
+                "TopMargin": 210.8459,
+                "BottomMargin": -69.8459,
+                "Tag": 35,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "LabelText": "Đồng ý",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 68,
+                      "G": 71,
+                      "B": 78
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 86.9913,
+                      "Y": 38.19
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.57
+                    },
+                    "PreSize": {
+                      "X": 0.6069,
+                      "Y": 0.4265
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 49.0,
+                    "RightMargin": 49.0,
+                    "TopMargin": 12.31,
+                    "BottomMargin": 21.69,
+                    "Tag": 52,
+                    "ActionTag": -1692285178,
+                    "Size": {
+                      "X": 97.0,
+                      "Y": 41.0
+                    },
+                    "Name": "text_ok",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 450884757,
+                "Size": {
+                  "X": 173.9826,
+                  "Y": 67.0
+                },
+                "Name": "btn_ok",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "game/popup_in_game/popup_ig_btn_gray.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 143,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 389.1162,
+                  "Y": -35.6379
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4066,
+                  "Y": -0.1713
+                },
+                "PercentWidthEnable": true,
+                "PercentWidthEnabled": true,
+                "PreSize": {
+                  "X": 0.1808,
+                  "Y": 0.3269
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 302.6034,
+                "RightMargin": 481.371,
+                "TopMargin": 209.6379,
+                "BottomMargin": -69.6379,
+                "Tag": 33,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "LabelText": "Bỏ qua",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 68,
+                      "G": 71,
+                      "B": 78
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 86.5128,
+                      "Y": 38.76
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.57
+                    },
+                    "PreSize": {
+                      "X": 0.6069,
+                      "Y": 0.4265
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 48.5,
+                    "RightMargin": 48.5,
+                    "TopMargin": 12.74,
+                    "BottomMargin": 22.26,
+                    "Tag": 51,
+                    "ActionTag": 349567207,
+                    "Size": {
+                      "X": 95.0,
+                      "Y": 41.0
+                    },
+                    "Name": "text_cancel",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1391283179,
+                "Size": {
+                  "X": 173.0256,
+                  "Y": 68.0
+                },
+                "Name": "btn_cancel",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/popup_in_game/popup_ig_money_slot.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 492.7348,
+                  "Y": 108.8199
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5149,
+                  "Y": 0.5232
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 366.7348,
+                "RightMargin": 338.2652,
+                "TopMargin": 73.6801,
+                "BottomMargin": 83.3199,
+                "Tag": 36,
+                "ActionTag": -89213730,
+                "Size": {
+                  "X": 252.0,
+                  "Y": 51.0
+                },
+                "Name": "money_slot_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 25,
+                "LabelText": "10.000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 445.7706,
+                  "Y": 109.4431
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4658,
+                  "Y": 0.5262
+                },
+                "PreSize": {
+                  "X": 0.209,
+                  "Y": 0.2115
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 445.7707,
+                "RightMargin": 311.2293,
+                "TopMargin": 76.5569,
+                "BottomMargin": 87.4431,
+                "Tag": 40,
+                "ActionTag": 1980591058,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 44.0
+                },
+                "Name": "money_text",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/gold_icon.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 394.6604,
+                  "Y": 112.9435
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4124,
+                  "Y": 0.543
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 342.1604,
+                "RightMargin": 509.8396,
+                "TopMargin": 55.0565,
+                "BottomMargin": 72.9435,
+                "Tag": 37,
+                "ActionTag": -1437894822,
+                "Size": {
+                  "X": 105.0,
+                  "Y": 80.0
+                },
+                "Name": "gold_icon_3",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1383288500,
+            "Size": {
+              "X": 957.0,
+              "Y": 208.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../game/popup_in_game/popup_ig_btn_gray.png",
+        "../../../../game/popup_in_game/popup_ig_btn_green.png",
+        "../../../../game/popup_in_game/popup_ig_money_slot.png",
+        "../../../../game/popup_in_game/popup_ig_slot.png",
+        "../../../../game/popup_in_game/popup_ig_title.png",
+        "../../../../lobby/gold_icon.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

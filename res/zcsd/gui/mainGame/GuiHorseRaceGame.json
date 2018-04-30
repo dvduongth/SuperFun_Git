@@ -1,0 +1,2091 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.3.0",
+  "Name": "GuiHorseRaceGame",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/horseRaceMinigame/bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 202.816
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3169
+            },
+            "PreSize": {
+              "X": 1.029,
+              "Y": 0.5203
+            },
+            "LeftMargin": -16.5,
+            "RightMargin": -16.5,
+            "TopMargin": 270.684,
+            "BottomMargin": 36.316,
+            "Tag": 5,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": 1169.0,
+                "TopMargin": 333.0,
+                "Tag": 23,
+                "ActionTag": 508315167,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "behindRace",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": 1169.0,
+                "TopMargin": 333.0,
+                "Tag": 10,
+                "ActionTag": -648858954,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "raceLayer",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/truongduanguatitle.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 588.8137,
+                  "Y": 535.4223
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5037,
+                  "Y": 1.6079
+                },
+                "PreSize": {
+                  "X": 1.0308,
+                  "Y": 0.3153
+                },
+                "LeftMargin": -13.6863,
+                "RightMargin": -22.3137,
+                "TopMargin": -254.9223,
+                "BottomMargin": 482.9223,
+                "Tag": 5,
+                "ActionTag": -1582550443,
+                "Size": {
+                  "X": 1205.0,
+                  "Y": 105.0
+                },
+                "Name": "title",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": 1169.0,
+                "TopMargin": 333.0,
+                "Tag": 19,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/Ellipse 8 copy 2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 585.1843,
+                      "Y": 250.5527
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 17.1843,
+                    "RightMargin": -1153.1843,
+                    "TopMargin": -497.0527,
+                    "BottomMargin": 4.0527,
+                    "Tag": 26,
+                    "ActionTag": 226185698,
+                    "Size": {
+                      "X": 1136.0,
+                      "Y": 493.0
+                    },
+                    "Name": "curtain",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/money.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 261,
+                    "Scale9Height": 98,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 965.1113,
+                      "Y": 112.6674
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 819.6113,
+                    "RightMargin": -1110.6113,
+                    "TopMargin": -172.6674,
+                    "BottomMargin": 52.6674,
+                    "Tag": 29,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "game/horseRaceMinigame/5.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 69.0574,
+                          "Y": 53.6146
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2373,
+                          "Y": 0.4468
+                        },
+                        "PreSize": {
+                          "X": 0.244,
+                          "Y": 0.4417
+                        },
+                        "LeftMargin": 33.5574,
+                        "RightMargin": 186.4426,
+                        "TopMargin": 39.8854,
+                        "BottomMargin": 27.1146,
+                        "Tag": 22,
+                        "ActionTag": 1989260834,
+                        "Size": {
+                          "X": 71.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Sprite_1_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -470885496,
+                    "Size": {
+                      "X": 291.0,
+                      "Y": 120.0
+                    },
+                    "Name": "betBtn3",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/money.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 261,
+                    "Scale9Height": 98,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 966.1077,
+                      "Y": 258.5814
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 820.6077,
+                    "RightMargin": -1111.6077,
+                    "TopMargin": -318.5814,
+                    "BottomMargin": 198.5814,
+                    "Tag": 28,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "game/horseRaceMinigame/5.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 72.9986,
+                          "Y": 56.6434
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2509,
+                          "Y": 0.472
+                        },
+                        "PreSize": {
+                          "X": 0.244,
+                          "Y": 0.4417
+                        },
+                        "LeftMargin": 37.4986,
+                        "RightMargin": 182.5014,
+                        "TopMargin": 36.8566,
+                        "BottomMargin": 30.1434,
+                        "Tag": 21,
+                        "ActionTag": -121548806,
+                        "Size": {
+                          "X": 71.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Sprite_1_0",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -1338295579,
+                    "Size": {
+                      "X": 291.0,
+                      "Y": 120.0
+                    },
+                    "Name": "betBtn2",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/money.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 261,
+                    "Scale9Height": 98,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 963.919,
+                      "Y": 401.1218
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 818.419,
+                    "RightMargin": -1109.4189,
+                    "TopMargin": -461.1218,
+                    "BottomMargin": 341.1218,
+                    "Tag": 27,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "game/horseRaceMinigame/5.png",
+                          "Plist": ""
+                        },
+                        "BlendFunc": {
+                          "Src": 770,
+                          "Dst": 771
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 65.7878,
+                          "Y": 55.4899
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2261,
+                          "Y": 0.4624
+                        },
+                        "PreSize": {
+                          "X": 0.244,
+                          "Y": 0.4417
+                        },
+                        "LeftMargin": 30.2878,
+                        "RightMargin": 189.7122,
+                        "TopMargin": 38.0101,
+                        "BottomMargin": 28.9899,
+                        "Tag": 18,
+                        "ActionTag": 1501264091,
+                        "Size": {
+                          "X": 71.0,
+                          "Y": 53.0
+                        },
+                        "Name": "Sprite_1",
+                        "ctype": "SpriteObjectData"
+                      }
+                    ],
+                    "ActionTag": -385288955,
+                    "Size": {
+                      "X": 291.0,
+                      "Y": 120.0
+                    },
+                    "Name": "betBtn1",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 440.0,
+                      "Y": 280.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 440.0,
+                    "RightMargin": -440.0,
+                    "TopMargin": -280.0,
+                    "BottomMargin": 280.0,
+                    "Tag": 15,
+                    "ActionTag": 1816418029,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "fogContainer",
+                    "ctype": "SingleNodeObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/horseRaceMinigame/Shape 5 copy 3.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 215.0777,
+                      "Y": 278.1132
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 64.0777,
+                    "RightMargin": -366.0777,
+                    "TopMargin": -465.1132,
+                    "BottomMargin": 91.1132,
+                    "Tag": 30,
+                    "Children": [
+                      {
+                        "FontSize": 24,
+                        "LabelText": "Bạn sẽ nhận được",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.4594,
+                          "Y": 251.5721
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4982,
+                          "Y": 0.6727
+                        },
+                        "PreSize": {
+                          "X": 0.7483,
+                          "Y": 0.0989
+                        },
+                        "LeftMargin": 37.4594,
+                        "RightMargin": 38.5406,
+                        "TopMargin": 103.9279,
+                        "BottomMargin": 233.0721,
+                        "Tag": 37,
+                        "ActionTag": 1671831415,
+                        "Size": {
+                          "X": 226.0,
+                          "Y": 37.0
+                        },
+                        "Name": "Text_3",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "số tiền cược khi",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 150.3058,
+                          "Y": 174.9224
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4977,
+                          "Y": 0.4677
+                        },
+                        "PreSize": {
+                          "X": 0.6523,
+                          "Y": 0.0989
+                        },
+                        "LeftMargin": 51.8058,
+                        "RightMargin": 53.1942,
+                        "TopMargin": 180.5776,
+                        "BottomMargin": 156.4224,
+                        "Tag": 39,
+                        "ActionTag": 1824319199,
+                        "Size": {
+                          "X": 197.0,
+                          "Y": 37.0
+                        },
+                        "Name": "Text_3_0",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "Ngựa",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 80.3494,
+                          "Y": 134.1544
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2661,
+                          "Y": 0.3587
+                        },
+                        "PreSize": {
+                          "X": 0.2318,
+                          "Y": 0.0989
+                        },
+                        "LeftMargin": 45.3494,
+                        "RightMargin": 186.6506,
+                        "TopMargin": 221.3456,
+                        "BottomMargin": 115.6544,
+                        "Tag": 40,
+                        "ActionTag": -1966228137,
+                        "Size": {
+                          "X": 70.0,
+                          "Y": 37.0
+                        },
+                        "Name": "Text_3_0_0",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "về",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 103.451,
+                          "Y": 93.05
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3426,
+                          "Y": 0.2488
+                        },
+                        "PreSize": {
+                          "X": 0.1093,
+                          "Y": 0.0989
+                        },
+                        "LeftMargin": 86.951,
+                        "RightMargin": 182.049,
+                        "TopMargin": 262.45,
+                        "BottomMargin": 74.55,
+                        "Tag": 41,
+                        "ActionTag": 2110406758,
+                        "Size": {
+                          "X": 33.0,
+                          "Y": 37.0
+                        },
+                        "Name": "Text_3_0_1",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "GẤP ĐÔI",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 144.5777,
+                          "Y": 213.4292
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4787,
+                          "Y": 0.5707
+                        },
+                        "PreSize": {
+                          "X": 0.3642,
+                          "Y": 0.0989
+                        },
+                        "LeftMargin": 89.5777,
+                        "RightMargin": 102.4223,
+                        "TopMargin": 142.0708,
+                        "BottomMargin": 194.9292,
+                        "Tag": 42,
+                        "ActionTag": 2009670238,
+                        "Size": {
+                          "X": 110.0,
+                          "Y": 37.0
+                        },
+                        "Name": "Text_3_0_2",
+                        "ctype": "TextObjectData"
+                      },
+                      {
+                        "FontSize": 24,
+                        "LabelText": "NHẤT!",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "fonts/font_game_bold.ttf",
+                          "Plist": ""
+                        },
+                        "OutlineColor": {
+                          "R": 0,
+                          "G": 0,
+                          "B": 0
+                        },
+                        "OutlineEnabled": true,
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 160.5777,
+                          "Y": 93.4292
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {
+                          "B": 0
+                        },
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5317,
+                          "Y": 0.2498
+                        },
+                        "PreSize": {
+                          "X": 0.255,
+                          "Y": 0.0989
+                        },
+                        "LeftMargin": 122.0777,
+                        "RightMargin": 102.9223,
+                        "TopMargin": 262.0708,
+                        "BottomMargin": 74.9292,
+                        "Tag": 43,
+                        "ActionTag": -1900571306,
+                        "Size": {
+                          "X": 77.0,
+                          "Y": 37.0
+                        },
+                        "Name": "Text_3_0_2_0",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -1506118221,
+                    "Size": {
+                      "X": 302.0,
+                      "Y": 374.0
+                    },
+                    "Name": "notice",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -69833451,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "selectHorseCtn",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/dongho.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1014.8164,
+                  "Y": 537.7286
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8681,
+                  "Y": 1.6148
+                },
+                "PreSize": {
+                  "X": 0.1394,
+                  "Y": 0.4955
+                },
+                "LeftMargin": 933.3164,
+                "RightMargin": 72.6836,
+                "TopMargin": -287.2286,
+                "BottomMargin": 455.2286,
+                "Tag": 33,
+                "ActionTag": -658631646,
+                "Size": {
+                  "X": 163.0,
+                  "Y": 165.0
+                },
+                "Name": "watch",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 584.5,
+                  "Y": 166.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 584.5,
+                "RightMargin": 584.5,
+                "TopMargin": 166.5,
+                "BottomMargin": 166.5,
+                "Tag": 27,
+                "Children": [
+                  {
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Tag": 28,
+                    "ActionTag": -566903179,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "fog",
+                    "ctype": "SingleNodeObjectData"
+                  }
+                ],
+                "ActionTag": -1526691600,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "showWinner",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": 953446860,
+            "Size": {
+              "X": 1169.0,
+              "Y": 333.0
+            },
+            "Name": "background",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/horseRaceMinigame/Rounded Rectangle 6.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6514,
+              "Y": 0.3859
+            },
+            "LeftMargin": 198.0,
+            "RightMargin": 198.0,
+            "TopMargin": 196.5,
+            "BottomMargin": 196.5,
+            "Tag": 23,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/thang.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 383.4821,
+                  "Y": 279.4203
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5182,
+                  "Y": 1.1313
+                },
+                "PreSize": {
+                  "X": 0.5,
+                  "Y": 0.6599
+                },
+                "LeftMargin": 198.4821,
+                "RightMargin": 171.5179,
+                "TopMargin": -113.9203,
+                "BottomMargin": 197.9203,
+                "Tag": 24,
+                "ActionTag": -1988986416,
+                "Size": {
+                  "X": 370.0,
+                  "Y": 163.0
+                },
+                "Name": "Sprite_7",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/Shape 5 copy.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 245.0327,
+                  "Y": 126.7042
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3311,
+                  "Y": 0.513
+                },
+                "PreSize": {
+                  "X": 0.0919,
+                  "Y": 0.3887
+                },
+                "LeftMargin": 211.0327,
+                "RightMargin": 460.9673,
+                "TopMargin": 72.2958,
+                "BottomMargin": 78.7042,
+                "Tag": 25,
+                "ActionTag": -255821094,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 96.0
+                },
+                "Name": "Sprite_8",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "Chúc mừng bạn đã về Nhất!",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 382.2148,
+                  "Y": 188.0452
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5165,
+                  "Y": 0.7613
+                },
+                "PreSize": {
+                  "X": 0.477,
+                  "Y": 0.1498
+                },
+                "LeftMargin": 205.7148,
+                "RightMargin": 181.2852,
+                "TopMargin": 40.4548,
+                "BottomMargin": 169.5452,
+                "Tag": 26,
+                "ActionTag": -1413768950,
+                "Size": {
+                  "X": 353.0,
+                  "Y": 37.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/5.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 542.5412,
+                  "Y": 115.6303
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7332,
+                  "Y": 0.4681
+                },
+                "PreSize": {
+                  "X": 0.0959,
+                  "Y": 0.2146
+                },
+                "LeftMargin": 507.0412,
+                "RightMargin": 161.9588,
+                "TopMargin": 104.8697,
+                "BottomMargin": 89.1303,
+                "Tag": 27,
+                "ActionTag": -1739733117,
+                "Size": {
+                  "X": 71.0,
+                  "Y": 53.0
+                },
+                "Name": "Sprite_9",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/dongy.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 209,
+                "Scale9Height": 68,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 378.3681,
+                  "Y": -62.7443
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5113,
+                  "Y": -0.254
+                },
+                "PreSize": {
+                  "X": 0.323,
+                  "Y": 0.3644
+                },
+                "LeftMargin": 258.8681,
+                "RightMargin": 242.1319,
+                "TopMargin": 264.7443,
+                "BottomMargin": -107.7443,
+                "Tag": 28,
+                "ActionTag": 1024117849,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 90.0
+                },
+                "Name": "btn_ok",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/Layer 11.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 24,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 676.0001,
+                  "Y": 243.9627
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9135,
+                  "Y": 0.9877
+                },
+                "PreSize": {
+                  "X": 0.073,
+                  "Y": 0.2267
+                },
+                "LeftMargin": 649.0001,
+                "RightMargin": 36.9999,
+                "TopMargin": -24.9627,
+                "BottomMargin": 215.9627,
+                "Tag": 29,
+                "ActionTag": 573340920,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 56.0
+                },
+                "Name": "btn_close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "Trả phí:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 193.3168,
+                  "Y": 35.0599
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2612,
+                  "Y": 0.1419
+                },
+                "PreSize": {
+                  "X": 0.127,
+                  "Y": 0.1498
+                },
+                "LeftMargin": 146.3168,
+                "RightMargin": 499.6832,
+                "TopMargin": 193.4401,
+                "BottomMargin": 16.5599,
+                "Tag": 39,
+                "ActionTag": 1904121540,
+                "Size": {
+                  "X": 94.0,
+                  "Y": 37.0
+                },
+                "Name": "taxTxt",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "Chủ phòng:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 439.4273,
+                  "Y": 34.8181
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5938,
+                  "Y": 0.141
+                },
+                "PreSize": {
+                  "X": 0.1986,
+                  "Y": 0.1498
+                },
+                "LeftMargin": 365.9273,
+                "RightMargin": 227.0728,
+                "TopMargin": 193.6819,
+                "BottomMargin": 16.3181,
+                "Tag": 40,
+                "ActionTag": 1137085803,
+                "Size": {
+                  "X": 147.0,
+                  "Y": 37.0
+                },
+                "Name": "hostTxt",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -920406104,
+            "Size": {
+              "X": 740.0,
+              "Y": 247.0
+            },
+            "Name": "winGui",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/horseRaceMinigame/Rounded Rectangle 61.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6523,
+              "Y": 0.3922
+            },
+            "LeftMargin": 197.5,
+            "RightMargin": 197.5,
+            "TopMargin": 194.5,
+            "BottomMargin": 194.5,
+            "Tag": 30,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/thua.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 386.0186,
+                  "Y": 274.4243
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5209,
+                  "Y": 1.0933
+                },
+                "PreSize": {
+                  "X": 0.5668,
+                  "Y": 0.6733
+                },
+                "LeftMargin": 176.0186,
+                "RightMargin": 144.9814,
+                "TopMargin": -107.9243,
+                "BottomMargin": 189.9243,
+                "Tag": 31,
+                "ActionTag": -757357938,
+                "Size": {
+                  "X": 420.0,
+                  "Y": 169.0
+                },
+                "Name": "Sprite_11",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "Ngựa của bạn về sau!",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 378.4045,
+                  "Y": 198.2765
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5107,
+                  "Y": 0.7899
+                },
+                "PreSize": {
+                  "X": 0.3738,
+                  "Y": 0.1474
+                },
+                "LeftMargin": 239.9045,
+                "RightMargin": 224.0955,
+                "TopMargin": 34.2235,
+                "BottomMargin": 179.7765,
+                "Tag": 33,
+                "ActionTag": -372695671,
+                "Size": {
+                  "X": 277.0,
+                  "Y": 37.0
+                },
+                "Name": "Text_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/5.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 549.3049,
+                  "Y": 114.5147
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7413,
+                  "Y": 0.4562
+                },
+                "PreSize": {
+                  "X": 0.0958,
+                  "Y": 0.2112
+                },
+                "LeftMargin": 513.8049,
+                "RightMargin": 156.1951,
+                "TopMargin": 109.9853,
+                "BottomMargin": 88.0147,
+                "Tag": 34,
+                "ActionTag": 2085391252,
+                "Size": {
+                  "X": 71.0,
+                  "Y": 53.0
+                },
+                "Name": "Sprite_13",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/Shape 5 copy1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 253.1745,
+                  "Y": 96.7461
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3417,
+                  "Y": 0.3854
+                },
+                "PreSize": {
+                  "X": 0.1039,
+                  "Y": 0.4183
+                },
+                "LeftMargin": 214.6745,
+                "RightMargin": 449.3255,
+                "TopMargin": 101.7539,
+                "BottomMargin": 44.2461,
+                "Tag": 35,
+                "ActionTag": 1129540855,
+                "Size": {
+                  "X": 77.0,
+                  "Y": 105.0
+                },
+                "Name": "Sprite_14",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/dongy.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 209,
+                "Scale9Height": 68,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 381.0,
+                  "Y": -62.0009
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5142,
+                  "Y": -0.247
+                },
+                "PreSize": {
+                  "X": 0.3225,
+                  "Y": 0.3586
+                },
+                "LeftMargin": 261.5,
+                "RightMargin": 240.5,
+                "TopMargin": 268.0009,
+                "BottomMargin": -107.0009,
+                "Tag": 37,
+                "ActionTag": -1258006262,
+                "Size": {
+                  "X": 239.0,
+                  "Y": 90.0
+                },
+                "Name": "btn_ok",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "game/horseRaceMinigame/Layer 11.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 24,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 680.2306,
+                  "Y": 245.2305
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.918,
+                  "Y": 0.977
+                },
+                "PreSize": {
+                  "X": 0.0729,
+                  "Y": 0.2231
+                },
+                "LeftMargin": 653.2306,
+                "RightMargin": 33.7694,
+                "TopMargin": -22.2305,
+                "BottomMargin": 217.2305,
+                "Tag": 38,
+                "ActionTag": 844145929,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 56.0
+                },
+                "Name": "btn_close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "Chủ phòng:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 445.4753,
+                  "Y": 33.5188
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6012,
+                  "Y": 0.1335
+                },
+                "PreSize": {
+                  "X": 0.1984,
+                  "Y": 0.1474
+                },
+                "LeftMargin": 371.9753,
+                "RightMargin": 222.0247,
+                "TopMargin": 198.9812,
+                "BottomMargin": 15.0188,
+                "Tag": 41,
+                "ActionTag": -1507559067,
+                "Size": {
+                  "X": 147.0,
+                  "Y": 37.0
+                },
+                "Name": "hostTxt",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 954141902,
+            "Size": {
+              "X": 741.0,
+              "Y": 251.0
+            },
+            "Name": "looseGui",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Default/Button_Disable.png",
+        "../../../fonts/font_game_bold.ttf",
+        "../../../game/horseRaceMinigame/5.png",
+        "../../../game/horseRaceMinigame/bg.png",
+        "../../../game/horseRaceMinigame/dongho.png",
+        "../../../game/horseRaceMinigame/dongy.png",
+        "../../../game/horseRaceMinigame/Ellipse 8 copy 2.png",
+        "../../../game/horseRaceMinigame/Layer 11.png",
+        "../../../game/horseRaceMinigame/money.png",
+        "../../../game/horseRaceMinigame/Rounded Rectangle 6.png",
+        "../../../game/horseRaceMinigame/Rounded Rectangle 61.png",
+        "../../../game/horseRaceMinigame/Shape 5 copy 3.png",
+        "../../../game/horseRaceMinigame/Shape 5 copy.png",
+        "../../../game/horseRaceMinigame/Shape 5 copy1.png",
+        "../../../game/horseRaceMinigame/thang.png",
+        "../../../game/horseRaceMinigame/thua.png",
+        "../../../game/horseRaceMinigame/truongduanguatitle.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

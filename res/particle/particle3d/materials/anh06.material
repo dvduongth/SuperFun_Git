@@ -1,0 +1,20 @@
+
+material anh06
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture anh06.png
+			}
+		}
+
+	}
+
+}

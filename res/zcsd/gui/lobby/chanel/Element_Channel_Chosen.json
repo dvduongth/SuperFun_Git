@@ -1,0 +1,599 @@
+{
+  "ID": "6c49ad15-d7ad-44a2-a910-f370939f12f2",
+  "Version": "2.3.2.3",
+  "Name": "Element_Channel_Chosen",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 234,
+        "Children": [
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 191.5,
+              "Y": 40.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -383.0,
+            "TopMargin": -80.0,
+            "Tag": 236,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/element_bg_dark.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "RightMargin": 1.0,
+                "Tag": 126,
+                "ActionTag": 450321181,
+                "Size": {
+                  "X": 382.0,
+                  "Y": 80.0
+                },
+                "Name": "sprBgDark",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/element_bg_light.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Tag": 127,
+                "ActionTag": -324750389,
+                "Size": {
+                  "X": 383.0,
+                  "Y": 80.0
+                },
+                "Name": "sprBgLight",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/icon_money.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 45.1436,
+                  "Y": 43.0756
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 16.1436,
+                "RightMargin": -74.1436,
+                "TopMargin": -66.0756,
+                "BottomMargin": 20.0756,
+                "Tag": 237,
+                "ActionTag": -434493898,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 46.0
+                },
+                "Name": "icon_money_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 297.9467,
+                  "Y": 83.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.7779,
+                  "Y": 1.0375
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 297.9467,
+                "RightMargin": 85.0533,
+                "TopMargin": -3.0,
+                "BottomMargin": 83.0,
+                "Tag": 124,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/icon_people.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -1.2051,
+                      "Y": -27.8425
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9,
+                      "ScaleY": 0.9
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -25.2051,
+                    "RightMargin": -22.7949,
+                    "TopMargin": 9.3425,
+                    "BottomMargin": -46.3425,
+                    "Tag": 240,
+                    "ActionTag": 444042925,
+                    "Size": {
+                      "X": 48.0,
+                      "Y": 37.0
+                    },
+                    "Name": "icon_people_4",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/progress_dark.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -0.3613,
+                      "Y": -52.6245
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -32.8613,
+                    "RightMargin": -32.1387,
+                    "TopMargin": 46.6245,
+                    "BottomMargin": -58.6245,
+                    "Tag": 239,
+                    "Children": [
+                      {
+                        "ProgressInfo": 26,
+                        "ImageFileData": {
+                          "Type": "Normal",
+                          "Path": "lobby/chanel_chosen/progress_light.png",
+                          "Plist": ""
+                        },
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 33.8049,
+                          "Y": 7.4765
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5201,
+                          "Y": 0.623
+                        },
+                        "PreSize": {
+                          "X": 1.0462,
+                          "Y": 1.25
+                        },
+                        "LeftMargin": -0.1951,
+                        "RightMargin": -2.8049,
+                        "TopMargin": -2.9765,
+                        "BottomMargin": -0.0235,
+                        "Tag": 238,
+                        "ActionTag": -1325595825,
+                        "Size": {
+                          "X": 68.0,
+                          "Y": 15.0
+                        },
+                        "Name": "ldbMoney",
+                        "ctype": "LoadingBarObjectData"
+                      }
+                    ],
+                    "ActionTag": -1713880299,
+                    "Size": {
+                      "X": 65.0,
+                      "Y": 12.0
+                    },
+                    "Name": "progress_dark_3",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1883684036,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ndMinMaxInfo",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/icon_lock.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 358.3598,
+                  "Y": 55.6554
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.9
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9357,
+                  "Y": 0.6957
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 338.8598,
+                "RightMargin": 5.1402,
+                "TopMargin": 2.8446,
+                "BottomMargin": 34.1554,
+                "Tag": 123,
+                "ActionTag": -1887780623,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 43.0
+                },
+                "Name": "sprLock",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/icon_money.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 358.9452,
+                  "Y": 18.1396
+                },
+                "Scale": {
+                  "ScaleX": 0.55,
+                  "ScaleY": 0.55
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9372,
+                  "Y": 0.2267
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 329.9452,
+                "RightMargin": -4.9452,
+                "TopMargin": 38.8604,
+                "BottomMargin": -4.8604,
+                "Tag": 125,
+                "ActionTag": 169101445,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 46.0
+                },
+                "Name": "sprMoneySmall",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "20.000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 41,
+                  "G": 36,
+                  "B": 32
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 34,
+                  "G": 20,
+                  "B": 48
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 95.7337,
+                  "Y": 47.0839
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 95.7337,
+                "RightMargin": -295.7337,
+                "TopMargin": -65.5839,
+                "BottomMargin": 28.5839,
+                "Tag": 241,
+                "ActionTag": -492079501,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 37.0
+                },
+                "Name": "lbMoney",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 16,
+                "LabelText": "20M-30M",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Right",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 20,
+                  "G": 6,
+                  "B": 3
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 21,
+                  "G": 6,
+                  "B": 7
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -1.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 341.3263,
+                  "Y": 18.046
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 106,
+                  "B": 225
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8912,
+                  "Y": 0.2256
+                },
+                "PreSize": {
+                  "X": 0.3916,
+                  "Y": 0.3125
+                },
+                "LeftMargin": 191.3263,
+                "RightMargin": 41.6737,
+                "TopMargin": 49.454,
+                "BottomMargin": 5.546,
+                "Tag": 380,
+                "ActionTag": 1372418398,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 25.0
+                },
+                "Name": "lbMinMax",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1347001946,
+            "Size": {
+              "X": 383.0,
+              "Y": 80.0
+            },
+            "Name": "btnElement",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../lobby/chanel_chosen/element_bg_dark.png",
+        "../../../../lobby/chanel_chosen/element_bg_light.png",
+        "../../../../lobby/chanel_chosen/icon_lock.png",
+        "../../../../lobby/chanel_chosen/icon_money.png",
+        "../../../../lobby/chanel_chosen/icon_people.png",
+        "../../../../lobby/chanel_chosen/progress_dark.png",
+        "../../../../lobby/chanel_chosen/progress_light.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

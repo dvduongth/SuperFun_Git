@@ -1,0 +1,73 @@
+{
+    "GachaChest": {
+        "CHEST_1": {
+            "rate": {
+                "D_CLASS": 75,
+                "C_CLASS": 24,
+                "B_CLASS": 1,
+                "A_CLASS": 0,
+                "S_CLASS": 0
+            }
+        },
+        "CHEST_2": {
+            "rate": {
+                "D_CLASS": 0,
+                "C_CLASS": 0,
+                "B_CLASS": 90,
+                "A_CLASS": 10,
+                "S_CLASS": 0
+            }
+        },
+        "CHEST_3": {
+            "rate": {
+                "D_CLASS": 0,
+                "C_CLASS": 0,
+                "B_CLASS": 0,
+                "A_CLASS": 90,
+                "S_CLASS": 10
+            }
+        }
+    },
+    "GachaOption": {
+        "1": {
+            "cost": {
+                "item": "TIME",
+                "q": 14400
+            },
+            "reward": {
+                "item": "CHEST_1",
+                "q": 1
+            }
+        },
+        "2": {
+            "cost": {
+                "item": "GOLD",
+                "q": 50000
+            },
+            "reward": {
+                "item": "CHEST_1",
+                "q": 10
+            }
+        },
+        "3": {
+            "cost": {
+                "item": "COIN",
+                "q": 10
+            },
+            "reward": {
+                "item": "CHEST_2",
+                "q": 1
+            }
+        },
+        "4": {
+            "cost": {
+                "item": "COIN",
+                "q": 100
+            },
+            "reward": {
+                "item": "CHEST_2",
+                "q": 10
+            }
+        }
+    }
+}

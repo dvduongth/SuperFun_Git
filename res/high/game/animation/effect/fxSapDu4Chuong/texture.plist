@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Symbol 1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,48},{85,78}}</string>
+                <key>offset</key>
+                <string>{0,-1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{3,3},{85,78}}</string>
+                <key>sourceSize</key>
+                <string>{91,82}</string>
+            </dict>
+            <key>Symbol 4.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{46,102}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{4,0},{46,102}}</string>
+                <key>sourceSize</key>
+                <string>{54,102}</string>
+            </dict>
+            <key>Symbol 5.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{104,1},{37,17}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{37,17}}</string>
+                <key>sourceSize</key>
+                <string>{37,17}</string>
+            </dict>
+            <key>Symbol 6.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,127},{60,55}}</string>
+                <key>offset</key>
+                <string>{1,1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{2,0},{60,55}}</string>
+                <key>sourceSize</key>
+                <string>{62,57}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>texture.png</string>
+            <key>size</key>
+            <string>{128,256}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:c196204efa322d2ad1fd04772d4e2384:1/1$</string>
+            <key>textureFileName</key>
+            <string>texture.png</string>
+        </dict>
+    </dict>
+</plist>

@@ -1,0 +1,1285 @@
+{
+  "ID": "b05a3a3d-de6e-4def-8e55-f02ff3221ca4",
+  "Version": "2.3.2.3",
+  "Name": "Gui_Channel_Chosen",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 139,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/chanel_chosen/bg_chanel.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 166,
+            "ActionTag": -85665899,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "bgChanel",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 568.0,
+            "RightMargin": 568.0,
+            "TopMargin": 320.0,
+            "BottomMargin": 320.0,
+            "Tag": 220,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -418.7134,
+                  "Y": 347.8895
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -418.7134,
+                "RightMargin": 418.7134,
+                "TopMargin": -347.8895,
+                "BottomMargin": 347.8895,
+                "Tag": 197,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/button_back.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/button_back.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 14,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 22,
+                    "Scale9Height": 28,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -0.9955,
+                      "Y": -59.3201
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.044,
+                      "Y": 0.0781
+                    },
+                    "LeftMargin": -25.9955,
+                    "RightMargin": -24.0045,
+                    "TopMargin": 34.3201,
+                    "BottomMargin": -84.3201,
+                    "Tag": 19,
+                    "ActionTag": -1982892867,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Name": "btnBack",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/chon_mode_choi.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 184.5911,
+                      "Y": -56.9794
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 52.0911,
+                    "RightMargin": -317.0911,
+                    "TopMargin": 35.4794,
+                    "BottomMargin": -78.4794,
+                    "Tag": 214,
+                    "ActionTag": 1972530160,
+                    "Size": {
+                      "X": 265.0,
+                      "Y": 43.0
+                    },
+                    "Name": "chon_mode_choi_20",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -593043745,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodePlayerInfo",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -234.2235,
+                  "Y": 9.0134
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -234.2235,
+                "RightMargin": 234.2235,
+                "TopMargin": -9.0134,
+                "BottomMargin": 9.0134,
+                "Tag": 79,
+                "ActionTag": -633744412,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "ndAnimation",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/bg_muc_cuoc.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 227.1232,
+                  "Y": 0.9153
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 28.1232,
+                "RightMargin": -426.1232,
+                "TopMargin": -223.4153,
+                "BottomMargin": -221.5847,
+                "Tag": 218,
+                "Children": [
+                  {
+                    "FontSize": 28,
+                    "LabelText": "Mức Cược",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 19,
+                      "G": 6,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 17,
+                      "G": 5,
+                      "B": 2
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -1.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 198.9592,
+                      "Y": 413.6792
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4999,
+                      "Y": 0.9296
+                    },
+                    "PreSize": {
+                      "X": 0.3744,
+                      "Y": 0.0921
+                    },
+                    "LeftMargin": 124.4592,
+                    "RightMargin": 124.5408,
+                    "TopMargin": 10.8208,
+                    "BottomMargin": 393.1792,
+                    "Tag": 232,
+                    "ActionTag": -2125350993,
+                    "Size": {
+                      "X": 151.0,
+                      "Y": 43.0
+                    },
+                    "Name": "Text_10",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "BackColorAlpha": 102,
+                    "ComboBoxIndex": 1,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 6.5941,
+                      "Y": 18.1129
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0166,
+                      "Y": 0.0407
+                    },
+                    "PreSize": {
+                      "X": 0.9698,
+                      "Y": 0.827
+                    },
+                    "LeftMargin": 6.5941,
+                    "RightMargin": 5.4059,
+                    "TopMargin": 58.8871,
+                    "BottomMargin": 18.1129,
+                    "Tag": 381,
+                    "ActionTag": 700110794,
+                    "Size": {
+                      "X": 386.0,
+                      "Y": 368.0
+                    },
+                    "Alpha": 0,
+                    "Name": "pnTableView",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": -948796052,
+                "Size": {
+                  "X": 398.0,
+                  "Y": 445.0
+                },
+                "Name": "bgTableView",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/slot.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -10.767,
+                  "Y": -283.4486
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -493.7671,
+                "RightMargin": -472.2329,
+                "TopMargin": 246.9486,
+                "BottomMargin": -319.9486,
+                "Tag": 216,
+                "ActionTag": -1682410156,
+                "Size": {
+                  "X": 966.0,
+                  "Y": 73.0
+                },
+                "Name": "slot_22",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/bg_tab_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -357.8485,
+                  "Y": -289.7586
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -443.8485,
+                "RightMargin": 271.8485,
+                "TopMargin": 259.7586,
+                "BottomMargin": -319.7586,
+                "Tag": 219,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/tap_su_green.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 82.0225,
+                      "Y": 26.8553
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4769,
+                      "Y": 0.4476
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 35.5225,
+                    "RightMargin": 43.4775,
+                    "TopMargin": 16.6447,
+                    "BottomMargin": 10.3553,
+                    "Tag": 224,
+                    "ActionTag": -887750334,
+                    "Size": {
+                      "X": 93.0,
+                      "Y": 33.0
+                    },
+                    "Name": "sprTitleGreen",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/tap_su_yellow.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 81.5666,
+                      "Y": 26.8553
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4742,
+                      "Y": 0.4476
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 35.0666,
+                    "RightMargin": 43.9334,
+                    "TopMargin": 16.6447,
+                    "BottomMargin": 10.3553,
+                    "Tag": 225,
+                    "ActionTag": -361095276,
+                    "Size": {
+                      "X": 93.0,
+                      "Y": 33.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "sprTitleYellow",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1175557426,
+                "Size": {
+                  "X": 172.0,
+                  "Y": 60.0
+                },
+                "Name": "btnTabTS",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/bg_tab_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -185.5621,
+                  "Y": -289.7586
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -271.5621,
+                "RightMargin": 99.5621,
+                "TopMargin": 259.7586,
+                "BottomMargin": -319.7586,
+                "Tag": 221,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/phu_ho_green.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 86.6812,
+                      "Y": 26.7366
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.504,
+                      "Y": 0.4456
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 39.6812,
+                    "RightMargin": 38.3188,
+                    "TopMargin": 14.2634,
+                    "BottomMargin": 7.7366,
+                    "Tag": 226,
+                    "ActionTag": -856238033,
+                    "Size": {
+                      "X": 94.0,
+                      "Y": 38.0
+                    },
+                    "Name": "sprTitleGreen",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/phu_ho_yellow.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 86.6812,
+                      "Y": 26.7367
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.504,
+                      "Y": 0.4456
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 39.6812,
+                    "RightMargin": 38.3188,
+                    "TopMargin": 14.2633,
+                    "BottomMargin": 7.7367,
+                    "Tag": 227,
+                    "ActionTag": -1424931480,
+                    "Size": {
+                      "X": 94.0,
+                      "Y": 38.0
+                    },
+                    "Name": "sprTitleYellow",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1238139852,
+                "Size": {
+                  "X": 172.0,
+                  "Y": 60.0
+                },
+                "Name": "btnTabCN",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/bg_tab_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "DisplayState": false,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -11.2759,
+                  "Y": -289.7584
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -97.2759,
+                "RightMargin": -74.7241,
+                "TopMargin": 259.7584,
+                "BottomMargin": -319.7584,
+                "Tag": 222,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/dai_gia_green.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.8767,
+                      "Y": 27.2532
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5342,
+                      "Y": 0.4542
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 42.8767,
+                    "RightMargin": 31.1233,
+                    "TopMargin": 16.2468,
+                    "BottomMargin": 10.7532,
+                    "Tag": 228,
+                    "ActionTag": 2117422482,
+                    "Size": {
+                      "X": 98.0,
+                      "Y": 33.0
+                    },
+                    "Name": "sprTitleGreen",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/dai_gia_yellow.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.8767,
+                      "Y": 27.2532
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5342,
+                      "Y": 0.4542
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 42.8767,
+                    "RightMargin": 31.1233,
+                    "TopMargin": 16.2468,
+                    "BottomMargin": 10.7532,
+                    "Tag": 229,
+                    "ActionTag": -1654004821,
+                    "Size": {
+                      "X": 98.0,
+                      "Y": 33.0
+                    },
+                    "Name": "sprTitleYellow",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1994703283,
+                "Size": {
+                  "X": 172.0,
+                  "Y": 60.0
+                },
+                "Name": "btnTabDG",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/bg_tab_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 162.0105,
+                  "Y": -289.7586
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 76.0105,
+                "RightMargin": -248.0105,
+                "TopMargin": 259.7586,
+                "BottomMargin": -319.7586,
+                "Tag": 223,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/trieu_phu_green.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 88.7928,
+                      "Y": 26.7116
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5162,
+                      "Y": 0.4452
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 24.2928,
+                    "RightMargin": 18.7072,
+                    "TopMargin": 16.7884,
+                    "BottomMargin": 10.2116,
+                    "Tag": 230,
+                    "ActionTag": 2011826590,
+                    "Size": {
+                      "X": 129.0,
+                      "Y": 33.0
+                    },
+                    "Name": "sprTitleGreen",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/trieu_phu_yellow.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 88.7928,
+                      "Y": 26.7116
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5162,
+                      "Y": 0.4452
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 24.2928,
+                    "RightMargin": 18.7072,
+                    "TopMargin": 16.7884,
+                    "BottomMargin": 10.2116,
+                    "Tag": 231,
+                    "ActionTag": -1814697313,
+                    "Size": {
+                      "X": 129.0,
+                      "Y": 33.0
+                    },
+                    "Name": "sprTitleYellow",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1043735155,
+                "Size": {
+                  "X": 172.0,
+                  "Y": 60.0
+                },
+                "Name": "btnTabTP",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/bg_tab_btn.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 335.296,
+                  "Y": -289.7586
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 249.296,
+                "RightMargin": -421.296,
+                "TopMargin": 259.7586,
+                "BottomMargin": -319.7586,
+                "Tag": 261,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/ty_phu_green.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 88.0456,
+                      "Y": 27.4823
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5119,
+                      "Y": 0.458
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 41.5456,
+                    "RightMargin": 37.4544,
+                    "TopMargin": 13.0177,
+                    "BottomMargin": 7.9823,
+                    "Tag": 262,
+                    "ActionTag": -1433961400,
+                    "Size": {
+                      "X": 93.0,
+                      "Y": 39.0
+                    },
+                    "Name": "sprTitleGreen",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/chanel_chosen/ty_phu_yellow.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 88.0458,
+                      "Y": 27.4823
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5119,
+                      "Y": 0.458
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 41.0458,
+                    "RightMargin": 36.9542,
+                    "TopMargin": 13.0177,
+                    "BottomMargin": 7.9823,
+                    "Tag": 263,
+                    "ActionTag": 98116988,
+                    "Size": {
+                      "X": 94.0,
+                      "Y": 39.0
+                    },
+                    "Name": "sprTitleYellow",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 314014488,
+                "Size": {
+                  "X": 172.0,
+                  "Y": 60.0
+                },
+                "Name": "btnTabTYP",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1884065375,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "nodeCenter",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../lobby/button_back.png",
+        "../../../../lobby/chanel_chosen/bg_chanel.jpg",
+        "../../../../lobby/chanel_chosen/bg_muc_cuoc.png",
+        "../../../../lobby/chanel_chosen/bg_tab_btn.png",
+        "../../../../lobby/chanel_chosen/chon_mode_choi.png",
+        "../../../../lobby/chanel_chosen/dai_gia_green.png",
+        "../../../../lobby/chanel_chosen/dai_gia_yellow.png",
+        "../../../../lobby/chanel_chosen/phu_ho_green.png",
+        "../../../../lobby/chanel_chosen/phu_ho_yellow.png",
+        "../../../../lobby/chanel_chosen/slot.png",
+        "../../../../lobby/chanel_chosen/tap_su_green.png",
+        "../../../../lobby/chanel_chosen/tap_su_yellow.png",
+        "../../../../lobby/chanel_chosen/trieu_phu_green.png",
+        "../../../../lobby/chanel_chosen/trieu_phu_yellow.png",
+        "../../../../lobby/chanel_chosen/ty_phu_green.png",
+        "../../../../lobby/chanel_chosen/ty_phu_yellow.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

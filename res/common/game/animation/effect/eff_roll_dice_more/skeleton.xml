@@ -1,0 +1,82 @@
+<dragonBones name="eff_roll_dice_more" frameRate="24" version="2.3">
+ <armature name="eff_roll_dice_more">
+  <bone name="Layer 7">
+   <transform x="1" y="1.95" skX="0" skY="0" scX="1.91" scY="1.91"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 7" parent="Layer 7" z="0">
+    <display name="Symbol 4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="166.5" pY="27.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="40" scale="1" loop="0" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 7" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="4">
+     <transform x="1" y="1.95" skX="0" skY="0" scX="1.91" scY="1.91" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="2">
+     <transform x="1" y="1.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="1" y="1.95" skX="0" skY="0" scX="1.05" scY="1.05" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="23">
+     <transform x="1" y="1.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="4">
+     <transform x="1" y="1.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="6">
+     <transform x="1" y="1.95" skX="0" skY="0" scX="1.41" scY="1.41" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="sao toa copy">
+  <bone name="Layer 1">
+   <transform x="0" y="0" skX="0" skY="0" scX="1.31" scY="1.31"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 1" parent="Layer 1" z="0">
+    <display name="sao" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="36.5" pY="36.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="30" scale="1" loop="0" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 1" scale="1" offset="0">
+    <frame z="0" tweenEasing="-1" duration="6">
+     <transform x="0" y="0" skX="0" skY="0" scX="1.31" scY="1.31" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0.5" duration="23">
+     <transform x="0" y="0" skX="0" skY="0" scX="2.04" scY="2.04" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1.31" scY="1.31" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="x">
+  <bone name="Layer 2">
+   <transform x="-16.65" y="-4.4" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 2" parent="Layer 2" z="0" blendMode="add">
+    <display name="sao toa copy" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="1" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 2" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-16.65" y="-4.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

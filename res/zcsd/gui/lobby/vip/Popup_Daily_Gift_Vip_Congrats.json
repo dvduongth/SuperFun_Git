@@ -1,0 +1,352 @@
+{
+  "ID": "b4a12dc8-6130-40ae-8580-f5c20944ad05",
+  "Version": "2.3.2.3",
+  "Name": "Popup_Daily_Gift_Vip_Congrats",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 531,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/version2/vip/vip_bg_common.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.9958,
+              "Y": 0.8375
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 2.0,
+            "RightMargin": 2.0,
+            "TopMargin": 52.0,
+            "BottomMargin": 52.0,
+            "Tag": 128,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/vip/vip_bg2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 478.0,
+                  "Y": 276.85
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5165
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 9.5,
+                "RightMargin": 9.5,
+                "TopMargin": 26.65,
+                "BottomMargin": 44.35,
+                "Tag": 129,
+                "ActionTag": 645329804,
+                "Size": {
+                  "X": 937.0,
+                  "Y": 465.0
+                },
+                "Name": "vip_bg2_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/vip/vip_congrats_daily_login_text.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 478.0,
+                  "Y": 445.9565
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.832
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 78.5,
+                "RightMargin": 78.5,
+                "TopMargin": 64.0435,
+                "BottomMargin": 419.9565,
+                "Tag": 130,
+                "ActionTag": -534768359,
+                "Size": {
+                  "X": 564.0,
+                  "Y": 50.0
+                },
+                "Name": "vip_congrats_text_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/vip/vip_title.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 478.0,
+                  "Y": 515.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9608
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 233.5,
+                "RightMargin": 233.5,
+                "TopMargin": -16.5,
+                "BottomMargin": 477.5,
+                "Tag": 131,
+                "ActionTag": 1251329113,
+                "Size": {
+                  "X": 489.0,
+                  "Y": 75.0
+                },
+                "Name": "vip_title_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 18,
+                "LabelText": "* Trong thời gian hiệu lực của VIP, bạn phải đăng nhập hàng ngày để nhận quà",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold_italic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 427.3297,
+                  "Y": 33.325
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.447,
+                  "Y": 0.0622
+                },
+                "PreSize": {
+                  "X": 0.9477,
+                  "Y": 0.0597
+                },
+                "LeftMargin": 53.8297,
+                "RightMargin": 155.1703,
+                "TopMargin": 489.675,
+                "BottomMargin": 20.325,
+                "Tag": 132,
+                "ActionTag": 942240952,
+                "Size": {
+                  "X": 747.0,
+                  "Y": 26.0
+                },
+                "Name": "Text_4_0_0_0_0_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/vip/vip_receive.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 183,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 478.0,
+                  "Y": 115.7268
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2159
+                },
+                "PreSize": {
+                  "X": 0.2228,
+                  "Y": 0.1269
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 371.5,
+                "RightMargin": 371.5,
+                "TopMargin": 386.2733,
+                "BottomMargin": 81.7268,
+                "Tag": 133,
+                "ActionTag": 1010195289,
+                "Size": {
+                  "X": 213.0,
+                  "Y": 68.0
+                },
+                "Name": "btn_receive",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 1087693535,
+            "Size": {
+              "X": 956.0,
+              "Y": 536.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../Default/Button_Disable.png",
+        "../../../../fonts/font_game_bold_italic.ttf",
+        "../../../../lobby/version2/vip/vip_bg_common.png",
+        "../../../../lobby/version2/vip/vip_bg2.png",
+        "../../../../lobby/version2/vip/vip_congrats_daily_login_text.png",
+        "../../../../lobby/version2/vip/vip_receive.png",
+        "../../../../lobby/version2/vip/vip_title.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

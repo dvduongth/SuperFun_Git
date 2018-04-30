@@ -1,0 +1,432 @@
+{
+  "ID": "37be7998-fa83-4866-9fb4-7976a8619787",
+  "Version": "2.3.2.3",
+  "Name": "Gui_TutorialHelp",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 627,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "game/tutorial/tut_bg_1.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1136,
+            "Scale9Height": 213,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 285.4496
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.446
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.3328
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "TopMargin": 248.0504,
+            "BottomMargin": 178.9496,
+            "Tag": 631,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/tutorial/tut_npc.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 247,
+                "Scale9Height": 443,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 199.1221,
+                  "Y": 42.4633
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1753,
+                  "Y": 0.1994
+                },
+                "PreSize": {
+                  "X": 0.2174,
+                  "Y": 0.6922
+                },
+                "LeftMargin": 75.6221,
+                "RightMargin": 813.3779,
+                "TopMargin": -50.9633,
+                "BottomMargin": -179.0367,
+                "CallBackType": "Click",
+                "Tag": 47,
+                "ActionTag": -14151695,
+                "Size": {
+                  "X": 247.0,
+                  "Y": 443.0
+                },
+                "Name": "imgNPC",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "button/btn_blue_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/btn_blue_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 255,
+                "Scale9Height": 47,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 490.4083,
+                  "Y": 48.1852
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4317,
+                  "Y": 0.2262
+                },
+                "PreSize": {
+                  "X": 0.2509,
+                  "Y": 0.3239
+                },
+                "LeftMargin": 347.9083,
+                "RightMargin": 503.0917,
+                "TopMargin": 130.3148,
+                "BottomMargin": 13.6852,
+                "Tag": 634,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "localize/tut_win.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 142.8133,
+                      "Y": 37.474
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5011,
+                      "Y": 0.5431
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 16.3133,
+                    "RightMargin": 15.6867,
+                    "TopMargin": 14.526,
+                    "BottomMargin": 20.474,
+                    "Tag": 45,
+                    "ActionTag": 1606271824,
+                    "Size": {
+                      "X": 253.0,
+                      "Y": 34.0
+                    },
+                    "Name": "Sprite_2",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1803195912,
+                "Size": {
+                  "X": 285.0,
+                  "Y": 69.0
+                },
+                "Name": "btnTutWin",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "button/button_green_2.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/button_green_2.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 255,
+                "Scale9Height": 47,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 787.7873,
+                  "Y": 47.4483
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6935,
+                  "Y": 0.2228
+                },
+                "PreSize": {
+                  "X": 0.2509,
+                  "Y": 0.3239
+                },
+                "LeftMargin": 645.2873,
+                "RightMargin": 205.7127,
+                "TopMargin": 131.0517,
+                "BottomMargin": 12.9483,
+                "Tag": 636,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "localize/tut_move.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 143.8548,
+                      "Y": 38.4475
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5048,
+                      "Y": 0.5572
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 27.3548,
+                    "RightMargin": 24.6452,
+                    "TopMargin": 13.0525,
+                    "BottomMargin": 20.9475,
+                    "Tag": 46,
+                    "ActionTag": -1072318003,
+                    "Size": {
+                      "X": 233.0,
+                      "Y": 35.0
+                    },
+                    "Name": "Sprite_3",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1325537041,
+                "Size": {
+                  "X": 285.0,
+                  "Y": 69.0
+                },
+                "Name": "btnTutMove",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": 2022117916,
+            "Size": {
+              "X": 1136.0,
+              "Y": 213.0
+            },
+            "Name": "bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "button/x.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "button/x.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 28,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1062.527,
+              "Y": 356.3823
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9353,
+              "Y": 0.5568
+            },
+            "PreSize": {
+              "X": 0.0776,
+              "Y": 0.1063
+            },
+            "HorizontalEdge": "RightEdge",
+            "LeftMargin": 1033.527,
+            "RightMargin": 44.473,
+            "TopMargin": 255.6177,
+            "BottomMargin": 328.3823,
+            "Tag": 632,
+            "ActionTag": 754823427,
+            "Size": {
+              "X": 58.0,
+              "Y": 56.0
+            },
+            "Name": "btnCancel",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../button/btn_blue_1.png",
+        "../../../../button/button_green_2.png",
+        "../../../../button/x.png",
+        "../../../../game/tutorial/tut_bg_1.png",
+        "../../../../game/tutorial/tut_npc.png",
+        "../../../../localize/tut_move.png",
+        "../../../../localize/tut_win.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

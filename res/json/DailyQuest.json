@@ -1,0 +1,801 @@
+{
+    "listQuest": {
+        "DQ_1": {
+            "typeAction": "AC_1",
+            "nameAction": "PLAY_GAME",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                10000
+            ],
+            "quickComplete": 5
+        },
+        "DQ_2": {
+            "typeAction": "AC_1",
+            "nameAction": "PLAY_GAME",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                20000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_3": {
+            "typeAction": "AC_1",
+            "nameAction": "PLAY_GAME",
+            "require": 3,
+            "questLevel": 3,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                50000
+            ],
+            "quickComplete": 15
+        },
+        "DQ_4": {
+            "typeAction": "AC_2",
+            "nameAction": "WIN_GAME",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                20000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_5": {
+            "typeAction": "AC_2",
+            "nameAction": "WIN_GAME",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                40000
+            ],
+            "quickComplete": 15
+        },
+        "DQ_6": {
+            "typeAction": "AC_2",
+            "nameAction": "WIN_GAME",
+            "require": 3,
+            "questLevel": 3,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                100000
+            ],
+            "quickComplete": 30
+        },
+        "DQ_7": {
+            "typeAction": "AC_3",
+            "nameAction": "CONTINUOUS_WIN_GAME",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                50000
+            ],
+            "quickComplete": 15
+        },
+        "DQ_8": {
+            "typeAction": "AC_3",
+            "nameAction": "CONTINUOUS_WIN_GAME",
+            "require": 3,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                10
+            ],
+            "quickComplete": 30
+        },
+        "DQ_9": {
+            "typeAction": "AC_4",
+            "nameAction": "UPGRADE_CHARACTER",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                10000
+            ],
+            "quickComplete": 5
+        },
+        "DQ_10": {
+            "typeAction": "AC_4",
+            "nameAction": "UPGRADE_CHARACTER",
+            "require": 5,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                50000
+            ],
+            "quickComplete": 15
+        },
+        "DQ_11": {
+            "typeAction": "AC_4",
+            "nameAction": "UPGRADE_CHARACTER",
+            "require": 10,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                5
+            ],
+            "quickComplete": 20
+        },
+        "DQ_12": {
+            "typeAction": "AC_5",
+            "nameAction": "COMPLETE_HORSE",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                20000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_13": {
+            "typeAction": "AC_5",
+            "nameAction": "COMPLETE_HORSE",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                5
+            ],
+            "quickComplete": 20
+        },
+        "DQ_14": {
+            "typeAction": "AC_5",
+            "nameAction": "COMPLETE_HORSE",
+            "require": 3,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                10
+            ],
+            "quickComplete": 30
+        },
+        "DQ_15": {
+            "typeAction": "AC_6",
+            "nameAction": "WIN_COMPLETE_STABLE",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                20000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_16": {
+            "typeAction": "AC_7",
+            "nameAction": "ACQUIRE_LIGHT",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                10000
+            ],
+            "quickComplete": 5
+        },
+        "DQ_17": {
+            "typeAction": "AC_7",
+            "nameAction": "ACQUIRE_LIGHT",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                30000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_18": {
+            "typeAction": "AC_7",
+            "nameAction": "ACQUIRE_LIGHT",
+            "require": 3,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                5
+            ],
+            "quickComplete": 20
+        },
+        "DQ_19": {
+            "typeAction": "AC_8",
+            "nameAction": "WIN_GAME_COMPLETE_LIGHT",
+            "require": 1,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_2"
+            ],
+            "numGift": [
+                1
+            ],
+            "quickComplete": 120
+        },
+        "DQ_20": {
+            "typeAction": "AC_9",
+            "nameAction": "WIN_ALL_BANKRUPT;WIN_OVER_TURN;WIN_OVER_TIME",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                10000
+            ],
+            "quickComplete": 5
+        },
+        "DQ_21": {
+            "typeAction": "AC_9",
+            "nameAction": "WIN_ALL_BANKRUPT;WIN_OVER_TURN;WIN_OVER_TIME",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                30000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_22": {
+            "typeAction": "AC_10",
+            "nameAction": "DO_OTHER_BANKRUPT",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                10000
+            ],
+            "quickComplete": 5
+        },
+        "DQ_23": {
+            "typeAction": "AC_10",
+            "nameAction": "DO_OTHER_BANKRUPT",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                50000
+            ],
+            "quickComplete": 15
+        },
+        "DQ_24": {
+            "typeAction": "AC_10",
+            "nameAction": "DO_OTHER_BANKRUPT",
+            "require": 3,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                10
+            ],
+            "quickComplete": 30
+        },
+        "DQ_25": {
+            "typeAction": "AC_11",
+            "nameAction": "PLAY_TAP_SU",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                50000
+            ],
+            "quickComplete": 15
+        },
+        "DQ_26": {
+            "typeAction": "AC_12",
+            "nameAction": "PLAY_PHU_HO",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                200000
+            ],
+            "quickComplete": 50
+        },
+        "DQ_27": {
+            "typeAction": "AC_13",
+            "nameAction": "PLAY_DAI_GIA",
+            "require": 1,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                2000000
+            ],
+            "quickComplete": 450
+        },
+        "DQ_28": {
+            "typeAction": "AC_14",
+            "nameAction": "PLAY_TRIEU_PHU",
+            "require": 1,
+            "questLevel": 3,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                20000000
+            ],
+            "quickComplete": 4200
+        },
+        "DQ_29": {
+            "typeAction": "AC_15",
+            "nameAction": "PLAY_TI_PHU",
+            "require": 1,
+            "questLevel": 3,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                500000000
+            ],
+            "quickComplete": 120000
+        },
+        "DQ_30": {
+            "typeAction": "AC_16",
+            "nameAction": "ADD_GOLD",
+            "require": 50000,
+            "questLevel": 2,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                5
+            ],
+            "quickComplete": 20
+        },
+        "DQ_31": {
+            "typeAction": "AC_16",
+            "nameAction": "ADD_GOLD",
+            "require": 100000,
+            "questLevel": 2,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                10
+            ],
+            "quickComplete": 30
+        },
+        "DQ_32": {
+            "typeAction": "AC_16",
+            "nameAction": "ADD_GOLD",
+            "require": 200000,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                20
+            ],
+            "quickComplete": 60
+        },
+        "DQ_33": {
+            "typeAction": "AC_17",
+            "nameAction": "USE_GOLD",
+            "require": 50000,
+            "questLevel": 1,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                5
+            ],
+            "quickComplete": 20
+        },
+        "DQ_34": {
+            "typeAction": "AC_17",
+            "nameAction": "USE_GOLD",
+            "require": 100000,
+            "questLevel": 2,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                10
+            ],
+            "quickComplete": 30
+        },
+        "DQ_35": {
+            "typeAction": "AC_17",
+            "nameAction": "USE_GOLD",
+            "require": 200000,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                20
+            ],
+            "quickComplete": 60
+        },
+        "DQ_36": {
+            "typeAction": "AC_18",
+            "nameAction": "NORMAL_KICK",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                10000
+            ],
+            "quickComplete": 5
+        },
+        "DQ_37": {
+            "typeAction": "AC_18",
+            "nameAction": "NORMAL_KICK",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                30000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_38": {
+            "typeAction": "AC_18",
+            "nameAction": "NORMAL_KICK",
+            "require": 3,
+            "questLevel": 3,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                50000
+            ],
+            "quickComplete": 15
+        },
+        "DQ_39": {
+            "typeAction": "AC_19",
+            "nameAction": "ALL_KICK",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                10000
+            ],
+            "quickComplete": 5
+        },
+        "DQ_40": {
+            "typeAction": "AC_19",
+            "nameAction": "ALL_KICK",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                30000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_41": {
+            "typeAction": "AC_19",
+            "nameAction": "ALL_KICK",
+            "require": 3,
+            "questLevel": 3,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                50000
+            ],
+            "quickComplete": 15
+        },
+        "DQ_42": {
+            "typeAction": "AC_20",
+            "nameAction": "ACTIVE_BOM",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                10000
+            ],
+            "quickComplete": 5
+        },
+        "DQ_43": {
+            "typeAction": "AC_20",
+            "nameAction": "ACTIVE_BOM",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                30000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_44": {
+            "typeAction": "AC_20",
+            "nameAction": "ACTIVE_BOM",
+            "require": 3,
+            "questLevel": 3,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                50000
+            ],
+            "quickComplete": 15
+        },
+        "DQ_45": {
+            "typeAction": "AC_21",
+            "nameAction": "BOM_KICK",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                20000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_46": {
+            "typeAction": "AC_21",
+            "nameAction": "BOM_KICK",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                30000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_47": {
+            "typeAction": "AC_21",
+            "nameAction": "BOM_KICK",
+            "require": 3,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                5
+            ],
+            "quickComplete": 20
+        },
+        "DQ_48": {
+            "typeAction": "AC_22",
+            "nameAction": "GET_TAX",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                10000
+            ],
+            "quickComplete": 5
+        },
+        "DQ_49": {
+            "typeAction": "AC_22",
+            "nameAction": "GET_TAX",
+            "require": 2,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                30000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_50": {
+            "typeAction": "AC_22",
+            "nameAction": "GET_TAX",
+            "require": 3,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                5
+            ],
+            "quickComplete": 20
+        },
+        "DQ_51": {
+            "typeAction": "AC_23",
+            "nameAction": "INC_TAX_1",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                20000
+            ],
+            "quickComplete": 10
+        },
+        "DQ_52": {
+            "typeAction": "AC_24",
+            "nameAction": "INC_TAX_2",
+            "require": 1,
+            "questLevel": 2,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                50000
+            ],
+            "quickComplete": 15
+        },
+        "DQ_53": {
+            "typeAction": "AC_25",
+            "nameAction": "INC_TAX_3",
+            "require": 1,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                5
+            ],
+            "quickComplete": 20
+        },
+        "DQ_54": {
+            "typeAction": "AC_26",
+            "nameAction": "PAY_COIN",
+            "require": 1,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_2"
+            ],
+            "numGift": [
+                1
+            ],
+            "quickComplete": 120
+        },
+        "DQ_55": {
+            "typeAction": "AC_27",
+            "nameAction": "USE_COIN",
+            "require": 1,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_2"
+            ],
+            "numGift": [
+                1
+            ],
+            "quickComplete": 120
+        },
+        "DQ_56": {
+            "typeAction": "AC_28",
+            "nameAction": "OPEN_CHEST",
+            "require": 1,
+            "questLevel": 1,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                5
+            ],
+            "quickComplete": 20
+        },
+        "DQ_57": {
+            "typeAction": "AC_28",
+            "nameAction": "OPEN_CHEST",
+            "require": 10,
+            "questLevel": 3,
+            "gift": [
+                "CHEST_1"
+            ],
+            "numGift": [
+                10
+            ],
+            "quickComplete": 30
+        },
+        "DQ_58": {
+            "typeAction": "AC_29",
+            "nameAction": "OPEN_GOLD_CHEST",
+            "require": 1,
+            "questLevel": 3,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                100000
+            ],
+            "quickComplete": 30
+        }
+    },
+    "renQuest": {
+        "1": {
+            "score": 1,
+            "percent": 50
+        },
+        "2": {
+            "score": 2,
+            "percent": 30
+        },
+        "3": {
+            "score": 3,
+            "percent": 20
+        }
+    },
+    "giftScore": [
+        {
+            "scoreRequire": 4,
+            "gift": [
+                "GOLD"
+            ],
+            "numGift": [
+                100000
+            ]
+        },
+        {
+            "scoreRequire": 7,
+            "gift": [
+                "COIN"
+            ],
+            "numGift": [
+                10
+            ]
+        },
+        {
+            "scoreRequire": 10,
+            "gift": [
+                "CHEST_2"
+            ],
+            "numGift": [
+                1
+            ]
+        }
+    ]
+}

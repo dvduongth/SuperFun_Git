@@ -1,0 +1,903 @@
+{
+  "ID": "a2ec7f47-1545-4e71-9483-b91ab6ca778c",
+  "Version": "2.3.2.3",
+  "Name": "Gui_Vip_Register",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 473,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/version2/vip/vip_bg_common.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 480.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.9958,
+              "Y": 0.8375
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 2.0,
+            "RightMargin": 2.0,
+            "TopMargin": 52.0,
+            "BottomMargin": 52.0,
+            "Tag": 474,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/vip/vip_bg1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 478.0,
+                  "Y": 276.85
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5165
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 9.5,
+                "RightMargin": 9.5,
+                "TopMargin": 26.65,
+                "BottomMargin": 44.35,
+                "Tag": 640,
+                "ActionTag": 1718902160,
+                "Size": {
+                  "X": 937.0,
+                  "Y": 465.0
+                },
+                "Name": "vip_bg1_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/vip/vip_title.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 464.4543,
+                  "Y": 515.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4858,
+                  "Y": 0.9608
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 219.9543,
+                "RightMargin": 247.0457,
+                "TopMargin": -16.5,
+                "BottomMargin": 477.5,
+                "Tag": 651,
+                "ActionTag": -1961194206,
+                "Size": {
+                  "X": 489.0,
+                  "Y": 75.0
+                },
+                "Name": "vip_title_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Normal.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 24,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 929.8973,
+                  "Y": 524.689
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9727,
+                  "Y": 0.9789
+                },
+                "PreSize": {
+                  "X": 0.0565,
+                  "Y": 0.1045
+                },
+                "LeftMargin": 902.8973,
+                "RightMargin": -0.8973,
+                "TopMargin": -16.689,
+                "BottomMargin": 496.689,
+                "Tag": 475,
+                "ActionTag": -971243402,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 56.0
+                },
+                "Name": "btn_close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "Nạp tiền trực tiếp thẻ cào mệnh giá",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 468.5751,
+                  "Y": 238.3256
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4901,
+                  "Y": 0.4446
+                },
+                "PreSize": {
+                  "X": 0.3504,
+                  "Y": 0.0485
+                },
+                "LeftMargin": 265.5751,
+                "RightMargin": 284.4249,
+                "TopMargin": 280.6744,
+                "BottomMargin": 221.3256,
+                "Tag": 478,
+                "ActionTag": -1076544136,
+                "Size": {
+                  "X": 406.0,
+                  "Y": 34.0
+                },
+                "Name": "Text_1_0_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 22,
+                "LabelText": "x Ngày",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 402.9857,
+                  "Y": 198.5816
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4215,
+                  "Y": 0.3705
+                },
+                "PreSize": {
+                  "X": 0.1046,
+                  "Y": 0.0634
+                },
+                "LeftMargin": 352.9857,
+                "RightMargin": 503.0143,
+                "TopMargin": 320.4184,
+                "BottomMargin": 181.5816,
+                "Tag": 479,
+                "ActionTag": 627107231,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 34.0
+                },
+                "Name": "durationInSecLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "100K",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 676.4713,
+                  "Y": 237.3296
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7076,
+                  "Y": 0.4428
+                },
+                "PreSize": {
+                  "X": 0.0607,
+                  "Y": 0.0597
+                },
+                "LeftMargin": 676.4713,
+                "RightMargin": 220.5287,
+                "TopMargin": 281.6704,
+                "BottomMargin": 220.3296,
+                "CallBackType": "Click",
+                "Tag": 480,
+                "ActionTag": 29050389,
+                "Size": {
+                  "X": 59.0,
+                  "Y": 34.0
+                },
+                "Name": "grossCostLabel",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/version2/vip/vip_register.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 253,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 478.0,
+                  "Y": 49.0076
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0914
+                },
+                "PreSize": {
+                  "X": 0.296,
+                  "Y": 0.1269
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 336.5,
+                "RightMargin": 336.5,
+                "TopMargin": 452.9924,
+                "BottomMargin": 15.0076,
+                "Tag": 481,
+                "Children": [
+                  {
+                    "FontSize": 24,
+                    "LabelText": "100K",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 178.3696,
+                      "Y": 38.2148
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 1,
+                      "G": 112,
+                      "B": 10
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6303,
+                      "Y": 0.562
+                    },
+                    "PreSize": {
+                      "X": 0.1767,
+                      "Y": 0.4265
+                    },
+                    "LeftMargin": 147.3696,
+                    "RightMargin": 73.6304,
+                    "TopMargin": 11.2852,
+                    "BottomMargin": 19.7148,
+                    "Tag": 652,
+                    "ActionTag": 656388515,
+                    "Size": {
+                      "X": 62.0,
+                      "Y": 35.0
+                    },
+                    "Name": "Text_2",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 77335992,
+                "Size": {
+                  "X": 283.0,
+                  "Y": 68.0
+                },
+                "Name": "btn_register",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "Nếu bạn nạp thẻ nhỏ hơn          thì việc đăng kí sẽ không thành công",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "StretchHeightEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 145.6621,
+                  "Y": 158.5387
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 226,
+                  "B": 192
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1524,
+                  "Y": 0.2958
+                },
+                "PreSize": {
+                  "X": 0.7531,
+                  "Y": 0.0541
+                },
+                "LeftMargin": 145.6621,
+                "RightMargin": 90.3379,
+                "TopMargin": 362.9601,
+                "BottomMargin": 144.0399,
+                "Tag": 482,
+                "ActionTag": 1939752790,
+                "Size": {
+                  "X": 720.0,
+                  "Y": 28.9976
+                },
+                "Name": "Text_1_0_0_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "100K",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 412.8207,
+                  "Y": 158.4455
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4318,
+                  "Y": 0.2956
+                },
+                "PreSize": {
+                  "X": 0.0523,
+                  "Y": 0.0541
+                },
+                "LeftMargin": 412.8207,
+                "RightMargin": 493.1793,
+                "TopMargin": 363.0544,
+                "BottomMargin": 143.9455,
+                "Tag": 483,
+                "ActionTag": 681176573,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 29.0
+                },
+                "Name": "grossCostLabel1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "Nếu bạn nạp thẻ lớn hơn          thì số tiền thừa sẽ chuyển thành G.",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 76.5961,
+                  "Y": 107.4964
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 226,
+                  "B": 192
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0801,
+                  "Y": 0.2006
+                },
+                "PreSize": {
+                  "X": 0.6162,
+                  "Y": 0.0469
+                },
+                "LeftMargin": 76.5961,
+                "RightMargin": 179.4039,
+                "TopMargin": 413.5037,
+                "BottomMargin": 92.4964,
+                "Tag": 484,
+                "ActionTag": 1789862575,
+                "Size": {
+                  "X": 700.0,
+                  "Y": 30.0
+                },
+                "Name": "Text_1_0_0_0_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "100K",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 339.4149,
+                  "Y": 106.5589
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.355,
+                  "Y": 0.1988
+                },
+                "PreSize": {
+                  "X": 0.0523,
+                  "Y": 0.0541
+                },
+                "LeftMargin": 339.4149,
+                "RightMargin": 566.5851,
+                "TopMargin": 414.9411,
+                "BottomMargin": 92.0589,
+                "Tag": 485,
+                "ActionTag": -1023162538,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 29.0
+                },
+                "Name": "grossCostLabel2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "và số tiền nạp vào sẽ chuyển thành G.",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "StretchHeightEnable": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 77.789,
+                  "Y": 133.0413
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 226,
+                  "B": 192
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0814,
+                  "Y": 0.2482
+                },
+                "PreSize": {
+                  "X": 0.7322,
+                  "Y": 0.0541
+                },
+                "LeftMargin": 77.789,
+                "RightMargin": 178.211,
+                "TopMargin": 388.4575,
+                "BottomMargin": 118.5425,
+                "Tag": 486,
+                "ActionTag": -902579322,
+                "Size": {
+                  "X": 700.0,
+                  "Y": 28.9976
+                },
+                "Name": "Text_1_0_0_0_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Chú ý:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 108.7261,
+                  "Y": 158.5402
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 226,
+                  "B": 192
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1137,
+                  "Y": 0.2958
+                },
+                "PreSize": {
+                  "X": 0.069,
+                  "Y": 0.0541
+                },
+                "LeftMargin": 75.7261,
+                "RightMargin": 814.2739,
+                "TopMargin": 362.9598,
+                "BottomMargin": 144.0402,
+                "Tag": 488,
+                "ActionTag": -1648841306,
+                "Size": {
+                  "X": 66.0,
+                  "Y": 29.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1058851443,
+            "Size": {
+              "X": 956.0,
+              "Y": 536.0
+            },
+            "Name": "bg",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../Default/Button_Disable.png",
+        "../../../../Default/Button_Normal.png",
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../lobby/version2/vip/vip_bg_common.png",
+        "../../../../lobby/version2/vip/vip_bg1.png",
+        "../../../../lobby/version2/vip/vip_register.png",
+        "../../../../lobby/version2/vip/vip_title.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

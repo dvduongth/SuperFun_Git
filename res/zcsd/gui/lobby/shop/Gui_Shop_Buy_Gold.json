@@ -1,0 +1,1089 @@
+{
+  "ID": "a802b31c-76b6-4f14-a42c-74163fa3f059",
+  "Version": "2.3.2.3",
+  "Name": "Gui_Shop_Buy_Gold",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 139,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/chanel_chosen/bg_chanel.jpg",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 166,
+            "ActionTag": -85665899,
+            "Size": {
+              "X": 1136.0,
+              "Y": 640.0
+            },
+            "Name": "bgChanel",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 568.0,
+            "RightMargin": 568.0,
+            "TopMargin": 320.0,
+            "BottomMargin": 320.0,
+            "Tag": 220,
+            "Children": [
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -418.7134,
+                  "Y": 347.8895
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -418.7134,
+                "RightMargin": 418.7134,
+                "TopMargin": -347.8895,
+                "BottomMargin": 347.8895,
+                "Tag": 197,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/button_back.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/button_back.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 14,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 22,
+                    "Scale9Height": 28,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -0.9955,
+                      "Y": -59.3201
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.044,
+                      "Y": 0.0781
+                    },
+                    "LeftMargin": -25.9955,
+                    "RightMargin": -24.0045,
+                    "TopMargin": 34.3201,
+                    "BottomMargin": -84.3201,
+                    "Tag": 19,
+                    "ActionTag": -1982892867,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Name": "btnBack",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/shop/buyGold/titleBuyGold.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 118.5939,
+                      "Y": -55.9796
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 41.0939,
+                    "RightMargin": -196.0939,
+                    "TopMargin": 32.4796,
+                    "BottomMargin": -79.4796,
+                    "Tag": 214,
+                    "ActionTag": 1972530160,
+                    "Size": {
+                      "X": 155.0,
+                      "Y": 47.0
+                    },
+                    "Name": "title_shop",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -593043745,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodePlayerInfo",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_selected.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_unselected.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_unselected.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 215,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 339.2566,
+                  "Y": 228.3326
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 216.7566,
+                "RightMargin": -461.7566,
+                "TopMargin": -262.3326,
+                "BottomMargin": 194.3326,
+                "Tag": 310,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/shop/buyGold/iconIAP.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 63.4043,
+                      "Y": 25.6583
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2588,
+                      "Y": 0.3773
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 45.4043,
+                    "RightMargin": 163.5957,
+                    "TopMargin": 25.8417,
+                    "BottomMargin": 9.1583,
+                    "Tag": 312,
+                    "ActionTag": 2065883671,
+                    "Size": {
+                      "X": 36.0,
+                      "Y": 33.0
+                    },
+                    "Name": "iconIAP_8",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 25,
+                    "LabelText": "IAP",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 70,
+                      "B": 85
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 48,
+                      "G": 48,
+                      "B": 113
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -1.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 139.9132,
+                      "Y": 27.8222
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5711,
+                      "Y": 0.4092
+                    },
+                    "PreSize": {
+                      "X": 0.2122,
+                      "Y": 0.6765
+                    },
+                    "LeftMargin": 116.9132,
+                    "RightMargin": 82.0868,
+                    "TopMargin": 19.6778,
+                    "BottomMargin": 7.3222,
+                    "Tag": 313,
+                    "ActionTag": -327953298,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 41.0
+                    },
+                    "Name": "Text_10",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1493788348,
+                "Size": {
+                  "X": 245.0,
+                  "Y": 68.0
+                },
+                "Name": "btnIAP",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_selected.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_unselected.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_unselected.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 215,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 110.6201,
+                  "Y": 227.3316
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -11.8799,
+                "RightMargin": -233.1201,
+                "TopMargin": -261.3316,
+                "BottomMargin": 193.3316,
+                "Tag": 314,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/shop/buyGold/iconSMS.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 63.4043,
+                      "Y": 25.6583
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2588,
+                      "Y": 0.3773
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 45.4043,
+                    "RightMargin": 163.5957,
+                    "TopMargin": 25.8417,
+                    "BottomMargin": 9.1583,
+                    "Tag": 315,
+                    "ActionTag": -1209444947,
+                    "Size": {
+                      "X": 41.0,
+                      "Y": 36.0
+                    },
+                    "Name": "iconIAP_8",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 25,
+                    "LabelText": "SMS",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 70,
+                      "B": 85
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 48,
+                      "G": 48,
+                      "B": 113
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -1.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 138.913,
+                      "Y": 28.8221
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.567,
+                      "Y": 0.4239
+                    },
+                    "PreSize": {
+                      "X": 0.2122,
+                      "Y": 0.6765
+                    },
+                    "LeftMargin": 111.413,
+                    "RightMargin": 78.587,
+                    "TopMargin": 18.6779,
+                    "BottomMargin": 8.3221,
+                    "Tag": 316,
+                    "ActionTag": -1027665220,
+                    "Size": {
+                      "X": 55.0,
+                      "Y": 41.0
+                    },
+                    "Name": "Text_10",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 783314533,
+                "Size": {
+                  "X": 245.0,
+                  "Y": 68.0
+                },
+                "Name": "btnSMS",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_selected.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_unselected.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_unselected.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 215,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -116.6969,
+                  "Y": 226.2757
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -239.1969,
+                "RightMargin": -5.8031,
+                "TopMargin": -260.2757,
+                "BottomMargin": 192.2757,
+                "Tag": 320,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/shop/buyGold/iconCard.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 59.4043,
+                      "Y": 25.6583
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2425,
+                      "Y": 0.3773
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 36.4043,
+                    "RightMargin": 162.5957,
+                    "TopMargin": 25.8417,
+                    "BottomMargin": 9.1583,
+                    "Tag": 321,
+                    "ActionTag": 629874191,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 33.0
+                    },
+                    "Name": "iconIAP_8",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 25,
+                    "LabelText": "CARD",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 70,
+                      "B": 85
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 48,
+                      "G": 48,
+                      "B": 113
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -1.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 142.0646,
+                      "Y": 27.8223
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5799,
+                      "Y": 0.4092
+                    },
+                    "PreSize": {
+                      "X": 0.2122,
+                      "Y": 0.6765
+                    },
+                    "LeftMargin": 103.5646,
+                    "RightMargin": 64.4354,
+                    "TopMargin": 19.6777,
+                    "BottomMargin": 7.3223,
+                    "Tag": 322,
+                    "ActionTag": 1529453232,
+                    "Size": {
+                      "X": 77.0,
+                      "Y": 41.0
+                    },
+                    "Name": "Text_10",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 749375958,
+                "Size": {
+                  "X": 245.0,
+                  "Y": 68.0
+                },
+                "Name": "btnCard",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_selected.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_unselected.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/btn_tab_unselected.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 215,
+                "Scale9Height": 46,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -343.8021,
+                  "Y": 227.3306
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -466.3021,
+                "RightMargin": 221.3021,
+                "TopMargin": -261.3306,
+                "BottomMargin": 193.3306,
+                "Tag": 324,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/shop/buyGold/iconchangeMoney.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 42.5543,
+                      "Y": 25.5069
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1737,
+                      "Y": 0.3751
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 19.5543,
+                    "RightMargin": 179.4457,
+                    "TopMargin": 23.4931,
+                    "BottomMargin": 6.5069,
+                    "Tag": 325,
+                    "ActionTag": 1849644960,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 38.0
+                    },
+                    "Name": "iconIAP_8",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 25,
+                    "LabelText": "ĐỔI TIỀN",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 70,
+                      "B": 85
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 48,
+                      "G": 48,
+                      "B": 113
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -1.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 138.9129,
+                      "Y": 27.8221
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.567,
+                      "Y": 0.4091
+                    },
+                    "PreSize": {
+                      "X": 0.2122,
+                      "Y": 0.6765
+                    },
+                    "LeftMargin": 72.9129,
+                    "RightMargin": 40.0871,
+                    "TopMargin": 16.1779,
+                    "BottomMargin": 3.8221,
+                    "Tag": 326,
+                    "ActionTag": -1117872028,
+                    "Size": {
+                      "X": 110.0,
+                      "Y": 41.0
+                    },
+                    "Name": "Text_10",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 733007846,
+                "Size": {
+                  "X": 245.0,
+                  "Y": 68.0
+                },
+                "Name": "btnChangeMoney",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/shop/buyGold/bg_Default.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": -13.6665
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.6609
+                },
+                "HorizontalEdge": "LeftEdge",
+                "LeftMargin": -568.0,
+                "RightMargin": -568.0,
+                "TopMargin": -197.8335,
+                "BottomMargin": -225.1665,
+                "Tag": 327,
+                "ActionTag": -1361591814,
+                "Size": {
+                  "X": 1136.0,
+                  "Y": 423.0
+                },
+                "Name": "bg_GuiSelect",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1884065375,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "nodeCenter",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "ScrollDirectionType": 0,
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 150,
+              "B": 100
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 150,
+              "B": 100
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 564.7056,
+              "Y": 305.0717
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4971,
+              "Y": 0.4767
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.6609
+            },
+            "HorizontalEdge": "BothEdge",
+            "LeftMargin": -3.2579,
+            "RightMargin": 3.2579,
+            "TopMargin": 123.4283,
+            "BottomMargin": 93.5717,
+            "Tag": 328,
+            "ActionTag": 310038060,
+            "Size": {
+              "X": 1136.0,
+              "Y": 423.0
+            },
+            "Alpha": 0,
+            "Name": "pageMgr",
+            "ctype": "PageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../lobby/button_back.png",
+        "../../../../lobby/chanel_chosen/bg_chanel.jpg",
+        "../../../../lobby/shop/buyGold/bg_Default.png",
+        "../../../../lobby/shop/buyGold/btn_tab_selected.png",
+        "../../../../lobby/shop/buyGold/btn_tab_unselected.png",
+        "../../../../lobby/shop/buyGold/iconCard.png",
+        "../../../../lobby/shop/buyGold/iconchangeMoney.png",
+        "../../../../lobby/shop/buyGold/iconIAP.png",
+        "../../../../lobby/shop/buyGold/iconSMS.png",
+        "../../../../lobby/shop/buyGold/titleBuyGold.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

@@ -1,0 +1,20 @@
+
+material bot_dice03
+{
+	technique
+	{
+		pass
+		{
+			scene_blend add
+			depth_write off
+
+			texture_unit star_ring.png
+			{
+				texture_alias bot_dice03.png
+				texture bot_dice03.png
+			}
+		}
+
+	}
+
+}

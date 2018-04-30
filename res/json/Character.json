@@ -1,0 +1,757 @@
+{
+    "CharList": {
+        "CH_D_1": {
+            "name": "CH_D_1"
+        },
+        "CH_D_2": {
+            "name": "CH_D_2"
+        },
+        "CH_C_1": {
+            "name": "CH_C_1"
+        },
+        "CH_C_2": {
+            "name": "CH_C_2"
+        },
+        "CH_B_1": {
+            "name": "CH_B_1"
+        },
+        "CH_B_2": {
+            "name": "CH_B_2"
+        },
+        "CH_B_3": {
+            "name": "CH_B_3"
+        },
+        "CH_A_1": {
+            "name": "CH_A_1"
+        },
+        "CH_A_2": {
+            "name": "CH_A_2"
+        },
+        "CH_A_3": {
+            "name": "CH_A_3"
+        },
+        "CH_S_1": {
+            "name": "CH_S_1"
+        }
+    },
+    "CharClass": {
+        "D_CLASS": {
+            "characterDrop": [
+                "CH_D_1:100",
+                "CH_D_2:100"
+            ]
+        },
+        "C_CLASS": {
+            "skillDrop": [
+                "MONEY:100"
+            ],
+            "characterDrop": [
+                "CH_C_1:100",
+                "CH_C_2:400"
+            ]
+        },
+        "B_CLASS": {
+            "skillDrop": [
+                "MONEY;SUPPORT:100"
+            ],
+            "characterDrop": [
+                "CH_B_1:100",
+                "CH_B_2:50",
+                "CH_B_3:100"
+            ]
+        },
+        "A_CLASS": {
+            "skillDrop": [
+                "MONEY;SUPPORT;ATTACK:100",
+                "MONEY;SUPPORT;MOVE:100"
+            ],
+            "characterDrop": [
+                "CH_A_1:100",
+                "CH_A_2:150",
+                "CH_A_3:250"
+            ]
+        },
+        "S_CLASS": {
+            "skillDrop": [
+                "MONEY;SUPPORT;ATTACK;MOVE:100"
+            ],
+            "characterDrop": [
+                "CH_S_1:100"
+            ]
+        }
+    },
+    "Skill": {
+        "101": {
+            "type": "ATTACK",
+            "context": "ON_ROLL_DICE_TO_KICK",
+            "priority": 200,
+            "dropWeight": 10,
+            "attributes": {
+                "A_CLASS": {
+                    "chance": 45,
+                    "cBonus": 3
+                },
+                "S_CLASS": {
+                    "chance": 60,
+                    "cBonus": 4,
+                    "max_chance": 80
+                }
+            }
+        },
+        "102": {
+            "type": "ATTACK",
+            "context": "ON_FINISH_ACTION_KICK",
+            "priority": 200,
+            "dropWeight": 0,
+            "attributes": {
+                "S_CLASS": {
+                    "chance": 10,
+                    "cBonus": 2,
+                    "max_chance": 20
+                }
+            }
+        },
+        "103": {
+            "type": "ATTACK",
+            "context": "ON_ACTIVE_TO_MOVE",
+            "priority": 200,
+            "dropWeight": 30,
+            "attributes": {
+                "A_CLASS": {
+                    "chance": 30,
+                    "cBonus": 4
+                },
+                "S_CLASS": {
+                    "chance": 50,
+                    "cBonus": 5,
+                    "max_chance": 75
+                }
+            }
+        },
+        "104": {
+            "type": "ATTACK",
+            "context": "ON_MOVE_ON_BOARD",
+            "priority": 200,
+            "dropWeight": 50,
+            "attributes": {
+                "A_CLASS": {
+                    "chance": 35,
+                    "cBonus": 3,
+                    "value": "3;6"
+                },
+                "S_CLASS": {
+                    "chance": 50,
+                    "cBonus": 4,
+                    "value": "3;6",
+                    "max_chance": 70,
+                    "max_value": "3;6"
+                }
+            }
+        },
+        "105": {
+            "type": "ATTACK",
+            "context": "ON_ACTIVE_TO_MOVE",
+            "priority": 200,
+            "dropWeight": 10,
+            "attributes": {
+                "A_CLASS": {
+                    "chance": 20,
+                    "cBonus": 2
+                },
+                "S_CLASS": {
+                    "chance": 30,
+                    "cBonus": 3,
+                    "max_chance": 45
+                }
+            }
+        },
+        "106": {
+            "type": "ATTACK",
+            "context": "ON_SUMMON_ROLL_DICE",
+            "priority": 200,
+            "dropWeight": 0,
+            "attributes": {
+                "S_CLASS": {
+                    "chance": 20,
+                    "cBonus": 2,
+                    "max_chance": 30
+                }
+            }
+        },
+        "201": {
+            "type": "MOVE",
+            "context": "ON_ROLL_DICE_TO_MOVE",
+            "priority": 100,
+            "dropWeight": 10,
+            "attributes": {
+                "A_CLASS": {
+                    "chance": 20,
+                    "cBonus": 2
+                },
+                "S_CLASS": {
+                    "chance": 30,
+                    "cBonus": 3,
+                    "max_chance": 45
+                }
+            }
+        },
+        "202": {
+            "type": "MOVE",
+            "context": "ON_SUMMON_ROLL_DICE",
+            "priority": 100,
+            "dropWeight": 10,
+            "attributes": {
+                "A_CLASS": {
+                    "chance": 20,
+                    "cBonus": 2
+                },
+                "S_CLASS": {
+                    "chance": 30,
+                    "cBonus": 3,
+                    "max_chance": 45
+                }
+            }
+        },
+        "203": {
+            "type": "MOVE",
+            "context": "ON_SUMMON_ROLL_DICE",
+            "priority": 100,
+            "dropWeight": 40,
+            "attributes": {
+                "A_CLASS": {
+                    "chance": 25,
+                    "cBonus": 2
+                },
+                "S_CLASS": {
+                    "chance": 35,
+                    "cBonus": 3,
+                    "max_chance": 50
+                }
+            }
+        },
+        "204": {
+            "type": "MOVE",
+            "context": "ON_ROLL_DICE_TO_MOVE",
+            "priority": 100,
+            "dropWeight": 0,
+            "attributes": {
+                "S_CLASS": {
+                    "chance": 30,
+                    "cBonus": 2,
+                    "max_chance": 40
+                }
+            }
+        },
+        "205": {
+            "type": "MOVE",
+            "context": "ON_MOVE_ON_BOARD",
+            "priority": 100,
+            "dropWeight": 0,
+            "attributes": {
+                "S_CLASS": {
+                    "chance": 20,
+                    "cBonus": 2,
+                    "max_chance": 30
+                }
+            }
+        },
+        "206": {
+            "type": "MOVE",
+            "context": "ON_START_CELL",
+            "priority": 300,
+            "dropWeight": 40,
+            "attributes": {
+                "A_CLASS": {
+                    "chance": 50,
+                    "cBonus": 4
+                },
+                "S_CLASS": {
+                    "chance": 70,
+                    "cBonus": 5,
+                    "max_chance": 95
+                }
+            }
+        },
+        "301": {
+            "type": "MONEY",
+            "context": "ON_START_GAME",
+            "priority": 400,
+            "dropWeight": 15,
+            "attributes": {
+                "C_CLASS": {
+                    "chance": 30,
+                    "cBonus": 1,
+                    "value": 2
+                },
+                "B_CLASS": {
+                    "chance": 35,
+                    "cBonus": 2,
+                    "value": 2
+                },
+                "A_CLASS": {
+                    "chance": 45,
+                    "cBonus": 3,
+                    "value": 2
+                },
+                "S_CLASS": {
+                    "chance": 60,
+                    "cBonus": 4,
+                    "value": 2,
+                    "max_chance": 80,
+                    "max_value": 2
+                }
+            }
+        },
+        "302": {
+            "type": "MONEY",
+            "context": "ON_CALCULATE_KICK_FEE",
+            "priority": 400,
+            "dropWeight": 0,
+            "attributes": {
+                "B_CLASS": {
+                    "chance": 20,
+                    "cBonus": 1,
+                    "value": 2
+                },
+                "A_CLASS": {
+                    "chance": 25,
+                    "cBonus": 1,
+                    "value": 2
+                },
+                "S_CLASS": {
+                    "chance": 30,
+                    "cBonus": 1,
+                    "value": 2,
+                    "max_chance": 35,
+                    "max_value": 2
+                }
+            }
+        },
+        "303": {
+            "type": "MONEY",
+            "context": "ON_BONUS_FIRST_LOAD",
+            "priority": 400,
+            "dropWeight": 30,
+            "attributes": {
+                "C_CLASS": {
+                    "chance": 35,
+                    "cBonus": 1,
+                    "value": 1
+                },
+                "B_CLASS": {
+                    "chance": 40,
+                    "cBonus": 2,
+                    "value": 1
+                },
+                "A_CLASS": {
+                    "chance": 50,
+                    "cBonus": 3,
+                    "value": 1
+                },
+                "S_CLASS": {
+                    "chance": 65,
+                    "cBonus": 4,
+                    "value": 1,
+                    "max_chance": 85,
+                    "max_value": 1
+                }
+            }
+        },
+        "304": {
+            "type": "MONEY",
+            "context": "ON_START_CELL",
+            "priority": 400,
+            "dropWeight": 40,
+            "attributes": {
+                "C_CLASS": {
+                    "chance": 30,
+                    "cBonus": 2,
+                    "value": 0.1
+                },
+                "B_CLASS": {
+                    "chance": 40,
+                    "cBonus": 3,
+                    "value": 0.1
+                },
+                "A_CLASS": {
+                    "chance": 55,
+                    "cBonus": 3,
+                    "value": 0.1
+                },
+                "S_CLASS": {
+                    "chance": 70,
+                    "cBonus": 4,
+                    "value": 0.1,
+                    "max_chance": 90,
+                    "max_value": 0.1
+                }
+            }
+        },
+        "305": {
+            "type": "MONEY",
+            "context": "ON_TAX_CELL",
+            "priority": 400,
+            "dropWeight": 5,
+            "attributes": {
+                "C_CLASS": {
+                    "chance": 15,
+                    "cBonus": 1
+                },
+                "B_CLASS": {
+                    "chance": 20,
+                    "cBonus": 1
+                },
+                "A_CLASS": {
+                    "chance": 25,
+                    "cBonus": 2
+                },
+                "S_CLASS": {
+                    "chance": 35,
+                    "cBonus": 3,
+                    "max_chance": 50
+                }
+            }
+        },
+        "306": {
+            "type": "MONEY",
+            "context": "ON_TAX_CELL",
+            "priority": 400,
+            "dropWeight": 10,
+            "attributes": {
+                "C_CLASS": {
+                    "chance": 30,
+                    "cBonus": 1,
+                    "value": 0.3
+                },
+                "B_CLASS": {
+                    "chance": 35,
+                    "cBonus": 2,
+                    "value": 0.35
+                },
+                "A_CLASS": {
+                    "chance": 45,
+                    "cBonus": 2,
+                    "value": 0.4
+                },
+                "S_CLASS": {
+                    "chance": 55,
+                    "cBonus": 2,
+                    "value": 0.45,
+                    "max_chance": 65,
+                    "max_value": 0.5
+                }
+            }
+        },
+        "402": {
+            "type": "SUPPORT",
+            "context": "ON_ACTIVE_TO_MOVE",
+            "priority": 300,
+            "dropWeight": 37,
+            "attributes": {
+                "B_CLASS": {
+                    "chance": 25,
+                    "cBonus": 1
+                },
+                "A_CLASS": {
+                    "chance": 30,
+                    "cBonus": 1
+                },
+                "S_CLASS": {
+                    "chance": 35,
+                    "cBonus": 1,
+                    "max_chance": 40
+                }
+            }
+        },
+        "403": {
+            "type": "SUPPORT",
+            "context": "ON_ADD_REWARD",
+            "priority": 300,
+            "dropWeight": 40,
+            "attributes": {
+                "B_CLASS": {
+                    "chance": 100,
+                    "cBonus": 0,
+                    "value": 0.25
+                },
+                "A_CLASS": {
+                    "chance": 100,
+                    "cBonus": 0,
+                    "value": 0.3
+                },
+                "S_CLASS": {
+                    "chance": 100,
+                    "cBonus": 0,
+                    "value": 0.35,
+                    "max_chance": 100,
+                    "max_value": 0.4
+                }
+            }
+        },
+        "404": {
+            "type": "SUPPORT",
+            "context": "PASSIVE",
+            "priority": 300,
+            "dropWeight": 3,
+            "attributes": {
+                "B_CLASS": {
+                    "chance": 100,
+                    "cBonus": 0,
+                    "value": 0.03
+                },
+                "A_CLASS": {
+                    "chance": 100,
+                    "cBonus": 0,
+                    "value": 0.055
+                },
+                "S_CLASS": {
+                    "chance": 100,
+                    "cBonus": 0,
+                    "value": 0.08,
+                    "max_chance": 100,
+                    "max_value": 0.13
+                }
+            }
+        },
+        "405": {
+            "type": "SUPPORT",
+            "context": "ON_FIRST_BE_KICKED",
+            "priority": 300,
+            "dropWeight": 0,
+            "attributes": {
+                "B_CLASS": {
+                    "chance": 20,
+                    "cBonus": 2
+                },
+                "A_CLASS": {
+                    "chance": 30,
+                    "cBonus": 3
+                },
+                "S_CLASS": {
+                    "chance": 45,
+                    "cBonus": 4,
+                    "max_chance": 65
+                }
+            }
+        },
+        "406": {
+            "type": "SUPPORT",
+            "context": "ON_BEFORE_BE_KICKED",
+            "priority": 300,
+            "dropWeight": 5,
+            "attributes": {
+                "B_CLASS": {
+                    "chance": 20,
+                    "cBonus": 1
+                },
+                "A_CLASS": {
+                    "chance": 25,
+                    "cBonus": 2
+                },
+                "S_CLASS": {
+                    "chance": 35,
+                    "cBonus": 2,
+                    "max_chance": 45
+                }
+            }
+        },
+        "407": {
+            "type": "SUPPORT",
+            "context": "ON_DIED",
+            "priority": 300,
+            "dropWeight": 15,
+            "attributes": {
+                "B_CLASS": {
+                    "chance": 30,
+                    "cBonus": 1
+                },
+                "A_CLASS": {
+                    "chance": 35,
+                    "cBonus": 1
+                },
+                "S_CLASS": {
+                    "chance": 40,
+                    "cBonus": 1,
+                    "max_chance": 45
+                }
+            }
+        }
+    },
+    "Level": {
+        "1": {
+            "charClass": "D_CLASS",
+            "requireExp": 1000,
+            "evolveExp": 500,
+            "requireGold": 1000,
+            "sellGold": 1000
+        },
+        "2": {
+            "charClass": "D_CLASS",
+            "requireExp": 3000,
+            "evolveExp": 900,
+            "requireGold": 30000,
+            "sellGold": 2000
+        },
+        "3": {
+            "charClass": "D_CLASS",
+            "requireExp": 6000,
+            "evolveExp": 1500,
+            "requireGold": 60000,
+            "sellGold": 4000
+        },
+        "4": {
+            "charClass": "D_CLASS",
+            "requireExp": 10000,
+            "evolveExp": 2500,
+            "requireGold": 100000,
+            "sellGold": 7000
+        },
+        "5": {
+            "charClass": "D_CLASS",
+            "requireExp": 15000,
+            "evolveExp": 4000,
+            "requireGold": 150000,
+            "sellGold": 10000
+        },
+        "6": {
+            "charClass": "C_CLASS",
+            "requireExp": 33000,
+            "evolveExp": 5033,
+            "requireGold": 330000,
+            "sellGold": 13000
+        },
+        "7": {
+            "charClass": "C_CLASS",
+            "requireExp": 54000,
+            "evolveExp": 8633,
+            "requireGold": 540000,
+            "sellGold": 17000
+        },
+        "8": {
+            "charClass": "C_CLASS",
+            "requireExp": 78000,
+            "evolveExp": 13833,
+            "requireGold": 780000,
+            "sellGold": 22000
+        },
+        "9": {
+            "charClass": "C_CLASS",
+            "requireExp": 105000,
+            "evolveExp": 20833,
+            "requireGold": 1050000,
+            "sellGold": 28000
+        },
+        "10": {
+            "charClass": "C_CLASS",
+            "requireExp": 135000,
+            "evolveExp": 29833,
+            "requireGold": 1350000,
+            "sellGold": 35000
+        },
+        "11": {
+            "charClass": "B_CLASS",
+            "requireExp": 245000,
+            "evolveExp": 34750,
+            "requireGold": 2450000,
+            "sellGold": 45000
+        },
+        "12": {
+            "charClass": "B_CLASS",
+            "requireExp": 365000,
+            "evolveExp": 53000,
+            "requireGold": 3650000,
+            "sellGold": 56000
+        },
+        "13": {
+            "charClass": "B_CLASS",
+            "requireExp": 495000,
+            "evolveExp": 77750,
+            "requireGold": 4950000,
+            "sellGold": 69000
+        },
+        "14": {
+            "charClass": "B_CLASS",
+            "requireExp": 635000,
+            "evolveExp": 109500,
+            "requireGold": 6350000,
+            "sellGold": 84000
+        },
+        "15": {
+            "charClass": "B_CLASS",
+            "requireExp": 785000,
+            "evolveExp": 148750,
+            "requireGold": 7850000,
+            "sellGold": 100000
+        },
+        "16": {
+            "charClass": "A_CLASS",
+            "requireExp": 1105000,
+            "evolveExp": 163300,
+            "requireGold": 11050000,
+            "sellGold": 140000
+        },
+        "17": {
+            "charClass": "A_CLASS",
+            "requireExp": 1445000,
+            "evolveExp": 221100,
+            "requireGold": 14450000,
+            "sellGold": 200000
+        },
+        "18": {
+            "charClass": "A_CLASS",
+            "requireExp": 1805000,
+            "evolveExp": 293300,
+            "requireGold": 18050000,
+            "sellGold": 280000
+        },
+        "19": {
+            "charClass": "A_CLASS",
+            "requireExp": 2185000,
+            "evolveExp": 380700,
+            "requireGold": 21850000,
+            "sellGold": 380000
+        },
+        "20": {
+            "charClass": "A_CLASS",
+            "requireExp": 2585000,
+            "evolveExp": 484100,
+            "requireGold": 25850000,
+            "sellGold": 500000
+        },
+        "21": {
+            "charClass": "S_CLASS",
+            "requireExp": 3635000,
+            "evolveExp": 524667,
+            "requireGold": 36350000,
+            "sellGold": 650000
+        },
+        "22": {
+            "charClass": "S_CLASS",
+            "requireExp": 4735000,
+            "evolveExp": 682500,
+            "requireGold": 47350000,
+            "sellGold": 850000
+        },
+        "23": {
+            "charClass": "S_CLASS",
+            "requireExp": 5885000,
+            "evolveExp": 878667,
+            "requireGold": 58850000,
+            "sellGold": 1200000
+        },
+        "24": {
+            "charClass": "S_CLASS",
+            "requireExp": 7085000,
+            "evolveExp": 1114833,
+            "requireGold": 70850000,
+            "sellGold": 1500000
+        },
+        "25": {
+            "charClass": "S_CLASS",
+            "requireExp": 8335000,
+            "evolveExp": 1392667,
+            "requireGold": 83350000,
+            "sellGold": 2000000
+        }
+    }
+}

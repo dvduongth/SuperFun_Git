@@ -1,0 +1,6002 @@
+{
+  "ID": "c345185d-382b-4497-844a-23d5b51d3145",
+  "Version": "2.3.2.3",
+  "Name": "Gui_MainBoard",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 223,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 568.0,
+            "RightMargin": 568.0,
+            "TopMargin": 320.0,
+            "BottomMargin": 320.0,
+            "Tag": 224,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/bg.jpg",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -0.687,
+                  "Y": 1.6017
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.8,
+                  "Y": 1.5203
+                },
+                "LeftMargin": -864.687,
+                "RightMargin": -863.313,
+                "TopMargin": -488.1017,
+                "BottomMargin": -484.8983,
+                "Tag": 225,
+                "ActionTag": 1700506536,
+                "Size": {
+                  "X": 1728.0,
+                  "Y": 973.0
+                },
+                "Name": "Ingame_background",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/horse_in_home_slot.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -269.0705,
+                  "Y": -300.4427
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -307.5705,
+                "RightMargin": 230.5705,
+                "TopMargin": 274.9427,
+                "BottomMargin": -325.9427,
+                "Tag": 226,
+                "ActionTag": 982236277,
+                "Size": {
+                  "X": 77.0,
+                  "Y": 51.0
+                },
+                "Name": "horse_in_home_slot_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/horse_in_home_slot.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 436.1746,
+                  "Y": -196.9678
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 397.6746,
+                "RightMargin": -474.6746,
+                "TopMargin": 171.4678,
+                "BottomMargin": -222.4678,
+                "Tag": 227,
+                "ActionTag": 2116168409,
+                "Size": {
+                  "X": 77.0,
+                  "Y": 51.0
+                },
+                "Name": "horse_in_home_slot_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/horse_in_home_slot.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 284.1738,
+                  "Y": 255.1753
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 245.6738,
+                "RightMargin": -322.6738,
+                "TopMargin": -280.6753,
+                "BottomMargin": 229.6753,
+                "Tag": 228,
+                "ActionTag": 1106407153,
+                "Size": {
+                  "X": 77.0,
+                  "Y": 51.0
+                },
+                "Name": "horse_in_home_slot_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/horse_in_home_slot.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -427.3903,
+                  "Y": 169.886
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -465.8903,
+                "RightMargin": 388.8903,
+                "TopMargin": -195.386,
+                "BottomMargin": 144.386,
+                "Tag": 229,
+                "ActionTag": 1209409963,
+                "Size": {
+                  "X": 77.0,
+                  "Y": 51.0
+                },
+                "Name": "horse_in_home_slot_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipY": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_slot_yellow.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -207.2767,
+                  "Y": 135.4716
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -413.7767,
+                "RightMargin": 0.7767,
+                "TopMargin": -270.4716,
+                "BottomMargin": 0.4716,
+                "Tag": 230,
+                "ActionTag": 204173893,
+                "Size": {
+                  "X": 413.0,
+                  "Y": 270.0
+                },
+                "Alpha": 204,
+                "Name": "des_slot_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FlipY": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_slot_red.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 205.8102,
+                  "Y": 132.9672
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -0.6898,
+                "RightMargin": -412.3102,
+                "TopMargin": -267.9672,
+                "BottomMargin": -2.0328,
+                "Tag": 231,
+                "ActionTag": -1753284534,
+                "Size": {
+                  "X": 413.0,
+                  "Y": 270.0
+                },
+                "Alpha": 204,
+                "Name": "des_slot_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_slot_green.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 196.92,
+                  "Y": -136.0555
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -0.08,
+                "RightMargin": -393.92,
+                "TopMargin": 2.0555,
+                "BottomMargin": -270.0555,
+                "Tag": 232,
+                "ActionTag": -995657001,
+                "Size": {
+                  "X": 394.0,
+                  "Y": 268.0
+                },
+                "Alpha": 204,
+                "Name": "des_slot_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_slot_blue.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -206.7114,
+                  "Y": -135.4452
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -413.2114,
+                "RightMargin": 0.2114,
+                "TopMargin": 0.4452,
+                "BottomMargin": -270.4452,
+                "Tag": 233,
+                "ActionTag": -209018237,
+                "Size": {
+                  "X": 413.0,
+                  "Y": 270.0
+                },
+                "Alpha": 204,
+                "Name": "des_slot_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_mini_game_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 11.5344,
+                  "Y": -97.4091
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -44.9656,
+                "RightMargin": -68.0344,
+                "TopMargin": 49.9091,
+                "BottomMargin": -144.9091,
+                "Tag": 234,
+                "ActionTag": -2112302991,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 95.0
+                },
+                "Name": "slot_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_blue_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -46.154,
+                  "Y": -135.8019
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -96.654,
+                "RightMargin": -4.346,
+                "TopMargin": 90.3019,
+                "BottomMargin": -181.3019,
+                "Tag": 235,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.0223,
+                      "Y": 61.9984
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5052,
+                      "Y": 0.6813
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 14.0223,
+                    "RightMargin": 12.9777,
+                    "TopMargin": 5.5016,
+                    "BottomMargin": 38.4984,
+                    "Tag": 236,
+                    "ActionTag": -680168052,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_3_12",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1670140675,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_blue_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -102.6696,
+                  "Y": -173.0354
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -153.1696,
+                "RightMargin": 52.1696,
+                "TopMargin": 127.5354,
+                "BottomMargin": -218.5354,
+                "Tag": 237,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 45.7522,
+                      "Y": 57.6088
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.453,
+                      "Y": 0.6331
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 22.2522,
+                    "RightMargin": 31.7478,
+                    "TopMargin": 16.8912,
+                    "BottomMargin": 41.1088,
+                    "Tag": 238,
+                    "ActionTag": -1332337617,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_2_2_11",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1737611028,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_blue_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -160.9401,
+                  "Y": -210.0625
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -211.4401,
+                "RightMargin": 110.4401,
+                "TopMargin": 164.5625,
+                "BottomMargin": -255.5625,
+                "Tag": 239,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.8167,
+                      "Y": 61.6232
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.513,
+                      "Y": 0.6772
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 24.8167,
+                    "RightMargin": 22.1833,
+                    "TopMargin": 8.3768,
+                    "BottomMargin": 40.6232,
+                    "Tag": 240,
+                    "ActionTag": -871214155,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_1_10",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1208193582,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_blue_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 64.5898,
+                  "Y": -136.5493
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 14.0898,
+                "RightMargin": -115.0898,
+                "TopMargin": 91.0493,
+                "BottomMargin": -182.0493,
+                "Tag": 241,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.0398,
+                      "Y": 61.6458
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5053,
+                      "Y": 0.6774
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 24.0398,
+                    "RightMargin": 22.9602,
+                    "TopMargin": 8.3542,
+                    "BottomMargin": 40.6458,
+                    "Tag": 242,
+                    "ActionTag": -705730440,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_1_13",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 929299476,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_5",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_blue_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.6902,
+                  "Y": -171.8181
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 70.1902,
+                "RightMargin": -171.1902,
+                "TopMargin": 126.3181,
+                "BottomMargin": -217.3181,
+                "Tag": 243,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 45.7616,
+                      "Y": 65.7267
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4531,
+                      "Y": 0.7223
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 22.2616,
+                    "RightMargin": 31.7384,
+                    "TopMargin": 8.7733,
+                    "BottomMargin": 49.2267,
+                    "Tag": 244,
+                    "ActionTag": -942310253,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_2_1_14",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1813989572,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_blue_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 175.8241,
+                  "Y": -207.8312
+                },
+                "Scale": {
+                  "ScaleX": 0.9678,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 125.3241,
+                "RightMargin": -226.3241,
+                "TopMargin": 162.3312,
+                "BottomMargin": -253.3312,
+                "Tag": 245,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.0723,
+                      "Y": 62.266
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5057,
+                      "Y": 0.6842
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 14.0723,
+                    "RightMargin": 12.9277,
+                    "TopMargin": 5.234,
+                    "BottomMargin": 38.766,
+                    "Tag": 246,
+                    "ActionTag": 161895847,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_3_15",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -769840005,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_7",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/home_tile/home_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 231.6989,
+                  "Y": 229.9235
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 181.1989,
+                "RightMargin": -282.1989,
+                "TopMargin": -275.4235,
+                "BottomMargin": 184.4235,
+                "Tag": 247,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/home_tile/tax_slot_red_1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 50.6235,
+                      "Y": 63.5865
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5012,
+                      "Y": 0.6988
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 14.6235,
+                    "RightMargin": 14.3765,
+                    "TopMargin": 4.4135,
+                    "BottomMargin": 40.5865,
+                    "Tag": 248,
+                    "ActionTag": -539163991,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 46.0
+                    },
+                    "Name": "slot",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FlipX": true,
+                    "FlipY": true,
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/home_tile/tax_x1_1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 42.293,
+                      "Y": 71.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4187,
+                      "Y": 0.7802
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 20.793,
+                    "RightMargin": 37.207,
+                    "TopMargin": 5.0,
+                    "BottomMargin": 56.0,
+                    "Tag": 249,
+                    "ActionTag": 1275892401,
+                    "Size": {
+                      "X": 43.0,
+                      "Y": 30.0
+                    },
+                    "Name": "tax",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1632262323,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_20",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_red_3.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 329.7311,
+                  "Y": 197.7007
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 279.2311,
+                "RightMargin": -380.2311,
+                "TopMargin": -243.2007,
+                "BottomMargin": 152.2007,
+                "Tag": 250,
+                "ActionTag": 1788705307,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_19",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 249.9303,
+                  "Y": 144.8189
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 219.9303,
+                "RightMargin": -279.9303,
+                "TopMargin": -168.8189,
+                "BottomMargin": 120.8189,
+                "Tag": 252,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/sap_ham_tile.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.3252,
+                      "Y": 24.468
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9,
+                      "ScaleY": 0.9
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5054,
+                      "Y": 0.5097
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -2.1748,
+                    "RightMargin": -2.8252,
+                    "TopMargin": -3.468,
+                    "BottomMargin": -2.532,
+                    "Tag": 253,
+                    "ActionTag": -1025247234,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 39.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -559160421,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_2_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 199.2314,
+                  "Y": 112.9062
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0722,
+                  "Y": 0.0703
+                },
+                "LeftMargin": 169.2314,
+                "RightMargin": -229.2314,
+                "TopMargin": -136.9062,
+                "BottomMargin": 88.9062,
+                "Tag": 254,
+                "ActionTag": -2002688497,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_2_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 151.0763,
+                  "Y": 81.7411
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0722,
+                  "Y": 0.0703
+                },
+                "LeftMargin": 121.0763,
+                "RightMargin": -181.0763,
+                "TopMargin": -105.7411,
+                "BottomMargin": 57.7411,
+                "Tag": 255,
+                "ActionTag": 1023448928,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_2_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 101.217,
+                  "Y": 51.813
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 71.217,
+                "RightMargin": -131.217,
+                "TopMargin": -75.813,
+                "BottomMargin": 27.813,
+                "Tag": 256,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/lendinh_icon_1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 29.2873,
+                      "Y": 23.7546
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9,
+                      "ScaleY": 0.9
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4881,
+                      "Y": 0.4949
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 4.7873,
+                    "RightMargin": 6.2127,
+                    "TopMargin": 8.2454,
+                    "BottomMargin": 7.7546,
+                    "Tag": 257,
+                    "ActionTag": -1588345121,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 32.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1898131204,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_2_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_bom_white.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 383.7571,
+                  "Y": 140.1125
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 330.2571,
+                "RightMargin": -437.2571,
+                "TopMargin": -188.6125,
+                "BottomMargin": 91.6125,
+                "Tag": 258,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/tile_bom_number_type_1_2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.9818,
+                      "Y": 30.535
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7849,
+                      "Y": 0.3148
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 76.4818,
+                    "RightMargin": 15.5182,
+                    "TopMargin": 52.965,
+                    "BottomMargin": 17.035,
+                    "Tag": 259,
+                    "ActionTag": 1779609143,
+                    "Size": {
+                      "X": 15.0,
+                      "Y": 27.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "number",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1266581809,
+                "Size": {
+                  "X": 107.0,
+                  "Y": 97.0
+                },
+                "Name": "slot_18",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_green_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 329.4589,
+                  "Y": 102.5742
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 278.9589,
+                "RightMargin": -379.9589,
+                "TopMargin": -148.0742,
+                "BottomMargin": 57.0742,
+                "Tag": 260,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.8495,
+                      "Y": 62.2645
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5134,
+                      "Y": 0.6842
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 14.8495,
+                    "RightMargin": 12.1505,
+                    "TopMargin": 5.2355,
+                    "BottomMargin": 38.7645,
+                    "Tag": 261,
+                    "ActionTag": -1511839749,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_3_7",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1270087050,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_17",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_green_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 271.4685,
+                  "Y": 67.862
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 220.9685,
+                "RightMargin": -321.9685,
+                "TopMargin": -113.362,
+                "BottomMargin": 22.362,
+                "Tag": 262,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 45.0395,
+                      "Y": 58.5481
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4459,
+                      "Y": 0.6434
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 21.5395,
+                    "RightMargin": 32.4605,
+                    "TopMargin": 15.9519,
+                    "BottomMargin": 42.0481,
+                    "Tag": 263,
+                    "ActionTag": -1793971031,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_2_2_5",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -2132683738,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_16",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_green_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 214.5486,
+                  "Y": 31.5257
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 164.0486,
+                "RightMargin": -265.0486,
+                "TopMargin": -77.0257,
+                "BottomMargin": -13.9743,
+                "Tag": 264,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 50.8629,
+                      "Y": 61.8665
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5036,
+                      "Y": 0.6799
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 23.8629,
+                    "RightMargin": 23.1371,
+                    "TopMargin": 8.1335,
+                    "BottomMargin": 40.8665,
+                    "Tag": 265,
+                    "ActionTag": 104135166,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_1_4",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -383815011,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_15",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 505.7537,
+                  "Y": -146.2387
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 505.7537,
+                "RightMargin": -505.7537,
+                "TopMargin": 146.2387,
+                "BottomMargin": -146.2387,
+                "Tag": 266,
+                "ActionTag": 478097856,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_1_2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 447.3932,
+                  "Y": -194.16
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 447.3932,
+                "RightMargin": -447.3932,
+                "TopMargin": 194.16,
+                "BottomMargin": -194.16,
+                "Tag": 267,
+                "ActionTag": 1573934115,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_1_1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 426.616,
+                  "Y": -208.55
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 0.0839,
+                "RotationSkewY": 0.0892,
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 426.616,
+                "RightMargin": -426.616,
+                "TopMargin": 208.55,
+                "BottomMargin": -208.55,
+                "Tag": 268,
+                "ActionTag": 1480441549,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_1_0",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_swap.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.47,
+                  "Y": -3.6984
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0643,
+                  "Y": 0.0688
+                },
+                "LeftMargin": 103.97,
+                "RightMargin": -216.97,
+                "TopMargin": -43.8016,
+                "BottomMargin": -51.1984,
+                "Tag": 269,
+                "ActionTag": 456137654,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 95.0
+                },
+                "Name": "slot_14",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_green_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 214.7775,
+                  "Y": -42.3534
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 164.2775,
+                "RightMargin": -265.2775,
+                "TopMargin": -3.1466,
+                "BottomMargin": -87.8534,
+                "Tag": 270,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 52.0857,
+                      "Y": 62.3537
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5157,
+                      "Y": 0.6852
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 15.0857,
+                    "RightMargin": 11.9143,
+                    "TopMargin": 5.1463,
+                    "BottomMargin": 38.8537,
+                    "Tag": 271,
+                    "ActionTag": 1655720443,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_3_3",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 686087409,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_13",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_green_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 270.0219,
+                  "Y": -77.8655
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 219.5219,
+                "RightMargin": -320.5219,
+                "TopMargin": 32.3655,
+                "BottomMargin": -123.3655,
+                "Tag": 272,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 56.6175,
+                      "Y": 58.1906
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5606,
+                      "Y": 0.6395
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 33.1175,
+                    "RightMargin": 20.8825,
+                    "TopMargin": 16.3094,
+                    "BottomMargin": 41.6906,
+                    "Tag": 273,
+                    "ActionTag": -437674792,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_2_3_2",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1063996833,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_12",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_green_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 327.4043,
+                  "Y": -114.2924
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 276.9043,
+                "RightMargin": -377.9043,
+                "TopMargin": 68.7924,
+                "BottomMargin": -159.7924,
+                "Tag": 274,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.2794,
+                      "Y": 61.9745
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5077,
+                      "Y": 0.681
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 24.2794,
+                    "RightMargin": 22.7206,
+                    "TopMargin": 8.0255,
+                    "BottomMargin": 40.9745,
+                    "Tag": 275,
+                    "ActionTag": 38886561,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_1_1",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 720875428,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_11",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/home_tile/home_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 382.9549,
+                  "Y": -152.3355
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 332.4549,
+                "RightMargin": -433.4549,
+                "TopMargin": 106.8355,
+                "BottomMargin": -197.8355,
+                "Tag": 276,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/home_tile/tax_slot_green_0.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 52.3484,
+                      "Y": 62.347
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5183,
+                      "Y": 0.6851
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 17.3484,
+                    "RightMargin": 13.6516,
+                    "TopMargin": 5.153,
+                    "BottomMargin": 38.847,
+                    "Tag": 277,
+                    "ActionTag": 1655905873,
+                    "Size": {
+                      "X": 70.0,
+                      "Y": 47.0
+                    },
+                    "Name": "slot",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/home_tile/tax_x1_0.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 60.7313,
+                      "Y": 67.3384
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6013,
+                      "Y": 0.74
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 44.7313,
+                    "RightMargin": 24.2687,
+                    "TopMargin": 12.6616,
+                    "BottomMargin": 56.3384,
+                    "Tag": 278,
+                    "ActionTag": -313455559,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 20.0
+                    },
+                    "Name": "tax",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 867327231,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_10",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_red_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 172.9229,
+                  "Y": 192.7272
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 122.4229,
+                "RightMargin": -223.4229,
+                "TopMargin": -238.2272,
+                "BottomMargin": 147.2272,
+                "Tag": 279,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.3596,
+                      "Y": 62.0643
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5085,
+                      "Y": 0.682
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 24.3596,
+                    "RightMargin": 22.6404,
+                    "TopMargin": 7.9357,
+                    "BottomMargin": 41.0643,
+                    "Tag": 280,
+                    "ActionTag": 1705713964,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_1_9",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -731967955,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_21",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_red_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 114.5412,
+                  "Y": 154.6693
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 64.0412,
+                "RightMargin": -165.0412,
+                "TopMargin": -200.1693,
+                "BottomMargin": 109.1693,
+                "Tag": 281,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 55.4085,
+                      "Y": 63.3325
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5486,
+                      "Y": 0.696
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 31.9085,
+                    "RightMargin": 22.0915,
+                    "TopMargin": 11.1674,
+                    "BottomMargin": 46.8325,
+                    "Tag": 282,
+                    "ActionTag": -1665697143,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_2_4_10",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1985593743,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_22",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_bom_white.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -219.8818,
+                  "Y": 233.3921
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -273.3818,
+                "RightMargin": 166.3818,
+                "TopMargin": -281.8921,
+                "BottomMargin": 184.8921,
+                "Tag": 283,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/tile_bom_number_type_2_3.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 23.4236,
+                      "Y": 32.3955
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2189,
+                      "Y": 0.334
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 16.4236,
+                    "RightMargin": 76.5764,
+                    "TopMargin": 51.6045,
+                    "BottomMargin": 19.3955,
+                    "Tag": 284,
+                    "ActionTag": 1578978893,
+                    "Size": {
+                      "X": 14.0,
+                      "Y": 26.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "number",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -486547221,
+                "Size": {
+                  "X": 107.0,
+                  "Y": 97.0
+                },
+                "Name": "slot_28",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_red_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -162.1151,
+                  "Y": 197.6366
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -212.6151,
+                "RightMargin": 111.6151,
+                "TopMargin": -243.1366,
+                "BottomMargin": 152.1366,
+                "Tag": 285,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.2571,
+                      "Y": 62.8806
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5075,
+                      "Y": 0.691
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 14.2571,
+                    "RightMargin": 12.7429,
+                    "TopMargin": 4.6194,
+                    "BottomMargin": 39.3806,
+                    "Tag": 286,
+                    "ActionTag": 1402607349,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_3_14",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 557521624,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_27",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_red_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -106.7358,
+                  "Y": 160.4938
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -157.2358,
+                "RightMargin": 56.2358,
+                "TopMargin": -205.9938,
+                "BottomMargin": 114.9938,
+                "Tag": 287,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 57.1556,
+                      "Y": 57.6849
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5659,
+                      "Y": 0.6339
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 33.6556,
+                    "RightMargin": 20.3444,
+                    "TopMargin": 16.8151,
+                    "BottomMargin": 41.1849,
+                    "Tag": 288,
+                    "ActionTag": 1308120594,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_2_3_13",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 259663306,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_26",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_red_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -54.1307,
+                  "Y": 121.7112
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -104.6307,
+                "RightMargin": 3.6307,
+                "TopMargin": -167.2112,
+                "BottomMargin": 76.2112,
+                "Tag": 289,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.7012,
+                      "Y": 61.6273
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5119,
+                      "Y": 0.6772
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 24.7012,
+                    "RightMargin": 22.2988,
+                    "TopMargin": 8.3727,
+                    "BottomMargin": 40.6273,
+                    "Tag": 290,
+                    "ActionTag": -81890757,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_1_12",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1350859486,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_25",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_red_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 54.7533,
+                  "Y": 117.251
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 4.2533,
+                "RightMargin": -105.2533,
+                "TopMargin": -162.751,
+                "BottomMargin": 71.751,
+                "Tag": 291,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.5878,
+                      "Y": 62.4547
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5108,
+                      "Y": 0.6863
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 14.5878,
+                    "RightMargin": 12.4122,
+                    "TopMargin": 5.0453,
+                    "BottomMargin": 38.9547,
+                    "Tag": 292,
+                    "ActionTag": -1359529596,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_3_11",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 2087276479,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_23",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_jail.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -0.2666,
+                  "Y": 85.6403
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -56.7666,
+                "RightMargin": -56.2334,
+                "TopMargin": -133.1403,
+                "BottomMargin": 38.1403,
+                "Tag": 293,
+                "ActionTag": 401210958,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 95.0
+                },
+                "Name": "slot_24",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -233.4723,
+                  "Y": 144.1736
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -263.4723,
+                "RightMargin": 203.4723,
+                "TopMargin": -168.1736,
+                "BottomMargin": 120.1736,
+                "Tag": 294,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/sap_ham_tile.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 31.3384,
+                      "Y": 23.5808
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9,
+                      "ScaleY": 0.9
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5223,
+                      "Y": 0.4913
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 8.3384,
+                    "RightMargin": 5.6616,
+                    "TopMargin": 1.4192,
+                    "BottomMargin": 0.5808,
+                    "Tag": 295,
+                    "ActionTag": 53573008,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 39.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1582646005,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_3_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -182.7364,
+                  "Y": 113.2395
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0722,
+                  "Y": 0.0703
+                },
+                "LeftMargin": -212.7364,
+                "RightMargin": 152.7364,
+                "TopMargin": -137.2395,
+                "BottomMargin": 89.2395,
+                "Tag": 296,
+                "ActionTag": -246810744,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_3_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -135.1645,
+                  "Y": 82.064
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0722,
+                  "Y": 0.0703
+                },
+                "LeftMargin": -165.1645,
+                "RightMargin": 105.1645,
+                "TopMargin": -106.064,
+                "BottomMargin": 58.064,
+                "Tag": 297,
+                "ActionTag": 1663416722,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_3_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -85.0012,
+                  "Y": 52.3681
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -115.0012,
+                "RightMargin": 55.0012,
+                "TopMargin": -76.3681,
+                "BottomMargin": 28.3681,
+                "Tag": 298,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/lendinh_icon_2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 29.8953,
+                      "Y": 23.6388
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9,
+                      "ScaleY": 0.9
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4983,
+                      "Y": 0.4925
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 7.8953,
+                    "RightMargin": 8.1047,
+                    "TopMargin": 6.3612,
+                    "BottomMargin": 5.6388,
+                    "Tag": 299,
+                    "ActionTag": 653165588,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 36.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1201072680,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_3_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_yellow_3.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -312.6144,
+                  "Y": 199.1413
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -363.1144,
+                "RightMargin": 262.1144,
+                "TopMargin": -244.6413,
+                "BottomMargin": 153.6413,
+                "Tag": 300,
+                "ActionTag": -212131466,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_29",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/home_tile/home_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -368.9036,
+                  "Y": 140.463
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -419.4036,
+                "RightMargin": 318.4036,
+                "TopMargin": -185.963,
+                "BottomMargin": 94.963,
+                "Tag": 302,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/home_tile/tax_slot_yellow_0.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 52.2947,
+                      "Y": 62.8524
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5178,
+                      "Y": 0.6907
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 17.2947,
+                    "RightMargin": 13.7053,
+                    "TopMargin": 4.6476,
+                    "BottomMargin": 39.3524,
+                    "Tag": 303,
+                    "ActionTag": 615733435,
+                    "Size": {
+                      "X": 70.0,
+                      "Y": 47.0
+                    },
+                    "Name": "slot",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FlipX": true,
+                    "FlipY": true,
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/home_tile/tax_x1_0.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 59.9263,
+                      "Y": 70.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5933,
+                      "Y": 0.7692
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 43.9263,
+                    "RightMargin": 25.0737,
+                    "TopMargin": 11.0,
+                    "BottomMargin": 60.0,
+                    "Tag": 304,
+                    "ActionTag": -597570716,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 20.0
+                    },
+                    "Name": "tax",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1041252455,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_30",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_yellow_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -312.5811,
+                  "Y": 103.7662
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -363.0811,
+                "RightMargin": 262.0811,
+                "TopMargin": -149.2662,
+                "BottomMargin": 58.2662,
+                "Tag": 305,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.5444,
+                      "Y": 61.929
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5103,
+                      "Y": 0.6805
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 24.5444,
+                    "RightMargin": 22.4556,
+                    "TopMargin": 8.071,
+                    "BottomMargin": 40.929,
+                    "Tag": 306,
+                    "ActionTag": 1371629763,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_1_2",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1641408413,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_31",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_yellow_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -255.142,
+                  "Y": 67.26
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -305.642,
+                "RightMargin": 204.642,
+                "TopMargin": -112.76,
+                "BottomMargin": 21.76,
+                "Tag": 307,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 46.9262,
+                      "Y": 64.542
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4646,
+                      "Y": 0.7093
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 23.4262,
+                    "RightMargin": 30.5738,
+                    "TopMargin": 9.958,
+                    "BottomMargin": 48.042,
+                    "Tag": 308,
+                    "ActionTag": 218923095,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_2_1_3",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 626330192,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_32",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_yellow_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -199.9254,
+                  "Y": 30.2838
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -250.4254,
+                "RightMargin": 149.4254,
+                "TopMargin": -75.7838,
+                "BottomMargin": -15.2162,
+                "Tag": 309,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 52.1723,
+                      "Y": 61.0642
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5166,
+                      "Y": 0.671
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 15.1723,
+                    "RightMargin": 11.8277,
+                    "TopMargin": 6.4358,
+                    "BottomMargin": 37.5642,
+                    "Tag": 310,
+                    "ActionTag": 714783281,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_3_4",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1382139456,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_33",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_swap.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -137.9623,
+                  "Y": -0.8261
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0643,
+                  "Y": 0.0688
+                },
+                "LeftMargin": -194.4623,
+                "RightMargin": 81.4623,
+                "TopMargin": -46.6739,
+                "BottomMargin": -48.3261,
+                "Tag": 311,
+                "ActionTag": -2093501231,
+                "Size": {
+                  "X": 113.0,
+                  "Y": 95.0
+                },
+                "Name": "slot_34",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_yellow_1.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -197.1573,
+                  "Y": -41.1962
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -247.6573,
+                "RightMargin": 146.6573,
+                "TopMargin": -4.3038,
+                "BottomMargin": -86.6962,
+                "Tag": 312,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 52.5435,
+                      "Y": 61.1997
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5202,
+                      "Y": 0.6725
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 25.5435,
+                    "RightMargin": 21.4565,
+                    "TopMargin": 8.8003,
+                    "BottomMargin": 40.1997,
+                    "Tag": 313,
+                    "ActionTag": -1111643293,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_1_5",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 497818163,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_35",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_yellow_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -253.0915,
+                  "Y": -78.12
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -303.5915,
+                "RightMargin": 202.5915,
+                "TopMargin": 32.62,
+                "BottomMargin": -123.62,
+                "Tag": 314,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 56.0524,
+                      "Y": 63.8387
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.555,
+                      "Y": 0.7015
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 32.5524,
+                    "RightMargin": 21.4476,
+                    "TopMargin": 10.6613,
+                    "BottomMargin": 47.3387,
+                    "Tag": 315,
+                    "ActionTag": 337627825,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_2_4_6",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1289702551,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_36",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_yellow_2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -312.1782,
+                  "Y": -115.203
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -362.6782,
+                "RightMargin": 261.6782,
+                "TopMargin": 69.703,
+                "BottomMargin": -160.703,
+                "Tag": 316,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Default",
+                      "Path": "Default/Sprite.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 51.7557,
+                      "Y": 62.2403
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5124,
+                      "Y": 0.684
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 14.7557,
+                    "RightMargin": 12.2443,
+                    "TopMargin": 5.2597,
+                    "BottomMargin": 38.7403,
+                    "Tag": 317,
+                    "ActionTag": -1108438000,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "tile_icon_3_8",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 646830894,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_37",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_bom_white.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -368.1845,
+                  "Y": -151.2462
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -421.6845,
+                "RightMargin": 314.6845,
+                "TopMargin": 102.7462,
+                "BottomMargin": -199.7462,
+                "Tag": 318,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/tile_bom_number_type_2_3.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 25.1028,
+                      "Y": 31.405
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2346,
+                      "Y": 0.3238
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 18.1028,
+                    "RightMargin": 74.8972,
+                    "TopMargin": 52.595,
+                    "BottomMargin": 18.405,
+                    "Tag": 319,
+                    "ActionTag": -1075425608,
+                    "Size": {
+                      "X": 14.0,
+                      "Y": 26.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "number",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1123342745,
+                "Size": {
+                  "X": 107.0,
+                  "Y": 97.0
+                },
+                "Name": "slot_38",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -85.2366,
+                  "Y": -66.4997
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -115.2366,
+                "RightMargin": 55.2366,
+                "TopMargin": 42.4997,
+                "BottomMargin": -90.4997,
+                "Tag": 320,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/lendinh_icon_1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.3979,
+                      "Y": 23.2002
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9,
+                      "ScaleY": 0.9
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5066,
+                      "Y": 0.4833
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 5.8979,
+                    "RightMargin": 5.1021,
+                    "TopMargin": 8.7998,
+                    "BottomMargin": 7.2002,
+                    "Tag": 321,
+                    "ActionTag": 1339568673,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 32.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 390311481,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_0_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -135.9862,
+                  "Y": -98.0492
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -165.9862,
+                "RightMargin": 105.9862,
+                "TopMargin": 74.0492,
+                "BottomMargin": -122.0492,
+                "Tag": 322,
+                "ActionTag": 1894392947,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_0_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -184.2746,
+                  "Y": -129.2798
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -214.2746,
+                "RightMargin": 154.2746,
+                "TopMargin": 105.2798,
+                "BottomMargin": -153.2798,
+                "Tag": 323,
+                "ActionTag": 696999791,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_0_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -234.9941,
+                  "Y": -159.1384
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -264.9941,
+                "RightMargin": 204.9941,
+                "TopMargin": 135.1384,
+                "BottomMargin": -183.1384,
+                "Tag": 324,
+                "Children": [
+                  {
+                    "FlipX": true,
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/sap_ham_tile.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.3769,
+                      "Y": 24.3182
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9,
+                      "ScaleY": 0.9
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5063,
+                      "Y": 0.5066
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -2.1231,
+                    "RightMargin": -2.8769,
+                    "TopMargin": -3.3182,
+                    "BottomMargin": -2.6818,
+                    "Tag": 325,
+                    "ActionTag": -45793538,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 39.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 630787578,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_0_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_blue_3.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -311.8043,
+                  "Y": -217.9724
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -362.3043,
+                "RightMargin": 261.3043,
+                "TopMargin": 172.4724,
+                "BottomMargin": -263.4724,
+                "Tag": 326,
+                "ActionTag": 1792811412,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_39",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/home_tile/home_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -216.7586,
+                  "Y": -254.1853
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -267.2586,
+                "RightMargin": 166.2586,
+                "TopMargin": 208.6853,
+                "BottomMargin": -299.6853,
+                "Tag": 328,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/home_tile/tax_slot_blue_1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 50.3187,
+                      "Y": 62.889
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4982,
+                      "Y": 0.6911
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 14.3187,
+                    "RightMargin": 14.6813,
+                    "TopMargin": 5.111,
+                    "BottomMargin": 39.889,
+                    "Tag": 329,
+                    "ActionTag": -1131094342,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 46.0
+                    },
+                    "Name": "slot",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/home_tile/tax_x1_1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 40.3117,
+                      "Y": 69.3513
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3991,
+                      "Y": 0.7621
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 24.3117,
+                    "RightMargin": 44.6883,
+                    "TopMargin": 11.1487,
+                    "BottomMargin": 58.8513,
+                    "Tag": 330,
+                    "ActionTag": 2100713533,
+                    "Size": {
+                      "X": 43.0,
+                      "Y": 30.0
+                    },
+                    "Name": "tax",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1229264966,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 249.5479,
+                  "Y": -160.8083
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 219.5479,
+                "RightMargin": -279.5479,
+                "TopMargin": 136.8083,
+                "BottomMargin": -184.8083,
+                "Tag": 331,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/sap_ham_tile.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.2416,
+                      "Y": 24.8606
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9,
+                      "ScaleY": 0.9
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.504,
+                      "Y": 0.5179
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 7.2416,
+                    "RightMargin": 6.7584,
+                    "TopMargin": 3.6394,
+                    "BottomMargin": 5.3606,
+                    "Tag": 332,
+                    "ActionTag": -2075505632,
+                    "Size": {
+                      "X": 46.0,
+                      "Y": 39.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1933270112,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_1_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 198.2265,
+                  "Y": -130.699
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0722,
+                  "Y": 0.0703
+                },
+                "LeftMargin": 168.2265,
+                "RightMargin": -228.2265,
+                "TopMargin": 106.699,
+                "BottomMargin": -154.699,
+                "Tag": 333,
+                "ActionTag": -377239210,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_1_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 151.6839,
+                  "Y": -100.3754
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0722,
+                  "Y": 0.0703
+                },
+                "LeftMargin": 121.6839,
+                "RightMargin": -181.6839,
+                "TopMargin": 76.3754,
+                "BottomMargin": -124.3754,
+                "Tag": 334,
+                "ActionTag": -1474847012,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_1_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/des_tile.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 100.7028,
+                  "Y": -69.7292
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 70.7028,
+                "RightMargin": -130.7028,
+                "TopMargin": 45.7292,
+                "BottomMargin": -93.7292,
+                "Tag": 335,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/lendinh_icon_2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.6997,
+                      "Y": 22.6643
+                    },
+                    "Scale": {
+                      "ScaleX": 0.9,
+                      "ScaleY": 0.9
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5117,
+                      "Y": 0.4722
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 8.6997,
+                    "RightMargin": 7.3003,
+                    "TopMargin": 7.3357,
+                    "BottomMargin": 4.6643,
+                    "Tag": 336,
+                    "ActionTag": -96572471,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 36.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "icon",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -410959264,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 48.0
+                },
+                "Name": "des_1_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_green_3.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 322.1417,
+                  "Y": -215.0208
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 271.6417,
+                "RightMargin": -372.6417,
+                "TopMargin": 169.5208,
+                "BottomMargin": -260.5208,
+                "Tag": 337,
+                "ActionTag": -1272701598,
+                "Size": {
+                  "X": 101.0,
+                  "Y": 91.0
+                },
+                "Name": "slot_9",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/tile_bom_white.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 234.2125,
+                  "Y": -247.2777
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 180.7125,
+                "RightMargin": -287.7125,
+                "TopMargin": 198.7777,
+                "BottomMargin": -295.7777,
+                "Tag": 339,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "game/mainBoard/tile_bom_number_type_1_1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.3694,
+                      "Y": 31.7883
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7792,
+                      "Y": 0.3277
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 78.3694,
+                    "RightMargin": 18.6306,
+                    "TopMargin": 53.2117,
+                    "BottomMargin": 19.7883,
+                    "Tag": 340,
+                    "ActionTag": -869384640,
+                    "Size": {
+                      "X": 10.0,
+                      "Y": 24.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "number",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1281213916,
+                "Size": {
+                  "X": 107.0,
+                  "Y": 97.0
+                },
+                "Name": "slot_8",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -258.7553,
+                  "Y": -311.5699
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -258.7553,
+                "RightMargin": 258.7553,
+                "TopMargin": 311.5699,
+                "BottomMargin": -311.5699,
+                "Tag": 341,
+                "ActionTag": -421512434,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_0_1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -209.2397,
+                  "Y": -317.7126
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -209.2397,
+                "RightMargin": 209.2397,
+                "TopMargin": 317.7126,
+                "BottomMargin": -317.7126,
+                "Tag": 342,
+                "ActionTag": -741861275,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_0_2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -279.5127,
+                  "Y": -298.3598
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -279.5127,
+                "RightMargin": 279.5127,
+                "TopMargin": 298.3598,
+                "BottomMargin": -298.3598,
+                "Tag": 343,
+                "ActionTag": -707276988,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_0_0",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 273.7231,
+                  "Y": 258.2301
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 273.7231,
+                "RightMargin": -273.7231,
+                "TopMargin": -258.2301,
+                "BottomMargin": 258.2301,
+                "Tag": 344,
+                "ActionTag": 1356183043,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_2_0",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 379.4069,
+                  "Y": 257.3123
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 379.4069,
+                "RightMargin": -379.4069,
+                "TopMargin": -257.3123,
+                "BottomMargin": 257.3123,
+                "Tag": 345,
+                "ActionTag": -1214695433,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_2_2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 294.4243,
+                  "Y": 243.68
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 294.4243,
+                "RightMargin": -294.4243,
+                "TopMargin": -243.68,
+                "BottomMargin": 243.68,
+                "Tag": 346,
+                "ActionTag": -251436828,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_2_1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -416.3235,
+                  "Y": 171.6002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -416.3235,
+                "RightMargin": 416.3235,
+                "TopMargin": -171.6002,
+                "BottomMargin": 171.6002,
+                "Tag": 347,
+                "ActionTag": 120787792,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_3_0",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -513.3986,
+                  "Y": 132.1176
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -513.3986,
+                "RightMargin": 513.3986,
+                "TopMargin": -132.1176,
+                "BottomMargin": 132.1176,
+                "Tag": 348,
+                "ActionTag": 1419245352,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_3_2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -436.4105,
+                  "Y": 158.3902
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": 0.3357,
+                "RotationSkewY": 0.3392,
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -436.4105,
+                "RightMargin": 436.4105,
+                "TopMargin": -158.3902,
+                "BottomMargin": 158.3902,
+                "Tag": 349,
+                "ActionTag": 625591180,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "home_3_1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/flag_tile_light_white.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -332.5982,
+                  "Y": -201.8753
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -361.0982,
+                "RightMargin": 304.0982,
+                "TopMargin": 169.3753,
+                "BottomMargin": -234.3753,
+                "Tag": 350,
+                "ActionTag": -599268774,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 65.0
+                },
+                "Name": "flag_tile_light_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/flag_tile_light_white.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 342.775,
+                  "Y": -198.8739
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 314.275,
+                "RightMargin": -371.275,
+                "TopMargin": 166.3739,
+                "BottomMargin": -231.3739,
+                "Tag": 351,
+                "ActionTag": -1308388003,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 65.0
+                },
+                "Name": "flag_tile_light_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/flag_tile_light_white.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 350.1766,
+                  "Y": 236.4535
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 320.6766,
+                "RightMargin": -379.6766,
+                "TopMargin": -269.4535,
+                "BottomMargin": 203.4535,
+                "Tag": 352,
+                "ActionTag": -505777289,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 65.0
+                },
+                "Name": "flag_tile_light_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FlipX": true,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/mainBoard/flag_tile_light_white.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -333.2844,
+                  "Y": 238.6644
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -362.7844,
+                "RightMargin": 303.7844,
+                "TopMargin": -271.6644,
+                "BottomMargin": 205.6644,
+                "Tag": 353,
+                "ActionTag": -1503039117,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 65.0
+                },
+                "Name": "flag_tile_light_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 413.8314,
+                  "Y": -11.956
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 413.8314,
+                "RightMargin": -413.8314,
+                "TopMargin": 11.956,
+                "BottomMargin": -11.956,
+                "Tag": 354,
+                "ActionTag": 903567468,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_property_1",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -46.2475,
+                  "Y": 188.3973
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -46.2475,
+                "RightMargin": 46.2475,
+                "TopMargin": -188.3973,
+                "BottomMargin": 188.3973,
+                "Tag": 355,
+                "ActionTag": -846905928,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_property_2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -403.0224,
+                  "Y": -21.4725
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -403.0224,
+                "RightMargin": 403.0224,
+                "TopMargin": 21.4725,
+                "BottomMargin": -21.4725,
+                "Tag": 356,
+                "ActionTag": -322841360,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_property_3",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 84.0877,
+                  "Y": -297.7818
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 84.0877,
+                "RightMargin": -84.0877,
+                "TopMargin": 297.7818,
+                "BottomMargin": -297.7818,
+                "Tag": 357,
+                "ActionTag": -1217211072,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_property_0",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -1240555335,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "center_node",
+            "ctype": "SingleNodeObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "button/button_yellow_0.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "button/button_yellow_0.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 5,
+            "Scale9Width": 218,
+            "Scale9Height": 58,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 88.9998
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.1391
+            },
+            "PreSize": {
+              "X": 0.2148,
+              "Y": 0.1063
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BottomEdge",
+            "LeftMargin": 446.0,
+            "RightMargin": 446.0,
+            "TopMargin": 483.0002,
+            "BottomMargin": 88.9998,
+            "Tag": 260,
+            "Children": [
+              {
+                "FontSize": 20,
+                "LabelText": "Thoát Game",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 122.0,
+                  "Y": 37.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.55
+                },
+                "PreSize": {
+                  "X": 0.4303,
+                  "Y": 0.4265
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": 58.0,
+                "RightMargin": 58.0,
+                "TopMargin": 15.1,
+                "BottomMargin": 21.9,
+                "Tag": 261,
+                "ActionTag": 231539395,
+                "Size": {
+                  "X": 128.0,
+                  "Y": 31.0
+                },
+                "Name": "Text_1",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -351237929,
+            "Size": {
+              "X": 244.0,
+              "Y": 68.0
+            },
+            "Name": "btnExitGame",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../button/button_yellow_0.png",
+        "../../../Default/Sprite.png",
+        "../../../fonts/font_game_bold.ttf",
+        "../../../game/mainBoard/bg.jpg",
+        "../../../game/mainBoard/des_slot_blue.png",
+        "../../../game/mainBoard/des_slot_green.png",
+        "../../../game/mainBoard/des_slot_red.png",
+        "../../../game/mainBoard/des_slot_yellow.png",
+        "../../../game/mainBoard/des_tile.png",
+        "../../../game/mainBoard/flag_tile_light_white.png",
+        "../../../game/mainBoard/home_tile/home_tile.png",
+        "../../../game/mainBoard/home_tile/tax_slot_blue_1.png",
+        "../../../game/mainBoard/home_tile/tax_slot_green_0.png",
+        "../../../game/mainBoard/home_tile/tax_slot_red_1.png",
+        "../../../game/mainBoard/home_tile/tax_slot_yellow_0.png",
+        "../../../game/mainBoard/home_tile/tax_x1_0.png",
+        "../../../game/mainBoard/home_tile/tax_x1_1.png",
+        "../../../game/mainBoard/horse_in_home_slot.png",
+        "../../../game/mainBoard/lendinh_icon_1.png",
+        "../../../game/mainBoard/lendinh_icon_2.png",
+        "../../../game/mainBoard/sap_ham_tile.png",
+        "../../../game/mainBoard/tile_blue_1.png",
+        "../../../game/mainBoard/tile_blue_2.png",
+        "../../../game/mainBoard/tile_blue_3.png",
+        "../../../game/mainBoard/tile_bom_number_type_1_1.png",
+        "../../../game/mainBoard/tile_bom_number_type_1_2.png",
+        "../../../game/mainBoard/tile_bom_number_type_2_3.png",
+        "../../../game/mainBoard/tile_bom_white.png",
+        "../../../game/mainBoard/tile_green_1.png",
+        "../../../game/mainBoard/tile_green_2.png",
+        "../../../game/mainBoard/tile_green_3.png",
+        "../../../game/mainBoard/tile_jail.png",
+        "../../../game/mainBoard/tile_mini_game_1.png",
+        "../../../game/mainBoard/tile_red_1.png",
+        "../../../game/mainBoard/tile_red_2.png",
+        "../../../game/mainBoard/tile_red_3.png",
+        "../../../game/mainBoard/tile_swap.png",
+        "../../../game/mainBoard/tile_yellow_1.png",
+        "../../../game/mainBoard/tile_yellow_2.png",
+        "../../../game/mainBoard/tile_yellow_3.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

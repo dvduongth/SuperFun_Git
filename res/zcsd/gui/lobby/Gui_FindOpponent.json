@@ -1,0 +1,145 @@
+{
+  "ID": "730c726f-12bd-4b90-b6c1-1efb37969878",
+  "Version": "2.3.2.3",
+  "Name": "Gui_FindOpponent",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 599,
+        "Children": [
+          {
+            "FontSize": 30,
+            "LabelText": "Đang tìm cặp",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game_bold.ttf",
+              "Plist": ""
+            },
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 361.856
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5654
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.0688
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 461.5,
+            "RightMargin": 461.5,
+            "TopMargin": 256.144,
+            "BottomMargin": 339.856,
+            "Tag": 600,
+            "ActionTag": -1907065495,
+            "Size": {
+              "X": 213.0,
+              "Y": 44.0
+            },
+            "Name": "label_find",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "5",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game_bold.ttf",
+              "Plist": ""
+            },
+            "OutlineSize": 0,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": 0.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 568.0,
+              "Y": 284.5012
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4445
+            },
+            "PreSize": {
+              "X": 0.0194,
+              "Y": 0.0828
+            },
+            "LeftMargin": 557.0,
+            "RightMargin": 557.0,
+            "TopMargin": 328.9988,
+            "BottomMargin": 258.0012,
+            "Tag": 601,
+            "ActionTag": -545343228,
+            "Size": {
+              "X": 22.0,
+              "Y": 53.0
+            },
+            "VisibleForFrame": false,
+            "Name": "label_counter",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../fonts/font_game_bold.ttf"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

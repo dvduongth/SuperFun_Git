@@ -1,0 +1,2074 @@
+{
+  "ID": "4809cbd5-74ad-40b2-b8c1-bb355ccdd0ab",
+  "Version": "2.3.2.3",
+  "Name": "Gui_Money",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 568.0,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 568.0,
+            "RightMargin": 568.0,
+            "TopMargin": 320.0,
+            "BottomMargin": 320.0,
+            "Tag": 528,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/tien01.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -550.0,
+                  "Y": -300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -700.0,
+                "RightMargin": 400.0,
+                "TopMargin": 150.0,
+                "BottomMargin": -450.0,
+                "Tag": 189,
+                "ActionTag": -658600980,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 300.0
+                },
+                "VisibleForFrame": false,
+                "Name": "tien_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/tien02.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -550.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -678.0,
+                "RightMargin": 422.0,
+                "TopMargin": -428.0,
+                "BottomMargin": 172.0,
+                "Tag": 192,
+                "ActionTag": -499957329,
+                "Size": {
+                  "X": 256.0,
+                  "Y": 256.0
+                },
+                "VisibleForFrame": false,
+                "Name": "tien_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/tien01.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 550.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 400.0,
+                "RightMargin": -700.0,
+                "TopMargin": -450.0,
+                "BottomMargin": 150.0,
+                "Tag": 193,
+                "ActionTag": -1102024324,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 300.0
+                },
+                "VisibleForFrame": false,
+                "Name": "tien_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/tien02.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 550.0,
+                  "Y": -300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 422.0,
+                "RightMargin": -678.0,
+                "TopMargin": 172.0,
+                "BottomMargin": -428.0,
+                "Tag": 188,
+                "ActionTag": 1680299776,
+                "Size": {
+                  "X": 256.0,
+                  "Y": 256.0
+                },
+                "VisibleForFrame": false,
+                "Name": "tien_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 300.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "TopMargin": -300.0,
+                "BottomMargin": 300.0,
+                "Tag": 186,
+                "ActionTag": -88055039,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "VisibleForFrame": false,
+                "Name": "tien_0",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": -29.1564
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -11.8436,
+                "BottomMargin": -70.1564,
+                "Tag": 92,
+                "ActionTag": -503419538,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": -47.3365
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": 6.3365,
+                "BottomMargin": -88.3365,
+                "Tag": 89,
+                "ActionTag": -1782059055,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": -68.4914
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": 27.4914,
+                "BottomMargin": -109.4914,
+                "Tag": 90,
+                "ActionTag": -101421021,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": -20.1565
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -20.8435,
+                "BottomMargin": -61.1565,
+                "Tag": 97,
+                "ActionTag": -274485686,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": -38.3362
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": -2.6638,
+                "BottomMargin": -79.3362,
+                "Tag": 98,
+                "ActionTag": -1857237966,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_5",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": -59.4914
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": 18.4914,
+                "BottomMargin": -100.4914,
+                "Tag": 96,
+                "ActionTag": -1899889977,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": -11.1562
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -29.8438,
+                "BottomMargin": -52.1562,
+                "Tag": 99,
+                "ActionTag": -556179721,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_7",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": -29.3362
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": -11.6638,
+                "BottomMargin": -70.3362,
+                "Tag": 100,
+                "ActionTag": -279492068,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_8",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": -50.4914
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": 9.4914,
+                "BottomMargin": -91.4914,
+                "Tag": 101,
+                "ActionTag": 653232300,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_9",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": -2.1565
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -38.8435,
+                "BottomMargin": -43.1565,
+                "Tag": 103,
+                "ActionTag": -199155600,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_10",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": -20.3363
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": -20.6637,
+                "BottomMargin": -61.3363,
+                "Tag": 104,
+                "ActionTag": -1830993262,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_11",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": -41.4915
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": 0.4915,
+                "BottomMargin": -82.4915,
+                "Tag": 105,
+                "ActionTag": -384671107,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_12",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": 6.8435
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -47.8435,
+                "BottomMargin": -34.1565,
+                "Tag": 173,
+                "ActionTag": -1519687259,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_13",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": -11.3365
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": -29.6635,
+                "BottomMargin": -52.3365,
+                "Tag": 174,
+                "ActionTag": -966657491,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_14",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": -32.4911
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": -8.5089,
+                "BottomMargin": -73.4911,
+                "Tag": 175,
+                "ActionTag": 1591780945,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_15",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": 15.8437
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -56.8437,
+                "BottomMargin": -25.1563,
+                "Tag": 176,
+                "ActionTag": 1042384257,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_16",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": -2.3363
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": -38.6637,
+                "BottomMargin": -43.3363,
+                "Tag": 177,
+                "ActionTag": 1312637911,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_17",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": -23.4906
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": -17.5094,
+                "BottomMargin": -64.4906,
+                "Tag": 178,
+                "ActionTag": 215966346,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_18",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": 24.8436
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -65.8436,
+                "BottomMargin": -16.1564,
+                "Tag": 179,
+                "ActionTag": -477997162,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_19",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": 6.6637
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": -47.6637,
+                "BottomMargin": -34.3363,
+                "Tag": 180,
+                "ActionTag": 2110179669,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_20",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": -14.4907
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": -26.5093,
+                "BottomMargin": -55.4907,
+                "Tag": 181,
+                "ActionTag": -1180646486,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_21",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": 33.8436
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -74.8436,
+                "BottomMargin": -7.1564,
+                "Tag": 182,
+                "ActionTag": -1459277661,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_22",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": 15.6643
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": -56.6643,
+                "BottomMargin": -25.3357,
+                "Tag": 183,
+                "ActionTag": 2089702728,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_23",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": -5.4902
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": -35.5098,
+                "BottomMargin": -46.4902,
+                "Tag": 184,
+                "ActionTag": 510564182,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_24",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": 42.8438
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -83.8438,
+                "BottomMargin": 1.8438,
+                "Tag": 92,
+                "ActionTag": -574469547,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_25",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": 24.6632
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": -65.6632,
+                "BottomMargin": -16.3368,
+                "Tag": 93,
+                "ActionTag": 522647713,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_26",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": 3.5093
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": -44.5093,
+                "BottomMargin": -37.4907,
+                "Tag": 94,
+                "ActionTag": -1607589632,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_27",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": 51.8437
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -92.8437,
+                "BottomMargin": 10.8437,
+                "Tag": 95,
+                "ActionTag": -2031317558,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_28",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": 33.6642
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": -74.6642,
+                "BottomMargin": -7.3358,
+                "Tag": 96,
+                "ActionTag": -1510480690,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_29",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": 12.5097
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": -53.5097,
+                "BottomMargin": -28.4903,
+                "Tag": 97,
+                "ActionTag": -1592413000,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_30",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": 60.8441
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -101.8441,
+                "BottomMargin": 19.8441,
+                "Tag": 98,
+                "ActionTag": -310326680,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_31",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": 42.6634
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": -83.6634,
+                "BottomMargin": 1.6634,
+                "Tag": 99,
+                "ActionTag": 772212877,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_32",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": 21.5097
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": -62.5097,
+                "BottomMargin": -19.4903,
+                "Tag": 100,
+                "ActionTag": -1051303809,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_33",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.1892,
+                  "Y": 69.8439
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -23.8108,
+                "RightMargin": -86.1892,
+                "TopMargin": -110.8439,
+                "BottomMargin": 28.8439,
+                "Tag": 101,
+                "ActionTag": -1373060145,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_34",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.3428,
+                  "Y": 48.6635
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -54.6572,
+                "RightMargin": -55.3428,
+                "TopMargin": -89.6635,
+                "BottomMargin": 7.6635,
+                "Tag": 102,
+                "ActionTag": -386544793,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_35",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "game/moneyctp/1-2.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -30.2872,
+                  "Y": 30.5101
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -85.2872,
+                "RightMargin": -24.7128,
+                "TopMargin": -71.5101,
+                "BottomMargin": -10.4899,
+                "Tag": 103,
+                "ActionTag": 945456467,
+                "Size": {
+                  "X": 110.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "gold_36",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -350.0,
+                  "Y": -175.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -350.0,
+                "RightMargin": 350.0,
+                "TopMargin": 175.0,
+                "BottomMargin": -175.0,
+                "Tag": 104,
+                "ActionTag": -1664926942,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "node_4",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -350.0,
+                  "Y": 175.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -350.0,
+                "RightMargin": 350.0,
+                "TopMargin": -175.0,
+                "BottomMargin": 175.0,
+                "Tag": 105,
+                "ActionTag": -229738430,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "node_3",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 350.0,
+                  "Y": 175.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 350.0,
+                "RightMargin": -350.0,
+                "TopMargin": -175.0,
+                "BottomMargin": 175.0,
+                "Tag": 106,
+                "ActionTag": -1936423569,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "node_2",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 350.0,
+                  "Y": -175.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 350.0,
+                "RightMargin": -350.0,
+                "TopMargin": 175.0,
+                "BottomMargin": -175.0,
+                "Tag": 107,
+                "ActionTag": 1907570174,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "node_1",
+                "ctype": "SingleNodeObjectData"
+              }
+            ],
+            "ActionTag": -383637856,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "center_node",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../game/moneyctp/1-2.png",
+        "../../../game/moneyctp/tien01.png",
+        "../../../game/moneyctp/tien02.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

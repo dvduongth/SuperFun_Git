@@ -1,0 +1,52 @@
+<dragonBones name="kick_smoke" frameRate="24" version="2.3">
+ <armature name="kick_smoke">
+  <bone name="Layer 11">
+   <transform x="-17.15" y="-22.3" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 11" parent="Layer 11" z="0">
+    <display name="__dbTextures/dangua_khoi/Layer 11_0" type="image">
+     <transform x="-27.2" y="-33" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="__dbTextures/dangua_khoi/Layer 11_1" type="image">
+     <transform x="-27.05" y="-28.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="__dbTextures/dangua_khoi/Layer 11_2" type="image">
+     <transform x="-28.25" y="-27.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="__dbTextures/dangua_khoi/Layer 11_3" type="image">
+     <transform x="-27.2" y="-25.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="__dbTextures/dangua_khoi/Layer 11_4" type="image">
+     <transform x="-16.85" y="-18.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="__dbTextures/dangua_khoi/Layer 11_5" type="image">
+     <transform x="-1.15" y="-1.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="8" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 11" scale="1" offset="0">
+    <frame z="0" tweenEasing="NaN" duration="1">
+     <transform x="-17.15" y="-22.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" tweenEasing="NaN" duration="1">
+     <transform x="-17.15" y="-29.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" tweenEasing="NaN" duration="1">
+     <transform x="-16.1" y="-32.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" tweenEasing="NaN" duration="1">
+     <transform x="-14.9" y="-33.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" tweenEasing="NaN" duration="1">
+     <transform x="-20.1" y="-41.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" tweenEasing="NaN" duration="1">
+     <transform x="-7.15" y="-39.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="2" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

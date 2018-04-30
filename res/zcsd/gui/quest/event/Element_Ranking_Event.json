@@ -1,0 +1,350 @@
+{
+  "ID": "21a320d0-a745-4f94-baaa-909a8ddf1002",
+  "Version": "2.3.2.3",
+  "Name": "Element_Ranking_Event",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 35,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/bxh_my_slot.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 197.7745,
+              "Y": 31.1927
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 0.2745,
+            "RightMargin": -395.2745,
+            "TopMargin": -62.1927,
+            "BottomMargin": 0.1927,
+            "Tag": 11,
+            "ActionTag": 275235808,
+            "Size": {
+              "X": 395.0,
+              "Y": 62.0
+            },
+            "Name": "sprBg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/avatar_border_blue.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 31.1609,
+              "Y": 30.6129
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 8.1609,
+            "RightMargin": -54.1609,
+            "TopMargin": -53.6129,
+            "BottomMargin": 7.6129,
+            "Tag": 54,
+            "ActionTag": -570273040,
+            "Size": {
+              "X": 58.0,
+              "Y": 58.0
+            },
+            "Name": "sprAvatar",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "1",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game_bold.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.7,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 34.7092,
+              "Y": 31.8925
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.2683,
+              "Y": 0.619
+            },
+            "LeftMargin": 26.3092,
+            "RightMargin": -38.3092,
+            "TopMargin": -47.3925,
+            "BottomMargin": 16.3925,
+            "Tag": 14,
+            "ActionTag": -815868197,
+            "Size": {
+              "X": 12.0,
+              "Y": 31.0
+            },
+            "Name": "lbStt",
+            "ctype": "TextObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 20,
+            "LabelText": "Player Name",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/font_game_bold.ttf",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 71.674,
+              "Y": 31.1927
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "B": 0
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 71.674,
+            "RightMargin": -291.674,
+            "TopMargin": -51.1927,
+            "BottomMargin": 11.1927,
+            "Tag": 15,
+            "ActionTag": 219179525,
+            "Size": {
+              "X": 220.0,
+              "Y": 40.0
+            },
+            "Name": "lbName",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/friend_table_cup.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 374.6109,
+              "Y": 31.1924
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 360.6109,
+            "RightMargin": -388.6109,
+            "TopMargin": -44.1924,
+            "BottomMargin": 18.1924,
+            "Tag": 93,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 22,
+                "LabelText": "100K",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Right",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -2.9999,
+                  "Y": 15.0003
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.1071,
+                  "Y": 0.5769
+                },
+                "PreSize": {
+                  "X": 4.2857,
+                  "Y": 1.5385
+                },
+                "LeftMargin": -122.9999,
+                "RightMargin": 30.9999,
+                "TopMargin": -9.0003,
+                "BottomMargin": -4.9997,
+                "Tag": 18,
+                "ActionTag": 65367577,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 40.0
+                },
+                "Name": "lbNumGold",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1140032041,
+            "Size": {
+              "X": 28.0,
+              "Y": 26.0
+            },
+            "Name": "sprCup",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../fonts/font_game.ttf",
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../lobby/avatar_border_blue.png",
+        "../../../../lobby/bxh_my_slot.png",
+        "../../../../lobby/friend_table_cup.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

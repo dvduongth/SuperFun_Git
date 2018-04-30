@@ -1,0 +1,2260 @@
+{
+  "ID": "8db83db4-fe48-4c86-a999-f7eae4f07a1f",
+  "Version": "2.3.2.3",
+  "Name": "Popup_EventDailyLogin",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 907,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "lobby/event/dailyLogin/dailyLogin_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 565.9552,
+              "Y": 320.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4982,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.8283,
+              "Y": 0.7312
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "LeftMargin": 95.4552,
+            "RightMargin": 99.5448,
+            "TopMargin": 86.0,
+            "BottomMargin": 86.0,
+            "Tag": 908,
+            "Children": [
+              {
+                "FontSize": 30,
+                "LabelText": "Quà tặng hàng ngày",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 470.5,
+                  "Y": 416.3545
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.8896
+                },
+                "PreSize": {
+                  "X": 0.191,
+                  "Y": 0.0453
+                },
+                "HorizontalEdge": "BothEdge",
+                "LeftMargin": 307.0,
+                "RightMargin": 307.0,
+                "TopMargin": 28.6455,
+                "BottomMargin": 393.3545,
+                "Tag": 432,
+                "ActionTag": -272571451,
+                "Size": {
+                  "X": 327.0,
+                  "Y": 46.0
+                },
+                "Name": "Text_15",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/event/dailyLogin/dailyLogin_slot_off.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 108.0178,
+                  "Y": 203.5781
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1148,
+                  "Y": 0.435
+                },
+                "PreSize": {
+                  "X": 0.1817,
+                  "Y": 0.6368
+                },
+                "LeftMargin": 22.5178,
+                "RightMargin": 747.4822,
+                "TopMargin": 115.4219,
+                "BottomMargin": 54.5781,
+                "Tag": 923,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "LabelText": "Ngày",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 162,
+                      "G": 111,
+                      "B": 45
+                    },
+                    "ShadowColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.3482,
+                      "Y": 275.501
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5342,
+                      "Y": 0.9245
+                    },
+                    "PreSize": {
+                      "X": 0.3918,
+                      "Y": 0.1141
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 57.84,
+                    "RightMargin": 46.16,
+                    "TopMargin": 5.4859,
+                    "BottomMargin": 258.5141,
+                    "Tag": 910,
+                    "ActionTag": 1361843297,
+                    "Size": {
+                      "X": 67.0,
+                      "Y": 34.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "number/style4/1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 93.1996,
+                      "Y": 227.3258
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.545,
+                      "Y": 0.7628
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 77.1996,
+                    "RightMargin": 61.8004,
+                    "TopMargin": 50.6742,
+                    "BottomMargin": 207.3258,
+                    "Tag": 425,
+                    "ActionTag": -1080569122,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 40.0
+                    },
+                    "Name": "day_number",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 16,
+                    "LabelText": "Gift description",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.4944,
+                      "Y": 166.5506
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 249,
+                      "G": 226,
+                      "B": 183
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.5589
+                    },
+                    "PreSize": {
+                      "X": 0.8333,
+                      "Y": 0.1654
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 4.4944,
+                    "RightMargin": 36.5056,
+                    "TopMargin": 118.9494,
+                    "BottomMargin": 154.0506,
+                    "Tag": 418,
+                    "ActionTag": 1312374018,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 25.0
+                    },
+                    "Name": "quantity",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gift_gold_1.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.4944,
+                      "Y": 92.53
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.3105
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 30.9999,
+                    "RightMargin": 63.0001,
+                    "TopMargin": 170.97,
+                    "BottomMargin": 58.03,
+                    "Tag": 924,
+                    "ActionTag": 966169826,
+                    "Size": {
+                      "X": 77.0,
+                      "Y": 69.0
+                    },
+                    "Name": "gift",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 169789225,
+                "Size": {
+                  "X": 171.0,
+                  "Y": 298.0
+                },
+                "Name": "day_slot_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/event/dailyLogin/dailyLogin_slot_off.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 230.9525,
+                  "Y": 203.5771
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2454,
+                  "Y": 0.435
+                },
+                "PreSize": {
+                  "X": 0.1817,
+                  "Y": 0.6368
+                },
+                "LeftMargin": 145.4525,
+                "RightMargin": 624.5475,
+                "TopMargin": 115.4229,
+                "BottomMargin": 54.5771,
+                "Tag": 926,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "LabelText": "Ngày",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 162,
+                      "G": 111,
+                      "B": 45
+                    },
+                    "ShadowColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.3482,
+                      "Y": 275.501
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5342,
+                      "Y": 0.9245
+                    },
+                    "PreSize": {
+                      "X": 0.3918,
+                      "Y": 0.1141
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 57.8482,
+                    "RightMargin": 46.1518,
+                    "TopMargin": 5.499,
+                    "BottomMargin": 258.501,
+                    "Tag": 412,
+                    "ActionTag": -893514853,
+                    "Size": {
+                      "X": 67.0,
+                      "Y": 34.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "number/style4/2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 93.2001,
+                      "Y": 227.3299
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.545,
+                      "Y": 0.7629
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 77.2001,
+                    "RightMargin": 61.7999,
+                    "TopMargin": 50.6701,
+                    "BottomMargin": 207.3299,
+                    "Tag": 426,
+                    "ActionTag": -352744718,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 40.0
+                    },
+                    "Name": "day_number",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 16,
+                    "LabelText": "Gift description",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 78.4944,
+                      "Y": 166.55
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 249,
+                      "G": 226,
+                      "B": 183
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.5589
+                    },
+                    "PreSize": {
+                      "X": 0.8333,
+                      "Y": 0.1654
+                    },
+                    "LeftMargin": 13.4944,
+                    "RightMargin": 45.5056,
+                    "TopMargin": 119.95,
+                    "BottomMargin": 155.05,
+                    "Tag": 423,
+                    "ActionTag": 1883736266,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 25.0
+                    },
+                    "Name": "quantity",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gift_gold_2.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.4944,
+                      "Y": 92.53
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.3105
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 25.9944,
+                    "RightMargin": 58.0056,
+                    "TopMargin": 168.97,
+                    "BottomMargin": 56.03,
+                    "Tag": 927,
+                    "ActionTag": -1321616667,
+                    "Size": {
+                      "X": 87.0,
+                      "Y": 73.0
+                    },
+                    "Name": "gift",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1140512721,
+                "Size": {
+                  "X": 171.0,
+                  "Y": 298.0
+                },
+                "Name": "day_slot_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/event/dailyLogin/dailyLogin_slot_off.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 352.4091,
+                  "Y": 203.5771
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3745,
+                  "Y": 0.435
+                },
+                "PreSize": {
+                  "X": 0.1817,
+                  "Y": 0.6368
+                },
+                "LeftMargin": 266.9091,
+                "RightMargin": 503.0909,
+                "TopMargin": 115.4229,
+                "BottomMargin": 54.5771,
+                "Tag": 929,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "LabelText": "Ngày",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 162,
+                      "G": 111,
+                      "B": 45
+                    },
+                    "ShadowColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.3482,
+                      "Y": 275.501
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5342,
+                      "Y": 0.9245
+                    },
+                    "PreSize": {
+                      "X": 0.3918,
+                      "Y": 0.1141
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 57.8482,
+                    "RightMargin": 46.1518,
+                    "TopMargin": 5.499,
+                    "BottomMargin": 258.501,
+                    "Tag": 413,
+                    "ActionTag": 1605830319,
+                    "Size": {
+                      "X": 67.0,
+                      "Y": 34.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "number/style4/3.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 93.1999,
+                      "Y": 227.3299
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.545,
+                      "Y": 0.7629
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 77.1999,
+                    "RightMargin": 61.8001,
+                    "TopMargin": 50.6701,
+                    "BottomMargin": 207.3299,
+                    "Tag": 427,
+                    "ActionTag": 780349196,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 40.0
+                    },
+                    "Name": "day_number_0_0",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 16,
+                    "LabelText": "Gift description",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 78.4944,
+                      "Y": 166.55
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 249,
+                      "G": 226,
+                      "B": 183
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.5589
+                    },
+                    "PreSize": {
+                      "X": 0.8333,
+                      "Y": 0.1654
+                    },
+                    "LeftMargin": 13.4944,
+                    "RightMargin": 45.5056,
+                    "TopMargin": 119.95,
+                    "BottomMargin": 155.05,
+                    "Tag": 419,
+                    "ActionTag": 2069660275,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 25.0
+                    },
+                    "Name": "quantity",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gift_gold_3.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.4944,
+                      "Y": 92.53
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.3105
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 25.4944,
+                    "RightMargin": 57.5056,
+                    "TopMargin": 163.47,
+                    "BottomMargin": 50.53,
+                    "Tag": 930,
+                    "ActionTag": 1670315260,
+                    "Size": {
+                      "X": 88.0,
+                      "Y": 84.0
+                    },
+                    "Name": "gift",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -83849348,
+                "Size": {
+                  "X": 171.0,
+                  "Y": 298.0
+                },
+                "Name": "day_slot_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/event/dailyLogin/dailyLogin_slot_off.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 476.1418,
+                  "Y": 203.5771
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.506,
+                  "Y": 0.435
+                },
+                "PreSize": {
+                  "X": 0.1817,
+                  "Y": 0.6368
+                },
+                "LeftMargin": 390.6418,
+                "RightMargin": 379.3582,
+                "TopMargin": 115.4229,
+                "BottomMargin": 54.5771,
+                "Tag": 932,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "LabelText": "Ngày",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 162,
+                      "G": 111,
+                      "B": 45
+                    },
+                    "ShadowColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.3482,
+                      "Y": 275.501
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5342,
+                      "Y": 0.9245
+                    },
+                    "PreSize": {
+                      "X": 0.3918,
+                      "Y": 0.1141
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 57.8482,
+                    "RightMargin": 46.1518,
+                    "TopMargin": 5.499,
+                    "BottomMargin": 258.501,
+                    "Tag": 414,
+                    "ActionTag": 2061827433,
+                    "Size": {
+                      "X": 67.0,
+                      "Y": 34.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "number/style4/4.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 93.2,
+                      "Y": 227.3299
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.545,
+                      "Y": 0.7629
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 77.2,
+                    "RightMargin": 61.8,
+                    "TopMargin": 50.6701,
+                    "BottomMargin": 207.3299,
+                    "Tag": 428,
+                    "ActionTag": -1254301746,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 40.0
+                    },
+                    "Name": "day_number",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 16,
+                    "LabelText": "Gift description",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.4944,
+                      "Y": 166.55
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 249,
+                      "G": 226,
+                      "B": 183
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.5589
+                    },
+                    "PreSize": {
+                      "X": 0.8333,
+                      "Y": 0.1654
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": -4.5056,
+                    "RightMargin": 27.5056,
+                    "TopMargin": 116.45,
+                    "BottomMargin": 151.55,
+                    "Tag": 420,
+                    "ActionTag": -1217876528,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 25.0
+                    },
+                    "Name": "quantity",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gift_gold_4.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.4944,
+                      "Y": 92.53
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.3105
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 15.4944,
+                    "RightMargin": 47.5056,
+                    "TopMargin": 157.47,
+                    "BottomMargin": 44.53,
+                    "Tag": 933,
+                    "ActionTag": -1783479990,
+                    "Size": {
+                      "X": 108.0,
+                      "Y": 96.0
+                    },
+                    "Name": "gift",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 2089163583,
+                "Size": {
+                  "X": 171.0,
+                  "Y": 298.0
+                },
+                "Name": "day_slot_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/event/dailyLogin/dailyLogin_slot_off.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 598.4939,
+                  "Y": 203.5771
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.636,
+                  "Y": 0.435
+                },
+                "PreSize": {
+                  "X": 0.1817,
+                  "Y": 0.6368
+                },
+                "LeftMargin": 512.9939,
+                "RightMargin": 257.0061,
+                "TopMargin": 115.4229,
+                "BottomMargin": 54.5771,
+                "Tag": 935,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "LabelText": "Ngày",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 162,
+                      "G": 111,
+                      "B": 45
+                    },
+                    "ShadowColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.3482,
+                      "Y": 275.501
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5342,
+                      "Y": 0.9245
+                    },
+                    "PreSize": {
+                      "X": 0.3918,
+                      "Y": 0.1141
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 57.8482,
+                    "RightMargin": 46.1518,
+                    "TopMargin": 5.499,
+                    "BottomMargin": 258.501,
+                    "Tag": 415,
+                    "ActionTag": 1593839711,
+                    "Size": {
+                      "X": 67.0,
+                      "Y": 34.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "number/style4/5.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 93.1999,
+                      "Y": 227.3299
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.545,
+                      "Y": 0.7629
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 77.1999,
+                    "RightMargin": 61.8001,
+                    "TopMargin": 50.6701,
+                    "BottomMargin": 207.3299,
+                    "Tag": 429,
+                    "ActionTag": 1448719589,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 40.0
+                    },
+                    "Name": "day_number",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 16,
+                    "LabelText": "Gift description",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.4944,
+                      "Y": 166.55
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 249,
+                      "G": 226,
+                      "B": 183
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.5589
+                    },
+                    "PreSize": {
+                      "X": 0.8333,
+                      "Y": 0.1654
+                    },
+                    "LeftMargin": 4.4944,
+                    "RightMargin": 36.5056,
+                    "TopMargin": 118.95,
+                    "BottomMargin": 154.05,
+                    "Tag": 424,
+                    "ActionTag": 782561486,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 25.0
+                    },
+                    "Name": "quantity",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gift_gold_5.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.4944,
+                      "Y": 92.53
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.3105
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 10.9944,
+                    "RightMargin": 43.0056,
+                    "TopMargin": 153.47,
+                    "BottomMargin": 40.53,
+                    "Tag": 936,
+                    "ActionTag": 1397192696,
+                    "Size": {
+                      "X": 117.0,
+                      "Y": 104.0
+                    },
+                    "Name": "gift",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 1081609428,
+                "Size": {
+                  "X": 171.0,
+                  "Y": 298.0
+                },
+                "Name": "day_slot_5",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/event/dailyLogin/dailyLogin_slot_off.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 722.0308,
+                  "Y": 203.5771
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7673,
+                  "Y": 0.435
+                },
+                "PreSize": {
+                  "X": 0.1817,
+                  "Y": 0.6368
+                },
+                "LeftMargin": 636.5308,
+                "RightMargin": 133.4692,
+                "TopMargin": 115.4229,
+                "BottomMargin": 54.5771,
+                "Tag": 938,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "LabelText": "Ngày",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 162,
+                      "G": 111,
+                      "B": 45
+                    },
+                    "ShadowColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.3482,
+                      "Y": 275.501
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5342,
+                      "Y": 0.9245
+                    },
+                    "PreSize": {
+                      "X": 0.3918,
+                      "Y": 0.1141
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 57.8482,
+                    "RightMargin": 46.1518,
+                    "TopMargin": 5.499,
+                    "BottomMargin": 258.501,
+                    "Tag": 416,
+                    "ActionTag": -552333246,
+                    "Size": {
+                      "X": 67.0,
+                      "Y": 34.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "number/style4/6.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 93.2,
+                      "Y": 227.3299
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.545,
+                      "Y": 0.7629
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 77.2,
+                    "RightMargin": 61.8,
+                    "TopMargin": 50.6701,
+                    "BottomMargin": 207.3299,
+                    "Tag": 431,
+                    "ActionTag": 1018803281,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 40.0
+                    },
+                    "Name": "day_number",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 16,
+                    "LabelText": "Gift description",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.4944,
+                      "Y": 166.55
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 249,
+                      "G": 226,
+                      "B": 183
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.5589
+                    },
+                    "PreSize": {
+                      "X": 0.8333,
+                      "Y": 0.1654
+                    },
+                    "LeftMargin": 4.4944,
+                    "RightMargin": 36.5056,
+                    "TopMargin": 118.95,
+                    "BottomMargin": 154.05,
+                    "Tag": 940,
+                    "ActionTag": -648280999,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 25.0
+                    },
+                    "Name": "quantity",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gift_gold_6.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 69.4944,
+                      "Y": 92.5339
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4064,
+                      "Y": 0.3105
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "LeftMargin": 13.4944,
+                    "RightMargin": 45.5056,
+                    "TopMargin": 146.4661,
+                    "BottomMargin": 33.5339,
+                    "Tag": 939,
+                    "ActionTag": -65804750,
+                    "Size": {
+                      "X": 112.0,
+                      "Y": 118.0
+                    },
+                    "Name": "gift",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 47614534,
+                "Size": {
+                  "X": 171.0,
+                  "Y": 298.0
+                },
+                "Name": "day_slot_6",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/event/dailyLogin/dailyLogin_slot_off.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 844.3101,
+                  "Y": 203.5771
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8972,
+                  "Y": 0.435
+                },
+                "PreSize": {
+                  "X": 0.1817,
+                  "Y": 0.6368
+                },
+                "LeftMargin": 758.8101,
+                "RightMargin": 11.1899,
+                "TopMargin": 115.4229,
+                "BottomMargin": 54.5771,
+                "Tag": 941,
+                "Children": [
+                  {
+                    "FontSize": 25,
+                    "LabelText": "Ngày",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 162,
+                      "G": 111,
+                      "B": 45
+                    },
+                    "ShadowColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.3482,
+                      "Y": 275.501
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 1,
+                      "G": 242,
+                      "B": 251
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5342,
+                      "Y": 0.9245
+                    },
+                    "PreSize": {
+                      "X": 0.3918,
+                      "Y": 0.1141
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 59.4508,
+                    "RightMargin": 47.5492,
+                    "TopMargin": 5.8765,
+                    "BottomMargin": 263.1235,
+                    "Tag": 417,
+                    "ActionTag": 1978543246,
+                    "Size": {
+                      "X": 67.0,
+                      "Y": 34.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "number/style4/7.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 93.1998,
+                      "Y": 227.3298
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5356,
+                      "Y": 0.7503
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 77.1998,
+                    "RightMargin": 64.8002,
+                    "TopMargin": 55.6702,
+                    "BottomMargin": 207.3298,
+                    "Tag": 430,
+                    "ActionTag": 1304829241,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 40.0
+                    },
+                    "Name": "day_number",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FontSize": 16,
+                    "LabelText": "Gift description",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 80.9995,
+                      "Y": 166.55
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 249,
+                      "G": 226,
+                      "B": 183
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4737,
+                      "Y": 0.5589
+                    },
+                    "PreSize": {
+                      "X": 0.8333,
+                      "Y": 0.1654
+                    },
+                    "LeftMargin": 16.9995,
+                    "RightMargin": 26.0005,
+                    "TopMargin": 119.95,
+                    "BottomMargin": 155.05,
+                    "CallBackType": "Click",
+                    "Tag": 422,
+                    "ActionTag": 1243441389,
+                    "Size": {
+                      "X": 130.0,
+                      "Y": 25.0
+                    },
+                    "Name": "quantity",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/gift_golden_chest.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 770,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 83.9471,
+                      "Y": 103.415
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4825,
+                      "Y": 0.3413
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 33.9471,
+                    "RightMargin": 40.0529,
+                    "TopMargin": 142.585,
+                    "BottomMargin": 46.415,
+                    "Tag": 942,
+                    "ActionTag": -725499419,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 114.0
+                    },
+                    "Name": "gift",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": -1746602297,
+                "Size": {
+                  "X": 171.0,
+                  "Y": 298.0
+                },
+                "Name": "day_slot_7",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "button/button_yellow_1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/button_yellow_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 123,
+                "Scale9Height": 30,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 838.6947,
+                  "Y": 79.593
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8913,
+                  "Y": 0.1701
+                },
+                "PreSize": {
+                  "X": 0.1626,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 762.1947,
+                "RightMargin": 25.8053,
+                "TopMargin": 362.407,
+                "BottomMargin": 53.593,
+                "Tag": 944,
+                "Children": [
+                  {
+                    "FontSize": 22,
+                    "LabelText": "Nhận quà",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 94,
+                      "G": 58,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 94,
+                      "G": 58,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.4945,
+                      "Y": 29.2968
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5065,
+                      "Y": 0.5634
+                    },
+                    "PreSize": {
+                      "X": 0.5896,
+                      "Y": 0.5577
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 20.9999,
+                    "RightMargin": 19.0001,
+                    "TopMargin": 5.7032,
+                    "BottomMargin": 12.2968,
+                    "Tag": 411,
+                    "ActionTag": -1341279865,
+                    "Size": {
+                      "X": 113.0,
+                      "Y": 34.0
+                    },
+                    "Name": "text",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1877935849,
+                "Size": {
+                  "X": 153.0,
+                  "Y": 52.0
+                },
+                "Name": "btn_receive",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/x.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 28,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 905.9404,
+                  "Y": 387.8598
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9627,
+                  "Y": 0.8288
+                },
+                "PreSize": {
+                  "X": 0.0616,
+                  "Y": 0.1197
+                },
+                "LeftMargin": 876.9404,
+                "RightMargin": 6.0596,
+                "TopMargin": 52.1402,
+                "BottomMargin": 359.8598,
+                "Tag": 945,
+                "ActionTag": 873734974,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 56.0
+                },
+                "Name": "btn_close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Quà tặng đăng nhập sẽ được chuyển vào hộp thư của bạn sau khi nhận!",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 388.7198,
+                  "Y": 36.0209
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 201,
+                  "G": 199,
+                  "B": 200
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4131,
+                  "Y": 0.077
+                },
+                "PreSize": {
+                  "X": 0.6929,
+                  "Y": 0.0534
+                },
+                "LeftMargin": 22.2198,
+                "RightMargin": 185.7802,
+                "TopMargin": 418.4792,
+                "BottomMargin": 22.5209,
+                "Tag": 946,
+                "ActionTag": 1239339553,
+                "Size": {
+                  "X": 727.0,
+                  "Y": 27.0
+                },
+                "Name": "Text_24",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1745569536,
+            "Size": {
+              "X": 941.0,
+              "Y": 468.0
+            },
+            "Name": "background",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1136.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../button/button_yellow_1.png",
+        "../../../../button/x.png",
+        "../../../../fonts/font_game.ttf",
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../lobby/event/dailyLogin/dailyLogin_bg.png",
+        "../../../../lobby/event/dailyLogin/dailyLogin_slot_off.png",
+        "../../../../lobby/gift_gold_1.png",
+        "../../../../lobby/gift_gold_2.png",
+        "../../../../lobby/gift_gold_3.png",
+        "../../../../lobby/gift_gold_4.png",
+        "../../../../lobby/gift_gold_5.png",
+        "../../../../lobby/gift_gold_6.png",
+        "../../../../lobby/gift_golden_chest.png",
+        "../../../../number/style4/1.png",
+        "../../../../number/style4/2.png",
+        "../../../../number/style4/3.png",
+        "../../../../number/style4/4.png",
+        "../../../../number/style4/5.png",
+        "../../../../number/style4/6.png",
+        "../../../../number/style4/7.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}

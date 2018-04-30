@@ -1,0 +1,1852 @@
+<dragonBones name="skill_ice_trap_step_1" frameRate="24" version="2.3">
+ <armature name="skill_ice_trap_step_1">
+  <bone name="Layer 15">
+   <transform x="0.5" y="-57.8" skX="0" skY="0" scX="2" scY="0.46"/>
+  </bone>
+  <bone name="Layer 16">
+   <transform x="-24.75" y="-7.7" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 9">
+   <transform x="47.7" y="35.85" skX="0" skY="0" scX="0.9" scY="0.67"/>
+  </bone>
+  <bone name="Layer 13">
+   <transform x="-54.3" y="6.05" skX="-179.55" skY="-179.55" scX="0.95" scY="0.7"/>
+  </bone>
+  <bone name="Layer 11">
+   <transform x="-54.3" y="6.05" skX="-179.55" skY="-179.55" scX="1.31" scY="0.98"/>
+  </bone>
+  <bone name="Layer 10">
+   <transform x="52.45" y="22.85" skX="0" skY="0" scX="1.15" scY="0.86"/>
+  </bone>
+  <bone name="Layer 12">
+   <transform x="52.45" y="22.85" skX="0" skY="0" scX="1.31" scY="0.98"/>
+  </bone>
+  <bone name="Layer 61">
+   <transform x="-8.95" y="-63.7" skX="0" skY="0" scX="0.43" scY="0.51"/>
+  </bone>
+  <bone name="Layer 29">
+   <transform x="-10.1" y="-155.7" skX="0" skY="0" scX="0.59" scY="0.59"/>
+  </bone>
+  <bone name="Layer 69">
+   <transform x="-8.95" y="-193.7" skX="0" skY="0" scX="0.43" scY="0.51"/>
+  </bone>
+  <bone name="Layer 70">
+   <transform x="-10.1" y="-285.7" skX="0" skY="0" scX="0.59" scY="0.59"/>
+  </bone>
+  <bone name="Layer 71">
+   <transform x="-8.95" y="-323.7" skX="0" skY="0" scX="0.43" scY="0.51"/>
+  </bone>
+  <bone name="Layer 72">
+   <transform x="-10.1" y="-435.7" skX="0" skY="0" scX="0.59" scY="0.59"/>
+  </bone>
+  <bone name="Layer 73">
+   <transform x="-8.95" y="-473.7" skX="0" skY="0" scX="0.43" scY="0.51"/>
+  </bone>
+  <bone name="Layer 23">
+   <transform x="15.95" y="-12.05" skX="21.43" skY="21.43" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 33">
+   <transform x="-17" y="-10.55" skX="-44.44" skY="-44.44" scX="-0.95" scY="1"/>
+  </bone>
+  <bone name="Layer 32">
+   <transform x="7.95" y="-41.05" skX="-14.54" skY="-14.54" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 35">
+   <transform x="-6.05" y="-44.55" skX="-3.24" skY="-3.24" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 28">
+   <transform x="-11.05" y="-71.55" skX="-7.54" skY="-7.54" scX="-1.15" scY="1.12"/>
+  </bone>
+  <bone name="Layer 30">
+   <transform x="7.95" y="-89.05" skX="9.96" skY="9.96" scX="-1.1" scY="1.21"/>
+  </bone>
+  <bone name="Layer 37">
+   <transform x="8.45" y="-113.15" skX="-8.27" skY="-8.27" scX="0.93" scY="1"/>
+  </bone>
+  <bone name="Layer 50">
+   <transform x="-10.05" y="-119.55" skX="-3.24" skY="-3.24" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 59">
+   <transform x="16.95" y="-144.1" skX="23.99" skY="23.99" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 60">
+   <transform x="-3.05" y="-168.65" skX="-25.7" skY="-25.7" scX="-1.15" scY="1.11"/>
+  </bone>
+  <bone name="Layer 62">
+   <transform x="16.45" y="-190.65" skX="19.24" skY="19.24" scX="1.22" scY="1.22"/>
+  </bone>
+  <bone name="Layer 51">
+   <transform x="2.4" y="-203.65" skX="-18.27" skY="-18.58" scX="-1.29" scY="1.28"/>
+  </bone>
+  <bone name="Layer 52">
+   <transform x="10.45" y="-243.2" skX="-2.45" skY="-2.45" scX="-1.13" scY="1.19"/>
+  </bone>
+  <bone name="Layer 53">
+   <transform x="-16.05" y="-250.2" skX="-14.67" skY="-14.67" scX="1.16" scY="1.16"/>
+  </bone>
+  <bone name="Layer 54">
+   <transform x="13.95" y="-285.65" skX="9.52" skY="9.52" scX="1.57" scY="1.57"/>
+  </bone>
+  <bone name="Layer 55">
+   <transform x="2.45" y="-335.2" skX="-4.17" skY="-4.17" scX="1.23" scY="1.23"/>
+  </bone>
+  <bone name="Layer 56">
+   <transform x="19.45" y="-356.65" skX="31.74" skY="31.74" scX="1.18" scY="1.18"/>
+  </bone>
+  <bone name="Layer 57">
+   <transform x="-10.55" y="-375.15" skX="-5.44" skY="-5.44" scX="1.18" scY="1.18"/>
+  </bone>
+  <bone name="Layer 63">
+   <transform x="-3.05" y="-398.65" skX="6.8" skY="6.8" scX="1.34" scY="1.34"/>
+  </bone>
+  <bone name="Layer 58">
+   <transform x="15.95" y="-399.15" skX="11.25" skY="11.25" scX="1.34" scY="1.34"/>
+  </bone>
+  <bone name="Layer 66">
+   <transform x="2.45" y="-446.2" skX="-12.23" skY="-12.23" scX="-1.24" scY="1.45"/>
+  </bone>
+  <bone name="Layer 65">
+   <transform x="14.95" y="-483.7" skX="11.5" skY="11.5" scX="1.35" scY="1.45"/>
+  </bone>
+  <bone name="Layer 64">
+   <transform x="5.45" y="-524.75" skX="1.76" skY="1.76" scX="-1.24" scY="1.45"/>
+  </bone>
+  <bone name="Layer 67">
+   <transform x="12.95" y="-533.25" skX="1.76" skY="1.76" scX="-0.76" scY="0.75"/>
+  </bone>
+  <bone name="Layer 4">
+   <transform x="-20.4" y="-92.2" skX="0" skY="0" scX="0.7" scY="0.7"/>
+  </bone>
+  <bone name="Layer 2">
+   <transform x="30.55" y="-32.8" skX="0" skY="0" scX="0.65" scY="0.65"/>
+  </bone>
+  <bone name="Layer 3">
+   <transform x="-0.35" y="-40.45" skX="0" skY="0" scX="1.51" scY="1.51"/>
+  </bone>
+  <bone name="Layer 5">
+   <transform x="-16.35" y="-87.2" skX="0" skY="0" scX="0.69" scY="0.69"/>
+  </bone>
+  <bone name="Layer 6">
+   <transform x="7.55" y="-119.05" skX="0" skY="0" scX="0.87" scY="0.87"/>
+  </bone>
+  <bone name="Layer 22">
+   <transform x="3.35" y="-75.75" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <bone name="Layer 74">
+   <transform x="3.35" y="-155.75" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 15" parent="Layer 15" z="0" blendMode="add">
+    <display name="Symbol 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="28.75" pY="164"/>
+    </display>
+   </slot>
+   <slot name="Layer 16" parent="Layer 16" z="1">
+    <display name="trang suc vang" type="armature">
+     <transform x="26.4" y="27" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Layer 9" parent="Layer 9" z="2" blendMode="add">
+    <display name="Symbol 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="160.75" pY="188.8"/>
+    </display>
+   </slot>
+   <slot name="Layer 13" parent="Layer 13" z="3" blendMode="add">
+    <display name="Symbol 13" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="251.95" pY="220"/>
+    </display>
+   </slot>
+   <slot name="Layer 11" parent="Layer 11" z="4" blendMode="add">
+    <display name="Symbol 13" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="251.95" pY="220"/>
+    </display>
+   </slot>
+   <slot name="Layer 10" parent="Layer 10" z="5" blendMode="add">
+    <display name="Symbol 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="160.75" pY="188.8"/>
+    </display>
+   </slot>
+   <slot name="Layer 12" parent="Layer 12" z="6" blendMode="add">
+    <display name="Symbol 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="160.75" pY="188.8"/>
+    </display>
+   </slot>
+   <slot name="Layer 61" parent="Layer 61" z="7">
+    <display name="Symbol 14X" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="148.8" pY="149.7"/>
+    </display>
+   </slot>
+   <slot name="Layer 29" parent="Layer 29" z="8">
+    <display name="Symbol 14X" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="148.8" pY="149.7"/>
+    </display>
+   </slot>
+   <slot name="Layer 69" parent="Layer 69" z="9">
+    <display name="Symbol 14X" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="148.8" pY="149.7"/>
+    </display>
+   </slot>
+   <slot name="Layer 70" parent="Layer 70" z="10">
+    <display name="Symbol 14X" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="148.8" pY="149.7"/>
+    </display>
+   </slot>
+   <slot name="Layer 71" parent="Layer 71" z="11">
+    <display name="Symbol 14X" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="148.8" pY="149.7"/>
+    </display>
+   </slot>
+   <slot name="Layer 72" parent="Layer 72" z="12">
+    <display name="Symbol 14X" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="148.8" pY="149.7"/>
+    </display>
+   </slot>
+   <slot name="Layer 73" parent="Layer 73" z="13">
+    <display name="Symbol 14X" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="148.8" pY="149.7"/>
+    </display>
+   </slot>
+   <slot name="Layer 23" parent="Layer 23" z="14" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 33" parent="Layer 33" z="15" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 32" parent="Layer 32" z="16" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 35" parent="Layer 35" z="17" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 28" parent="Layer 28" z="18" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 30" parent="Layer 30" z="19" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 37" parent="Layer 37" z="20" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 50" parent="Layer 50" z="21" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 59" parent="Layer 59" z="22" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 60" parent="Layer 60" z="23" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 62" parent="Layer 62" z="24" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 51" parent="Layer 51" z="25" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 52" parent="Layer 52" z="26" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 53" parent="Layer 53" z="27" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 54" parent="Layer 54" z="28" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 55" parent="Layer 55" z="29" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 56" parent="Layer 56" z="30" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 57" parent="Layer 57" z="31" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 63" parent="Layer 63" z="32" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 58" parent="Layer 58" z="33" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 66" parent="Layer 66" z="34" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 65" parent="Layer 65" z="35" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 64" parent="Layer 64" z="36" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 67" parent="Layer 67" z="37" blendMode="add">
+    <display name="Symbol 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="28.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 4" parent="Layer 4" z="38" blendMode="add">
+    <display name="Symbol 16 copy" type="image">
+     <transform x="0.35" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="29.5" pY="29.55"/>
+    </display>
+   </slot>
+   <slot name="Layer 2" parent="Layer 2" z="39" blendMode="add">
+    <display name="Symbol 16 copy" type="image">
+     <transform x="0.5" y="-0.5" skX="0" skY="0" scX="1" scY="1" pX="29.5" pY="29.55"/>
+    </display>
+   </slot>
+   <slot name="Layer 3" parent="Layer 3" z="40" blendMode="add">
+    <display name="Symbol 16 copy" type="image">
+     <transform x="0.5" y="-0.45" skX="0" skY="0" scX="1" scY="1" pX="29.5" pY="29.55"/>
+    </display>
+   </slot>
+   <slot name="Layer 5" parent="Layer 5" z="41" blendMode="add">
+    <display name="Symbol 16 copy" type="image">
+     <transform x="0.45" y="-0.5" skX="0" skY="0" scX="1" scY="1" pX="29.5" pY="29.55"/>
+    </display>
+   </slot>
+   <slot name="Layer 6" parent="Layer 6" z="42" blendMode="add">
+    <display name="Symbol 16 copy" type="image">
+     <transform x="0.45" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="29.5" pY="29.55"/>
+    </display>
+   </slot>
+   <slot name="Layer 22" parent="Layer 22" z="43" blendMode="add">
+    <display name="test" type="armature">
+     <transform x="-3.05" y="51.05" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Layer 74" parent="Layer 74" z="44" blendMode="add">
+    <display name="test" type="armature">
+     <transform x="-3.05" y="51.05" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="nonloop" fadeInTime="0" duration="104" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 15" scale="1" offset="0">
+    <frame duration="24" displayIndex="-1"/>
+    <frame z="0" tweenEasing="0" duration="12">
+     <transform x="0.5" y="-20.8" skX="0" skY="0" scX="2" scY="0.29" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="29">
+     <transform x="0.5" y="-280.8" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="38">
+     <transform x="0.5" y="-57.8" skX="0" skY="0" scX="2" scY="0.46" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="23" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="0.5" y="-57.8" skX="0" skY="0" scX="2" scY="0.46" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 16" scale="1" offset="0">
+    <frame duration="20" displayIndex="-1"/>
+    <frame z="1" duration="84">
+     <transform x="-24.75" y="-7.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 9" scale="1" offset="0">
+    <frame duration="24" displayIndex="-1"/>
+    <frame z="2" duration="4">
+     <transform x="47.7" y="35.85" skX="0" skY="0" scX="0.9" scY="0.67" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="47" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="76" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 13" scale="1" offset="0">
+    <frame duration="24" displayIndex="-1"/>
+    <frame z="3" duration="4">
+     <transform x="-54.3" y="6.05" skX="-179.55" skY="-179.55" scX="0.95" scY="0.7" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="47" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="76" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 11" scale="1" offset="0">
+    <frame duration="22" displayIndex="-1"/>
+    <frame z="4" duration="4">
+     <transform x="-54.3" y="6.05" skX="-179.55" skY="-179.55" scX="1.31" scY="0.98" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="47" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="78" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 10" scale="1" offset="0">
+    <frame duration="22" displayIndex="-1"/>
+    <frame z="5" duration="4">
+     <transform x="52.45" y="22.85" skX="0" skY="0" scX="1.15" scY="0.86" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="47" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="78" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 12" scale="1" offset="0">
+    <frame duration="20" displayIndex="-1"/>
+    <frame z="6" duration="3">
+     <transform x="52.45" y="22.85" skX="0" skY="0" scX="1.31" scY="0.98" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="47" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="81" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 61" scale="1" offset="0">
+    <frame duration="36" displayIndex="-1"/>
+    <frame z="7" tweenEasing="0" duration="19">
+     <transform x="-8.95" y="-63.7" skX="0" skY="0" scX="0.43" scY="0.51" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="10" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="17">
+     <transform x="-5.6" y="-54.7" skX="0" skY="0" scX="0.86" scY="1.03" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="-6.5" y="-55.5" skX="0" skY="0" scX="1.04" scY="1.24" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="31" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 29" scale="1" offset="0">
+    <frame duration="28" displayIndex="-1"/>
+    <frame z="8" tweenEasing="0" duration="22">
+     <transform x="-10.1" y="-155.7" skX="0" skY="0" scX="0.59" scY="0.59" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="17">
+     <transform x="-6.45" y="-146.95" skX="0" skY="0" scX="1.02" scY="1.02" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="63" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="-7.2" y="-147.5" skX="0" skY="0" scX="1.24" scY="1.24" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="36" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 69" scale="1" offset="0">
+    <frame duration="28" displayIndex="-1"/>
+    <frame z="9" tweenEasing="0" duration="19">
+     <transform x="-8.95" y="-193.7" skX="0" skY="0" scX="0.43" scY="0.51" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="10" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="17">
+     <transform x="-5.6" y="-184.7" skX="0" skY="0" scX="0.86" scY="1.03" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="-6.5" y="-185.5" skX="0" skY="0" scX="1.04" scY="1.24" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="39" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 70" scale="1" offset="0">
+    <frame duration="30" displayIndex="-1"/>
+    <frame z="10" tweenEasing="0" duration="22">
+     <transform x="-10.1" y="-285.7" skX="0" skY="0" scX="0.59" scY="0.59" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="17">
+     <transform x="-6.45" y="-276.95" skX="0" skY="0" scX="1.02" scY="1.02" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="63" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="-7.2" y="-277.5" skX="0" skY="0" scX="1.24" scY="1.24" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="34" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 71" scale="1" offset="0">
+    <frame duration="30" displayIndex="-1"/>
+    <frame z="11" tweenEasing="0" duration="19">
+     <transform x="-8.95" y="-323.7" skX="0" skY="0" scX="0.43" scY="0.51" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="10" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="17">
+     <transform x="-5.6" y="-314.7" skX="0" skY="0" scX="0.86" scY="1.03" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="-6.5" y="-315.5" skX="0" skY="0" scX="1.04" scY="1.24" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="37" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 72" scale="1" offset="0">
+    <frame duration="32" displayIndex="-1"/>
+    <frame z="12" tweenEasing="0" duration="22">
+     <transform x="-10.1" y="-435.7" skX="0" skY="0" scX="0.59" scY="0.59" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" tweenEasing="0" duration="17">
+     <transform x="-6.45" y="-426.95" skX="0" skY="0" scX="1.02" scY="1.02" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="63" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="12" duration="1">
+     <transform x="-7.2" y="-427.5" skX="0" skY="0" scX="1.24" scY="1.24" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="32" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 73" scale="1" offset="0">
+    <frame duration="34" displayIndex="-1"/>
+    <frame z="13" tweenEasing="0" duration="19">
+     <transform x="-8.95" y="-473.7" skX="0" skY="0" scX="0.43" scY="0.51" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="10" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="17">
+     <transform x="-5.6" y="-464.7" skX="0" skY="0" scX="0.86" scY="1.03" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" duration="1">
+     <transform x="-6.5" y="-465.5" skX="0" skY="0" scX="1.04" scY="1.24" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="33" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 23" scale="1" offset="0">
+    <frame duration="25" displayIndex="-1"/>
+    <frame z="14" duration="28">
+     <transform x="15.95" y="-12.05" skX="21.43" skY="21.43" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="90" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="14" duration="51">
+     <transform x="15.95" y="-12.05" skX="21.43" skY="21.43" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="90" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 33" scale="1" offset="0">
+    <frame duration="24" displayIndex="-1"/>
+    <frame z="15" duration="29">
+     <transform x="-17" y="-10.55" skX="-44.44" skY="-44.44" scX="-0.95" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="15" duration="51">
+     <transform x="-17" y="-10.55" skX="-44.44" skY="-44.44" scX="-0.95" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 32" scale="1" offset="0">
+    <frame duration="26" displayIndex="-1"/>
+    <frame z="16" duration="27">
+     <transform x="7.95" y="-41.05" skX="-14.54" skY="-14.54" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="78" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="16" duration="51">
+     <transform x="7.95" y="-41.05" skX="-14.54" skY="-14.54" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="78" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 35" scale="1" offset="0">
+    <frame duration="26" displayIndex="-1"/>
+    <frame z="17" duration="27">
+     <transform x="-6.05" y="-44.55" skX="-3.24" skY="-3.24" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="17" duration="51">
+     <transform x="-6.05" y="-44.55" skX="-3.24" skY="-3.24" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 28" scale="1" offset="0">
+    <frame duration="27" displayIndex="-1"/>
+    <frame z="18" duration="26">
+     <transform x="-11.05" y="-71.55" skX="-7.54" skY="-7.54" scX="-1.15" scY="1.12" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="18" duration="51">
+     <transform x="-11.05" y="-71.55" skX="-7.54" skY="-7.54" scX="-1.15" scY="1.12" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 30" scale="1" offset="0">
+    <frame duration="27" displayIndex="-1"/>
+    <frame z="19" duration="26">
+     <transform x="7.95" y="-89.05" skX="9.96" skY="9.96" scX="-1.1" scY="1.21" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="19" duration="51">
+     <transform x="7.95" y="-89.05" skX="9.96" skY="9.96" scX="-1.1" scY="1.21" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 37" scale="1" offset="0">
+    <frame duration="28" displayIndex="-1"/>
+    <frame z="20" duration="25">
+     <transform x="8.45" y="-113.15" skX="-8.27" skY="-8.27" scX="0.93" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="20" duration="9">
+     <transform x="8.45" y="-113.15" skX="-8.27" skY="-8.27" scX="0.93" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="20" tweenEasing="0" duration="10">
+     <transform x="8.45" y="-113.15" skX="-8.27" skY="-8.27" scX="0.93" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="20" duration="32">
+     <transform x="8.45" y="-113.15" skX="-8.27" skY="-8.27" scX="0.93" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 50" scale="1" offset="0">
+    <frame duration="28" displayIndex="-1"/>
+    <frame z="21" duration="25">
+     <transform x="-10.05" y="-119.55" skX="-3.24" skY="-3.24" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="21" duration="8">
+     <transform x="-10.05" y="-119.55" skX="-3.24" skY="-3.24" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="21" tweenEasing="0" duration="9">
+     <transform x="-10.05" y="-119.55" skX="-3.24" skY="-3.24" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="21" duration="34">
+     <transform x="-10.05" y="-119.55" skX="-3.24" skY="-3.24" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 59" scale="1" offset="0">
+    <frame duration="29" displayIndex="-1"/>
+    <frame z="22" duration="24">
+     <transform x="16.95" y="-144.1" skX="23.99" skY="23.99" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="45" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="22" duration="6">
+     <transform x="16.95" y="-144.1" skX="23.99" skY="23.99" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="45" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="22" tweenEasing="0" duration="10">
+     <transform x="16.95" y="-144.1" skX="23.99" skY="23.99" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="45" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="22" duration="35">
+     <transform x="16.95" y="-144.1" skX="23.99" skY="23.99" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 60" scale="1" offset="0">
+    <frame duration="29" displayIndex="-1"/>
+    <frame z="23" duration="24">
+     <transform x="-3.05" y="-168.65" skX="-25.7" skY="-25.7" scX="-1.15" scY="1.11" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="23" duration="4">
+     <transform x="-3.05" y="-168.65" skX="-25.7" skY="-25.7" scX="-1.15" scY="1.11" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="23" tweenEasing="0" duration="11">
+     <transform x="-3.05" y="-168.65" skX="-25.7" skY="-25.7" scX="-1.15" scY="1.11" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="23" duration="36">
+     <transform x="-3.05" y="-168.65" skX="-25.7" skY="-25.7" scX="-1.15" scY="1.11" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 62" scale="1" offset="0">
+    <frame duration="30" displayIndex="-1"/>
+    <frame z="24" duration="25">
+     <transform x="16.45" y="-190.65" skX="19.24" skY="19.24" scX="1.22" scY="1.22" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="13" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="24" tweenEasing="0" duration="12">
+     <transform x="16.45" y="-190.65" skX="19.24" skY="19.24" scX="1.22" scY="1.22" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="13" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="24" duration="37">
+     <transform x="16.45" y="-190.65" skX="19.24" skY="19.24" scX="1.22" scY="1.22" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 51" scale="1" offset="0">
+    <frame duration="30" displayIndex="-1"/>
+    <frame z="25" duration="23">
+     <transform x="2.4" y="-203.65" skX="-18.27" skY="-18.58" scX="-1.29" scY="1.28" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="25" tweenEasing="0" duration="13">
+     <transform x="2.4" y="-203.65" skX="-18.27" skY="-18.58" scX="-1.29" scY="1.28" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="25" duration="38">
+     <transform x="2.4" y="-203.65" skX="-18.27" skY="-18.58" scX="-1.29" scY="1.28" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 52" scale="1" offset="0">
+    <frame duration="31" displayIndex="-1"/>
+    <frame z="26" duration="20">
+     <transform x="10.45" y="-243.2" skX="-2.45" skY="-2.45" scX="-1.13" scY="1.19" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="32" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="26" tweenEasing="0" duration="13">
+     <transform x="10.45" y="-243.2" skX="-2.45" skY="-2.45" scX="-1.13" scY="1.19" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="32" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="26" duration="1">
+     <transform x="10.45" y="-243.2" skX="-2.45" skY="-2.45" scX="-1.13" scY="1.19" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="39" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 53" scale="1" offset="0">
+    <frame duration="31" displayIndex="-1"/>
+    <frame z="27" duration="20">
+     <transform x="-16.05" y="-250.2" skX="-14.67" skY="-14.67" scX="1.16" scY="1.16" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="21" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="27" tweenEasing="0" duration="13">
+     <transform x="-16.05" y="-250.2" skX="-14.67" skY="-14.67" scX="1.16" scY="1.16" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="21" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="27" duration="1">
+     <transform x="-16.05" y="-250.2" skX="-14.67" skY="-14.67" scX="1.16" scY="1.16" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="39" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 54" scale="1" offset="0">
+    <frame duration="32" displayIndex="-1"/>
+    <frame z="28" duration="16">
+     <transform x="13.95" y="-285.65" skX="9.52" skY="9.52" scX="1.57" scY="1.57" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="17" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="28" tweenEasing="0" duration="13">
+     <transform x="13.95" y="-285.65" skX="9.52" skY="9.52" scX="1.57" scY="1.57" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="17" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="28" duration="1">
+     <transform x="13.95" y="-285.65" skX="9.52" skY="9.52" scX="1.57" scY="1.57" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="42" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 55" scale="1" offset="0">
+    <frame duration="32" displayIndex="-1"/>
+    <frame z="29" duration="16">
+     <transform x="2.45" y="-335.2" skX="-4.17" skY="-4.17" scX="1.23" scY="1.23" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="47" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="29" tweenEasing="0" duration="13">
+     <transform x="2.45" y="-335.2" skX="-4.17" skY="-4.17" scX="1.23" scY="1.23" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="47" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="29" duration="1">
+     <transform x="2.45" y="-335.2" skX="-4.17" skY="-4.17" scX="1.23" scY="1.23" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="42" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 56" scale="1" offset="0">
+    <frame duration="33" displayIndex="-1"/>
+    <frame z="30" duration="12">
+     <transform x="19.45" y="-356.65" skX="31.74" skY="31.74" scX="1.18" scY="1.18" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="23" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="30" tweenEasing="0" duration="13">
+     <transform x="19.45" y="-356.65" skX="31.74" skY="31.74" scX="1.18" scY="1.18" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="23" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="30" duration="1">
+     <transform x="19.45" y="-356.65" skX="31.74" skY="31.74" scX="1.18" scY="1.18" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="45" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 57" scale="1" offset="0">
+    <frame duration="33" displayIndex="-1"/>
+    <frame z="31" duration="12">
+     <transform x="-10.55" y="-375.15" skX="-5.44" skY="-5.44" scX="1.18" scY="1.18" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="31" tweenEasing="0" duration="13">
+     <transform x="-10.55" y="-375.15" skX="-5.44" skY="-5.44" scX="1.18" scY="1.18" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="31" duration="1">
+     <transform x="-10.55" y="-375.15" skX="-5.44" skY="-5.44" scX="1.18" scY="1.18" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="45" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 63" scale="1" offset="0">
+    <frame duration="34" displayIndex="-1"/>
+    <frame z="32" duration="9">
+     <transform x="-3.05" y="-398.65" skX="6.8" skY="6.8" scX="1.34" scY="1.34" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="24" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="32" tweenEasing="0" duration="13">
+     <transform x="-3.05" y="-398.65" skX="6.8" skY="6.8" scX="1.34" scY="1.34" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="24" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="32" duration="1">
+     <transform x="-3.05" y="-398.65" skX="6.8" skY="6.8" scX="1.34" scY="1.34" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="47" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 58" scale="1" offset="0">
+    <frame duration="34" displayIndex="-1"/>
+    <frame z="33" duration="9">
+     <transform x="15.95" y="-399.15" skX="11.25" skY="11.25" scX="1.34" scY="1.34" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="54" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="33" tweenEasing="0" duration="13">
+     <transform x="15.95" y="-399.15" skX="11.25" skY="11.25" scX="1.34" scY="1.34" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="54" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="33" duration="1">
+     <transform x="15.95" y="-399.15" skX="11.25" skY="11.25" scX="1.34" scY="1.34" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="47" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 66" scale="1" offset="0">
+    <frame duration="35" displayIndex="-1"/>
+    <frame z="34" duration="8">
+     <transform x="2.45" y="-446.2" skX="-12.23" skY="-12.23" scX="-1.24" scY="1.45" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="73" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="34" tweenEasing="0" duration="13">
+     <transform x="2.45" y="-446.2" skX="-12.23" skY="-12.23" scX="-1.24" scY="1.45" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="73" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="34" duration="1">
+     <transform x="2.45" y="-446.2" skX="-12.23" skY="-12.23" scX="-1.24" scY="1.45" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="47" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 65" scale="1" offset="0">
+    <frame duration="35" displayIndex="-1"/>
+    <frame z="35" duration="6">
+     <transform x="14.95" y="-483.7" skX="11.5" skY="11.5" scX="1.35" scY="1.45" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="35" tweenEasing="0" duration="13">
+     <transform x="14.95" y="-483.7" skX="11.5" skY="11.5" scX="1.35" scY="1.45" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="35" duration="1">
+     <transform x="14.95" y="-483.7" skX="11.5" skY="11.5" scX="1.35" scY="1.45" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="49" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 64" scale="1" offset="0">
+    <frame duration="37" displayIndex="-1"/>
+    <frame z="36" duration="4">
+     <transform x="5.45" y="-524.75" skX="1.76" skY="1.76" scX="-1.24" scY="1.45" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="29" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="36" tweenEasing="0" duration="13">
+     <transform x="5.45" y="-524.75" skX="1.76" skY="1.76" scX="-1.24" scY="1.45" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="29" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="36" duration="1">
+     <transform x="5.45" y="-524.75" skX="1.76" skY="1.76" scX="-1.24" scY="1.45" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="49" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 67" scale="1" offset="0">
+    <frame duration="37" displayIndex="-1"/>
+    <frame z="37" duration="4">
+     <transform x="12.95" y="-533.25" skX="1.76" skY="1.76" scX="-0.76" scY="0.75" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="33" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="37" tweenEasing="0" duration="13">
+     <transform x="12.95" y="-533.25" skX="1.76" skY="1.76" scX="-0.76" scY="0.75" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="33" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="37" duration="1">
+     <transform x="12.95" y="-533.25" skX="1.76" skY="1.76" scX="-0.76" scY="0.75" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="49" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 4" scale="1" offset="0">
+    <frame duration="49" displayIndex="-1"/>
+    <frame z="38" tweenEasing="0" duration="9">
+     <transform x="-20.4" y="-92.2" skX="0" skY="0" scX="0.7" scY="0.7" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="38" tweenEasing="0" duration="18">
+     <transform x="-20.4" y="-92.2" skX="0" skY="0" scX="0.7" scY="0.7" pX="0" pY="0"/>
+    </frame>
+    <frame z="38" duration="1">
+     <transform x="-20.4" y="-92.2" skX="0" skY="0" scX="0.7" scY="0.7" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="27" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 2" scale="1" offset="0">
+    <frame duration="70" displayIndex="-1"/>
+    <frame z="39" tweenEasing="0" duration="9">
+     <transform x="30.55" y="-32.8" skX="0" skY="0" scX="0.65" scY="0.65" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="39" tweenEasing="0" duration="18">
+     <transform x="30.55" y="-32.8" skX="0" skY="0" scX="0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="39" duration="1">
+     <transform x="30.55" y="-32.8" skX="0" skY="0" scX="0.65" scY="0.65" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="6" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 3" scale="1" offset="0">
+    <frame duration="54" displayIndex="-1"/>
+    <frame z="40" tweenEasing="0" duration="9">
+     <transform x="-0.35" y="-40.45" skX="0" skY="0" scX="1.51" scY="1.51" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="40" tweenEasing="0" duration="18">
+     <transform x="-0.35" y="-40.45" skX="0" skY="0" scX="1.51" scY="1.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="40" duration="1">
+     <transform x="-0.35" y="-40.45" skX="0" skY="0" scX="1.51" scY="1.51" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="22" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 5" scale="1" offset="0">
+    <frame duration="62" displayIndex="-1"/>
+    <frame z="41" tweenEasing="0" duration="9">
+     <transform x="-16.35" y="-87.2" skX="0" skY="0" scX="0.69" scY="0.69" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="41" tweenEasing="0" duration="18">
+     <transform x="-16.35" y="-87.2" skX="0" skY="0" scX="0.69" scY="0.69" pX="0" pY="0"/>
+    </frame>
+    <frame z="41" duration="1">
+     <transform x="-16.35" y="-87.2" skX="0" skY="0" scX="0.69" scY="0.69" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="14" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 6" scale="1" offset="0">
+    <frame duration="70" displayIndex="-1"/>
+    <frame z="42" tweenEasing="0" duration="9">
+     <transform x="7.55" y="-119.05" skX="0" skY="0" scX="0.87" scY="0.87" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="42" tweenEasing="0" duration="18">
+     <transform x="7.55" y="-119.05" skX="0" skY="0" scX="0.87" scY="0.87" pX="0" pY="0"/>
+    </frame>
+    <frame z="42" duration="1">
+     <transform x="7.55" y="-119.05" skX="0" skY="0" scX="0.87" scY="0.87" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="6" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 22" scale="1" offset="0">
+    <frame duration="30" displayIndex="-1"/>
+    <frame z="43" duration="35">
+     <transform x="3.35" y="-75.75" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="39" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 74" scale="1" offset="0">
+    <frame duration="37" displayIndex="-1"/>
+    <frame z="44" duration="35">
+     <transform x="3.35" y="-155.75" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="32" displayIndex="-1"/>
+   </timeline>
+  </animation>
+  <animation name="loop" fadeInTime="0" duration="72" scale="1" loop="0" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 15" scale="1" offset="0">
+    <frame z="0" duration="72">
+     <transform x="0.5" y="-57.8" skX="0" skY="0" scX="2" scY="0.46" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 16" scale="1" offset="0">
+    <frame z="1" duration="72">
+     <transform x="-24.75" y="-7.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 23" scale="1" offset="0">
+    <frame z="14" duration="72">
+     <transform x="15.95" y="-12.05" skX="21.43" skY="21.43" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="90" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 33" scale="1" offset="0">
+    <frame z="15" duration="72">
+     <transform x="-17" y="-10.55" skX="-44.44" skY="-44.44" scX="-0.95" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 32" scale="1" offset="0">
+    <frame z="16" duration="72">
+     <transform x="7.95" y="-41.05" skX="-14.54" skY="-14.54" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="78" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 35" scale="1" offset="0">
+    <frame z="17" duration="72">
+     <transform x="-6.05" y="-44.55" skX="-3.24" skY="-3.24" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="59" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 28" scale="1" offset="0">
+    <frame z="18" duration="72">
+     <transform x="-11.05" y="-71.55" skX="-7.54" skY="-7.54" scX="-1.15" scY="1.12" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 30" scale="1" offset="0">
+    <frame z="19" duration="72">
+     <transform x="7.95" y="-89.05" skX="9.96" skY="9.96" scX="-1.1" scY="1.21" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 37" scale="1" offset="0">
+    <frame z="20" duration="72">
+     <transform x="8.45" y="-113.15" skX="-8.27" skY="-8.27" scX="0.93" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 50" scale="1" offset="0">
+    <frame z="21" duration="72">
+     <transform x="-10.05" y="-119.55" skX="-3.24" skY="-3.24" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 59" scale="1" offset="0">
+    <frame z="22" duration="72">
+     <transform x="16.95" y="-144.1" skX="23.99" skY="23.99" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 60" scale="1" offset="0">
+    <frame z="23" duration="72">
+     <transform x="-3.05" y="-168.65" skX="-25.7" skY="-25.7" scX="-1.15" scY="1.11" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 62" scale="1" offset="0">
+    <frame z="24" duration="72">
+     <transform x="16.45" y="-190.65" skX="19.24" skY="19.24" scX="1.22" scY="1.22" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 51" scale="1" offset="0">
+    <frame z="25" duration="72">
+     <transform x="2.4" y="-203.65" skX="-18.27" skY="-18.58" scX="-1.29" scY="1.28" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="saolaplanh">
+  <bone name="Layer 4">
+   <transform x="-18.45" y="-50.15" skX="0" skY="0" scX="0.7" scY="0.7"/>
+  </bone>
+  <bone name="Layer 2">
+   <transform x="32.5" y="9.25" skX="0" skY="0" scX="0.65" scY="0.65"/>
+  </bone>
+  <bone name="Layer 3">
+   <transform x="1.6" y="1.6" skX="0" skY="0" scX="1.51" scY="1.51"/>
+  </bone>
+  <bone name="Layer 5">
+   <transform x="-37.45" y="47.85" skX="0" skY="0" scX="0.69" scY="0.69"/>
+  </bone>
+  <bone name="Layer 6">
+   <transform x="14.5" y="-45" skX="0" skY="0" scX="0.87" scY="0.87"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 4" parent="Layer 4" z="0" blendMode="add">
+    <display name="Symbol 16 copy" type="image">
+     <transform x="0.35" y="-0.6" skX="0" skY="0" scX="1" scY="1" pX="29.5" pY="29.55"/>
+    </display>
+   </slot>
+   <slot name="Layer 2" parent="Layer 2" z="1" blendMode="add">
+    <display name="Symbol 16 copy" type="image">
+     <transform x="0.5" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="29.5" pY="29.55"/>
+    </display>
+   </slot>
+   <slot name="Layer 3" parent="Layer 3" z="2" blendMode="add">
+    <display name="Symbol 16 copy" type="image">
+     <transform x="0.45" y="-0.5" skX="0" skY="0" scX="1" scY="1" pX="29.5" pY="29.55"/>
+    </display>
+   </slot>
+   <slot name="Layer 5" parent="Layer 5" z="3" blendMode="add">
+    <display name="Symbol 16 copy" type="image">
+     <transform x="0.45" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="29.5" pY="29.55"/>
+    </display>
+   </slot>
+   <slot name="Layer 6" parent="Layer 6" z="4" blendMode="add">
+    <display name="Symbol 16 copy" type="image">
+     <transform x="0.45" y="-0.6" skX="0" skY="0" scX="1" scY="1" pX="29.5" pY="29.55"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="54" scale="1" loop="0" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 4" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="9">
+     <transform x="-18.45" y="-50.15" skX="0" skY="0" scX="0.7" scY="0.7" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="18">
+     <transform x="-18.45" y="-50.15" skX="0" skY="0" scX="0.7" scY="0.7" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-18.45" y="-50.15" skX="0" skY="0" scX="0.7" scY="0.7" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="26" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 2" scale="1" offset="0">
+    <frame duration="23" displayIndex="-1"/>
+    <frame z="1" tweenEasing="0" duration="9">
+     <transform x="32.5" y="9.25" skX="0" skY="0" scX="0.65" scY="0.65" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="18">
+     <transform x="32.5" y="9.25" skX="0" skY="0" scX="0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="32.5" y="9.25" skX="0" skY="0" scX="0.65" scY="0.65" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 3" scale="1" offset="0">
+    <frame duration="7" displayIndex="-1"/>
+    <frame z="2" tweenEasing="0" duration="9">
+     <transform x="1.6" y="1.6" skX="0" skY="0" scX="1.51" scY="1.51" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="18">
+     <transform x="1.6" y="1.6" skX="0" skY="0" scX="1.51" scY="1.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="1.6" y="1.6" skX="0" skY="0" scX="1.51" scY="1.51" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="19" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 5" scale="1" offset="0">
+    <frame duration="18" displayIndex="-1"/>
+    <frame z="3" tweenEasing="0" duration="9">
+     <transform x="-37.45" y="47.85" skX="0" skY="0" scX="0.69" scY="0.69" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="18">
+     <transform x="-37.45" y="47.85" skX="0" skY="0" scX="0.69" scY="0.69" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="-37.45" y="47.85" skX="0" skY="0" scX="0.69" scY="0.69" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 6" scale="1" offset="0">
+    <frame duration="26" displayIndex="-1"/>
+    <frame z="4" tweenEasing="0" duration="9">
+     <transform x="14.5" y="-45" skX="0" skY="0" scX="0.87" scY="0.87" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="18">
+     <transform x="14.5" y="-45" skX="0" skY="0" scX="0.87" scY="0.87" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="14.5" y="-45" skX="0" skY="0" scX="0.87" scY="0.87" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="test">
+  <bone name="Layer 3">
+   <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 3" parent="Layer 3" z="0">
+    <display name="final_00002.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00003.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00004.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00005.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00006.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00007.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00008.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00009.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00010.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00011.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00012.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00013.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00014.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="final_00015.png" type="image">
+     <transform x="-53" y="-188" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="36" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 3" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="10" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="11" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="12" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="13" duration="2">
+     <transform x="1.95" y="-145" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="trang suc vang">
+  <bone name="Layer 21">
+   <transform x="-4.8" y="3.15" skX="0" skY="0" scX="0.46" scY="0.46"/>
+  </bone>
+  <bone name="Layer 22">
+   <transform x="-37.15" y="-22.75" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 23">
+   <transform x="-28.9" y="-12.7" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 24">
+   <transform x="6.3" y="-6.7" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 26">
+   <transform x="5.4" y="0.8" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 25">
+   <transform x="17.35" y="-6.95" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="Layer 28">
+   <transform x="40.3" y="-20.5" skX="90" skY="90" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 29">
+   <transform x="-0.85" y="-10.95" skX="8.36" skY="2.45" scX="-0.97" scY="0.93"/>
+  </bone>
+  <bone name="Layer 30">
+   <transform x="-16.95" y="-9.05" skX="-0.77" skY="-0.77" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 31">
+   <transform x="42.8" y="3.8" skX="90" skY="90" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 32">
+   <transform x="-2.9" y="23.4" skX="-88" skY="-88" scX="-1" scY="1"/>
+  </bone>
+  <bone name="Layer 34">
+   <transform x="-19.75" y="17.25" skX="180" skY="180" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 35">
+   <transform x="19.35" y="22.2" skX="152.79" skY="152.79" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 36">
+   <transform x="31.5" y="-15.55" skX="151.51" skY="151.51" scX="0.81" scY="1"/>
+  </bone>
+  <bone name="Layer 37">
+   <transform x="-41.9" y="-0.55" skX="83.2" skY="83.2" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 38">
+   <transform x="-24.65" y="-31.1" skX="-34.01" skY="-34.01" scX="-1" scY="1"/>
+  </bone>
+  <bone name="Layer 40">
+   <transform x="-7.3" y="-3" skX="-90" skY="-90" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 41">
+   <transform x="23.7" y="21.7" skX="-59.52" skY="-59.52" scX="0.94" scY="0.84"/>
+  </bone>
+  <bone name="Layer 42">
+   <transform x="-35.3" y="6.3" skX="-90" skY="-90" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 43">
+   <transform x="-27.05" y="9.95" skX="-90" skY="-90" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 44">
+   <transform x="33.7" y="-26" skX="-90" skY="-90" scX="-1" scY="1"/>
+  </bone>
+  <bone name="Layer 45">
+   <transform x="-0.25" y="-19.1" skX="55.52" skY="42.69" scX="1" scY="1.03"/>
+  </bone>
+  <bone name="Layer 46">
+   <transform x="-0.5" y="-18.65" skX="-47.31" skY="-34.48" scX="1.03" scY="1"/>
+  </bone>
+  <bone name="Layer 47">
+   <transform x="0.05" y="-18.65" skX="-124.48" skY="-137.31" scX="1" scY="1.03"/>
+  </bone>
+  <bone name="Layer 48">
+   <transform x="0.65" y="-19.2" skX="132.69" skY="145.52" scX="1.03" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 21" parent="Layer 21" z="0">
+    <display name="Symbol 20" type="image">
+     <transform x="-0.75" y="1.2" skX="0" skY="0" scX="1" scY="1" pX="18.6" pY="9.7"/>
+    </display>
+   </slot>
+   <slot name="Layer 22" parent="Layer 22" z="1">
+    <display name="Symbol 7X" type="image">
+     <transform x="0" y="6.5" skX="0" skY="0" scX="1" scY="1" pX="6.35" pY="13"/>
+    </display>
+   </slot>
+   <slot name="Layer 23" parent="Layer 23" z="2">
+    <display name="Symbol 1 copy 2" type="image">
+     <transform x="0" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="7.85" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 24" parent="Layer 24" z="3">
+    <display name="Symbol 3" type="image">
+     <transform x="0" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="12.15" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 26" parent="Layer 26" z="4">
+    <display name="Symbol 6X" type="image">
+     <transform x="0" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="9.55" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 25" parent="Layer 25" z="5">
+    <display name="Symbol 1" type="image">
+     <transform x="0" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="7.85" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 28" parent="Layer 28" z="6">
+    <display name="Symbol 7X" type="image">
+     <transform x="0" y="6.5" skX="0" skY="0" scX="1" scY="1" pX="6.35" pY="13"/>
+    </display>
+   </slot>
+   <slot name="Layer 29" parent="Layer 29" z="7">
+    <display name="Symbol 1 copy 2" type="image">
+     <transform x="0.05" y="3.45" skX="0" skY="0" scX="1" scY="1" pX="7.85" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 30" parent="Layer 30" z="8">
+    <display name="Symbol 3" type="image">
+     <transform x="0" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="12.15" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 31" parent="Layer 31" z="9">
+    <display name="Symbol 6X" type="image">
+     <transform x="0" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="9.55" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 32" parent="Layer 32" z="10">
+    <display name="Symbol 1" type="image">
+     <transform x="0.05" y="3.55" skX="0" skY="0" scX="1" scY="1" pX="7.85" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 34" parent="Layer 34" z="11">
+    <display name="Symbol 7X" type="image">
+     <transform x="0" y="6.5" skX="0" skY="0" scX="1" scY="1" pX="6.35" pY="13"/>
+    </display>
+   </slot>
+   <slot name="Layer 35" parent="Layer 35" z="12">
+    <display name="Symbol 1 copy 2" type="image">
+     <transform x="0" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="7.85" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 36" parent="Layer 36" z="13">
+    <display name="Symbol 3" type="image">
+     <transform x="0" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="12.15" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 37" parent="Layer 37" z="14">
+    <display name="Symbol 6X" type="image">
+     <transform x="0.05" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="9.55" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 38" parent="Layer 38" z="15">
+    <display name="Symbol 1" type="image">
+     <transform x="0.05" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="7.85" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 40" parent="Layer 40" z="16">
+    <display name="Symbol 7X" type="image">
+     <transform x="0" y="6.5" skX="0" skY="0" scX="1" scY="1" pX="6.35" pY="13"/>
+    </display>
+   </slot>
+   <slot name="Layer 41" parent="Layer 41" z="17">
+    <display name="Symbol 1 copy 2" type="image">
+     <transform x="0" y="3.45" skX="0" skY="0" scX="1" scY="1" pX="7.85" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 42" parent="Layer 42" z="18">
+    <display name="Symbol 3" type="image">
+     <transform x="0" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="12.15" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 43" parent="Layer 43" z="19">
+    <display name="Symbol 6X" type="image">
+     <transform x="0" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="9.55" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 44" parent="Layer 44" z="20">
+    <display name="Symbol 1" type="image">
+     <transform x="0" y="3.5" skX="0" skY="0" scX="1" scY="1" pX="7.85" pY="7"/>
+    </display>
+   </slot>
+   <slot name="Layer 45" parent="Layer 45" z="21">
+    <display name="Symbol 9X" type="image">
+     <transform x="-0.05" y="27.4" skX="0" skY="0" scX="1" scY="1" pX="23.45" pY="54.75"/>
+    </display>
+   </slot>
+   <slot name="Layer 46" parent="Layer 46" z="22">
+    <display name="Symbol 9X" type="image">
+     <transform x="0" y="27.35" skX="0" skY="0" scX="1" scY="1" pX="23.45" pY="54.75"/>
+    </display>
+   </slot>
+   <slot name="Layer 47" parent="Layer 47" z="23">
+    <display name="Symbol 9X" type="image">
+     <transform x="0.05" y="27.4" skX="0" skY="0" scX="1" scY="1" pX="23.45" pY="54.75"/>
+    </display>
+   </slot>
+   <slot name="Layer 48" parent="Layer 48" z="24">
+    <display name="Symbol 9X" type="image">
+     <transform x="-0.05" y="27.4" skX="0" skY="0" scX="1" scY="1" pX="23.45" pY="54.75"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="80" scale="1" loop="0" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 21" scale="1" offset="0">
+    <frame duration="21" displayIndex="-1"/>
+    <frame z="0" tweenEasing="0" duration="11">
+     <transform x="-4.8" y="3.15" skX="0" skY="0" scX="0.46" scY="0.46" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="9">
+     <transform x="-4.8" y="3.15" skX="0" skY="0" scX="0.54" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="-4.8" y="3.15" skX="0" skY="0" scX="0.46" scY="0.46" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="38" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 22" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="7">
+     <transform x="-37.15" y="-22.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="12">
+     <transform x="-37.15" y="-22.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="61">
+     <transform x="-37.15" y="-22.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 23" scale="1" offset="0">
+    <frame duration="7" displayIndex="-1"/>
+    <frame z="2" tweenEasing="0" duration="9">
+     <transform x="-28.9" y="-12.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="10">
+     <transform x="-28.9" y="-12.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="54">
+     <transform x="-28.9" y="-12.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 24" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="3" tweenEasing="0" duration="12">
+     <transform x="6.3" y="-6.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="15">
+     <transform x="6.3" y="-6.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="49">
+     <transform x="6.3" y="-6.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 26" scale="1" offset="0">
+    <frame duration="14" displayIndex="-1"/>
+    <frame z="4" tweenEasing="0" duration="8">
+     <transform x="5.4" y="0.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="9">
+     <transform x="5.4" y="0.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="49">
+     <transform x="5.4" y="0.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 25" scale="1" offset="0">
+    <frame duration="28" displayIndex="-1"/>
+    <frame z="5" tweenEasing="0" duration="8">
+     <transform x="17.35" y="-6.95" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="8">
+     <transform x="17.35" y="-6.95" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="36">
+     <transform x="17.35" y="-6.95" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 28" scale="1" offset="0">
+    <frame duration="33" displayIndex="-1"/>
+    <frame z="6" tweenEasing="0" duration="12">
+     <transform x="40.3" y="-20.5" skX="90" skY="90" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="11">
+     <transform x="40.3" y="-20.5" skX="90" skY="90" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="24">
+     <transform x="40.3" y="-20.5" skX="90" skY="90" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 29" scale="1" offset="0">
+    <frame duration="28" displayIndex="-1"/>
+    <frame z="7" tweenEasing="0" duration="10">
+     <transform x="-0.85" y="-10.95" skX="8.36" skY="2.45" scX="-0.97" scY="0.93" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="11">
+     <transform x="-0.85" y="-10.95" skX="8.36" skY="2.45" scX="-0.97" scY="0.93" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="31">
+     <transform x="-0.85" y="-10.95" skX="8.36" skY="2.45" scX="-0.97" scY="0.93" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 30" scale="1" offset="0">
+    <frame duration="36" displayIndex="-1"/>
+    <frame z="8" tweenEasing="0" duration="8">
+     <transform x="-16.95" y="-9.05" skX="-0.77" skY="-0.77" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="10">
+     <transform x="-16.95" y="-9.05" skX="-0.77" skY="-0.77" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="26">
+     <transform x="-16.95" y="-9.05" skX="-0.77" skY="-0.77" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 31" scale="1" offset="0">
+    <frame duration="33" displayIndex="-1"/>
+    <frame z="9" tweenEasing="0" duration="8">
+     <transform x="42.8" y="3.8" skX="90" skY="90" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="8">
+     <transform x="42.8" y="3.8" skX="90" skY="90" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="31">
+     <transform x="42.8" y="3.8" skX="90" skY="90" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 32" scale="1" offset="0">
+    <frame duration="41" displayIndex="-1"/>
+    <frame z="10" tweenEasing="0" duration="9">
+     <transform x="-2.9" y="23.4" skX="-88" skY="-88" scX="-1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="9">
+     <transform x="-2.9" y="23.4" skX="-88" skY="-88" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="21">
+     <transform x="-2.9" y="23.4" skX="-88" skY="-88" scX="-1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 34" scale="1" offset="0">
+    <frame duration="43" displayIndex="-1"/>
+    <frame z="11" tweenEasing="0" duration="13">
+     <transform x="-19.75" y="17.25" skX="180" skY="180" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="13">
+     <transform x="-19.75" y="17.25" skX="180" skY="180" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="11">
+     <transform x="-19.75" y="17.25" skX="180" skY="180" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 35" scale="1" offset="0">
+    <frame duration="47" displayIndex="-1"/>
+    <frame z="12" tweenEasing="0" duration="13">
+     <transform x="19.35" y="22.2" skX="152.79" skY="152.79" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="12" tweenEasing="0" duration="13">
+     <transform x="19.35" y="22.2" skX="152.79" skY="152.79" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="7">
+     <transform x="19.35" y="22.2" skX="152.79" skY="152.79" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 36" scale="1" offset="0">
+    <frame duration="35" displayIndex="-1"/>
+    <frame z="13" tweenEasing="0" duration="11">
+     <transform x="31.5" y="-15.55" skX="151.51" skY="151.51" scX="0.81" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="15">
+     <transform x="31.5" y="-15.55" skX="151.51" skY="151.51" scX="0.81" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" duration="1">
+     <transform x="31.5" y="-15.55" skX="151.51" skY="151.51" scX="0.81" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="18" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 37" scale="1" offset="0">
+    <frame duration="31" displayIndex="-1"/>
+    <frame z="14" tweenEasing="0" duration="10">
+     <transform x="-41.9" y="-0.55" skX="83.2" skY="83.2" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="14" tweenEasing="0" duration="14">
+     <transform x="-41.9" y="-0.55" skX="83.2" skY="83.2" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="14" duration="25">
+     <transform x="-41.9" y="-0.55" skX="83.2" skY="83.2" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 38" scale="1" offset="0">
+    <frame duration="38" displayIndex="-1"/>
+    <frame z="15" tweenEasing="0" duration="9">
+     <transform x="-24.65" y="-31.1" skX="-34.01" skY="-34.01" scX="-1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="15" tweenEasing="0" duration="9">
+     <transform x="-24.65" y="-31.1" skX="-34.01" skY="-34.01" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" duration="24">
+     <transform x="-24.65" y="-31.1" skX="-34.01" skY="-34.01" scX="-1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 40" scale="1" offset="0">
+    <frame duration="23" displayIndex="-1"/>
+    <frame z="16" tweenEasing="0" duration="11">
+     <transform x="-7.3" y="-3" skX="-90" skY="-90" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="16" tweenEasing="0" duration="11">
+     <transform x="-7.3" y="-3" skX="-90" skY="-90" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="16" duration="35">
+     <transform x="-7.3" y="-3" skX="-90" skY="-90" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 41" scale="1" offset="0">
+    <frame duration="17" displayIndex="-1"/>
+    <frame z="17" tweenEasing="0" duration="11">
+     <transform x="23.7" y="21.7" skX="-59.52" skY="-59.52" scX="0.94" scY="0.84" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="17" tweenEasing="0" duration="11">
+     <transform x="23.7" y="21.7" skX="-59.52" skY="-59.52" scX="0.94" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="17" duration="41">
+     <transform x="23.7" y="21.7" skX="-59.52" skY="-59.52" scX="0.94" scY="0.84" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 42" scale="1" offset="0">
+    <frame duration="21" displayIndex="-1"/>
+    <frame z="18" tweenEasing="0" duration="11">
+     <transform x="-35.3" y="6.3" skX="-90" skY="-90" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="18" tweenEasing="0" duration="11">
+     <transform x="-35.3" y="6.3" skX="-90" skY="-90" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="18" duration="37">
+     <transform x="-35.3" y="6.3" skX="-90" skY="-90" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 43" scale="1" offset="0">
+    <frame duration="11" displayIndex="-1"/>
+    <frame z="19" tweenEasing="0" duration="11">
+     <transform x="-27.05" y="9.95" skX="-90" skY="-90" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="19" tweenEasing="0" duration="11">
+     <transform x="-27.05" y="9.95" skX="-90" skY="-90" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="19" duration="47">
+     <transform x="-27.05" y="9.95" skX="-90" skY="-90" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 44" scale="1" offset="0">
+    <frame duration="5" displayIndex="-1"/>
+    <frame z="20" tweenEasing="0" duration="9">
+     <transform x="33.7" y="-26" skX="-90" skY="-90" scX="-1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="20" tweenEasing="0" duration="10">
+     <transform x="33.7" y="-26" skX="-90" skY="-90" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="20" duration="56">
+     <transform x="33.7" y="-26" skX="-90" skY="-90" scX="-1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 45" scale="1" offset="0">
+    <frame duration="9" displayIndex="-1"/>
+    <frame z="21" tweenEasing="0" duration="14">
+     <transform x="-0.25" y="-19.1" skX="55.52" skY="42.69" scX="1" scY="1.03" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="21" tweenEasing="0" duration="15">
+     <transform x="-0.25" y="-19.1" skX="55.52" skY="42.69" scX="1" scY="1.03" pX="0" pY="0"/>
+    </frame>
+    <frame z="21" duration="42">
+     <transform x="-0.25" y="-19.1" skX="55.52" skY="42.69" scX="1" scY="1.03" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 46" scale="1" offset="0">
+    <frame duration="15" displayIndex="-1"/>
+    <frame z="22" tweenEasing="0" duration="14">
+     <transform x="-0.5" y="-18.65" skX="-47.31" skY="-34.48" scX="1.03" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="22" tweenEasing="0" duration="15">
+     <transform x="-0.5" y="-18.65" skX="-47.31" skY="-34.48" scX="1.03" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="22" duration="36">
+     <transform x="-0.5" y="-18.65" skX="-47.31" skY="-34.48" scX="1.03" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 47" scale="1" offset="0">
+    <frame duration="21" displayIndex="-1"/>
+    <frame z="23" tweenEasing="0" duration="11">
+     <transform x="0.05" y="-18.65" skX="-124.48" skY="-137.31" scX="1" scY="1.03" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="23" tweenEasing="0" duration="11">
+     <transform x="0.05" y="-18.65" skX="-124.48" skY="-137.31" scX="1" scY="1.03" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="90" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="23" duration="37">
+     <transform x="0.05" y="-18.65" skX="-124.48" skY="-137.31" scX="1" scY="1.03" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 48" scale="1" offset="0">
+    <frame duration="22" displayIndex="-1"/>
+    <frame z="24" tweenEasing="0" duration="14">
+     <transform x="0.65" y="-19.2" skX="132.69" skY="145.52" scX="1.03" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="24" tweenEasing="0" duration="15">
+     <transform x="0.65" y="-19.2" skX="132.69" skY="145.52" scX="1.03" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="80" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="24" duration="29">
+     <transform x="0.65" y="-19.2" skX="132.69" skY="145.52" scX="1.03" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

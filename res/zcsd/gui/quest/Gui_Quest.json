@@ -1,0 +1,1760 @@
+{
+  "ID": "b93b1139-e070-4335-9f8d-1b2d135b9263",
+  "Version": "2.3.2.3",
+  "Name": "Gui_Quest",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 99,
+        "Children": [
+          {
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "BothEdge",
+            "VerticalEdge": "BothEdge",
+            "Tag": 68,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/chanel_chosen/bg_chanel.jpg",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4971,
+                  "Y": 0.5051
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "HorizontalEdge": "BothEdge",
+                "VerticalEdge": "BothEdge",
+                "LeftMargin": -3.2529,
+                "RightMargin": 3.2529,
+                "TopMargin": -3.2529,
+                "BottomMargin": 3.2529,
+                "Tag": 67,
+                "ActionTag": 932492204,
+                "Size": {
+                  "X": 1136.0,
+                  "Y": 640.0
+                },
+                "Name": "bgChanel",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -418.7134,
+                  "Y": 347.8895
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -418.7134,
+                "RightMargin": 418.7134,
+                "TopMargin": -347.8895,
+                "BottomMargin": 347.8895,
+                "Tag": 69,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/button_back.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/button_back.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 14,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 22,
+                    "Scale9Height": 28,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": -0.9955,
+                      "Y": -59.3201
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.044,
+                      "Y": 0.0781
+                    },
+                    "LeftMargin": -25.9955,
+                    "RightMargin": -24.0045,
+                    "TopMargin": 34.3201,
+                    "BottomMargin": -84.3201,
+                    "Tag": 70,
+                    "ActionTag": -517695787,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Name": "btnBack",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "lobby/dailyQuest/title.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 229.5964,
+                      "Y": -60.5885
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 34.0964,
+                    "RightMargin": -425.0964,
+                    "TopMargin": 38.0885,
+                    "BottomMargin": -83.0885,
+                    "Tag": 71,
+                    "ActionTag": -2094919918,
+                    "Size": {
+                      "X": 391.0,
+                      "Y": 45.0
+                    },
+                    "Name": "title_shop",
+                    "ctype": "SpriteObjectData"
+                  }
+                ],
+                "ActionTag": 157985775,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "nodePlayerInfo",
+                "ctype": "SingleNodeObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/dailyQuest/bg.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -0.3237,
+                  "Y": 13.3274
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -568.3237,
+                "RightMargin": -567.6763,
+                "TopMargin": -222.3274,
+                "BottomMargin": -195.6726,
+                "Tag": 87,
+                "ActionTag": -1352342724,
+                "Size": {
+                  "X": 1136.0,
+                  "Y": 418.0
+                },
+                "Name": "bg_17",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "7",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 435.3191,
+                  "Y": 205.3301
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 1,
+                  "G": 254,
+                  "B": 17
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 435.3191,
+                "RightMargin": -465.3191,
+                "TopMargin": -219.8301,
+                "BottomMargin": 190.8301,
+                "Tag": 102,
+                "ActionTag": -916361129,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 29.0
+                },
+                "Name": "lbNumRefresh",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/dailyQuest/backGround_progresBar.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.9062,
+                  "Y": -258.0317
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": -570.5938,
+                "RightMargin": -572.4062,
+                "TopMargin": 196.5317,
+                "BottomMargin": -319.5317,
+                "Tag": 89,
+                "ActionTag": 30541945,
+                "Size": {
+                  "X": 1143.0,
+                  "Y": 123.0
+                },
+                "Name": "backGround_progresBar_19",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Đổi nhiệm vụ mới sau:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -349.3423,
+                  "Y": 205.3301
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 250,
+                  "G": 143,
+                  "B": 29
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -463.3423,
+                "RightMargin": 235.3423,
+                "TopMargin": -219.8301,
+                "BottomMargin": 190.8301,
+                "Tag": 193,
+                "ActionTag": 1748467337,
+                "Size": {
+                  "X": 228.0,
+                  "Y": 29.0
+                },
+                "Name": "lbSubTitle",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Số nhiệm vụ còn lại:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 324.0499,
+                  "Y": 205.3301
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 250,
+                  "G": 143,
+                  "B": 29
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 220.0499,
+                "RightMargin": -428.0499,
+                "TopMargin": -219.8301,
+                "BottomMargin": 190.8301,
+                "Tag": 140,
+                "ActionTag": -953041507,
+                "Size": {
+                  "X": 208.0,
+                  "Y": 29.0
+                },
+                "Name": "lbNote",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "24:0:0",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -230.4294,
+                  "Y": 204.3297
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 1,
+                  "G": 254,
+                  "B": 17
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -230.4294,
+                "RightMargin": 150.4294,
+                "TopMargin": -217.8297,
+                "BottomMargin": 190.8297,
+                "Tag": 101,
+                "ActionTag": 681326826,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 27.0
+                },
+                "Name": "lbTimeRefresh",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/dailyQuest/bg_progres.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -0.2511,
+                  "Y": -277.9046
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -381.2511,
+                "RightMargin": -380.7489,
+                "TopMargin": 254.9046,
+                "BottomMargin": -300.9046,
+                "Tag": 261,
+                "ActionTag": -569039730,
+                "Size": {
+                  "X": 762.0,
+                  "Y": 46.0
+                },
+                "Name": "login_progress_bg_13",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ProgressInfo": 100,
+                "ImageFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/dailyQuest/progresBar.png",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -380.8248,
+                  "Y": -274.5421
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -380.8248,
+                "RightMargin": -382.1752,
+                "TopMargin": 253.5421,
+                "BottomMargin": -295.5421,
+                "Tag": 263,
+                "ActionTag": -1586029898,
+                "Size": {
+                  "X": 763.0,
+                  "Y": 42.0
+                },
+                "Name": "progressBarScore",
+                "ctype": "LoadingBarObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/dailyQuest/colum.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -151.5316,
+                  "Y": -273.6149
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -155.0316,
+                "RightMargin": 148.0316,
+                "TopMargin": 256.1149,
+                "BottomMargin": -291.1149,
+                "Tag": 90,
+                "ActionTag": 658654518,
+                "Size": {
+                  "X": 7.0,
+                  "Y": 35.0
+                },
+                "Name": "colum_20",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/dailyQuest/rectang.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -402.9234,
+                  "Y": -229.6207
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -458.4234,
+                "RightMargin": 347.4234,
+                "TopMargin": 207.1207,
+                "BottomMargin": -252.1207,
+                "Tag": 93,
+                "ActionTag": 781686625,
+                "Size": {
+                  "X": 111.0,
+                  "Y": 45.0
+                },
+                "Name": "rectang_23",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/dailyQuest/ellipse.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 372.0834,
+                  "Y": -230.3622
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 343.5834,
+                "RightMargin": -400.5834,
+                "TopMargin": 202.3622,
+                "BottomMargin": -258.3622,
+                "Tag": 92,
+                "ActionTag": 1851869574,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 56.0
+                },
+                "Name": "ellipse_22",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/dailyQuest/colum.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 151.9195,
+                  "Y": -273.7444
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 148.4195,
+                "RightMargin": -155.4195,
+                "TopMargin": 256.2444,
+                "BottomMargin": -291.2444,
+                "Tag": 91,
+                "ActionTag": 722232849,
+                "Size": {
+                  "X": 7.0,
+                  "Y": 35.0
+                },
+                "Name": "colum_20_0",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/dailyQuest/ellipse.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 152.118,
+                  "Y": -230.3622
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 123.618,
+                "RightMargin": -180.618,
+                "TopMargin": 202.3622,
+                "BottomMargin": -258.3622,
+                "Tag": 95,
+                "ActionTag": 558305455,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 56.0
+                },
+                "Name": "ellipse_25",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/dailyQuest/ellipse.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -150.6004,
+                  "Y": -230.3622
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -179.1004,
+                "RightMargin": 122.1004,
+                "TopMargin": 202.3622,
+                "BottomMargin": -258.3622,
+                "Tag": 94,
+                "ActionTag": 1353561395,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 56.0
+                },
+                "Name": "ellipse_24",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/gold_icon.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 75,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -150.9163,
+                  "Y": -230.2446
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -175.9163,
+                "RightMargin": 125.9163,
+                "TopMargin": 205.2446,
+                "BottomMargin": -255.2446,
+                "Tag": 96,
+                "ActionTag": -786354612,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "Name": "btnGiftAchievement_1",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/g_icon.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 11,
+                "Scale9Width": 15,
+                "Scale9Height": 19,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 150.718,
+                  "Y": -231.196
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 130.218,
+                "RightMargin": -171.218,
+                "TopMargin": 210.696,
+                "BottomMargin": -251.696,
+                "Tag": 97,
+                "ActionTag": 985002604,
+                "Size": {
+                  "X": 41.0,
+                  "Y": 41.0
+                },
+                "Name": "btnGiftAchievement_2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/gift_golden_chest.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 70,
+                "Scale9Height": 92,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 371.2257,
+                  "Y": -224.335
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 346.2257,
+                "RightMargin": -396.2257,
+                "TopMargin": 199.335,
+                "BottomMargin": -249.335,
+                "Tag": 98,
+                "ActionTag": 364845737,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "Name": "btnGiftAchievement_3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "x10000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 75,
+                  "G": 51,
+                  "B": 51
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -121.7045,
+                  "Y": -234.7615
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 240,
+                  "B": 56
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -121.7045,
+                "RightMargin": -78.2955,
+                "TopMargin": 219.2615,
+                "BottomMargin": -250.2615,
+                "Tag": 99,
+                "ActionTag": 450610455,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 31.0
+                },
+                "Name": "lbNumGiftAchievement_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "x10000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 75,
+                  "G": 51,
+                  "B": 51
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 400.7222,
+                  "Y": -234.7616
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 240,
+                  "B": 56
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 400.7222,
+                "RightMargin": -550.7222,
+                "TopMargin": 219.2616,
+                "BottomMargin": -250.2616,
+                "Tag": 102,
+                "ActionTag": -988131889,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 31.0
+                },
+                "Name": "lbNumGiftAchievement_3",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "x10000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 75,
+                  "G": 51,
+                  "B": 51
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 180.9364,
+                  "Y": -234.7615
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 240,
+                  "B": 56
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 180.9364,
+                "RightMargin": -330.9364,
+                "TopMargin": 219.2615,
+                "BottomMargin": -250.2615,
+                "Tag": 103,
+                "ActionTag": 1423392349,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 31.0
+                },
+                "Name": "lbNumGiftAchievement_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "Bắt đầu",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 75,
+                  "G": 51,
+                  "B": 51
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -454.0937,
+                  "Y": -227.7532
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 240,
+                  "B": 56
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -454.0937,
+                "RightMargin": 357.0937,
+                "TopMargin": 209.2532,
+                "BottomMargin": -246.2532,
+                "Tag": 104,
+                "ActionTag": -1653231232,
+                "Size": {
+                  "X": 97.0,
+                  "Y": 37.0
+                },
+                "Name": "lbNumGiftAchievement_1_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "BackColorAlpha": 102,
+                "ComboBoxIndex": 1,
+                "SingleColor": {
+                  "R": 165,
+                  "G": 42,
+                  "B": 42
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -459.7224,
+                  "Y": -167.7289
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -459.7224,
+                "RightMargin": -460.2776,
+                "TopMargin": -172.2711,
+                "BottomMargin": -167.7289,
+                "Tag": 318,
+                "ActionTag": -1859227109,
+                "Size": {
+                  "X": 920.0,
+                  "Y": 340.0
+                },
+                "Alpha": 0,
+                "Name": "pnTableView",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "0",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5089
+                },
+                "Position": {
+                  "X": -381.6812,
+                  "Y": -299.4757
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -381.6812,
+                "RightMargin": 364.6812,
+                "TopMargin": 280.3228,
+                "BottomMargin": -319.3228,
+                "Tag": 126,
+                "ActionTag": 1159940281,
+                "Size": {
+                  "X": 17.0,
+                  "Y": 39.0
+                },
+                "Name": "lbStep_0",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "3",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5089
+                },
+                "Position": {
+                  "X": -159.1248,
+                  "Y": -299.4757
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -159.1248,
+                "RightMargin": 142.1248,
+                "TopMargin": 280.3228,
+                "BottomMargin": -319.3228,
+                "Tag": 127,
+                "ActionTag": 438433926,
+                "Size": {
+                  "X": 17.0,
+                  "Y": 39.0
+                },
+                "Name": "lbStep_1",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "7",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5089
+                },
+                "Position": {
+                  "X": 146.1516,
+                  "Y": -299.4757
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 146.1516,
+                "RightMargin": -163.1516,
+                "TopMargin": 280.3228,
+                "BottomMargin": -319.3228,
+                "Tag": 128,
+                "ActionTag": 796984520,
+                "Size": {
+                  "X": 15.0,
+                  "Y": 39.0
+                },
+                "Name": "lbStep_2",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 25,
+                "LabelText": "10",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "ShadowEnabled": true,
+                "AnchorPoint": {
+                  "ScaleY": 0.5089
+                },
+                "Position": {
+                  "X": 371.0026,
+                  "Y": -299.4757
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 371.0026,
+                "RightMargin": -388.0026,
+                "TopMargin": 280.3228,
+                "BottomMargin": -319.3228,
+                "Tag": 129,
+                "ActionTag": -1762211859,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 39.0
+                },
+                "Name": "lbStep_3",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/dailyQuest/0.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 770,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -424.5543,
+                  "Y": -284.8163
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -463.5543,
+                "RightMargin": 385.5543,
+                "TopMargin": 247.8163,
+                "BottomMargin": -321.8163,
+                "Tag": 84,
+                "ActionTag": -45988257,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 74.0
+                },
+                "Name": "Sprite_1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 28,
+                "LabelText": "10",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 108,
+                  "G": 1,
+                  "B": 53
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5089
+                },
+                "Position": {
+                  "X": -475.0049,
+                  "Y": -278.5327
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -475.0049,
+                "RightMargin": 375.0049,
+                "TopMargin": 259.3798,
+                "BottomMargin": -298.3798,
+                "Tag": 85,
+                "ActionTag": 1166148018,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 39.0
+                },
+                "Name": "lbScore",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1497917374,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "nodeCenter",
+            "ctype": "SingleNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../fonts/font_game_bold.ttf",
+        "../../../lobby/button_back.png",
+        "../../../lobby/chanel_chosen/bg_chanel.jpg",
+        "../../../lobby/dailyQuest/0.png",
+        "../../../lobby/dailyQuest/backGround_progresBar.png",
+        "../../../lobby/dailyQuest/bg.png",
+        "../../../lobby/dailyQuest/bg_progres.png",
+        "../../../lobby/dailyQuest/colum.png",
+        "../../../lobby/dailyQuest/ellipse.png",
+        "../../../lobby/dailyQuest/progresBar.png",
+        "../../../lobby/dailyQuest/rectang.png",
+        "../../../lobby/dailyQuest/title.png",
+        "../../../lobby/g_icon.png",
+        "../../../lobby/gift_golden_chest.png",
+        "../../../lobby/gold_icon.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

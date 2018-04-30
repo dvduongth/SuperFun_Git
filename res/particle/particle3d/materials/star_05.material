@@ -1,0 +1,21 @@
+
+material PUMediaPack/Star_05
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture pump_star_05.png
+				tex_address_mode clamp
+			}
+		}
+
+	}
+
+}

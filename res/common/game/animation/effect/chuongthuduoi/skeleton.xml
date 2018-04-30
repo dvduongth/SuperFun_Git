@@ -1,0 +1,36 @@
+<dragonBones name="chuongthuduoi" frameRate="24" version="2.3">
+ <armature name="chuongthuduoi">
+  <bone name="Layer 1">
+   <transform x="-1.5" y="9.1" skX="0" skY="0" scX="1" scY="0.112717"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 1" parent="Layer 1" z="0">
+    <display name="Symbol 1" type="image">
+     <transform x="-45" y="-67.9" skX="0" skY="0" scX="1" scY="1" pX="1" pY="0"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="run" fadeInTime="0" duration="35" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="Layer 1" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="2">
+     <transform x="-1.5" y="9.1" skX="0" skY="0" scX="1" scY="0.112717" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="2">
+     <transform x="-1.5" y="-10.25" skX="0" skY="0" scX="1" scY="1.432617" pX="0" pY="-0.1"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-1.5" y="1.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="-0.1"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-1.5" y="2.6" skX="0" skY="0" scX="1" scY="0.957901" pX="0" pY="-0.1"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-1.5" y="0.3" skX="0" skY="0" scX="1" scY="1.042099" pX="0" pY="-0.1"/>
+    </frame>
+    <frame z="0" duration="28">
+     <transform x="-1.5" y="1.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="-0.1"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

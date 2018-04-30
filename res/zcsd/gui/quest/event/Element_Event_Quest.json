@@ -1,0 +1,454 @@
+{
+  "ID": "48f82e84-e707-4046-ab5c-3ce7ec53c836",
+  "Version": "2.3.2.3",
+  "Name": "Element_Event_Quest",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 99,
+        "Children": [
+          {
+            "BackColorAlpha": 0,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -300.0,
+            "TopMargin": -340.0,
+            "Tag": 366,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/event/dailyLogin/dailyLogin_slot_off.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 171,
+                "Scale9Height": 298,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 367,
+                "ActionTag": 812448038,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 340.0
+                },
+                "Name": "imgBgOff",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/event/dailyLogin/dailyLogin_slot_on.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 174,
+                "Scale9Height": 303,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -355.9674,
+                  "Y": -0.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -1.1866,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "LeftMargin": -355.9674,
+                "RightMargin": 355.9674,
+                "TopMargin": 0.0001,
+                "BottomMargin": -0.0001,
+                "Tag": 368,
+                "ActionTag": -1248204881,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 340.0
+                },
+                "Name": "imgBgOn",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "lobby/button_sukien.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 138.8573,
+                  "Y": 128.6999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4629,
+                  "Y": 0.3785
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 100.8573,
+                "RightMargin": 123.1427,
+                "TopMargin": 143.8001,
+                "BottomMargin": 61.1999,
+                "Tag": 369,
+                "ActionTag": 202206286,
+                "Size": {
+                  "X": 76.0,
+                  "Y": 135.0
+                },
+                "Name": "sprIcon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 25,
+                "LabelText": "SỰ KIỆN 1",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineSize": 2,
+                "OutlineColor": {
+                  "R": 162,
+                  "G": 111,
+                  "B": 45
+                },
+                "ShadowColor": {
+                  "R": 1,
+                  "G": 242,
+                  "B": 251
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 150.0,
+                  "Y": 311.024
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 1,
+                  "G": 242,
+                  "B": 251
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9148
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1667
+                },
+                "TopMargin": 3.976,
+                "BottomMargin": 286.024,
+                "Tag": 370,
+                "ActionTag": 1801821857,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 50.0
+                },
+                "Name": "lbTitle",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 16,
+                "LabelText": "Sự kiện nhận rương",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "fonts/font_game_bold.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowOffsetX": 0.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 150.0,
+                  "Y": 254.8589
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 249,
+                  "G": 226,
+                  "B": 183
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7496
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1667
+                },
+                "TopMargin": 60.1411,
+                "BottomMargin": 229.8589,
+                "CallBackType": "Click",
+                "Tag": 371,
+                "ActionTag": -2035979554,
+                "Size": {
+                  "X": 300.0,
+                  "Y": 50.0
+                },
+                "Name": "lbDescription",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "button/button_yellow_1.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 123,
+                "Scale9Height": 30,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 143.6103,
+                  "Y": 32.994
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4787,
+                  "Y": 0.097
+                },
+                "PreSize": {
+                  "X": 0.51,
+                  "Y": 0.1529
+                },
+                "LeftMargin": 67.1103,
+                "RightMargin": 79.8897,
+                "TopMargin": 281.006,
+                "BottomMargin": 6.994,
+                "Tag": 372,
+                "Children": [
+                  {
+                    "FontSize": 22,
+                    "LabelText": "Nhận quà",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/font_game_bold.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 94,
+                      "G": 58,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 94,
+                      "G": 58,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.4945,
+                      "Y": 29.2968
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5065,
+                      "Y": 0.5634
+                    },
+                    "PreSize": {
+                      "X": 0.5896,
+                      "Y": 0.5577
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "LeftMargin": 20.9999,
+                    "RightMargin": 19.0001,
+                    "TopMargin": 5.7032,
+                    "BottomMargin": 12.2968,
+                    "Tag": 373,
+                    "ActionTag": 1270458947,
+                    "Size": {
+                      "X": 113.0,
+                      "Y": 34.0
+                    },
+                    "Name": "lbButton",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -52964979,
+                "Size": {
+                  "X": 153.0,
+                  "Y": 52.0
+                },
+                "Name": "btnReceive",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -2005838179,
+            "Size": {
+              "X": 300.0,
+              "Y": 340.0
+            },
+            "Name": "pnElement",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../button/button_yellow_1.png",
+        "../../../../fonts/font_game.ttf",
+        "../../../../fonts/font_game_bold.ttf",
+        "../../../../lobby/button_sukien.png",
+        "../../../../lobby/event/dailyLogin/dailyLogin_slot_off.png",
+        "../../../../lobby/event/dailyLogin/dailyLogin_slot_on.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}

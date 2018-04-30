@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Pre-comp 2_00011.png.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{60,48}}</string>
+                <key>offset</key>
+                <string>{-1,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,1},{60,48}}</string>
+                <key>sourceSize</key>
+                <string>{62,50}</string>
+            </dict>
+            <key>Pre-comp 2_00012.png.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{62,1},{60,48}}</string>
+                <key>offset</key>
+                <string>{-1,1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{60,48}}</string>
+                <key>sourceSize</key>
+                <string>{62,50}</string>
+            </dict>
+            <key>Pre-comp 2_00014.png.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,50},{58,44}}</string>
+                <key>offset</key>
+                <string>{-1,1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{1,2},{58,44}}</string>
+                <key>sourceSize</key>
+                <string>{62,50}</string>
+            </dict>
+            <key>Pre-comp 2_00016.png.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{60,50},{54,42}}</string>
+                <key>offset</key>
+                <string>{-1,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{3,4},{54,42}}</string>
+                <key>sourceSize</key>
+                <string>{62,50}</string>
+            </dict>
+            <key>Pre-comp 2_00018.png.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{60,93},{52,40}}</string>
+                <key>offset</key>
+                <string>{-1,1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{4,4},{52,40}}</string>
+                <key>sourceSize</key>
+                <string>{62,50}</string>
+            </dict>
+            <key>Pre-comp 2_00020.png.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,95},{50,38}}</string>
+                <key>offset</key>
+                <string>{-2,1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{4,5},{50,38}}</string>
+                <key>sourceSize</key>
+                <string>{62,50}</string>
+            </dict>
+            <key>Pre-comp 2_00022.png.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,134},{50,38}}</string>
+                <key>offset</key>
+                <string>{-2,1}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{4,5},{50,38}}</string>
+                <key>sourceSize</key>
+                <string>{62,50}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>texture.png</string>
+            <key>size</key>
+            <string>{128,256}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:de65879f1651b069f9ebc12274c68a50:1/1$</string>
+            <key>textureFileName</key>
+            <string>texture.png</string>
+        </dict>
+    </dict>
+</plist>

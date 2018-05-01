@@ -30,6 +30,7 @@ function GSLoader () {
 	};
 	
 	this.Update = function (deltaTime) {
+		cc.log('GSLoader update', deltaTime, 'state', state);
 		switch (state) {
 			case STATE_LOADING_OWN_ASSETS:
 				if (g_graphicEngine.GetLoadingProgress() == 1) {

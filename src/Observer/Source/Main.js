@@ -5,6 +5,11 @@ var g_replay;
 var g_gsLoader;
 var g_gsActionPhase;
 
+
+var g_serverHost = "127.0.0.1";
+var g_serverPort = 3011;
+var g_replayFileName = "";
+
 function LoadAllState () {
 	// Create, but not connect yet
 	if (g_replayFileName == "") {

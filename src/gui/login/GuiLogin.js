@@ -1,4 +1,14 @@
 
+var g_canvas           	= null;
+var g_context         	= null;
+var g_graphicEngine    	= null;
+var g_particleEngine   	= null;
+var g_inputEngine      	= null;
+var g_stateEngine      	= null;
+var g_soundEngine		= null;
+
+var g_particleDef		= null;
+
 var UPDATED_STRING = "=21/4/17=";
 
 var GuiLogin = BaseGui.extend({
@@ -150,10 +160,38 @@ var GuiLogin = BaseGui.extend({
         //test new button
         var x = new fr.Button("button/btn_blue_0.png");
         //x.setPressedActionEnabled(false);
+        x.addClickEventListener(this.testButton.bind(this));
         x.setPosition(500,500);
         this.addChild(x);
 
-        this.init();
+        //this.init();
+    },
+
+    testButton: function (sender) {
+        if(sender) {
+            sender.setEnabled(false);
+            sender.setVisible(false);
+        }
+        g_graphicEngine  = new GraphicEngine();
+        //g_particleEngine = new ParticleEngine();
+        //g_inputEngine    = new InputEngine();
+        g_stateEngine    = new StateEngine();
+        //g_soundEngine 	 = new SoundEngine();
+
+        //g_particleDef	 = new ParticleDef();
+
+        //CreateCanvas();
+        //g_inputEngine.AddEventListener (g_canvas);
+        //ResizeCanvas();
+
+        g_stateEngine.SetContext(this);
+        //g_stateEngine.SetContext(g_context, g_graphicEngine);
+        //g_particleEngine.SetContext(g_context, g_graphicEngine);
+
+        //window.onresize = ResizeCanvas;
+
+        g_stateEngine.Start();
+        GoToLoaderState();
     },
 
     testHorse: function(horseColor){

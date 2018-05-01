@@ -76,6 +76,7 @@ function StateEngine() {
     };
 
     this.Start = function () {
+        cc.log('state engine start');
         Update();
     };
 
@@ -86,6 +87,7 @@ function StateEngine() {
 
     var lastTime = new Date();
     var Update = function () {
+        //cc.log('state engine update');
         var curTime = new Date();
         instance.Update(curTime - lastTime);
         lastTime = curTime;
@@ -96,6 +98,7 @@ function StateEngine() {
 // Register the main loop here
 var requestAnimFrame = (function () {
     return function (callback) {
-        setTimeout(callback, 16);
+        //setTimeout(callback, 16);
+        setTimeout(callback, 1000);
     };
 })();

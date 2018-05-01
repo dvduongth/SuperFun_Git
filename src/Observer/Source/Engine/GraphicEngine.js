@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 function GraphicEngine() {
     var DEG_TO_RAD = 0.0174532925199433;
@@ -22,6 +22,11 @@ function GraphicEngine() {
      * */
     // Load an image right away ----------------------------------------
     this.LoadImage = function (path) {
+        var searchPath = "src/Observer/";
+        if(path && path.indexOf(searchPath) == -1) {
+            path = searchPath + path;
+        }
+        cc.log('graphic engine load image', path);
         // Check if that image was already existed. Return id if existed.
         for (var i = 0; i < imageNumber; i++) {
             if (imagePathArray[i] == path) {

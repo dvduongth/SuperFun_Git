@@ -222,7 +222,7 @@ function GSActionPhase () {
 			g_graphicEngine.LoadImage("Image/Particle/WhiteSmoke.png");
 			g_graphicEngine.LoadImage("Image/Particle/BlackSmoke.png");
 		}
-	}
+	};
 	
 	
 	
@@ -300,7 +300,7 @@ function GSActionPhase () {
 		// We must do a "fake update" on objects that are not updated by a packet
 		// to create a sense of continuity in the timeline.
 		this.AddIdleAnchor(packetCount);
-	}
+	};
 	
 	this.AddIdleAnchor = function (time) {
 		// Obstacles
@@ -339,7 +339,7 @@ function GSActionPhase () {
 		for (var i=0; i < this.m_powerUps.length; i++) {
 			this.m_powerUps[i].AddIdleDataAnchor(time);
 		}
-	}
+	};
 	
 	this.ProcessUpdateObstacleCommand = function (time, data, originalOffset) {
 		var offset = originalOffset;
@@ -354,7 +354,7 @@ function GSActionPhase () {
 		this.m_obstacles[id].AddDataAnchor(time, x, y, HP);
 
 		return offset - originalOffset;
-	}
+	};
 	
 	this.ProcessUpdateTankCommand = function (time, data, originalOffset) {
 		var offset = originalOffset;
@@ -377,7 +377,7 @@ function GSActionPhase () {
 		this.m_tanks[team][id].AddDataAnchor(time, x, y, dir, HP, cooldown, disabled);
 		
 		return offset - originalOffset;
-	}
+	};
 	
 	this.ProcessUpdateBulletCommand = function (time, data, originalOffset) {
 		var offset = originalOffset;
@@ -398,7 +398,7 @@ function GSActionPhase () {
 		this.m_bullets[team][id].AddDataAnchor(time, type, x, y, dir, live, hit, damage);
 		
 		return offset - originalOffset;
-	}
+	};
 	
 	this.ProcessUpdateBaseCommand = function (time, data, originalOffset) {
 		var offset = originalOffset;
@@ -414,7 +414,7 @@ function GSActionPhase () {
 		this.m_bases[team][id].AddDataAnchor(time, x, y, HP);
 
 		return offset - originalOffset;
-	}
+	};
 	
 	this.ProcessUpdatePowerUpCommand = function(time, data, originalOffset) {
 		var offset = originalOffset;
@@ -429,7 +429,7 @@ function GSActionPhase () {
 		this.m_powerUps[id].AddDataAnchor(time, x, y, active, type);
 		
 		return offset - originalOffset;
-	}
+	};
 	
 	this.ProcessUpdateStrikeCommand = function(time, data, originalOffset) {
 		var offset = originalOffset;
@@ -447,7 +447,7 @@ function GSActionPhase () {
 		this.m_strikes[team][id].AddDataAnchor(time, type, x, y, countDown, live);
 		
 		return offset - originalOffset;
-	}
+	};
 	
 	this.ProcessUpdateInventoryCommand = function (time, data, originalOffset) {
 		var index = this.m_inventory.length;
@@ -467,7 +467,7 @@ function GSActionPhase () {
 		}
 		
 		return offset - originalOffset;
-	}
+	};
 	
 	this.ProcessMatchResultCommand = function (time, data, originalOffset) {
 		var offset = originalOffset;
@@ -477,11 +477,9 @@ function GSActionPhase () {
 		this.m_matchResultTime = time;
 		
 		return offset - originalOffset;
-	}
+	};
 	
-	
-	
-	
+
 	this.SpawnExplosion = function (time, type, x, y, angle, flipX, flipY) {
 		var tempExplosion = null;
 		for (var i=0; i<this.m_explosions.length; i++) {
@@ -494,9 +492,7 @@ function GSActionPhase () {
 			this.m_explosions.push (tempExplosion);
 		}
 		tempExplosion.Spawn (time, type, x, y, angle, flipX, flipY);
-	}
-	
-	
+	};
 	
 	// Update
 	this.Update = function (deltaTime) {
@@ -607,7 +603,7 @@ function GSActionPhase () {
 		}
 		
 		g_soundEngine.Update (deltaTime);
-	}
+	};
 	
 	// Draw all
 	this.Draw = function () {
@@ -738,5 +734,5 @@ function GSActionPhase () {
 			g_graphicEngine.DrawTextRGB (g_context, time, TIME_BOARD_X, TIME_BOARD_Y, 200, "BlackOpsOne", 50, false, false, "center", "center", 189, 189, 189, 0.9, false, false, 150, 150, 150);
 		}
 		
-	}
+	};
 }

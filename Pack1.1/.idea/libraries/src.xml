@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/cocos/platform/android/ControllerManualAdapter/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/cocos/platform/android/java/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/admob/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/alipay/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/facebook/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/facebookads/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/flurry/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/googleplay/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/nd91/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/qh360/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/twitter/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/uc/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/umeng/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/plugins/weibo/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/plugin/protocols/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/cocos2d-x/tools/simulator/frameworks/runtime-src/proj.android/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/runtime-src/proj.android-studio/app/src" />
+      <root url="file://G:/new_year/MyProjectJS/frameworks/runtime-src/proj.android/src" />
+    </SOURCES>
+  </library>
+</component>

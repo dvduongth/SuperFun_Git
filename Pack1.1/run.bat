@@ -1,0 +1,2 @@
+python readExcel.py
+pause

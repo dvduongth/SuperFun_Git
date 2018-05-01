@@ -161,6 +161,31 @@ var BaseGui = cc.Layer.extend({
             this._super(child, zOrder);
     },
 
+    syncAllChildren: function () {
+        this._syncChildrenInNode(this._rootNode);
+    },
+
+    _syncChildrenInNode: function (node) {
+        var allChildren = node.getChildren();
+
+        if (allChildren === null || allChildren.length == 0) return;
+
+        var nameChild;
+        //cc.log("length",allChildren.length);
+        for (var i = 0; i < allChildren.length; i++) {
+            nameChild = '_' + allChildren[i].getName();
+            //cc.log("_syncChildrenInNode",nameChild);
+            if (nameChild in this && this[nameChild] === null) {
+                this[nameChild] = allChildren[i];
+                if (nameChild.indexOf("btn") != -1) {
+                    this[nameChild].addTouchEventListener(this._onTouchUIEvent, this);
+                    this[nameChild].setPressedActionEnabled(true);
+                }
+            }
+            this._syncChildrenInNode(allChildren[i]);
+        }
+    },
+
     onTouchBegan: function(touch, event){
         return true;
     },

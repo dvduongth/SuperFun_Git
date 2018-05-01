@@ -80,6 +80,32 @@ catch (e) {
 }
 var logger = new Logger();
 */
+var console = cc;
+var Logger = function Logger () {
+	var instance = this;
+	var wstream = null;
+
+	this.startLogfile = function (path) {
+		cc.log('startLogfile', path);
+		//instance.wstream = fs.createWriteStream(path);
+	};
+
+	this.print = function (string) {
+		if (instance.wstream != null) {
+			instance.wstream.write(string + "\r\n");
+		} else {
+			cc.log('logger print', typeof string == 'object' ? JSON.stringify(string) : string);
+		}
+	};
+
+	this.closeLogfile = function () {
+		if (instance.wstream != null) {
+			instance.wstream.end();
+			instance.wstream = null;
+		}
+	};
+};
+var logger = new Logger();
 
 var host = "127.0.0.1";
 var port = 3011;
@@ -266,6 +292,7 @@ try {
 catch (e) {
 	WebSocket = require("./../NodeWS");
 }*/
+var WebSocket = WebSocket || window.WebSocket || window.MozWebSocket;
 
 var SOCKET_IDLE = 0;
 var SOCKET_CONNECTING = 1;
@@ -294,37 +321,42 @@ var COMMAND_UPDATE_STRIKE = 17;
 var socket = null;
 var socketStatus = SOCKET_IDLE;
 
-/*
 
-socket = WebSocket.connect ("ws://" + host + ":" + port, [], function () {
+socket = new WebSocket("ws://" + host + ":" + port);
+
+socket.onopen = function() {
 	logger.print ("Socket connected");
 	socketStatus = SOCKET_CONNECTED;
 	SendKey();
-});
-socket.on("error", function (code, reason) {
+};
+
+socket.onerror = function (code) {
 	socketStatus = SOCKET_IDLE;
-	logger.print ("Socket error: " + code);
-});
-socket.on("text", function (data) {
-	OnMessage (data);
-});
+	logger.print ("Socket error: " + typeof code == 'object' ? JSON.stringify(code) : code);
+};
+socket.onmessage = function (evt) {
+	OnMessage (evt.data);
+};
 socketStatus = SOCKET_CONNECTING;
-*/
 
 
 function Send(data) {
 	//console.log ("Socket send: " + PacketToString(data));
-	socket.sendText (data);
+	if(socket.sendText){
+		socket.sendText (data);
+	}else{
+		socket.send(data);
+	}
 }
 function OnMessage(data) {
-	// console.log ("Data received: " + PacketToString(data));
+	 console.log ("Data received: " + PacketToString(data));
 	
 	var readOffset = 0;
 	
 	while (true) {
 		var command = DecodeUInt8 (data, readOffset); 
 		readOffset++;
-		
+		cc.log('command', command);
 		if (command == COMMAND_SEND_TEAM) {
 			g_team = DecodeUInt8 (data, readOffset); readOffset ++;
 		}

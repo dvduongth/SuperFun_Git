@@ -30,12 +30,12 @@ function SoundEngine() {
 		
 		soundBuffer[newID] = [];
 		for (var i=0; i<number; i++) {
-			soundBuffer[newID][i] = new Audio();
-			soundBuffer[newID][i].src = path;
-			soundBuffer[newID][i].load();
-			soundBuffer[newID][i].oncanplaythrough = function() {
+			//soundBuffer[newID][i] = new Audio();
+			//soundBuffer[newID][i].src = path;
+			//soundBuffer[newID][i].load();
+			//soundBuffer[newID][i].oncanplaythrough = function() {
 				completedNumber ++;
-			}
+			//}
 		}
 		
 		return newID;
@@ -60,16 +60,16 @@ function SoundEngine() {
 	// This method needs to be called on every game loop.
 	// It's for anti-resonance purpose.
 	this.Update = function (deltaTime) {
-		for (var i=0; i<soundCooldown.length; i++) {
+		/*for (var i=0; i<soundCooldown.length; i++) {
 			if (soundCooldown[i] > 0) {
 				soundCooldown[i] -= deltaTime;
 			}
-		}
+		}*/
 	};
 	
 	// Play a sound
 	this.PlaySound = function (id)	{
-		if (soundCooldown[id] <= 0) {
+		/*if (soundCooldown[id] <= 0) {
 			var soundTurn = soundPlayingIndex[id];
 			
 			soundPlayingIndex[id] ++;
@@ -84,7 +84,7 @@ function SoundEngine() {
 			}
 			
 			soundCooldown[id] = soundDelay[id];
-		}
+		}*/
 	};
 }
 

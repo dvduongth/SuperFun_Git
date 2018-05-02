@@ -144,16 +144,16 @@ function Particle(context) {
 					return;
 				}
 				
-				if (navigator.isCocoonJS) {
+				/*if (navigator.isCocoonJS) {
 					offsetX = x;
 					offsetY = y;
-				}
+				}*/
 			}
 			
-			var sourceRect = this.m_sourceRectArray[currentFrame];
+			/*var sourceRect = this.m_sourceRectArray[currentFrame];
 			if (this.m_drawAdd) this.m_graphicEngine.SetDrawModeAddActive (context, true);
 			this.m_graphicEngine.Draw (context, sourceRect.m_id, sourceRect.m_x, sourceRect.m_y, sourceRect.m_w, sourceRect.m_h, this.m_x - offsetX - (this.m_w * 0.5) >> 0, this.m_y - offsetY - (this.m_h * 0.5) >> 0, this.m_w, this.m_h, this.m_alpha, 0, 0, this.m_angle);
-			if (this.m_drawAdd) this.m_graphicEngine.SetDrawModeAddActive (context, false);
+			if (this.m_drawAdd) this.m_graphicEngine.SetDrawModeAddActive (context, false);*/
 		}
 	}
 	

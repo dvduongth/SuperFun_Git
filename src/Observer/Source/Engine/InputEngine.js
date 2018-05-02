@@ -26,7 +26,7 @@ function InputEngine () {
 	
 	
 	this.AddEventListener = function (canvas) {
-		var temp = canvas;
+		/*var temp = canvas;
 		var windowOffsetX = 0;
 		var windowOffsetY = 0;
 		
@@ -56,11 +56,11 @@ function InputEngine () {
 		canvas.ontouchend = ProcessTouchEvent;
 		canvas.ontouchmove = ProcessTouchEvent;
 		
-		this.m_canvas = canvas;
+		this.m_canvas = canvas;*/
 	}
 	
 	this.SetMouseScale = function (scale) {
-		var temp = this.m_canvas;
+		/*var temp = this.m_canvas;
 		var windowOffsetX = 0;
 		var windowOffsetY = 0;
 		
@@ -76,20 +76,20 @@ function InputEngine () {
 		originMouseX = window.pageXOffset - windowOffsetX;
 		originMouseY = window.pageYOffset - windowOffsetY;
 		
-		this.m_mouseScale = scale;
+		this.m_mouseScale = scale;*/
 	}
 	
 	
 	function OnMouseWheel (event) {
-		if (!event) event = this.m_canvas.event;
+		/*if (!event) event = this.m_canvas.event;
 		
 		if (event.wheelDelta) instance.m_mouseWheel += event.wheelDelta / 120;
 		else if (event.detail) instance.m_mouseWheel += -event.detail / 3;
 		
-		event.preventDefault();
+		event.preventDefault();*/
 	}
 	function OnMouseMove (event) {
-		if (!TOUCH_DEBUG) {
+		/*if (!TOUCH_DEBUG) {
 			instance.m_mouseX = (originMouseX + event.clientX) * instance.m_mouseScale;
 			instance.m_mouseY = (originMouseY + event.clientY) * instance.m_mouseScale;
 		}
@@ -98,10 +98,10 @@ function InputEngine () {
 				instance.m_touchX[0] = (originMouseX + event.clientX) * instance.m_mouseScale;
 				instance.m_touchY[0] = (originMouseY + event.clientY) * instance.m_mouseScale;
 			}
-		}
+		}*/
 	}
 	function OnMouseDown (event) {
-		if (!TOUCH_DEBUG) {
+		/*if (!TOUCH_DEBUG) {
 			instance.m_mouseX = (originMouseX + event.clientX) * instance.m_mouseScale;
 			instance.m_mouseY = (originMouseY + event.clientY) * instance.m_mouseScale;
 			instance.m_mousePress = 1;
@@ -115,10 +115,10 @@ function InputEngine () {
 			var tempY = (originMouseY + event.clientY) * instance.m_mouseScale;
 			instance.m_touchX.push (tempX);
 			instance.m_touchY.push (tempY);
-		}
+		}*/
 	}
 	function OnMouseUp (event) {
-		if (!TOUCH_DEBUG) {
+		/*if (!TOUCH_DEBUG) {
 			instance.m_mouseX = (originMouseX + event.clientX) * instance.m_mouseScale;
 			instance.m_mouseY = (originMouseY + event.clientY) * instance.m_mouseScale;
 			instance.m_mousePress = 0;
@@ -127,10 +127,10 @@ function InputEngine () {
 			USE_TOUCH = true;
 			instance.m_touchX = [];
 			instance.m_touchY = [];
-		}
+		}*/
 	}
 	function ProcessTouchEvent (event) {
-		USE_TOUCH = true;
+		/*USE_TOUCH = true;
 		
 		instance.m_touchX = [];
 		instance.m_touchY = [];
@@ -140,7 +140,7 @@ function InputEngine () {
 			var tempY = event.touches[i].clientY * instance.m_mouseScale;
 			instance.m_touchX.push (tempX);
 			instance.m_touchY.push (tempY);
-		}
+		}*/
 	}
 	
 	

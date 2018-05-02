@@ -239,7 +239,7 @@ function GSActionPhase () {
 		while (true) {
 			var command = DecodeUInt8 (data, readOffset); 
 			readOffset++;
-			
+			cc.log('gs action phase command', command);
 			if (command == COMMAND_UPDATE_STATE) {
 				this.m_state = DecodeUInt8 (data, readOffset);
 				if (this.m_state == STATE_SUDDEN_DEATH && this.m_suddenDeathTime == -1) {

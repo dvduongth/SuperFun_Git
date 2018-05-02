@@ -11,11 +11,11 @@ var g_serverPort = 3011;
 var g_replayFileName = "";
 
 function LoadAllState () {
+	cc.log('load all state');
 	// Create, but not connect yet
 	if (g_replayFileName == "") {
 		g_network = new Network(g_serverHost, g_serverPort);
-	}
-	else {
+	} else {
 		g_replay = new Replay(g_replayFileName);
 	}
 	

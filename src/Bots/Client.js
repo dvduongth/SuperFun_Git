@@ -356,7 +356,7 @@ function OnMessage(data) {
 	while (true) {
 		var command = DecodeUInt8 (data, readOffset); 
 		readOffset++;
-		cc.log('command', command);
+		cc.log('client command', command);
 		if (command == COMMAND_SEND_TEAM) {
 			g_team = DecodeUInt8 (data, readOffset); readOffset ++;
 		}

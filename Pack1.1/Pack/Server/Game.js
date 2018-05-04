@@ -160,7 +160,7 @@ module.exports = function Game(key1, key2, replayFilename) {
         instance.m_server = server;
     };
     this.Send = function (player, data) {
-        console.log('game request send data');
+        console.log('game request send data to player', player);
         if (instance.m_server) {
             instance.m_server.Send(player, data);
         }
@@ -222,7 +222,7 @@ module.exports = function Game(key1, key2, replayFilename) {
 
                     setTimeout(CheckPickTank, Setting.PICK_TANK_TIMEOUT);
                 } else {
-                    console.log("wait for both player are connected");
+                    console.log("wait for both player are connected. State:", instance.m_state, ". m_player1Index:", instance.m_player1Index, ". m_player2Index:", instance.m_player2Index);
                 }
             }
             else if (command == Enum.COMMAND_CONTROL_PLACE) {
@@ -342,7 +342,7 @@ module.exports = function Game(key1, key2, replayFilename) {
 
             // Break when the end of the packet reach
             if (readOffset >= data.length) {
-                console.log('Break when the end of the packet reach');
+                console.log('Break when the end of the packet reach ok');
                 break;
             }
         }

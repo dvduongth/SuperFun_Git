@@ -5,6 +5,7 @@
 // If no argument given, gameID will be 0, port will be 3011
 // ====================================================================
 
+//todo cmd run server: node ./Pack1.1/Pack/Server/Server.js -h 127.0.0.1 -p 3011 -k 30 11
 
 // Get the listening port from argurment
 var listeningPort = 3011;
@@ -96,7 +97,8 @@ console.log("set server instance for game");
 game.SetServerInstance(server);
 
 server.Send = function (playerIndex, data) {
-    console.log ("Server send to player: " + playerIndex + " with data: " + Network.PacketToString(data));
+    //console.log ("Server send to player: " + playerIndex + " with data: " + Network.PacketToString(data));
+    console.log ("Server send to player: " + playerIndex + " with data length: " + data.length);
     if (socketStatus[playerIndex] == SOCKET_STATUS_ONLINE) {
         socketList[playerIndex].sendText(data);
     }

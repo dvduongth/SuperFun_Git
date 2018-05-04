@@ -109,6 +109,7 @@ var logger = new Logger();
 var host = "127.0.0.1";
 var port = 3011;
 var key = 30;
+//var key = 11;
 /*
  for (var i=0; i<process.argv.length; i++) {
  if (process.argv[i] == "-h") {
@@ -126,7 +127,7 @@ var key = 30;
  }*/
 if (host == null) host = "127.0.0.1";
 if (port == null) port = 3011;
-if (key == null) key = 0;
+if (key == null) key = 11;
 
 // =============================================
 // Some helping function

@@ -8,11 +8,11 @@ exports.PICK_TANK_TIMEOUT = 5000;
 
 // ====================================================================================================
 // Tank 
-var TANK_HP = new Array();
-var TANK_SPEED = new Array(); // Move per loop
-var TANK_DAMAGE = new Array(); // Damage per shot
-var TANK_ROF = new Array(); // lower is better: number of loop for a tank to be able to shoot again
-var BULLET_SPEED = new Array();
+var TANK_HP = [];
+var TANK_SPEED = []; // Move per loop
+var TANK_DAMAGE = []; // Damage per shot
+var TANK_ROF = []; // lower is better: number of loop for a tank to be able to shoot again
+var BULLET_SPEED = [];
 
 TANK_HP [Enum.TANK_LIGHT] = 80;
 TANK_SPEED [Enum.TANK_LIGHT] = 0.5;
@@ -108,7 +108,7 @@ exports.BASE_POSITION_1 = [[10.5, 1.5], [3.5, 3.5], [17.5, 3.5]];
 exports.BASE_POSITION_2 = [[10.5, 19.5], [3.5, 17.5], [17.5, 17.5]];
 exports.BASE_SIZE 		= 2;
 
-var BASE_HP = new Array();
+var BASE_HP = [];
 BASE_HP[Enum.BASE_MAIN] = 300;
 BASE_HP[Enum.BASE_SIDE] = 200;
 exports.BASE_HP = BASE_HP;
@@ -122,7 +122,7 @@ exports.LOOPS_MATCH_END			= 150000 / exports.TIME_UPDATE_INTERVAL; //count the l
 // exports.POWERUP_SPAWN_POINT     = [[10.5, 1.5], [10.5, 10.5], [10.5, 19.5]];
 exports.POWERUP_SPAWN_POINT     = [[1.5, 10.5], [10.5, 10.5], [19.5, 10.5]];
 
-var POWERUP_DELAY = new Array();
+var POWERUP_DELAY = [];
 POWERUP_DELAY[Enum.POWERUP_AIRSTRIKE] 	= 10;
 POWERUP_DELAY[Enum.POWERUP_EMP] 		= 10;
 exports.POWERUP_DELAY = POWERUP_DELAY;

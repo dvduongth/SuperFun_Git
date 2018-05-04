@@ -141,30 +141,30 @@ var GuiLoading = BaseGui.extend({
 
     onLoadingFinish : function(){
         this.destroy();
-        gv.socialMgr.autoLogin();
-
+        //gv.socialMgr.autoLogin();
+        g_context = this;
         function Init() {
             g_graphicEngine  = new GraphicEngine();
-            //g_particleEngine = new ParticleEngine();
-            //g_inputEngine    = new InputEngine();
+            g_particleEngine = new ParticleEngine();
+            g_inputEngine    = new InputEngine();
             g_stateEngine    = new StateEngine();
-            //g_soundEngine 	 = new SoundEngine();
+            g_soundEngine 	 = new SoundEngine();
 
-            //g_particleDef	 = new ParticleDef();
+            g_particleDef	 = new ParticleDef();
 
             //CreateCanvas();
             //g_inputEngine.AddEventListener (g_canvas);
             //ResizeCanvas();
 
             g_stateEngine.SetContext(g_context, g_graphicEngine);
-            //g_particleEngine.SetContext(g_context, g_graphicEngine);
+            g_particleEngine.SetContext(g_context, g_graphicEngine);
 
             //window.onresize = ResizeCanvas;
         }
 
-        //Init();
+        Init();
 
-        //g_stateEngine.Start();
-        //GoToLoaderState();
+        g_stateEngine.Start();
+        GoToLoaderState();
     }
 });

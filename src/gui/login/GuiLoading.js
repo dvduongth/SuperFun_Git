@@ -141,8 +141,8 @@ var GuiLoading = BaseGui.extend({
 
     onLoadingFinish : function(){
         this.destroy();
-        //gv.socialMgr.autoLogin();
-        g_context = this;
+        gv.socialMgr.autoLogin();
+        /*g_context = this;
         function Init() {
             g_graphicEngine  = new GraphicEngine();
             g_particleEngine = new ParticleEngine();
@@ -165,6 +165,6 @@ var GuiLoading = BaseGui.extend({
         Init();
 
         g_stateEngine.Start();
-        GoToLoaderState();
+        GoToLoaderState();*/
     }
 });

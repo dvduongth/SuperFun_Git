@@ -3,6 +3,8 @@ var Enum = require("./Config/Enum");
 var Setting = require("./Config/Setting");
 var Network = require("./Network");
 
+var ServerUtility = require("./Utility/ServerUtility");
+
 // Game object
 var Tank = require("./Objects/Tank");
 var Obstacle = require("./Objects/Obstacle");
@@ -91,6 +93,7 @@ module.exports = function Game(key1, key2, replayFilename) {
     function CheckConnection() {
         if (instance.m_player1Index != -1 && instance.m_player2Index != -1) {
             // Both player has connected, we do nothing
+            console.log("Both player has connected, we do nothing");
         }
         else {
             if (instance.m_player1Index != -1 && instance.m_player2Index == -1) {
@@ -105,7 +108,7 @@ module.exports = function Game(key1, key2, replayFilename) {
                 instance.m_matchResult = Enum.MATCH_RESULT_BAD_DRAW;
                 instance.m_state = Enum.STATE_FINISHED;
             }
-
+            console.log("CheckConnection for start timeout", ServerUtility.matchResultToString(instance.m_matchResult), ServerUtility.stateToString(instance.m_state));
             matchResultPacket = instance.GetMatchResultPackage();
             stateUpdatePacket = instance.GetStateUpdatePacket();
 
@@ -179,8 +182,8 @@ module.exports = function Game(key1, key2, replayFilename) {
         while (true) {
             var command = Network.DecodeUInt8(data, readOffset);
             readOffset++;
-            console.log("game command", command);
-
+            console.log("game command", ServerUtility.commandToString(command));
+            console.log("wait for both player are connected. State:", ServerUtility.stateToString(instance.m_state));
             if (command == Enum.COMMAND_PING) {
                 // Receive a ping? Just send it back.
                 console.log("game send ping");
@@ -222,7 +225,7 @@ module.exports = function Game(key1, key2, replayFilename) {
 
                     setTimeout(CheckPickTank, Setting.PICK_TANK_TIMEOUT);
                 } else {
-                    console.log("wait for both player are connected. State:", instance.m_state, ". m_player1Index:", instance.m_player1Index, ". m_player2Index:", instance.m_player2Index);
+                    console.log("wait for both player are connected. State:", ServerUtility.stateToString(instance.m_state), ". m_player1Index:", instance.m_player1Index, ". m_player2Index:", instance.m_player2Index);
                 }
             }
             else if (command == Enum.COMMAND_CONTROL_PLACE) {
@@ -342,7 +345,7 @@ module.exports = function Game(key1, key2, replayFilename) {
 
             // Break when the end of the packet reach
             if (readOffset >= data.length) {
-                console.log('Break when the end of the packet reach ok');
+                console.log('The end of the packet reach ok');
                 break;
             }
         }

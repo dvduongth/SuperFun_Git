@@ -20,7 +20,7 @@ var COMMAND_UPDATE_INVENTORY = 14;
 var COMMAND_UPDATE_TIME = 15;
 var COMMAND_CONTROL_USE_POWERUP = 16;
 var COMMAND_UPDATE_STRIKE = 17;
-
+var console = cc;
 function Network(host, port) {
 	var instance = this;
 	var socket = null;
@@ -30,7 +30,7 @@ function Network(host, port) {
 		socket = new WebSocket("ws://" + host + ":" + port);
 		socket.binaryType = "arraybuffer";
 		socket.onopen = function() {
-			console.log ("Socket connected");
+			console.log ("Network Socket connected");
 			socketStatus = SOCKET_CONNECTED;
 			instance.SendStartConnectCommand();
 		};
@@ -40,45 +40,45 @@ function Network(host, port) {
 		socket.onclose = function() { 
 			socketStatus = SOCKET_IDLE;
 			socket = null;
-			//console.log ("Socket closed");
+			console.log ("Socket closed");
 		};
 		
 		socketStatus = SOCKET_CONNECTING;
-		//console.log ("Connect to: " + host + ":" + port);
-	}
+		console.log ("Connect to: " + host + ":" + port);
+	};
 	
 	this.GetStatus = function () {
 		return socketStatus;
-	}
+	};
 	
 	this.Send = function (data) {
-		//console.log ("Socket send: " + PacketToString(data));
+		console.log ("Socket send: " + PacketToString(data));
 		socket.send (data);
-	}
-	
-	
-	
+	};
+
 	this.SendPing = function () {
 		if (socketStatus == SOCKET_CONNECTED) {
 			var packet = "";
 			packet += EncodeUInt8(COMMAND_PING);
 			this.Send (packet);
 		}
-	}
+	};
 	this.SendStartConnectCommand = function () {
+		console.log("Network send start connect command");
 		if (socketStatus == SOCKET_CONNECTED) {
+			console.log("send start");
 			var packet = "";
 			packet += EncodeUInt8(COMMAND_SEND_KEY);
 			packet += EncodeInt8(-1);
 			this.Send (packet);
 		}
-	}
+	};
 	this.OnMessage = function (data) {
-		//console.log ("Data received: " + PacketToString(data));
+		console.log ("Data received: " + PacketToString(data));
 		if (g_gsActionPhase) {
 			g_gsActionPhase.OnUpdatePacket(data);
 		}
-	}
+	};
 }
 
 function Replay (path) {
@@ -99,7 +99,7 @@ function Replay (path) {
 				}
 			}
 		}
-	}
+	};
 	request.send();
 }
 

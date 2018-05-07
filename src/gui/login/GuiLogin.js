@@ -81,10 +81,10 @@ var GuiLogin = BaseGui.extend({
         ////sp.runAction(cc.fadeTo(5.0, 100));
         //s
 
-        var x1  = fr.AnimationMgr.createAnimationById(resAniId.CH_D_1, this);
+        /*var x1  = fr.AnimationMgr.createAnimationById(resAniId.CH_D_1, this);
         x1.getAnimation().gotoAndPlay("happy", 0, -1, 0);
         x1.setPosition(100,100);
-        this.addChild(x1);
+        this.addChild(x1);*/
 
         //var x1  = fr.AnimationMgr.createAnimationById(resAniId.docChiemTraiNgua_notification, this);
         //x1.getAnimation().gotoAndPlay("run", 0, -1, 0);
@@ -157,17 +157,44 @@ var GuiLogin = BaseGui.extend({
 
         //this.testHorse(PlayerColor.YELLOW);
 
-        //test new button
-        var x = new fr.Button("button/btn_blue_0.png");
-        //x.setPressedActionEnabled(false);
-        x.addClickEventListener(this.testButton.bind(this));
-        x.setPosition(500,500);
-        this.addChild(x);
+        this.createTestButton();
 
         //this.init();
     },
 
+    createTestButton: function () {
+        //test new button
+        this.btnClient_0 = new fr.Button("button/btn_blue_0.png");
+        this.btnClient_1 = new fr.Button("button/button_green_0.png");
+        //title
+        var lb = ccui.Text("CLIENT 0", res.FONT_GAME_BOLD, 25);
+        this.btnClient_0.addChild(lb);
+        lb.setPosition(this.btnClient_0.getContentSize().width >> 1, this.btnClient_0.getContentSize().height >> 1);
+
+        lb = ccui.Text("CLIENT 1", res.FONT_GAME_BOLD, 25);
+        this.btnClient_1.addChild(lb);
+        lb.setPosition(this.btnClient_1.getContentSize().width >> 1, this.btnClient_1.getContentSize().height >> 1);
+
+        //x.setPressedActionEnabled(false);
+        this.btnClient_0.addClickEventListener(this.testButton.bind(this));
+        this.btnClient_1.addClickEventListener(this.testButton.bind(this));
+        this.addChild(this.btnClient_0);
+        this.addChild(this.btnClient_1);
+
+        this.btnClient_0.setPosition(gv.WIN_SIZE.width / 3,gv.WIN_SIZE.height >> 1);
+        this.btnClient_1.setPosition(gv.WIN_SIZE.width * 2 / 3, gv.WIN_SIZE.height >> 1);
+    },
+
     testButton: function (sender) {
+        var client = null;
+        switch (sender) {
+            case this.btnClient_0:
+                client = new Client(30);
+                break;
+            case this.btnClient_1:
+                client = new Client(11);
+                break;
+        }
         if(sender) {
             sender.setEnabled(false);
             sender.setVisible(false);

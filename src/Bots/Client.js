@@ -841,10 +841,13 @@ var Client = function (key) {
 
     function GetPowerUpList() {
         // Return active powerup list
+        console.log('active powerup list');
         var powerUp = [];
         for (var i = 0; i < g_powerUps.length; i++) {
-            if (g_powerUps[i].m_active) {
-                powerUp.push(g_powerUps[i]);
+            if(g_powerUps[i] != null){
+                if (g_powerUps[i].m_active) {
+                    powerUp.push(g_powerUps[i]);
+                }
             }
         }
 
@@ -894,7 +897,7 @@ var Client = function (key) {
     function OnPlaceTankRequest() {
         // This function is called at the start of the game. You place your tank according
         // to your strategy here.
-        /*if (GetMyTeam() == TEAM_1) {
+        if (GetMyTeam() == TEAM_1) {
             PlaceTank(TANK_LIGHT, 5, 2);
             PlaceTank(TANK_MEDIUM, 3, 8);
             PlaceTank(TANK_HEAVY, 6, 10);
@@ -905,20 +908,20 @@ var Client = function (key) {
             PlaceTank(TANK_MEDIUM, 17, 8);
             PlaceTank(TANK_HEAVY, 17, 13);
             PlaceTank(TANK_HEAVY, 16, 19);
-        }*/
+        }
 
-        if (GetMyTeam() == TEAM_1) {
-            PlaceTank(TANK_LIGHT, 6, 3);
-            PlaceTank(TANK_MEDIUM, 6, 4);
-            PlaceTank(TANK_HEAVY, 6, 5);
-            PlaceTank(TANK_LIGHT, 6, 6);
-        }
-        else if (GetMyTeam() == TEAM_2) {
-            PlaceTank(TANK_LIGHT, 17, 17);
-            PlaceTank(TANK_MEDIUM, 17, 18);
-            PlaceTank(TANK_HEAVY, 17, 19);
-            PlaceTank(TANK_HEAVY, 17, 20);
-        }
+        //if (GetMyTeam() == TEAM_1) {
+        //    PlaceTank(TANK_LIGHT, 6, 3);
+        //    PlaceTank(TANK_MEDIUM, 6, 4);
+        //    PlaceTank(TANK_HEAVY, 6, 5);
+        //    PlaceTank(TANK_LIGHT, 6, 6);
+        //}
+        //else if (GetMyTeam() == TEAM_2) {
+        //    PlaceTank(TANK_LIGHT, 17, 17);
+        //    PlaceTank(TANK_MEDIUM, 17, 18);
+        //    PlaceTank(TANK_HEAVY, 17, 19);
+        //    PlaceTank(TANK_HEAVY, 17, 20);
+        //}
 
         // Leave this here, don't remove it.
         // This command will send all of your tank command to server

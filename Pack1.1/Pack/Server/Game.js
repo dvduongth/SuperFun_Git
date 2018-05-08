@@ -604,7 +604,7 @@ module.exports = function Game(key1, key2, replayFilename) {
     };
 
     this.AddToReplay = function (data) {
-        console.log('add to replay', data);
+        console.log('add to replay');
         if (replayFilename != null) {
             console.log('replayFilename', replayFilename);
             replayData.push(Network.EncodeUInt16(data.length) + data);

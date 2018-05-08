@@ -1,15 +1,15 @@
-var CANVAS_W = 1180;
-var CANVAS_H = 880;
+//var CANVAS_W = 1180;
+//var CANVAS_H = 880;
 
-var g_canvas           	= null;
-var g_context         	= null;
-var g_graphicEngine    	= null;
-var g_particleEngine   	= null;
-var g_inputEngine      	= null;
-var g_stateEngine      	= null;
-var g_soundEngine		= null;
-
-var g_particleDef		= null;
+//var g_canvas           	= null;
+//var g_context         	= null;
+//var g_graphicEngine    	= null;
+//var g_particleEngine   	= null;
+//var g_inputEngine      	= null;
+//var g_stateEngine      	= null;
+//var g_soundEngine		= null;
+//
+//var g_particleDef		= null;
 
 
 
@@ -17,7 +17,7 @@ var LoadingPhase = {
     LOAD_IMG : 0,
     LOAD_ANI : 1,
     LOAD_SOUND : 2
-}
+};
 
 var GuiLoading = BaseGui.extend({
     ctor : function(){

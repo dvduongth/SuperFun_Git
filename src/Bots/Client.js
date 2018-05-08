@@ -359,7 +359,7 @@ var Client = function (key) {
         while (true) {
             var command = DecodeUInt8(data, readOffset);
             readOffset++;
-            cc.log('client command', command);
+            cc.log('client command', Utility.commandToString(command));
             if (command == COMMAND_SEND_TEAM) {
                 g_team = DecodeUInt8(data, readOffset);
                 readOffset++;
@@ -368,8 +368,11 @@ var Client = function (key) {
                 state = DecodeUInt8(data, readOffset);
                 readOffset++;
 
+                cc.log('client update state', Utility.stateToString(state));
+
                 if (g_state == STATE_WAITING_FOR_PLAYERS && state == STATE_TANK_PLACEMENT) {
                     g_state = state;
+                    cc.log('client change g_state', Utility.stateToString(g_state));
                     setTimeout(OnPlaceTankRequest, 100);
                 }
             }

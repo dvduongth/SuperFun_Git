@@ -1,4 +1,5 @@
 function GSLoader () {
+	var instance = this;
 	var STATE_LOADING_OWN_ASSETS = 0;
 	var STATE_LOADING_OTHERS_ASSETS = 1;
 	var STATE_CONNECT_TO_SERVER = 2;
@@ -8,9 +9,26 @@ function GSLoader () {
 	var imgSplash = null;
 	
 	var state = STATE_LOADING_OWN_ASSETS;
-	
+
+	this.loadingStateToString = function (state) {
+		switch (state) {
+			case STATE_LOADING_OWN_ASSETS:
+				return "STATE_LOADING_OWN_ASSETS";
+			case STATE_LOADING_OTHERS_ASSETS:
+				return "STATE_LOADING_OTHERS_ASSETS";
+			case STATE_CONNECT_TO_SERVER:
+				return "STATE_CONNECT_TO_SERVER";
+			case STATE_ALL_DONE:
+				return "STATE_LOADING_OWN_ASSETS";
+
+			default :
+				return "state undefined";
+		}
+	};
+
 	this.Init = function () {
 		if (init == false) {
+			cc.log('GSLoader init');
 			if(!imgSplash) {
 				imgSplash = fr.createSprite("src/Observer/Image/Splash.png");
 				imgSplash.retain();
@@ -30,7 +48,7 @@ function GSLoader () {
 	};
 	
 	this.Update = function (deltaTime) {
-		cc.log('GSLoader update', deltaTime, 'state', state);
+		cc.log('GSLoader update', deltaTime, 'state', instance.loadingStateToString(state));
 		switch (state) {
 			case STATE_LOADING_OWN_ASSETS:
 				if (g_graphicEngine.GetLoadingProgress() == 1) {

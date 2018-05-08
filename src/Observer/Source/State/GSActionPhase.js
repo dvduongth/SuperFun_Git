@@ -201,6 +201,7 @@ function GSActionPhase () {
 	// Use this function to load all kind of assets, initialize anything that isn't related to gameplay
 	this.Init = function () {
 		if (init == false) {
+			cc.log('GSActionPhase init');
 			init = true;
 			
 			imgBackground = g_graphicEngine.LoadImage("Image/Map/Background.png");
@@ -239,7 +240,7 @@ function GSActionPhase () {
 		while (true) {
 			var command = DecodeUInt8 (data, readOffset); 
 			readOffset++;
-			cc.log('gs action phase command', command);
+			cc.log('gs action phase command', Utility.commandToString(command));
 			if (command == COMMAND_UPDATE_STATE) {
 				this.m_state = DecodeUInt8 (data, readOffset);
 				if (this.m_state == STATE_SUDDEN_DEATH && this.m_suddenDeathTime == -1) {
@@ -534,13 +535,14 @@ function GSActionPhase () {
 		
 		// Not enough data received to continue rendering
 		if (this.m_time >= packetCount - 1) {
+			cc.log('Not enough data received to continue rendering');
 			// Revert, and don't update
 			this.m_time -= deltaTimeForRender;
-			return
+			return cc.log("Revert, and don't update");
 		}
 		else if (this.m_time < 1) {
 			this.m_time = 1;
-			return
+			return cc.log('return m_time < 1');
 		}
 		
 		g_particleEngine.Update (deltaTimeForParticle);
@@ -607,7 +609,9 @@ function GSActionPhase () {
 	
 	// Draw all
 	this.Draw = function () {
+		cc.log('GSActionPhase draw');
 		// Draw animated water
+		cc.log('GSActionPhase Draw animated water');
 		for (var i=0; i<MAP_W; i++) {
 			for (var j=0; j<MAP_H; j++) {
 				if (this.m_map[j * MAP_W + i] == BLOCK_WATER) {
@@ -619,10 +623,12 @@ function GSActionPhase () {
 		}
 		
 		// Then draw background on top
+		cc.log('GSActionPhase Then draw background on top');
 		g_graphicEngine.DrawFast (g_context, imgBackground, MAP_OFFSET_X + this.m_screenShakeX, MAP_OFFSET_Y + this.m_screenShakeY);
 		
 		
 		// Draw all undestructible obstacles
+		cc.log('GSActionPhase Draw all undestructible obstacles');
 		for (var i=0; i<MAP_W; i++) {
 			for (var j=0; j<MAP_H; j++) {
 				if (this.m_map[j * MAP_W + i] == BLOCK_HARD_OBSTACLE) {
@@ -632,11 +638,13 @@ function GSActionPhase () {
 		}
 
 		// Draw destructible obstacles
+		cc.log('GSActionPhase Draw destructible obstacles');
 		for (var i=0; i<this.m_obstacles.length; i++) {
 			this.m_obstacles[i].Draw();
 		}
 
 		// Draw player bases
+		cc.log('GSActionPhase Draw player bases');
 		for (var i=0; i<this.m_bases[TEAM_1].length; i++) {
 			this.m_bases[TEAM_1][i].Draw();
 		}
@@ -645,6 +653,7 @@ function GSActionPhase () {
 		}
 		
 		// Draw tanks
+		cc.log('GSActionPhase Draw tanks');
 		for (var i=0; i<this.m_tanks[TEAM_1].length; i++) {
 			this.m_tanks[TEAM_1][i].Draw();
 		}
@@ -653,11 +662,13 @@ function GSActionPhase () {
 		}
 		
 		// Draw power up
+		cc.log('GSActionPhase Draw power up');
 		for (var i=0; i<this.m_powerUps.length; i++) {
 			this.m_powerUps[i].Draw();
 		}
 		
 		// Draw bullets
+		cc.log('GSActionPhase Draw bullets');
 		for (var i=0; i<this.m_bullets[TEAM_1].length; i++) {
 			this.m_bullets[TEAM_1][i].Draw();
 		}
@@ -666,11 +677,13 @@ function GSActionPhase () {
 		}
 		
 		// Draw explosion
+		cc.log('GSActionPhase Draw explosion');
 		for (var i=0; i<this.m_explosions.length; i++) {
 			this.m_explosions[i].Draw();
 		}
 		
 		// Draw strikes
+		cc.log('GSActionPhase Draw strikes');
 		for (var i=0; i<this.m_strikes[TEAM_1].length; i++) {
 			this.m_strikes[TEAM_1][i].Draw();
 		}
@@ -679,9 +692,11 @@ function GSActionPhase () {
 		}
 		
 		// Particle
+		cc.log('GSActionPhase Particle');
 		g_particleEngine.Draw (g_context, this.m_screenShakeX, this.m_screenShakeY, CANVAS_W, CANVAS_H);
 		
-		//le.huathi - draw match result if needed
+		//draw match result if needed
+		cc.log('GSActionPhase draw match result if needed', Utility.matchResultToString(this.m_matchResult));
 		if (this.m_matchResult != MATCH_RESULT_NOT_FINISH && this.m_time >= this.m_matchResultTime) {
 			var boardY = -RESULT_BOARD_H + (this.m_time - this.m_matchResultTime) * 80;
 			if (boardY > MAP_H * BLOCK_SIZE / 2 - RESULT_BOARD_H / 2) {

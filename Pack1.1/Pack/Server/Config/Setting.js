@@ -116,13 +116,18 @@ BASE_HP[Enum.BASE_SIDE] = 200;
 exports.BASE_HP = BASE_HP;
 
 //Time configs
-exports.TIME_UPDATE_INTERVAL 	= 100; //millisecond
-exports.POWERUP_INTERVAL		= 30000  / exports.TIME_UPDATE_INTERVAL;
-exports.LOOPS_SUDDEN_DEATH 		= 60000 / exports.TIME_UPDATE_INTERVAL; //count the loops in 2 minutes (2*60*1000)
-exports.LOOPS_MATCH_END			= 150000 / exports.TIME_UPDATE_INTERVAL; //count the loops in 2m30s
+//exports.TIME_UPDATE_INTERVAL 	= 100; //millisecond
+//exports.POWERUP_INTERVAL		= 30000  / exports.TIME_UPDATE_INTERVAL;
+//exports.LOOPS_SUDDEN_DEATH 		= 60000 / exports.TIME_UPDATE_INTERVAL; //count the loops in 2 minutes (2*60*1000)
+//exports.LOOPS_MATCH_END			= 150000 / exports.TIME_UPDATE_INTERVAL; //count the loops in 2m30s
 
-// exports.POWERUP_SPAWN_POINT     = [[10.5, 1.5], [10.5, 10.5], [10.5, 19.5]];
-exports.POWERUP_SPAWN_POINT     = [[1.5, 10.5], [10.5, 10.5], [19.5, 10.5]];
+exports.TIME_UPDATE_INTERVAL 	= 3000; //millisecond
+exports.POWERUP_INTERVAL		= 300000  / exports.TIME_UPDATE_INTERVAL;
+exports.LOOPS_SUDDEN_DEATH 		= 600000 / exports.TIME_UPDATE_INTERVAL; //count the loops in 2 minutes (2*60*1000)
+exports.LOOPS_MATCH_END			= 1500000 / exports.TIME_UPDATE_INTERVAL; //count the loops in 2m30s
+
+ exports.POWERUP_SPAWN_POINT     = [[10.5, 1.5], [10.5, 10.5], [10.5, 19.5]];
+//exports.POWERUP_SPAWN_POINT     = [[1.5, 10.5], [10.5, 10.5], [19.5, 10.5]];
 
 var POWERUP_DELAY = [];
 POWERUP_DELAY[Enum.POWERUP_AIRSTRIKE] 	= 10;

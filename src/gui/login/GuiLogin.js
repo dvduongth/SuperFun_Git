@@ -199,6 +199,10 @@ var GuiLogin = BaseGui.extend({
             sender.setEnabled(false);
             sender.setVisible(false);
         }
+
+        g_canvas = this;
+        g_context = this;
+
         g_graphicEngine  = new GraphicEngine();
         g_particleEngine = new ParticleEngine();
         g_inputEngine    = new InputEngine();
@@ -211,7 +215,6 @@ var GuiLogin = BaseGui.extend({
         //g_inputEngine.AddEventListener (g_canvas);
         //ResizeCanvas();
 
-        g_context = this;
         g_stateEngine.SetContext(g_context, g_graphicEngine);
         g_particleEngine.SetContext(g_context, g_graphicEngine);
 

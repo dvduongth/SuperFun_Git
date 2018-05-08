@@ -27,6 +27,7 @@ function Network(host, port) {
 	var socketStatus = SOCKET_IDLE;
 	
 	this.Connect = function () {
+		console.log('Network connect');
 		socket = new WebSocket("ws://" + host + ":" + port);
 		socket.binaryType = "arraybuffer";
 		socket.onopen = function() {

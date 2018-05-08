@@ -17,11 +17,18 @@ function StateEngine() {
         if (deltaTime < DELTA_TIME_THRESHOLD) {
             if (switching == false) {
                 if (stateStack.length > 0) {
+                    cc.log("StateEngine Update stateStack at index", stateStack.length - 1);
                     stateStack[stateStack.length - 1].Update(deltaTime);
+                }else{
+                    cc.log("StateEngine Update stateStack is empty");
                 }
             }
+            //else{
+            //    cc.log("StateEngine Update switching");
+            //}
 
             for (var i = 0; i < stateStack.length; i++) {
+                cc.log("stateStack at index draw", i);
                 stateStack[i].Draw();
             }
 
@@ -32,10 +39,13 @@ function StateEngine() {
                         switchAlpha = 1;
                         switchStep = 1;
 
+                        cc.log('switching pop and push new', newState != null);
                         stateStack.pop();
                         stateStack.push(newState);
+                    }else{
+                        cc.log("switching switchAlpha < 1");
                     }
-                    //g_graphicEngine.FillCanvas(g_context, 255, 255, 255, switchAlpha);
+                    g_graphicEngine.FillCanvas(g_context, 255, 255, 255, switchAlpha);
                 }
                 else if (switchStep == 1) {
                     switchAlpha -= deltaTime * FADE_SPEED;
@@ -44,13 +54,16 @@ function StateEngine() {
                         switchStep = 0;
                         switching = false;
                     }
-                    //g_graphicEngine.FillCanvas(g_context, 255, 255, 255, switchAlpha);
+                    g_graphicEngine.FillCanvas(g_context, 255, 255, 255, switchAlpha);
                 }
             }
+        }else{
+            cc.log('StateEngine not Update', deltaTime, DELTA_TIME_THRESHOLD);
         }
     };
 
     this.SwitchState = function (state, fade) {
+        cc.log('StateEngine switch state', state != null, fade);
         if (stateStack.length == 0) {
             stateStack.push(state);
         } else {

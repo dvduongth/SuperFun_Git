@@ -338,7 +338,9 @@ function GSActionPhase () {
 		}
 		// Power up
 		for (var i=0; i < this.m_powerUps.length; i++) {
-			this.m_powerUps[i].AddIdleDataAnchor(time);
+			if(this.m_powerUps[i]){
+				this.m_powerUps[i].AddIdleDataAnchor(time);
+			}
 		}
 	};
 	
@@ -425,8 +427,12 @@ function GSActionPhase () {
 		var x = DecodeFloat32 (data, offset); 		offset+=4;
 		var y = DecodeFloat32 (data, offset); 		offset+=4;
 		
-		if (this.m_powerUps[id] == null)
+		if (this.m_powerUps[id] == null) {
+			cc.log('GSActionPhase create new PowerUp with id', id);
 			this.m_powerUps[id] = new PowerUp(this, id);
+		}else{
+			cc.log('GSActionPhase existed object PowerUp with id', id);
+		}
 		this.m_powerUps[id].AddDataAnchor(time, x, y, active, type);
 		
 		return offset - originalOffset;

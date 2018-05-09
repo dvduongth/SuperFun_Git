@@ -1,3 +1,5 @@
+var CANVAS_W = 1136;
+var CANVAS_H = 640;
 
 var g_canvas           	= null;
 var g_context         	= null;
@@ -202,6 +204,8 @@ var GuiLogin = BaseGui.extend({
 
         g_canvas = this;
         g_context = this;
+        CANVAS_W = gv.WIN_SIZE.width;
+        CANVAS_H = gv.WIN_SIZE.height;
 
         g_graphicEngine  = new GraphicEngine();
         g_particleEngine = new ParticleEngine();

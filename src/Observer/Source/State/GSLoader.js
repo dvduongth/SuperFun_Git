@@ -51,6 +51,7 @@ function GSLoader () {
 		cc.log('GSLoader update', deltaTime, 'state', instance.loadingStateToString(state));
 		switch (state) {
 			case STATE_LOADING_OWN_ASSETS:
+				cc.log('STATE_LOADING_OWN_ASSETS', g_graphicEngine.GetLoadingProgress());
 				if (g_graphicEngine.GetLoadingProgress() == 1) {
 					state = STATE_LOADING_OTHERS_ASSETS;
 					LoadAllState();
@@ -70,19 +71,24 @@ function GSLoader () {
 			case STATE_CONNECT_TO_SERVER:
 				if (g_replayFileName == "" && g_network.GetStatus() == SOCKET_CONNECTED) {
 					state = STATE_ALL_DONE;
+					cc.log("STATE_CONNECT_TO_SERVER assign state to STATE_ALL_DONE");
+				}else{
+					cc.log("STATE_CONNECT_TO_SERVER not assign", g_replayFileName, instance.loadingStateToString(g_network.GetStatus()));
 				}
 				break;
 			case STATE_ALL_DONE:
+				cc.log('STATE_ALL_DONE');
 				GoToActionPhase();
 				break;
 		}
 	};
 	
 	this.Draw = function () {
+		cc.log('GSLoader draw');
 		if(init){
 			init = false;
 			imgSplash.removeFromParent(false);
-			this.Init();
+			instance.Init();
 		}
 	};
 }

@@ -1,5 +1,6 @@
 function StateEngine() {
-    var DELTA_TIME_THRESHOLD = 200;
+    //var DELTA_TIME_THRESHOLD = 200;
+    var DELTA_TIME_THRESHOLD = 200000;
     var FADE_SPEED = 0.003;
 
     var instance = this;
@@ -65,9 +66,11 @@ function StateEngine() {
     this.SwitchState = function (state, fade) {
         cc.log('StateEngine switch state', state != null, fade);
         if (stateStack.length == 0) {
+            cc.log('stateStack push state');
             stateStack.push(state);
         } else {
             if (fade == null) fade = 0;
+            cc.log('fade option = ', fade);
             if (fade == 0) {
                 switchStep = 0;
                 switchAlpha = 0;
@@ -112,6 +115,6 @@ function StateEngine() {
 var requestAnimFrame = (function () {
     return function (callback) {
         //setTimeout(callback, 16);
-        setTimeout(callback, 1000);
+        setTimeout(callback, 5000);
     };
 })();

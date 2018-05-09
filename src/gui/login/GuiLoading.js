@@ -1,5 +1,3 @@
-//var CANVAS_W = 1180;
-//var CANVAS_H = 880;
 
 //var g_canvas           	= null;
 //var g_context         	= null;
@@ -166,5 +164,37 @@ var GuiLoading = BaseGui.extend({
 
         g_stateEngine.Start();
         GoToLoaderState();*/
-    }
+    },
+
+    /**
+     *load texture array by String
+     * @param {Array} textureArr
+     */
+    _numberOfSprites: 0,
+    _numberOfLoadedSprites: 0,
+    loadTextures: function(textureArr){
+        this._numberOfSprites += textureArr.length;
+
+        var texCache = cc.textureCache;
+        for(var i = 0; i < textureArr.length; ++i){
+            texCache.addImageAsync(textureArr[i], this.loadingCallBack, this);
+        }
+    },
+
+    loadingCallBack:function (obj) {
+        ++this._numberOfLoadedSprites;
+        //this._lbPercent.setString(((this._numberOfLoadedSprites / this._numberOfSprites) * 100).toFixed(1) + '%');
+        //this._imgProgessBar.setPercent((this._numberOfLoadedSprites / this._numberOfSprites) * 100);
+        if (this._numberOfLoadedSprites == this._numberOfSprites) {
+            this.loadDone();
+        }
+    },
+
+    /**
+     * auto call this function when all texture loaded
+     * may be change scene or whatever
+     */
+    loadDone: function(){
+        //cc.log("----> loading done");
+    },
 });

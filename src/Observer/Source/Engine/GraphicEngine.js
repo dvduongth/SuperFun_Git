@@ -36,11 +36,15 @@ function GraphicEngine() {
 
         // If not existed, load it
         imagePathArray[imageNumber] = path;
-        imageObjectArray[imageNumber] = cc.spriteFrameCache.addSpriteFrames(path);
+        //imageObjectArray[imageNumber] = cc.spriteFrameCache.addSpriteFrames(path);
         //imageObjectArray[imageNumber].src = path;
         //imageObjectArray[imageNumber].onload = function () {
-        imageLoadedNumber++;
+        //imageLoadedNumber++;
         //}
+        cc.textureCache.addImageAsync(path, function () {
+            ++imageLoadedNumber;
+        });
+
 
         // Return id
         return imageNumber++;
@@ -69,6 +73,9 @@ function GraphicEngine() {
     // Get image loading progress, return from 0 to 1 -------------------
     /**@return number from 0 to 1*/
     this.GetLoadingProgress = function () {
+        if(!imageNumber){
+            return 1;
+        }
         return imageLoadedNumber / imageNumber;
     };
     // ------------------------------------------------------------------
@@ -168,7 +175,7 @@ function GraphicEngine() {
         if (angle == null) angle = 0;
 
 
-        var image = this.GetImage(imageID);
+        var image = instance.GetImage(imageID);
 
         var save = angle || flipX || flipY;
 
@@ -245,7 +252,7 @@ function GraphicEngine() {
 
     // Draw an image quickly without setting param ----------------------
     this.DrawFast = function (context, imageID, dx, dy) {
-        var image = this.GetImage(imageID);
+        var image = instance.GetImage(imageID);
         context.opacity = alphaMax *  globalAlpha;
         context.addChild(image);
         image.attr({

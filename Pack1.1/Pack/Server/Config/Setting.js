@@ -121,7 +121,7 @@ exports.BASE_HP = BASE_HP;
 //exports.LOOPS_SUDDEN_DEATH 		= 60000 / exports.TIME_UPDATE_INTERVAL; //count the loops in 2 minutes (2*60*1000)
 //exports.LOOPS_MATCH_END			= 150000 / exports.TIME_UPDATE_INTERVAL; //count the loops in 2m30s
 
-exports.TIME_UPDATE_INTERVAL 	= 3000; //millisecond
+exports.TIME_UPDATE_INTERVAL 	= 1000; //millisecond
 exports.POWERUP_INTERVAL		= 300000  / exports.TIME_UPDATE_INTERVAL;
 exports.LOOPS_SUDDEN_DEATH 		= 600000 / exports.TIME_UPDATE_INTERVAL; //count the loops in 2 minutes (2*60*1000)
 exports.LOOPS_MATCH_END			= 1500000 / exports.TIME_UPDATE_INTERVAL; //count the loops in 2m30s

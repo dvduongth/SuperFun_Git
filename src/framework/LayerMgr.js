@@ -2,8 +2,6 @@
  * Created by user on 21/10/2015.
  */
 
-var MAX_LAYER = 7;
-
 var LayerId = {
     LAYER_BG_GAME: 0,
     LAYER_GAME: 1,
@@ -13,7 +11,7 @@ var LayerId = {
     LAYER_CURSOR: 5,
     LAYER_LOADING: 6
 };
-
+var MAX_LAYER = Object.keys(LayerId).length;
 var LayerMgr = cc.Class.extend({
     layerList: [],
 

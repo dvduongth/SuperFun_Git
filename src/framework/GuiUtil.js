@@ -5,17 +5,20 @@
 var GuiUtil = GuiUtil || {};
 
 fr.createSprite = function(name) {
-
+    cc.log('create sprite with name', name);
     if ((typeof name == "undefined")|| (name =="")){
+        cc.log('create new sprite with undefined name', name);
         return new cc.Sprite();
     }
     else{
         if(cc.spriteFrameCache.getSpriteFrame(name))
         {
+            cc.log('create new sprite with spriteFrameCache', name);
             return new cc.Sprite("#" + name);
         }
         else
         {
+            cc.log('create new sprite without cache', name);
             return new cc.Sprite(name);
         }
     }
@@ -23,6 +26,7 @@ fr.createSprite = function(name) {
 
 fr.changeSprite = function(sprite, name) {
     if (cc.spriteFrameCache.getSpriteFrame(name)) {
+        cc.log('fr.changeSprite with cache');
         sprite.setSpriteFrame(name);
     }
     else {

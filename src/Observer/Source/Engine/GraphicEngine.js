@@ -20,10 +20,10 @@ function GraphicEngine() {
     /**
      * @return {number} id
      * */
-    // Load an image right away ----------------------------------------
+        // Load an image right away ----------------------------------------
     this.LoadImage = function (path) {
         var searchPath = "src/Observer/";
-        if(path && path.indexOf(searchPath) == -1) {
+        if (path && path.indexOf(searchPath) == -1) {
             path = searchPath + path;
         }
         cc.log('graphic engine load image', path);
@@ -58,6 +58,7 @@ function GraphicEngine() {
      * */
     this.GetImage = function (id) {
         //return imageObjectArray[id];
+        cc.log('GraphicEngine GetImage with id', id, imagePathArray[id]);
         return fr.createSprite(imagePathArray[id]);
     };
     // ------------------------------------------------------------------
@@ -73,7 +74,7 @@ function GraphicEngine() {
     // Get image loading progress, return from 0 to 1 -------------------
     /**@return number from 0 to 1*/
     this.GetLoadingProgress = function () {
-        if(!imageNumber){
+        if (!imageNumber) {
             return 1;
         }
         return imageLoadedNumber / imageNumber;
@@ -85,11 +86,13 @@ function GraphicEngine() {
 
     //================================ RENDERER =====================================
     this.SetGlobalAlpha = function (alpha) {
+        cc.log("GraphicEngine SetGlobalAlpha", alpha);
         globalAlpha = alpha;
     };
 
     // Clear entire canvas or a portion of it ---------------------------
     this.ClearCanvas = function (canvas, context, x, y, w, h) {
+        cc.log("GraphicEngine ClearCanvas", !!canvas, !!context, x, y, w, h);
         if (x == null) x = 0;
         if (y == null) y = 0;
         if (w == null) w = CANVAS_W;
@@ -97,10 +100,10 @@ function GraphicEngine() {
 
         if (x < 0) x = 0;
         if (y < 0) y = 0;
-        if(canvas) {
+        if (canvas) {
             if (x + w > canvas.width) x = canvas.width - w;
             if (y + h > canvas.height) y = canvas.height - h;
-            if(context.removeAllChildren){
+            if (context.removeAllChildren) {
                 context.removeAllChildren();
             }
         }
@@ -109,7 +112,8 @@ function GraphicEngine() {
 
 
     this.CopyCanvas = function (desContext, sourceCanvas, sx, sy, sw, sh, dx, dy, dw, dh, alpha) {
-        if(sourceCanvas && desContext) {
+        cc.log("GraphicEngine CopyCanvas", !!desContext, !!sourceCanvas, sx, sy, sw, sh, dx, dy, dw, dh, alpha);
+        if (sourceCanvas && desContext) {
             if (sw == null) sw = sourceCanvas.width;
             if (sh == null) sh = sourceCanvas.height;
             if (dw == null) dw = sourceCanvas.width;
@@ -126,21 +130,26 @@ function GraphicEngine() {
 
             if (alpha * globalAlpha > 0) {
                 desContext.opacity = alphaMax * alpha * globalAlpha;
-                if(desContext.addChild){
+                if (desContext.addChild) {
                     desContext.addChild(sourceCanvas);
                     //sx, sy, sw, sh, dx, dy, dw, dh
                     sourceCanvas.attr({
+                        anchorX: 0,
+                        anchorY: 0,
                         x: sx,
                         y: sy
                     });
                 }
                 desContext.opacity = alphaMax * globalAlpha;
             }
+        } else {
+            cc.error("not exist desContext or sourceCanvas ", !!desContext, !!sourceCanvas);
         }
     };
 
 
     this.FillCanvas = function (context, r, g, b, alpha, x, y, w, h) {
+        cc.log("GraphicEngine FillCanvas", !!context, r, g, b, alpha, x, y, w, h);
         if (x == null) x = 0;
         if (y == null) y = 0;
         if (w == null) w = CANVAS_W;
@@ -150,21 +159,36 @@ function GraphicEngine() {
         if (alpha > 1) alpha = 1;
         if (alpha < 0) alpha = 0;
 
-        if(context) {
+        if (context) {
             context.opacity = alphaMax * alpha * globalAlpha;
             context.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
-            if(context.setColor){
+            if (context.setColor) {
                 context.setColor(cc.color(r, g, b));
                 context.attr({
-                    x: x, y: y, width: w, height: h
+                    anchorX: 0,
+                    anchorY: 0,
+                    x: x,
+                    y: y,
+                    width: w,
+                    height: h
                 });
             }
             context.opacity = alphaMax * globalAlpha;
+        } else {
+            cc.error("not exist context", !!context);
         }
     };
 
     // Draw a loaded image to the canvas context ------------------------
     this.Draw = function (context, imageID, sx, sy, sw, sh, dx, dy, dw, dh, alpha, flipX, flipY, angle, cx, cy) {
+        cc.log("GraphicEngine Draw with option:", !!context);
+        cc.log("imageID", imageID, "sx", sx, "sy", sy,
+            "sw", sw, "sh", sh,
+            "dx", dx, "dy", dy,
+            "dw", dw, "dh", dh,
+            "alpha", alpha, "flipX", flipX, "flipY", flipY, "angle", angle,
+            "cx", cx, "cy", cy);
+
         if (alpha == null) alpha = 1;
 
         if (alpha > 1) alpha = 1;
@@ -179,7 +203,10 @@ function GraphicEngine() {
 
         var save = angle || flipX || flipY;
 
-        if (save && context.retain) context.retain();
+        if (save && context.retain) {
+            cc.log('save --> retain context');
+            context.retain();
+        }
 
         var signX = (flipX == 0) ? 1 : -1;
         var signY = (flipY == 0) ? 1 : -1;
@@ -239,24 +266,37 @@ function GraphicEngine() {
             context.addChild(image);
             //sx, sy, sw, sh, dx, dy, dw, dh
             image.attr({
-                x: dx, y: dy, width: dw, height: dh
+                anchorX: 0,
+                anchorY: 0,
+                x: dx,
+                y: dy,
+                width: dw,
+                height: dh
             });
             context.opacity = alphaMax * globalAlpha;
         }
 
 
-        if (save && context.release) context.release();
+        if (save && context.release) {
+            cc.log('release context');
+            context.release();
+        }
     };
     // ------------------------------------------------------------------
 
 
     // Draw an image quickly without setting param ----------------------
     this.DrawFast = function (context, imageID, dx, dy) {
+        cc.log("GraphicEngine Draw an image quickly without setting param", !!context);
+        cc.log("imageID", imageID, "dx", dx, "dy", dy);
         var image = instance.GetImage(imageID);
-        context.opacity = alphaMax *  globalAlpha;
+        context.opacity = alphaMax * globalAlpha;
         context.addChild(image);
         image.attr({
-            x:dx, y: dy
+            anchorX: 0,
+            anchorY: 0,
+            x: dx,
+            y: dy
         });
         context.opacity = alphaMax;
     };
@@ -265,6 +305,8 @@ function GraphicEngine() {
 
     // Set draw mode
     this.SetDrawModeAddActive = function (context, active) {
+        cc.log("GraphicEngine SetDrawModeAddActive Set draw mode", !!context);
+        cc.log("active", active);
         if (active == true) {
             context.globalCompositeOperation = "lighter";
         }
@@ -280,6 +322,12 @@ function GraphicEngine() {
 
 
     this.DrawTextRGB = function (context, text, x, y, w, font, size, bold, italic, alignW, alignH, red, green, blue, alpha, breakLine, stroke, strokeR, strokeG, strokeB) {
+        cc.log("GraphicEngine DrawTextRGB", !!context);
+        cc.log("text", text, "x", x, "y", y, "w", w,
+            "font", font, "size", size, "bold", bold, "italic", italic, "italic", italic,
+            "more: ", alignW, alignH, red, green, blue, alpha
+        );
+
         if (alpha == null) alpha = 1;
         if (alpha < 1) {
             context.opacity = alphaMax * alpha * globalAlpha;
@@ -291,10 +339,9 @@ function GraphicEngine() {
             font = res.FONT_GAME_BOLD;
         else
             bold = false;
-        if (italic == true)
-        {
+        if (italic == true) {
             font = res.FONT_GAME_ITALIC;
-            if(bold){
+            if (bold) {
                 font = res.FONT_GAME_BOLD_ITALIC;
             }
         }
@@ -309,7 +356,12 @@ function GraphicEngine() {
         lb.setColor(cc.color(red, green, blue));
         lb.setTextAreaSize(cc.size(w, 0));
         context.addChild(lb);
-        lb.attr({x: x, y: y});
+        lb.attr({
+            anchorX: 0,
+            anchorY: 0,
+            x: x,
+            y: y
+        });
         if (alpha < 1) {
             context.opacity = alphaMax * globalAlpha;
         }
@@ -318,24 +370,27 @@ function GraphicEngine() {
 
 
     this.DrawCircle = function (context, centerX, centerY, radius, lineWidth, red, green, blue, alpha) {
+        cc.log("GraphicEngine require DrawCircle", !!context, centerX, centerY, radius, lineWidth, red, green, blue, alpha);
         /*context.beginPath();
-        context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
-        context.lineWidth = lineWidth;
-        context.strokeStyle = "rgba(" + red + "," + green + "," + blue + "," + alpha + ")";
-        context.stroke();*/
+         context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+         context.lineWidth = lineWidth;
+         context.strokeStyle = "rgba(" + red + "," + green + "," + blue + "," + alpha + ")";
+         context.stroke();*/
     };
 
     this.DrawRect = function (context, x, y, w, h, lineWidth, red, green, blue, alpha) {
+        cc.log("GraphicEngine require DrawRect", !!context, x, y, w, h, lineWidth, red, green, blue, alpha);
         /*context.beginPath();
-        context.rect(x, y, w, h);
-        context.lineWidth = lineWidth;
-        context.strokeStyle = "rgba(" + red + "," + green + "," + blue + "," + alpha + ")";
-        context.stroke();*/
+         context.rect(x, y, w, h);
+         context.lineWidth = lineWidth;
+         context.strokeStyle = "rgba(" + red + "," + green + "," + blue + "," + alpha + ")";
+         context.stroke();*/
     };
 }
 
 
 function DrawTextRequest(text, w, font, size, bold, italic, alignW, alignH, red, green, blue, breakLine, stroke, strokeR, strokeG, strokeB) {
+    cc.log("GraphicEngine DrawTextRequest", text, w, font, size, bold, italic, alignW, alignH, red, green, blue, breakLine, stroke, strokeR, strokeG, strokeB);
     this.m_text = text;
     this.m_w = w;
     this.m_font = font;

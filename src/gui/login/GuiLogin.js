@@ -202,8 +202,10 @@ var GuiLogin = BaseGui.extend({
             sender.setVisible(false);
         }
 
-        g_canvas = this;
-        g_context = this;
+        g_canvas = gv.layerMgr.getLayerByIndex(LayerId.LAYER_GUI);
+        g_context = gv.layerMgr.getLayerByIndex(LayerId.LAYER_LOADING);
+        //g_context = this._rootNode;
+
         CANVAS_W = gv.WIN_SIZE.width;
         CANVAS_H = gv.WIN_SIZE.height;
 

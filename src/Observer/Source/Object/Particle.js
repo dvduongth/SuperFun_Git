@@ -1,4 +1,5 @@
 function ParticleDef() {
+	var instance = this;
 	this.CreatePlaneSmokeEmitter = function () {
 		var source = new SourceRect(0, 0, 0, 50, 50);
 		source.m_id = g_graphicEngine.LoadImage("Image/Particle/WhiteSmoke.png");

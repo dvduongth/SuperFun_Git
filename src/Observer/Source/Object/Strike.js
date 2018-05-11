@@ -1,4 +1,5 @@
 function Strike (game, id, team) {
+	var instance = this;
 	var AIRPLANE_OFFSET = -50;
 	var AIRPLANE_SPRITE_SIZE = 250;
 	var AIRPLANE_SMOKE_OFFSET_X_1 = 35;
@@ -14,12 +15,12 @@ function Strike (game, id, team) {
 	
 	// An array to contain state in the past
 	function DataAnchor() {
-		this.m_time = 0;
-		this.m_type = 0;
-		this.m_x = 0;
-		this.m_y = 0;
-		this.m_countDown = 0;
-		this.m_live = false;
+		instance.m_time = 0;
+		instance.m_type = 0;
+		instance.m_x = 0;
+		instance.m_y = 0;
+		instance.m_countDown = 0;
+		instance.m_live = false;
 	}
 	this.m_data = [];
 	
@@ -69,17 +70,17 @@ function Strike (game, id, team) {
 		else if (tempAnchor.m_type == POWERUP_EMP && countDown == 0) {
 			game.SpawnExplosion (time, EXPLOSION_EMP, tempAnchor.m_x, tempAnchor.m_y );
 		}
-		
-		this.m_data.push (tempAnchor);
+
+		instance.m_data.push (tempAnchor);
 		dirty = true;
-	}
+	};
 
 	// Clone a new state, at a new time, but with old data like previous state
 	// This process to make a contiuous timeline. You can think of it as a fake update
 	// We won't do it if was updated by a real packet.
 	this.AddIdleDataAnchor = function (time) {
 		if (!dirty) {
-			var previousAnchor = this.m_data[this.m_data.length-1];
+			var previousAnchor = instance.m_data[instance.m_data.length-1];
 			
 			if (previousAnchor) {
 				var tempAnchor = new DataAnchor();
@@ -89,13 +90,13 @@ function Strike (game, id, team) {
 				tempAnchor.m_y = previousAnchor.m_y;
 				tempAnchor.m_countDown = previousAnchor.m_countDown;
 				tempAnchor.m_live = previousAnchor.m_live;
-				this.m_data.push (tempAnchor);
+				instance.m_data.push (tempAnchor);
 			}
 		}
 		else {
 			dirty = false;
 		}
-	}
+	};
 
 	// Update function, called with a specific moment in the timeline
 	// We gonna interpolate all state, based on the data anchors.
@@ -103,50 +104,50 @@ function Strike (game, id, team) {
 		var prevAnchor = null;
 		var nextAnchor = null;
 		
-		for (var i=0; i<this.m_data.length-1; i++) {
-			if (time >= this.m_data[i].m_time && time < this.m_data[i+1].m_time) {
-				prevAnchor = this.m_data[i];
-				nextAnchor = this.m_data[i+1];
+		for (var i=0; i<instance.m_data.length-1; i++) {
+			if (time >= instance.m_data[i].m_time && time < instance.m_data[i+1].m_time) {
+				prevAnchor = instance.m_data[i];
+				nextAnchor = instance.m_data[i+1];
 				break;
 			}
 		}
 		
 		if (prevAnchor) {
-			this.m_x = prevAnchor.m_x;
-			this.m_y = prevAnchor.m_y;
-			this.m_type = prevAnchor.m_type;
+			instance.m_x = prevAnchor.m_x;
+			instance.m_y = prevAnchor.m_y;
+			instance.m_type = prevAnchor.m_type;
 			
 			var interpolateFactor = (time - prevAnchor.m_time) / (nextAnchor.m_time - prevAnchor.m_time);
-			this.m_countDown = prevAnchor.m_countDown + (nextAnchor.m_countDown - prevAnchor.m_countDown) * interpolateFactor;
+			instance.m_countDown = prevAnchor.m_countDown + (nextAnchor.m_countDown - prevAnchor.m_countDown) * interpolateFactor;
 			
 			
-			if (this.m_live == false && prevAnchor.m_live == true) {
+			if (instance.m_live == false && prevAnchor.m_live == true) {
 				g_soundEngine.PlaySound (sndPlane);
 			}
-			this.m_live = prevAnchor.m_live;
+			instance.m_live = prevAnchor.m_live;
 		}
 		else {
-			this.m_live = false;
+			instance.m_live = false;
 		}
-	}
+	};
 	
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
-		if (this.m_live) {
-			if (this.m_countDown > 0 && this.m_type == POWERUP_AIRSTRIKE) {
-				g_graphicEngine.DrawFast (g_context, imgAirPlane[this.m_team], this.m_x * BLOCK_SIZE + AIRPLANE_OFFSET + g_gsActionPhase.m_screenShakeX, -AIRPLANE_SPRITE_SIZE + this.m_countDown * (CANVAS_H + AIRPLANE_SPRITE_SIZE) / AIRSTRIKE_COUNTDOWN + g_gsActionPhase.m_screenShakeY);
+		if (instance.m_live) {
+			if (instance.m_countDown > 0 && instance.m_type == POWERUP_AIRSTRIKE) {
+				g_graphicEngine.DrawFast (g_context, imgAirPlane[instance.m_team], instance.m_x * BLOCK_SIZE + AIRPLANE_OFFSET + g_gsActionPhase.m_screenShakeX, -AIRPLANE_SPRITE_SIZE + instance.m_countDown * (CANVAS_H + AIRPLANE_SPRITE_SIZE) / AIRSTRIKE_COUNTDOWN + g_gsActionPhase.m_screenShakeY);
 			}
-			else if (this.m_countDown > 0 && this.m_type == POWERUP_EMP) {
-				g_graphicEngine.DrawFast (g_context, imgAirPlane[this.m_team], this.m_x * BLOCK_SIZE + AIRPLANE_OFFSET + g_gsActionPhase.m_screenShakeX, -AIRPLANE_SPRITE_SIZE + this.m_countDown * (CANVAS_H + AIRPLANE_SPRITE_SIZE) / AIRSTRIKE_COUNTDOWN + g_gsActionPhase.m_screenShakeY);
+			else if (instance.m_countDown > 0 && instance.m_type == POWERUP_EMP) {
+				g_graphicEngine.DrawFast (g_context, imgAirPlane[instance.m_team], instance.m_x * BLOCK_SIZE + AIRPLANE_OFFSET + g_gsActionPhase.m_screenShakeX, -AIRPLANE_SPRITE_SIZE + instance.m_countDown * (CANVAS_H + AIRPLANE_SPRITE_SIZE) / AIRSTRIKE_COUNTDOWN + g_gsActionPhase.m_screenShakeY);
 			}
 			
 			whiteSmoke[0].Resume();
-			whiteSmoke[0].m_x = this.m_x * BLOCK_SIZE + AIRPLANE_OFFSET + AIRPLANE_SMOKE_OFFSET_X_1;
-			whiteSmoke[0].m_y = -AIRPLANE_SPRITE_SIZE + this.m_countDown * (CANVAS_H + AIRPLANE_SPRITE_SIZE) / AIRSTRIKE_COUNTDOWN + AIRPLANE_SMOKE_OFFSET_Y_1;
+			whiteSmoke[0].m_x = instance.m_x * BLOCK_SIZE + AIRPLANE_OFFSET + AIRPLANE_SMOKE_OFFSET_X_1;
+			whiteSmoke[0].m_y = -AIRPLANE_SPRITE_SIZE + instance.m_countDown * (CANVAS_H + AIRPLANE_SPRITE_SIZE) / AIRSTRIKE_COUNTDOWN + AIRPLANE_SMOKE_OFFSET_Y_1;
 			
 			whiteSmoke[1].Resume();
-			whiteSmoke[1].m_x = this.m_x * BLOCK_SIZE + AIRPLANE_OFFSET + AIRPLANE_SMOKE_OFFSET_X_2;
-			whiteSmoke[1].m_y = -AIRPLANE_SPRITE_SIZE + this.m_countDown * (CANVAS_H + AIRPLANE_SPRITE_SIZE) / AIRSTRIKE_COUNTDOWN + AIRPLANE_SMOKE_OFFSET_Y_2;
+			whiteSmoke[1].m_x = instance.m_x * BLOCK_SIZE + AIRPLANE_OFFSET + AIRPLANE_SMOKE_OFFSET_X_2;
+			whiteSmoke[1].m_y = -AIRPLANE_SPRITE_SIZE + instance.m_countDown * (CANVAS_H + AIRPLANE_SPRITE_SIZE) / AIRSTRIKE_COUNTDOWN + AIRPLANE_SMOKE_OFFSET_Y_2;
 		}
 		else {
 			whiteSmoke[0].Pause();

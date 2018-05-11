@@ -1,4 +1,5 @@
 function Obstacle (game, id) {
+	var instance = this;
 	var OBSTACLE_HP = 100;
 	
 	// Identifier
@@ -6,9 +7,9 @@ function Obstacle (game, id) {
 
 	// An array to contain state in the past
 	function DataAnchor() {
-		this.m_x = 0;
-		this.m_y = 0;
-		this.m_HP = 0;
+		instance.m_x = 0;
+		instance.m_y = 0;
+		instance.m_HP = 0;
 	}
 	this.m_data = [];
 	
@@ -37,10 +38,10 @@ function Obstacle (game, id) {
 		tempAnchor.m_x = x;
 		tempAnchor.m_y = y;
 		tempAnchor.m_HP = HP;
-		this.m_data.push (tempAnchor);
+		instance.m_data.push (tempAnchor);
 		
 		dirty = true;
-	}
+	};
 
 	// Clone a new state, at a new time, but with old data like previous state
 	// This process to make a contiuous timeline. You can think of it as a fake update
@@ -61,45 +62,45 @@ function Obstacle (game, id) {
 		else {
 			dirty = false;
 		}
-	}
+	};
 
 	// Update function, called with a specific moment in the timeline
 	// We gonna interpolate all state, based on the data anchors.
 	this.Update = function (time) {
 		var prevAnchor = null;
 		
-		for (var i=0; i<this.m_data.length-1; i++) {
-			if (time >= this.m_data[i].m_time && time < this.m_data[i+1].m_time) {
-				prevAnchor = this.m_data[i];
+		for (var i=0; i<instance.m_data.length-1; i++) {
+			if (time >= instance.m_data[i].m_time && time < instance.m_data[i+1].m_time) {
+				prevAnchor = instance.m_data[i];
 				break;
 			}
 		}
 		
 		if (prevAnchor) {
-			this.m_x = prevAnchor.m_x;
-			this.m_y = prevAnchor.m_y;
-			this.m_HP = prevAnchor.m_HP;
+			instance.m_x = prevAnchor.m_x;
+			instance.m_y = prevAnchor.m_y;
+			instance.m_HP = prevAnchor.m_HP;
 			
 			shouldDraw = true;
 		}
 		else {
 			shouldDraw = false;
 		}
-	}
+	};
 	
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
 		if (shouldDraw) {
-			if(this.m_HP > OBSTACLE_HP * 0.75)
-				g_graphicEngine.DrawFast (g_context, imgBrick[0], this.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
-			else if(this.m_HP > OBSTACLE_HP * 0.5)
-				g_graphicEngine.DrawFast (g_context, imgBrick[1], this.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
-			else if(this.m_HP > OBSTACLE_HP * 0.25)
-				g_graphicEngine.DrawFast (g_context, imgBrick[2], this.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
-			else if(this.m_HP > 0)
-				g_graphicEngine.DrawFast (g_context, imgBrick[3], this.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
+			if(instance.m_HP > OBSTACLE_HP * 0.75)
+				g_graphicEngine.DrawFast (g_context, imgBrick[0], instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
+			else if(instance.m_HP > OBSTACLE_HP * 0.5)
+				g_graphicEngine.DrawFast (g_context, imgBrick[1], instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
+			else if(instance.m_HP > OBSTACLE_HP * 0.25)
+				g_graphicEngine.DrawFast (g_context, imgBrick[2], instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
+			else if(instance.m_HP > 0)
+				g_graphicEngine.DrawFast (g_context, imgBrick[3], instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
 			else
-				g_graphicEngine.DrawFast (g_context, imgBrick[4], this.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
+				g_graphicEngine.DrawFast (g_context, imgBrick[4], instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
 		}
 	}
 }

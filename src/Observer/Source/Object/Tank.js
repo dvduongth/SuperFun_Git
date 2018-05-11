@@ -1,4 +1,5 @@
 function Tank (game, id, team, type) {
+	var instance = this;
 	var TANK_SHADOW_OFFSET = 3;
 	var HP_BAR_OFFSET = -5;
 	
@@ -18,13 +19,13 @@ function Tank (game, id, team, type) {
 	
 	// An array to contain state in the past
 	function DataAnchor() {
-		this.m_time = 0;
-		this.m_x = 0;
-		this.m_y = 0;
-		this.m_direction = 0;
-		this.m_HP = 0;
-		this.m_coolDown = 0;
-		this.m_disabled = 0;
+		instance.m_time = 0;
+		instance.m_x = 0;
+		instance.m_y = 0;
+		instance.m_direction = 0;
+		instance.m_HP = 0;
+		instance.m_coolDown = 0;
+		instance.m_disabled = 0;
 	}
 	this.m_data = [];
 	
@@ -114,8 +115,8 @@ function Tank (game, id, team, type) {
 		tempAnchor.m_disabled = disabled;
 		
 		// Check previous data node.
-		if (this.m_data.length > 0) {
-			var previousAnchor = this.m_data[this.m_data.length-1];
+		if (instance.m_data.length > 0) {
+			var previousAnchor = instance.m_data[instance.m_data.length-1];
 			
 			// Suddenly, the tank HP go to 0. It must have been killed.
 			// We'll create a small explosion here.
@@ -125,7 +126,7 @@ function Tank (game, id, team, type) {
 			
 			// If the cooldown suddenly increase, it must have just shot something.
 			if (previousAnchor.m_coolDown < tempAnchor.m_coolDown) {
-				if (this.m_type != TANK_HEAVY) {
+				if (instance.m_type != TANK_HEAVY) {
 					if (tempAnchor.m_direction == DIRECTION_UP) {
 						game.SpawnExplosion (time, EXPLOSION_CANNON_MUZZLE, tempAnchor.m_x, tempAnchor.m_y - CANNON_MUZZLE_OFFSET, 0);
 					}
@@ -159,17 +160,17 @@ function Tank (game, id, team, type) {
 				}
 			}
 		}
-		
-		this.m_data.push (tempAnchor);
+
+		instance.m_data.push (tempAnchor);
 		dirty = true;
-	}
+	};
 
 	// Clone a new state, at a new time, but with old data like previous state
 	// This process to make a contiuous timeline. You can think of it as a fake update
 	// We won't do it if was updated by a real packet.
 	this.AddIdleDataAnchor = function (time) {
 		if (!dirty) {
-			var previousAnchor = this.m_data[this.m_data.length-1];
+			var previousAnchor = instance.m_data[instance.m_data.length-1];
 			
 			if (previousAnchor) {
 				var tempAnchor = new DataAnchor();
@@ -180,17 +181,17 @@ function Tank (game, id, team, type) {
 				tempAnchor.m_HP = previousAnchor.m_HP;
 				tempAnchor.m_coolDown = previousAnchor.m_coolDown;
 				tempAnchor.m_disabled = previousAnchor.m_disabled;
-				this.m_data.push (tempAnchor);
+				instance.m_data.push (tempAnchor);
 			}
 		}
 		else {
 			dirty = false;
 		}
-	}
+	};
 
 	this.Hit = function () {
 		
-	}
+	};
 	
 	// Update function, called with a specific moment in the timeline
 	// We gonna interpolate all state, based on the data anchors.
@@ -198,76 +199,76 @@ function Tank (game, id, team, type) {
 		var prevAnchor = null;
 		var nextAnchor = null;
 		
-		for (var i=0; i<this.m_data.length-1; i++) {
-			if (time >= this.m_data[i].m_time && time < this.m_data[i+1].m_time) {
-				prevAnchor = this.m_data[i];
-				nextAnchor = this.m_data[i+1];
+		for (var i=0; i<instance.m_data.length-1; i++) {
+			if (time >= instance.m_data[i].m_time && time < instance.m_data[i+1].m_time) {
+				prevAnchor = instance.m_data[i];
+				nextAnchor = instance.m_data[i+1];
 				break;
 			}
 		}
 		
 		if (prevAnchor && nextAnchor) {
 			var interpolateFactor = (time - prevAnchor.m_time) / (nextAnchor.m_time - prevAnchor.m_time);
-			this.m_x = prevAnchor.m_x + (nextAnchor.m_x - prevAnchor.m_x) * interpolateFactor;
-			this.m_y = prevAnchor.m_y + (nextAnchor.m_y - prevAnchor.m_y) * interpolateFactor;
-			this.m_disabled = prevAnchor.m_disabled + (nextAnchor.m_disabled - prevAnchor.m_disabled) * interpolateFactor;
-			this.m_direction = prevAnchor.m_direction;
-			this.m_HP = prevAnchor.m_HP;
-			this.m_coolDown = prevAnchor.m_coolDown;
+			instance.m_x = prevAnchor.m_x + (nextAnchor.m_x - prevAnchor.m_x) * interpolateFactor;
+			instance.m_y = prevAnchor.m_y + (nextAnchor.m_y - prevAnchor.m_y) * interpolateFactor;
+			instance.m_disabled = prevAnchor.m_disabled + (nextAnchor.m_disabled - prevAnchor.m_disabled) * interpolateFactor;
+			instance.m_direction = prevAnchor.m_direction;
+			instance.m_HP = prevAnchor.m_HP;
+			instance.m_coolDown = prevAnchor.m_coolDown;
 			
 			shouldDraw = true;
 		}
 		else {
 			shouldDraw = false;
 		}
-	}
+	};
 	
 	
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
 		if (shouldDraw) {
 			var angle = 0;
-			if (this.m_direction == DIRECTION_UP) {
+			if (instance.m_direction == DIRECTION_UP) {
 				angle = 0;
 			}
-			else if (this.m_direction == DIRECTION_RIGHT) {
+			else if (instance.m_direction == DIRECTION_RIGHT) {
 				angle = 90;
 			}
-			else if (this.m_direction == DIRECTION_DOWN) {
+			else if (instance.m_direction == DIRECTION_DOWN) {
 				angle = 180;
 			}
-			else if (this.m_direction == DIRECTION_LEFT) {
+			else if (instance.m_direction == DIRECTION_LEFT) {
 				angle = 270;
 			}
 			
-			g_graphicEngine.Draw (g_context, imgTankS[this.m_team][this.m_type], 0, 0, BLOCK_SIZE, BLOCK_SIZE, this.m_x * BLOCK_SIZE + TANK_SHADOW_OFFSET + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + TANK_SHADOW_OFFSET + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
+			g_graphicEngine.Draw (g_context, imgTankS[instance.m_team][instance.m_type], 0, 0, BLOCK_SIZE, BLOCK_SIZE, instance.m_x * BLOCK_SIZE + TANK_SHADOW_OFFSET + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + TANK_SHADOW_OFFSET + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
 			
-			if (this.m_HP > TANK_MAX_HP[this.m_type] * 0.67) {
+			if (instance.m_HP > TANK_MAX_HP[instance.m_type] * 0.67) {
 				blackSmoke.Pause();
-				g_graphicEngine.Draw (g_context, imgTank[this.m_team][this.m_type][0], 0, 0, BLOCK_SIZE, BLOCK_SIZE, this.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
+				g_graphicEngine.Draw (g_context, imgTank[instance.m_team][instance.m_type][0], 0, 0, BLOCK_SIZE, BLOCK_SIZE, instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
 			}
-			else if (this.m_HP > TANK_MAX_HP[this.m_type] * 0.33) {
+			else if (instance.m_HP > TANK_MAX_HP[instance.m_type] * 0.33) {
 				blackSmoke.Resume();
 				blackSmoke.m_emitRate = 0.005;
-				g_graphicEngine.Draw (g_context, imgTank[this.m_team][this.m_type][1], 0, 0, BLOCK_SIZE, BLOCK_SIZE, this.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
+				g_graphicEngine.Draw (g_context, imgTank[instance.m_team][instance.m_type][1], 0, 0, BLOCK_SIZE, BLOCK_SIZE, instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
 			}
-			else if (this.m_HP > 0) {
+			else if (instance.m_HP > 0) {
 				blackSmoke.Resume();
 				blackSmoke.m_emitRate = 0.02;
-				g_graphicEngine.Draw (g_context, imgTank[this.m_team][this.m_type][2], 0, 0, BLOCK_SIZE, BLOCK_SIZE, this.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
+				g_graphicEngine.Draw (g_context, imgTank[instance.m_team][instance.m_type][2], 0, 0, BLOCK_SIZE, BLOCK_SIZE, instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
 			}
 			else {
 				blackSmoke.Resume();
 				blackSmoke.m_emitRate = 0.04;
-				g_graphicEngine.Draw (g_context, imgTank[this.m_team][this.m_type][3], 0, 0, BLOCK_SIZE, BLOCK_SIZE, this.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
+				g_graphicEngine.Draw (g_context, imgTank[instance.m_team][instance.m_type][3], 0, 0, BLOCK_SIZE, BLOCK_SIZE, instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
 			}
-			blackSmoke.m_x = (this.m_x + 0.5) * BLOCK_SIZE;
-			blackSmoke.m_y = (this.m_y + 0.5) * BLOCK_SIZE;
+			blackSmoke.m_x = (instance.m_x + 0.5) * BLOCK_SIZE;
+			blackSmoke.m_y = (instance.m_y + 0.5) * BLOCK_SIZE;
 			
-			if (this.m_HP > 0) {
-				g_graphicEngine.FillCanvas (g_context, 192, 0, 0, 1, this.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY + HP_BAR_OFFSET, BLOCK_SIZE, 4);
-				g_graphicEngine.FillCanvas (g_context, 0, 192, 0, 1, this.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY + HP_BAR_OFFSET, BLOCK_SIZE * (this.m_HP / TANK_MAX_HP[this.m_type]), 4);
+			if (instance.m_HP > 0) {
+				g_graphicEngine.FillCanvas (g_context, 192, 0, 0, 1, instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY + HP_BAR_OFFSET, BLOCK_SIZE, 4);
+				g_graphicEngine.FillCanvas (g_context, 0, 192, 0, 1, instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY + HP_BAR_OFFSET, BLOCK_SIZE * (instance.m_HP / TANK_MAX_HP[instance.m_type]), 4);
 			}
 		}
-	}
+	};
 }

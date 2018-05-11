@@ -1,4 +1,5 @@
 function Explosion (game, id) {
+	var instance = this;
 	var EXPLOSION_SPEED = [];
 	EXPLOSION_SPEED[EXPLOSION_TANK] = 4;
 	EXPLOSION_SPEED[EXPLOSION_CANNON] = 5;
@@ -60,13 +61,13 @@ function Explosion (game, id) {
 		
 	// An array to contain state in the past
 	function DataAnchor() {
-		this.m_time = 0;
-		this.m_type = 0;
-		this.m_x = 0;
-		this.m_y = 0;
-		this.m_angle = 0;
-		this.m_flipX = false;
-		this.m_flipY = false;
+		instance.m_time = 0;
+		instance.m_type = 0;
+		instance.m_x = 0;
+		instance.m_y = 0;
+		instance.m_angle = 0;
+		instance.m_flipX = false;
+		instance.m_flipY = false;
 	}
 	this.m_data = [];
 	
@@ -123,116 +124,116 @@ function Explosion (game, id) {
 		else tempAnchor.m_flipX = flipX;
 		if (flipY == null)  tempAnchor.m_flipY = false;
 		else tempAnchor.m_flipY = flipY;
-		
-		this.m_data.push (tempAnchor);
-	}
+
+		instance.m_data.push (tempAnchor);
+	};
 	
 	// Update function, called with a specific moment in the timeline
 	// We gonna interpolate all state, based on the data anchors.
 	this.Update = function (time) {
 		var anchor = null;
 		
-		if (this.m_data.length > 0) {
-			anchor = this.m_data[this.m_data.length-1];
+		if (instance.m_data.length > 0) {
+			anchor = instance.m_data[instance.m_data.length-1];
 		}
 		
-		for (var i=0; i<this.m_data.length-1; i++) {
-			if (time >= this.m_data[i].m_time && time < this.m_data[i+1].m_time) {
-				anchor = this.m_data[i];
+		for (var i=0; i<instance.m_data.length-1; i++) {
+			if (time >= instance.m_data[i].m_time && time < instance.m_data[i+1].m_time) {
+				anchor = instance.m_data[i];
 				break;
 			}
 		}
 		
-		if (time < this.m_data[0].m_time) {
+		if (time < instance.m_data[0].m_time) {
 			anchor = null;
 		}
 		
 		if (anchor) {
-			this.m_x = anchor.m_x;
-			this.m_y = anchor.m_y;
-			this.m_type = anchor.m_type;
-			this.m_angle = anchor.m_angle;
-			this.m_flipX = anchor.m_flipX;
-			this.m_flipY = anchor.m_flipY;
-			
-			this.m_frame = ((time - anchor.m_time) * EXPLOSION_SPEED[this.m_type]) >> 0;
-			if (this.m_frame > EXPLOSION_FRAME [this.m_type]) {
-				this.m_live = false;
+			instance.m_x = anchor.m_x;
+			instance.m_y = anchor.m_y;
+			instance.m_type = anchor.m_type;
+			instance.m_angle = anchor.m_angle;
+			instance.m_flipX = anchor.m_flipX;
+			instance.m_flipY = anchor.m_flipY;
+
+			instance.m_frame = ((time - anchor.m_time) * EXPLOSION_SPEED[instance.m_type]) >> 0;
+			if (instance.m_frame > EXPLOSION_FRAME [instance.m_type]) {
+				instance.m_live = false;
 			}
 			else {
-				if (this.m_live == false) {
-					fragEmitter.m_x = (this.m_x + 0.5) * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX;
-					fragEmitter.m_y = (this.m_y + 0.5) * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY;
-					if (this.m_type == EXPLOSION_TANK) {
+				if (instance.m_live == false) {
+					fragEmitter.m_x = (instance.m_x + 0.5) * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX;
+					fragEmitter.m_y = (instance.m_y + 0.5) * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY;
+					if (instance.m_type == EXPLOSION_TANK) {
 						fragEmitter.m_emitForceMin = 0.3;
 						fragEmitter.m_emitForceMax = 0.45;
 						fragEmitter.ManualEmit (30);
 					}
-					else if (this.m_type == EXPLOSION_CANNON) {
+					else if (instance.m_type == EXPLOSION_CANNON) {
 						fragEmitter.m_emitForceMin = 0.33;
 						fragEmitter.m_emitForceMax = 0.38;
 						fragEmitter.ManualEmit (15);
 					}
-					else if (this.m_type == EXPLOSION_BULLET) {
+					else if (instance.m_type == EXPLOSION_BULLET) {
 						fragEmitter.m_emitForceMin = 0.25;
 						fragEmitter.m_emitForceMax = 0.3;
 						fragEmitter.ManualEmit (3);
 					}
 					
-					if (this.m_type == EXPLOSION_TANK || this.m_type == EXPLOSION_CANNON || this.m_type == EXPLOSION_OBSTACLE) {
+					if (instance.m_type == EXPLOSION_TANK || instance.m_type == EXPLOSION_CANNON || instance.m_type == EXPLOSION_OBSTACLE) {
 						var index = (Math.random() * sndExplosion.length) >> 0;
 						g_soundEngine.PlaySound (sndExplosion[index]);
 					}
-					else if (this.m_type == EXPLOSION_EMP) {
+					else if (instance.m_type == EXPLOSION_EMP) {
 						g_soundEngine.PlaySound (sndEMP);
 					}
-					else if (this.m_type == EXPLOSION_BULLET) {
+					else if (instance.m_type == EXPLOSION_BULLET) {
 						g_soundEngine.PlaySound (sndImpact);
 					}
-					else if (this.m_type == EXPLOSION_CANNON_MUZZLE) {
+					else if (instance.m_type == EXPLOSION_CANNON_MUZZLE) {
 						g_soundEngine.PlaySound (sndCannon);
 					}
-					else if (this.m_type == EXPLOSION_GUN_MUZZLE) {
+					else if (instance.m_type == EXPLOSION_GUN_MUZZLE) {
 						g_soundEngine.PlaySound (sndGun);
 					}
 				}
-				this.m_live = true;
+				instance.m_live = true;
 			}
 		}
 		else {
-			this.m_live = false;
+			instance.m_live = false;
 		}
-	}
+	};
 	
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
-		if (this.m_live) {
+		if (instance.m_live) {
 			var angle = 0;
-			if (EXPLOSION_ADDITIVE_DRAW[this.m_type]) {
+			if (EXPLOSION_ADDITIVE_DRAW[instance.m_type]) {
 				g_graphicEngine.SetDrawModeAddActive (g_context, true);
 			}
 			
-			var scale = EXPLOSION_SCALE[this.m_type];
-			var spriteSize = EXPLOSION_SIZE[this.m_type];
-			var sourceX = (this.m_frame % EXPLOSION_FRAME_W[this.m_type]) * spriteSize;
-			var sourceY = ((this.m_frame / EXPLOSION_FRAME_W[this.m_type]) >> 0) * spriteSize;
+			var scale = EXPLOSION_SCALE[instance.m_type];
+			var spriteSize = EXPLOSION_SIZE[instance.m_type];
+			var sourceX = (instance.m_frame % EXPLOSION_FRAME_W[instance.m_type]) * spriteSize;
+			var sourceY = ((instance.m_frame / EXPLOSION_FRAME_W[instance.m_type]) >> 0) * spriteSize;
 			var spriteOffset = (BLOCK_SIZE - spriteSize * scale) * 0.5;
 			
-			g_graphicEngine.Draw (g_context, imgExplosion[this.m_type], sourceX, sourceY, spriteSize, spriteSize, this.m_x * BLOCK_SIZE + spriteOffset + g_gsActionPhase.m_screenShakeX, this.m_y * BLOCK_SIZE + spriteOffset + g_gsActionPhase.m_screenShakeY, spriteSize * scale, spriteSize * scale, 1, this.m_flipX, this.m_flipY, this.m_angle);
+			g_graphicEngine.Draw (g_context, imgExplosion[instance.m_type], sourceX, sourceY, spriteSize, spriteSize, instance.m_x * BLOCK_SIZE + spriteOffset + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + spriteOffset + g_gsActionPhase.m_screenShakeY, spriteSize * scale, spriteSize * scale, 1, instance.m_flipX, instance.m_flipY, instance.m_angle);
 			
-			if (EXPLOSION_ADDITIVE_DRAW[this.m_type]) {
+			if (EXPLOSION_ADDITIVE_DRAW[instance.m_type]) {
 				g_graphicEngine.SetDrawModeAddActive (g_context, false);
 			}
 		}
-	}
+	};
 	
 	
 	// Is this object free at this moment?
 	this.IsFreeAt = function (time) {
 		var anchor = null;
 		
-		if (this.m_data.length > 0) {
-			anchor = this.m_data[this.m_data.length-1];
+		if (instance.m_data.length > 0) {
+			anchor = instance.m_data[instance.m_data.length-1];
 		}
 		
 		if (anchor) {
@@ -252,5 +253,5 @@ function Explosion (game, id) {
 		
 		// This case will never happen
 		return true;
-	}
+	};
 }

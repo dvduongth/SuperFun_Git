@@ -131,6 +131,7 @@ function Explosion (game, id) {
 	// Update function, called with a specific moment in the timeline
 	// We gonna interpolate all state, based on the data anchors.
 	this.Update = function (time) {
+		cc.log('Explosion Update', time);
 		var anchor = null;
 		
 		if (instance.m_data.length > 0) {

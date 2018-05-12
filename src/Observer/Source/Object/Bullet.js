@@ -91,6 +91,7 @@ function Bullet (game, id, team) {
 	// Update function, called with a specific moment in the timeline
 	// We gonna interpolate all state, based on the data anchors.
 	this.Update = function (time) {
+		cc.log('Bullet Update', time);
 		var prevAnchor = null;
 		var nextAnchor = null;
 		

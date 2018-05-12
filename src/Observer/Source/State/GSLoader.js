@@ -31,7 +31,7 @@ function GSLoader () {
 			cc.log('GSLoader init');
 			if(!imgSplash) {
 				imgSplash = fr.createSprite("src/Observer/Image/Splash.png");
-				imgSplash.retain();
+				//imgSplash.retain();
 			}
 			var parent = gv.layerMgr.getLayerByIndex(LayerId.LAYER_LOADING);
 			if(parent) {
@@ -85,9 +85,9 @@ function GSLoader () {
 	
 	this.Draw = function () {
 		cc.log('GSLoader draw');
-		if(init){
-			init = false;
-			imgSplash.removeFromParent(false);
+		if(!init){
+			//init = false;
+			//imgSplash.removeFromParent(false);
 			instance.Init();
 		}
 	};

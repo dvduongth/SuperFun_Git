@@ -1,3 +1,4 @@
+var Enum = require("./../Config/Enum");
 
 // ========================================================
 exports.stateToString = function (state) {
@@ -102,4 +103,17 @@ exports.matchResultToString = function (result) {
     }
 };
 // ========================================================
-
+exports.blockToString = function(value) {
+    switch (value) {
+        case Enum.BLOCK_GROUND:
+            return "Enum.BLOCK_GROUND";
+        case Enum.BLOCK_WATER:
+            return "Enum.BLOCK_WATER";
+        case Enum.BLOCK_HARD_OBSTACLE:
+            return "Enum.BLOCK_HARD_OBSTACLE";
+        case Enum.BLOCK_SOFT_OBSTACLE:
+            return "Enum.BLOCK_SOFT_OBSTACLE";
+        default :
+            return "BLOCK UNDEFINED";
+    }
+};

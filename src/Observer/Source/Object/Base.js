@@ -96,6 +96,7 @@ function Base (game, id, team, type) {
 	// Update function, called with a specific moment in the timeline
 	// We gonna interpolate all state, based on the data anchors.
 	this.Update = function (time) {
+		cc.log('Base Update', time);
 		var prevAnchor = null;
 		
 		for (var i=0; i<instance.m_data.length-1; i++) {

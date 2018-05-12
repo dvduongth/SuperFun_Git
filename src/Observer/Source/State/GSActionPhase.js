@@ -347,6 +347,7 @@ function GSActionPhase () {
 	};
 	
 	this.ProcessUpdateObstacleCommand = function (time, data, originalOffset) {
+		cc.log('GSActionPhase ProcessUpdateObstacleCommand');
 		var offset = originalOffset;
 		var id = DecodeUInt8 (data, offset); offset++;
 		var x = DecodeUInt8 (data, offset); offset++;
@@ -354,6 +355,7 @@ function GSActionPhase () {
 		var HP = DecodeUInt8 (data, offset); offset++;
 		
 		if (instance.m_obstacles[id] == null) {
+			cc.log('create new Obstacle with id', id);
 			instance.m_obstacles[id] = new Obstacle(instance, id);
 		}
 		instance.m_obstacles[id].AddDataAnchor(time, x, y, HP);
@@ -362,6 +364,7 @@ function GSActionPhase () {
 	};
 	
 	this.ProcessUpdateTankCommand = function (time, data, originalOffset) {
+		cc.log('GSActionPhase ProcessUpdateTankCommand');
 		var offset = originalOffset;
 		var id = DecodeUInt8 (data, offset); offset++;
 		var team = DecodeUInt8 (data, offset); offset++;
@@ -377,6 +380,7 @@ function GSActionPhase () {
 		var y = DecodeFloat32 (data, offset); offset+=4;
 		
 		if (instance.m_tanks[team][id] == null) {
+			cc.log('create new Tank with id', id, Utility.teamToString(team));
 			instance.m_tanks[team][id] = new Tank(instance, id, team, type);
 		}
 		instance.m_tanks[team][id].AddDataAnchor(time, x, y, dir, HP, cooldown, disabled);
@@ -385,6 +389,7 @@ function GSActionPhase () {
 	};
 	
 	this.ProcessUpdateBulletCommand = function (time, data, originalOffset) {
+		cc.log('GSActionPhase ProcessUpdateBulletCommand');
 		var offset = originalOffset;
 		var id = DecodeUInt8 (data, offset); 		offset++;
 		var live = DecodeUInt8 (data, offset); 		offset++;
@@ -398,6 +403,7 @@ function GSActionPhase () {
 		var y = DecodeFloat32 (data, offset); 		offset+=4;
 		
 		if (instance.m_bullets[team][id] == null) {
+			cc.log('create new Bullet with id', id, Utility.teamToString(team));
 			instance.m_bullets[team][id] = new Bullet(instance, id, team);
 		}
 		instance.m_bullets[team][id].AddDataAnchor(time, type, x, y, dir, live, hit, damage);
@@ -406,6 +412,7 @@ function GSActionPhase () {
 	};
 	
 	this.ProcessUpdateBaseCommand = function (time, data, originalOffset) {
+		cc.log('GSActionPhase ProcessUpdateBaseCommand');
 		var offset = originalOffset;
 		var id = DecodeUInt8 (data, offset); 		offset++;
 		var team = DecodeUInt8 (data, offset); 		offset++;
@@ -414,14 +421,17 @@ function GSActionPhase () {
 		var x = DecodeFloat32 (data, offset); 		offset+=4;
 		var y = DecodeFloat32 (data, offset); 		offset+=4;
 
-		if (instance.m_bases[team][id] == null)
+		if (instance.m_bases[team][id] == null) {
+			cc.log("create new Base with id", id, Utility.teamToString(team));
 			instance.m_bases[team][id] = new Base(instance, id, team, type);
+		}
 		instance.m_bases[team][id].AddDataAnchor(time, x, y, HP);
 
 		return offset - originalOffset;
 	};
 	
 	this.ProcessUpdatePowerUpCommand = function(time, data, originalOffset) {
+		cc.log('GSActionPhase ProcessUpdatePowerUpCommand');
 		var offset = originalOffset;
 		var id = DecodeUInt8 (data, offset); 		offset++;
 		var active = DecodeUInt8 (data, offset); 	offset++;
@@ -432,8 +442,6 @@ function GSActionPhase () {
 		if (instance.m_powerUps[id] == null) {
 			cc.log('GSActionPhase create new PowerUp with id', id);
 			instance.m_powerUps[id] = new PowerUp(instance, id);
-		}else{
-			cc.log('GSActionPhase existed object PowerUp with id', id);
 		}
 		instance.m_powerUps[id].AddDataAnchor(time, x, y, active, type);
 		
@@ -441,6 +449,7 @@ function GSActionPhase () {
 	};
 	
 	this.ProcessUpdateStrikeCommand = function(time, data, originalOffset) {
+		cc.log('GSActionPhase ProcessUpdateStrikeCommand');
 		var offset = originalOffset;
 		var id = DecodeUInt8 (data, offset); 		offset++;
 		var team = DecodeUInt8 (data, offset); 		offset++;
@@ -451,6 +460,7 @@ function GSActionPhase () {
 		var y = DecodeFloat32 (data, offset); 		offset+=4;
 		
 		if (instance.m_strikes[team][id] == null) {
+			cc.log('create new Strike with id', id, Utility.teamToString(team));
 			instance.m_strikes[team][id] = new Strike(instance, id, team);
 		}
 		instance.m_strikes[team][id].AddDataAnchor(time, type, x, y, countDown, live);
@@ -459,6 +469,7 @@ function GSActionPhase () {
 	};
 	
 	this.ProcessUpdateInventoryCommand = function (time, data, originalOffset) {
+		cc.log('GSActionPhase ProcessUpdateInventoryCommand');
 		var index = instance.m_inventory.length;
 		instance.m_inventory[index] = [];
 		instance.m_inventory[index][TEAM_1] = [];
@@ -479,6 +490,7 @@ function GSActionPhase () {
 	};
 	
 	this.ProcessMatchResultCommand = function (time, data, originalOffset) {
+		cc.log('GSActionPhase ProcessMatchResultCommand');
 		var offset = originalOffset;
 		var matchResult = DecodeUInt8 (data, offset); offset++;
 
@@ -490,6 +502,7 @@ function GSActionPhase () {
 	
 
 	this.SpawnExplosion = function (time, type, x, y, angle, flipX, flipY) {
+		cc.log('GSActionPhase SpawnExplosion');
 		var tempExplosion = null;
 		for (var i=0; i<instance.m_explosions.length; i++) {
 			if (instance.m_explosions[i].IsFreeAt(time) == true) {
@@ -497,6 +510,7 @@ function GSActionPhase () {
 			}
 		}
 		if (tempExplosion == null) {
+			cc.log('create new Explosion');
 			tempExplosion = new Explosion (instance, instance.m_explosions.length);
 			instance.m_explosions.push (tempExplosion);
 		}
@@ -622,9 +636,11 @@ function GSActionPhase () {
 		cc.log('GSActionPhase Draw animated water');
 		for (var i=0; i<MAP_W; i++) {
 			for (var j=0; j<MAP_H; j++) {
+				cc.log("GSActionPhase find block type", Utility.blockToString(instance.m_map[j * MAP_W + i]));
 				if (instance.m_map[j * MAP_W + i] == BLOCK_WATER) {
 					var frameRow = waterAnimation % MAP_WATER_SPRITE_W; 
 					var frameCol = (waterAnimation / MAP_WATER_SPRITE_W) >> 0;
+					cc.log('Yeah !!! find BLOCK_WATER here, draw it', frameRow, frameCol);
 					g_graphicEngine.Draw (g_context, imgWater, frameRow * BLOCK_SIZE, frameCol * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE, i * BLOCK_SIZE + instance.m_screenShakeX, j * BLOCK_SIZE + instance.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, MAP_WATER_ALPHA);
 				}
 			}
@@ -639,7 +655,9 @@ function GSActionPhase () {
 		cc.log('GSActionPhase Draw all undestructible obstacles');
 		for (var i=0; i<MAP_W; i++) {
 			for (var j=0; j<MAP_H; j++) {
+				cc.log("GSActionPhase obstacles find block type", Utility.blockToString(instance.m_map[j * MAP_W + i]));
 				if (instance.m_map[j * MAP_W + i] == BLOCK_HARD_OBSTACLE) {
+					cc.log('Yeah !!! find BLOCK_HARD_OBSTACLE here, DrawFast it', frameRow, frameCol);
 					g_graphicEngine.DrawFast (g_context, imgConcrete, i * BLOCK_SIZE + instance.m_screenShakeX, j * BLOCK_SIZE + instance.m_screenShakeY);
 				}
 			}

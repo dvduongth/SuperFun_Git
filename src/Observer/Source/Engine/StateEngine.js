@@ -14,6 +14,8 @@ function StateEngine() {
     var switchAlpha = 0;
 
     this.Update = function (deltaTime) {
+        cc.log('StateEngine update', deltaTime);
+
         if (deltaTime < DELTA_TIME_THRESHOLD) {
             if (switching == false) {
                 if (stateStack.length > 0) {
@@ -102,7 +104,6 @@ function StateEngine() {
 
     var lastTime = new Date();
     var Update = function () {
-        //cc.log('state engine update');
         var curTime = new Date();
         instance.Update(curTime - lastTime);
         lastTime = curTime;

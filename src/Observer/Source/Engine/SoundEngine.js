@@ -61,6 +61,7 @@ function SoundEngine() {
 	// This method needs to be called on every game loop.
 	// It's for anti-resonance purpose.
 	this.Update = function (deltaTime) {
+		cc.log('SoundEngine Update', deltaTime);
 		/*for (var i=0; i<soundCooldown.length; i++) {
 			if (soundCooldown[i] > 0) {
 				soundCooldown[i] -= deltaTime;

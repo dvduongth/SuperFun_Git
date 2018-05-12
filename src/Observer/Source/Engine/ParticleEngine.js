@@ -464,6 +464,7 @@ function ParticleEngine () {
 	};
 	
 	this.Update = function (deltaTime) {
+		cc.log("ParticleEngine update", deltaTime);
 		for (var i=0; i<emitterPool.length; i++) {
 			if (emitterPool.m_start == false) {
 				emitterPool.splice (i, 1);

@@ -391,6 +391,7 @@ function GraphicEngine() {
 
 function DrawTextRequest(text, w, font, size, bold, italic, alignW, alignH, red, green, blue, breakLine, stroke, strokeR, strokeG, strokeB) {
     cc.log("GraphicEngine DrawTextRequest", text, w, font, size, bold, italic, alignW, alignH, red, green, blue, breakLine, stroke, strokeR, strokeG, strokeB);
+    var instance = this;
     this.m_text = text;
     this.m_w = w;
     this.m_font = font;
@@ -411,22 +412,22 @@ function DrawTextRequest(text, w, font, size, bold, italic, alignW, alignH, red,
 
 
     this.Compare = function (text, w, font, size, bold, italic, alignW, alignH, red, green, blue, breakLine, stroke, strokeR, strokeG, strokeB) {
-        if (this.m_text == text &&
-            this.m_w == w &&
-            this.m_font == font &&
-            this.m_size == size &&
-            this.m_bold == bold &&
-            this.m_italic == italic &&
-            this.m_alignW == alignW &&
-            this.m_alignH == alignH &&
-            this.m_red == red &&
-            this.m_green == green &&
-            this.m_blue == blue &&
-            this.m_breakLine == breakLine &&
-            this.m_stroke == stroke &&
-            this.m_strokeR == strokeR &&
-            this.m_strokeG == strokeG &&
-            this.m_strokeB == strokeB) {
+        if (instance.m_text == text &&
+            instance.m_w == w &&
+            instance.m_font == font &&
+            instance.m_size == size &&
+            instance.m_bold == bold &&
+            instance.m_italic == italic &&
+            instance.m_alignW == alignW &&
+            instance.m_alignH == alignH &&
+            instance.m_red == red &&
+            instance.m_green == green &&
+            instance.m_blue == blue &&
+            instance.m_breakLine == breakLine &&
+            instance.m_stroke == stroke &&
+            instance.m_strokeR == strokeR &&
+            instance.m_strokeG == strokeG &&
+            instance.m_strokeB == strokeB) {
             return true;
         }
     }

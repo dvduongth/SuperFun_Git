@@ -55,12 +55,12 @@ function InputEngine () {
 		canvas.ontouchstart = ProcessTouchEvent;
 		canvas.ontouchend = ProcessTouchEvent;
 		canvas.ontouchmove = ProcessTouchEvent;
-		
-		this.m_canvas = canvas;*/
-	}
+
+		 instance.m_canvas = canvas;*/
+	};
 	
 	this.SetMouseScale = function (scale) {
-		/*var temp = this.m_canvas;
+		/*var temp = instance.m_canvas;
 		var windowOffsetX = 0;
 		var windowOffsetY = 0;
 		
@@ -75,13 +75,13 @@ function InputEngine () {
 		
 		originMouseX = window.pageXOffset - windowOffsetX;
 		originMouseY = window.pageYOffset - windowOffsetY;
-		
-		this.m_mouseScale = scale;*/
-	}
+
+		 instance.m_mouseScale = scale;*/
+	};
 	
 	
 	function OnMouseWheel (event) {
-		/*if (!event) event = this.m_canvas.event;
+		/*if (!event) event = instance.m_canvas.event;
 		
 		if (event.wheelDelta) instance.m_mouseWheel += event.wheelDelta / 120;
 		else if (event.detail) instance.m_mouseWheel += -event.detail / 3;
@@ -146,8 +146,8 @@ function InputEngine () {
 	
 	
 	this.ResetWheel = function () {
-		this.m_mouseWheel = 0;
-	}
+		instance.m_mouseWheel = 0;
+	};
 	
 	
 	

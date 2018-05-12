@@ -1,10 +1,9 @@
 function StateEngine() {
+    var instance = this;
+
     //var DELTA_TIME_THRESHOLD = 200;
     var DELTA_TIME_THRESHOLD = 200000;
     var FADE_SPEED = 0.003;
-
-    var instance = this;
-
 
     this.m_context = null;
 
@@ -97,7 +96,7 @@ function StateEngine() {
     };
 
     this.SetContext = function (context) {
-        this.m_context = context;
+        instance.m_context = context;
     };
 
 
@@ -108,7 +107,7 @@ function StateEngine() {
         instance.Update(curTime - lastTime);
         lastTime = curTime;
         requestAnimFrame(Update);
-    }
+    };
 }
 
 // Register the main loop here

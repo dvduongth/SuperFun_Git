@@ -88,6 +88,8 @@ var SUDDEN_DEATH_DURATION = 30;
 
 
 function GSActionPhase () {
+	var instance = this;
+
 	var TIME_BOARD_X = 1030;
 	var TIME_BOARD_Y = 805;
 	
@@ -242,9 +244,9 @@ function GSActionPhase () {
 			readOffset++;
 			cc.log('gs action phase command', Utility.commandToString(command));
 			if (command == COMMAND_UPDATE_STATE) {
-				this.m_state = DecodeUInt8 (data, readOffset);
-				if (this.m_state == STATE_SUDDEN_DEATH && this.m_suddenDeathTime == -1) {
-					this.m_suddenDeathTime = packetCount;
+				instance.m_state = DecodeUInt8 (data, readOffset);
+				if (instance.m_state == STATE_SUDDEN_DEATH && instance.m_suddenDeathTime == -1) {
+					instance.m_suddenDeathTime = packetCount;
 				}
 				readOffset++;
 			}
@@ -255,35 +257,35 @@ function GSActionPhase () {
 			else if (command == COMMAND_UPDATE_MAP) {
 				for (var i=0; i<MAP_W; i++) {
 					for (var j=0; j<MAP_H; j++) {
-						this.m_map[j * MAP_W + i] = DecodeUInt8 (data, readOffset);
+						instance.m_map[j * MAP_W + i] = DecodeUInt8 (data, readOffset);
 						readOffset += 1;
 					}
 				}
 			}
 			else if (command == COMMAND_UPDATE_OBSTACLE) {
-				readOffset += this.ProcessUpdateObstacleCommand(packetCount, data, readOffset);
+				readOffset += instance.ProcessUpdateObstacleCommand(packetCount, data, readOffset);
 			}
 			else if (command == COMMAND_UPDATE_TANK) {
-				readOffset += this.ProcessUpdateTankCommand(packetCount, data, readOffset);
+				readOffset += instance.ProcessUpdateTankCommand(packetCount, data, readOffset);
 			}
 			else if (command == COMMAND_UPDATE_BULLET) {
-				readOffset += this.ProcessUpdateBulletCommand(packetCount, data, readOffset);
+				readOffset += instance.ProcessUpdateBulletCommand(packetCount, data, readOffset);
 			}
 			else if (command == COMMAND_UPDATE_BASE) {
-				readOffset += this.ProcessUpdateBaseCommand(packetCount, data, readOffset);
+				readOffset += instance.ProcessUpdateBaseCommand(packetCount, data, readOffset);
 			}
 			else if (command == COMMAND_UPDATE_POWERUP) {
-				readOffset += this.ProcessUpdatePowerUpCommand(packetCount, data, readOffset);
+				readOffset += instance.ProcessUpdatePowerUpCommand(packetCount, data, readOffset);
 			}
 			else if (command == COMMAND_MATCH_RESULT) {
-				readOffset += this.ProcessMatchResultCommand(packetCount, data, readOffset);
+				readOffset += instance.ProcessMatchResultCommand(packetCount, data, readOffset);
 				endGameReached = true;
 			}
 			else if (command == COMMAND_UPDATE_INVENTORY) {
-				readOffset += this.ProcessUpdateInventoryCommand(packetCount, data, readOffset);
+				readOffset += instance.ProcessUpdateInventoryCommand(packetCount, data, readOffset);
 			}
 			else if (command == COMMAND_UPDATE_STRIKE) {
-				readOffset += this.ProcessUpdateStrikeCommand(packetCount, data, readOffset);
+				readOffset += instance.ProcessUpdateStrikeCommand(packetCount, data, readOffset);
 			}
 			else if (command == COMMAND_REQUEST_CONTROL) {
 				
@@ -300,46 +302,46 @@ function GSActionPhase () {
 		
 		// We must do a "fake update" on objects that are not updated by a packet
 		// to create a sense of continuity in the timeline.
-		this.AddIdleAnchor(packetCount);
+		instance.AddIdleAnchor(packetCount);
 	};
 	
 	this.AddIdleAnchor = function (time) {
 		// Obstacles
-		for (var i=0; i<this.m_obstacles.length; i++) {
-			this.m_obstacles[i].AddIdleDataAnchor(time);
+		for (var i=0; i<instance.m_obstacles.length; i++) {
+			instance.m_obstacles[i].AddIdleDataAnchor(time);
 		}
 		// Tank
-		for (var i=0; i<this.m_tanks[TEAM_1].length; i++) {
-			this.m_tanks[TEAM_1][i].AddIdleDataAnchor(time);
+		for (var i=0; i<instance.m_tanks[TEAM_1].length; i++) {
+			instance.m_tanks[TEAM_1][i].AddIdleDataAnchor(time);
 		}
-		for (var i=0; i<this.m_tanks[TEAM_2].length; i++) {
-			this.m_tanks[TEAM_2][i].AddIdleDataAnchor(time);
+		for (var i=0; i<instance.m_tanks[TEAM_2].length; i++) {
+			instance.m_tanks[TEAM_2][i].AddIdleDataAnchor(time);
 		}
 		// Bullet
-		for (var i=0; i<this.m_bullets[TEAM_1].length; i++) {
-			this.m_bullets[TEAM_1][i].AddIdleDataAnchor(time);
+		for (var i=0; i<instance.m_bullets[TEAM_1].length; i++) {
+			instance.m_bullets[TEAM_1][i].AddIdleDataAnchor(time);
 		}
-		for (var i=0; i<this.m_bullets[TEAM_2].length; i++) {
-			this.m_bullets[TEAM_2][i].AddIdleDataAnchor(time);
+		for (var i=0; i<instance.m_bullets[TEAM_2].length; i++) {
+			instance.m_bullets[TEAM_2][i].AddIdleDataAnchor(time);
 		}
 		// Strike
-		for (var i=0; i<this.m_strikes[TEAM_1].length; i++) {
-			this.m_strikes[TEAM_1][i].AddIdleDataAnchor(time);
+		for (var i=0; i<instance.m_strikes[TEAM_1].length; i++) {
+			instance.m_strikes[TEAM_1][i].AddIdleDataAnchor(time);
 		}
-		for (var i=0; i<this.m_strikes[TEAM_2].length; i++) {
-			this.m_strikes[TEAM_2][i].AddIdleDataAnchor(time);
+		for (var i=0; i<instance.m_strikes[TEAM_2].length; i++) {
+			instance.m_strikes[TEAM_2][i].AddIdleDataAnchor(time);
 		}
 		// Base
-		for (var i=0; i<this.m_bases[TEAM_1].length; i++) {
-			this.m_bases[TEAM_1][i].AddIdleDataAnchor(time);
+		for (var i=0; i<instance.m_bases[TEAM_1].length; i++) {
+			instance.m_bases[TEAM_1][i].AddIdleDataAnchor(time);
 		}
-		for (var i=0; i<this.m_bases[TEAM_2].length; i++) {
-			this.m_bases[TEAM_2][i].AddIdleDataAnchor(time);
+		for (var i=0; i<instance.m_bases[TEAM_2].length; i++) {
+			instance.m_bases[TEAM_2][i].AddIdleDataAnchor(time);
 		}
 		// Power up
-		for (var i=0; i < this.m_powerUps.length; i++) {
-			if(this.m_powerUps[i]){
-				this.m_powerUps[i].AddIdleDataAnchor(time);
+		for (var i=0; i < instance.m_powerUps.length; i++) {
+			if(instance.m_powerUps[i]){
+				instance.m_powerUps[i].AddIdleDataAnchor(time);
 			}
 		}
 	};
@@ -351,10 +353,10 @@ function GSActionPhase () {
 		var y = DecodeUInt8 (data, offset); offset++;
 		var HP = DecodeUInt8 (data, offset); offset++;
 		
-		if (this.m_obstacles[id] == null) {
-			this.m_obstacles[id] = new Obstacle(this, id);
+		if (instance.m_obstacles[id] == null) {
+			instance.m_obstacles[id] = new Obstacle(instance, id);
 		}
-		this.m_obstacles[id].AddDataAnchor(time, x, y, HP);
+		instance.m_obstacles[id].AddDataAnchor(time, x, y, HP);
 
 		return offset - originalOffset;
 	};
@@ -374,10 +376,10 @@ function GSActionPhase () {
 		var x = DecodeFloat32 (data, offset); offset+=4;
 		var y = DecodeFloat32 (data, offset); offset+=4;
 		
-		if (this.m_tanks[team][id] == null) {
-			this.m_tanks[team][id] = new Tank(this, id, team, type);
+		if (instance.m_tanks[team][id] == null) {
+			instance.m_tanks[team][id] = new Tank(instance, id, team, type);
 		}
-		this.m_tanks[team][id].AddDataAnchor(time, x, y, dir, HP, cooldown, disabled);
+		instance.m_tanks[team][id].AddDataAnchor(time, x, y, dir, HP, cooldown, disabled);
 		
 		return offset - originalOffset;
 	};
@@ -395,10 +397,10 @@ function GSActionPhase () {
 		var x = DecodeFloat32 (data, offset); 		offset+=4;
 		var y = DecodeFloat32 (data, offset); 		offset+=4;
 		
-		if (this.m_bullets[team][id] == null) {
-			this.m_bullets[team][id] = new Bullet(this, id, team);
+		if (instance.m_bullets[team][id] == null) {
+			instance.m_bullets[team][id] = new Bullet(instance, id, team);
 		}
-		this.m_bullets[team][id].AddDataAnchor(time, type, x, y, dir, live, hit, damage);
+		instance.m_bullets[team][id].AddDataAnchor(time, type, x, y, dir, live, hit, damage);
 		
 		return offset - originalOffset;
 	};
@@ -412,9 +414,9 @@ function GSActionPhase () {
 		var x = DecodeFloat32 (data, offset); 		offset+=4;
 		var y = DecodeFloat32 (data, offset); 		offset+=4;
 
-		if (this.m_bases[team][id] == null)
-			this.m_bases[team][id] = new Base(this, id, team, type);
-		this.m_bases[team][id].AddDataAnchor(time, x, y, HP);
+		if (instance.m_bases[team][id] == null)
+			instance.m_bases[team][id] = new Base(instance, id, team, type);
+		instance.m_bases[team][id].AddDataAnchor(time, x, y, HP);
 
 		return offset - originalOffset;
 	};
@@ -427,13 +429,13 @@ function GSActionPhase () {
 		var x = DecodeFloat32 (data, offset); 		offset+=4;
 		var y = DecodeFloat32 (data, offset); 		offset+=4;
 		
-		if (this.m_powerUps[id] == null) {
+		if (instance.m_powerUps[id] == null) {
 			cc.log('GSActionPhase create new PowerUp with id', id);
-			this.m_powerUps[id] = new PowerUp(this, id);
+			instance.m_powerUps[id] = new PowerUp(instance, id);
 		}else{
 			cc.log('GSActionPhase existed object PowerUp with id', id);
 		}
-		this.m_powerUps[id].AddDataAnchor(time, x, y, active, type);
+		instance.m_powerUps[id].AddDataAnchor(time, x, y, active, type);
 		
 		return offset - originalOffset;
 	};
@@ -448,29 +450,29 @@ function GSActionPhase () {
 		var x = DecodeFloat32 (data, offset); 		offset+=4;
 		var y = DecodeFloat32 (data, offset); 		offset+=4;
 		
-		if (this.m_strikes[team][id] == null) {
-			this.m_strikes[team][id] = new Strike(this, id, team);
+		if (instance.m_strikes[team][id] == null) {
+			instance.m_strikes[team][id] = new Strike(instance, id, team);
 		}
-		this.m_strikes[team][id].AddDataAnchor(time, type, x, y, countDown, live);
+		instance.m_strikes[team][id].AddDataAnchor(time, type, x, y, countDown, live);
 		
 		return offset - originalOffset;
 	};
 	
 	this.ProcessUpdateInventoryCommand = function (time, data, originalOffset) {
-		var index = this.m_inventory.length;
-		this.m_inventory[index] = [];
-		this.m_inventory[index][TEAM_1] = [];
-		this.m_inventory[index][TEAM_2] = [];
-		this.m_inventory[index]["time"] = time;
+		var index = instance.m_inventory.length;
+		instance.m_inventory[index] = [];
+		instance.m_inventory[index][TEAM_1] = [];
+		instance.m_inventory[index][TEAM_2] = [];
+		instance.m_inventory[index]["time"] = time;
 
 		var offset = originalOffset;
 		var number1 = DecodeUInt8 (data, offset); offset++;
 		for (var i=0; i<number1; i++) {
-			this.m_inventory[index][TEAM_1][i] = DecodeUInt8 (data, offset); offset++;
+			instance.m_inventory[index][TEAM_1][i] = DecodeUInt8 (data, offset); offset++;
 		}
 		var number2 = DecodeUInt8 (data, offset); offset++;
 		for (var i=0; i<number2; i++) {
-			this.m_inventory[index][TEAM_2][i] = DecodeUInt8 (data, offset); offset++;
+			instance.m_inventory[index][TEAM_2][i] = DecodeUInt8 (data, offset); offset++;
 		}
 		
 		return offset - originalOffset;
@@ -479,9 +481,9 @@ function GSActionPhase () {
 	this.ProcessMatchResultCommand = function (time, data, originalOffset) {
 		var offset = originalOffset;
 		var matchResult = DecodeUInt8 (data, offset); offset++;
-		
-		this.m_matchResult = matchResult;
-		this.m_matchResultTime = time;
+
+		instance.m_matchResult = matchResult;
+		instance.m_matchResultTime = time;
 		
 		return offset - originalOffset;
 	};
@@ -489,14 +491,14 @@ function GSActionPhase () {
 
 	this.SpawnExplosion = function (time, type, x, y, angle, flipX, flipY) {
 		var tempExplosion = null;
-		for (var i=0; i<this.m_explosions.length; i++) {
-			if (this.m_explosions[i].IsFreeAt(time) == true) {
-				tempExplosion = this.m_explosions[i];
+		for (var i=0; i<instance.m_explosions.length; i++) {
+			if (instance.m_explosions[i].IsFreeAt(time) == true) {
+				tempExplosion = instance.m_explosions[i];
 			}
 		}
 		if (tempExplosion == null) {
-			tempExplosion = new Explosion (this, this.m_explosions.length);
-			this.m_explosions.push (tempExplosion);
+			tempExplosion = new Explosion (instance, instance.m_explosions.length);
+			instance.m_explosions.push (tempExplosion);
 		}
 		tempExplosion.Spawn (time, type, x, y, angle, flipX, flipY);
 	};
@@ -525,7 +527,7 @@ function GSActionPhase () {
 		var deltaTimeForRender = 0;
 		if (playControlling == 0) {
 			deltaTimeForRender = deltaTime / PACKET_PROCESS_INTERVAL;
-			if (this.m_time > this.m_matchResultTime && this.m_matchResultTime != 0) {
+			if (instance.m_time > instance.m_matchResultTime && instance.m_matchResultTime != 0) {
 				deltaTimeForRender = deltaTimeForRender * 0.4;
 				deltaTimeForParticle = deltaTimeForParticle * 0.4;
 			}
@@ -536,68 +538,68 @@ function GSActionPhase () {
 		else if (playControlling == -1) {
 			deltaTimeForRender = -deltaTime * 4 / PACKET_PROCESS_INTERVAL;
 		}
-		
-		this.m_time += deltaTimeForRender;
+
+		instance.m_time += deltaTimeForRender;
 		
 		// Not enough data received to continue rendering
-		if (this.m_time >= packetCount - 1) {
+		if (instance.m_time >= packetCount - 1) {
 			cc.log('Not enough data received to continue rendering');
 			// Revert, and don't update
-			this.m_time -= deltaTimeForRender;
+			instance.m_time -= deltaTimeForRender;
 			return cc.log("Revert, and don't update");
 		}
-		else if (this.m_time < 1) {
-			this.m_time = 1;
+		else if (instance.m_time < 1) {
+			instance.m_time = 1;
 			return cc.log('return m_time < 1');
 		}
 		
 		g_particleEngine.Update (deltaTimeForParticle);
 		
 		// Update destructible obstacles
-		for (var i=0; i<this.m_obstacles.length; i++) {
-			this.m_obstacles[i].Update(this.m_time);
+		for (var i=0; i<instance.m_obstacles.length; i++) {
+			instance.m_obstacles[i].Update(instance.m_time);
 		}
 		
 		// Update tank
-		for (var i=0; i<this.m_tanks[TEAM_1].length; i++) {
-			this.m_tanks[TEAM_1][i].Update(this.m_time);
+		for (var i=0; i<instance.m_tanks[TEAM_1].length; i++) {
+			instance.m_tanks[TEAM_1][i].Update(instance.m_time);
 		}
-		for (var i=0; i<this.m_tanks[TEAM_2].length; i++) {
-			this.m_tanks[TEAM_2][i].Update(this.m_time);
+		for (var i=0; i<instance.m_tanks[TEAM_2].length; i++) {
+			instance.m_tanks[TEAM_2][i].Update(instance.m_time);
 		}
 		
 		// Update bullet
-		for (var i=0; i<this.m_bullets[TEAM_1].length; i++) {
-			this.m_bullets[TEAM_1][i].Update(this.m_time);
+		for (var i=0; i<instance.m_bullets[TEAM_1].length; i++) {
+			instance.m_bullets[TEAM_1][i].Update(instance.m_time);
 		}
-		for (var i=0; i<this.m_bullets[TEAM_2].length; i++) {
-			this.m_bullets[TEAM_2][i].Update(this.m_time);
+		for (var i=0; i<instance.m_bullets[TEAM_2].length; i++) {
+			instance.m_bullets[TEAM_2][i].Update(instance.m_time);
 		}
 		
 		// Update strike
-		for (var i=0; i<this.m_strikes[TEAM_1].length; i++) {
-			this.m_strikes[TEAM_1][i].Update(this.m_time);
+		for (var i=0; i<instance.m_strikes[TEAM_1].length; i++) {
+			instance.m_strikes[TEAM_1][i].Update(instance.m_time);
 		}
-		for (var i=0; i<this.m_strikes[TEAM_2].length; i++) {
-			this.m_strikes[TEAM_2][i].Update(this.m_time);
+		for (var i=0; i<instance.m_strikes[TEAM_2].length; i++) {
+			instance.m_strikes[TEAM_2][i].Update(instance.m_time);
 		}
 		
 		// Update base
-		for (var i=0; i<this.m_bases[TEAM_1].length; i++) {
-			this.m_bases[TEAM_1][i].Update(this.m_time);
+		for (var i=0; i<instance.m_bases[TEAM_1].length; i++) {
+			instance.m_bases[TEAM_1][i].Update(instance.m_time);
 		}
-		for (var i=0; i<this.m_bases[TEAM_2].length; i++) {
-			this.m_bases[TEAM_2][i].Update(this.m_time);
+		for (var i=0; i<instance.m_bases[TEAM_2].length; i++) {
+			instance.m_bases[TEAM_2][i].Update(instance.m_time);
 		}
 		
 		// Update power up
-		for (var i=0; i < this.m_powerUps.length; i++) {
-			this.m_powerUps[i].Update(this.m_time);
+		for (var i=0; i < instance.m_powerUps.length; i++) {
+			instance.m_powerUps[i].Update(instance.m_time);
 		}
 		
 		// Update explosion
-		for (var i=0; i < this.m_explosions.length; i++) {
-			this.m_explosions[i].Update(this.m_time);
+		for (var i=0; i < instance.m_explosions.length; i++) {
+			instance.m_explosions[i].Update(instance.m_time);
 		}
 		
 		// Animate the water tiles
@@ -620,110 +622,110 @@ function GSActionPhase () {
 		cc.log('GSActionPhase Draw animated water');
 		for (var i=0; i<MAP_W; i++) {
 			for (var j=0; j<MAP_H; j++) {
-				if (this.m_map[j * MAP_W + i] == BLOCK_WATER) {
+				if (instance.m_map[j * MAP_W + i] == BLOCK_WATER) {
 					var frameRow = waterAnimation % MAP_WATER_SPRITE_W; 
 					var frameCol = (waterAnimation / MAP_WATER_SPRITE_W) >> 0;
-					g_graphicEngine.Draw (g_context, imgWater, frameRow * BLOCK_SIZE, frameCol * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE, i * BLOCK_SIZE + this.m_screenShakeX, j * BLOCK_SIZE + this.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, MAP_WATER_ALPHA);
+					g_graphicEngine.Draw (g_context, imgWater, frameRow * BLOCK_SIZE, frameCol * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE, i * BLOCK_SIZE + instance.m_screenShakeX, j * BLOCK_SIZE + instance.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, MAP_WATER_ALPHA);
 				}
 			}
 		}
 		
 		// Then draw background on top
 		cc.log('GSActionPhase Then draw background on top');
-		g_graphicEngine.DrawFast (g_context, imgBackground, MAP_OFFSET_X + this.m_screenShakeX, MAP_OFFSET_Y + this.m_screenShakeY);
+		g_graphicEngine.DrawFast (g_context, imgBackground, MAP_OFFSET_X + instance.m_screenShakeX, MAP_OFFSET_Y + instance.m_screenShakeY);
 		
 		
 		// Draw all undestructible obstacles
 		cc.log('GSActionPhase Draw all undestructible obstacles');
 		for (var i=0; i<MAP_W; i++) {
 			for (var j=0; j<MAP_H; j++) {
-				if (this.m_map[j * MAP_W + i] == BLOCK_HARD_OBSTACLE) {
-					g_graphicEngine.DrawFast (g_context, imgConcrete, i * BLOCK_SIZE + this.m_screenShakeX, j * BLOCK_SIZE + this.m_screenShakeY);
+				if (instance.m_map[j * MAP_W + i] == BLOCK_HARD_OBSTACLE) {
+					g_graphicEngine.DrawFast (g_context, imgConcrete, i * BLOCK_SIZE + instance.m_screenShakeX, j * BLOCK_SIZE + instance.m_screenShakeY);
 				}
 			}
 		}
 
 		// Draw destructible obstacles
 		cc.log('GSActionPhase Draw destructible obstacles');
-		for (var i=0; i<this.m_obstacles.length; i++) {
-			this.m_obstacles[i].Draw();
+		for (var i=0; i<instance.m_obstacles.length; i++) {
+			instance.m_obstacles[i].Draw();
 		}
 
 		// Draw player bases
 		cc.log('GSActionPhase Draw player bases');
-		for (var i=0; i<this.m_bases[TEAM_1].length; i++) {
-			this.m_bases[TEAM_1][i].Draw();
+		for (var i=0; i<instance.m_bases[TEAM_1].length; i++) {
+			instance.m_bases[TEAM_1][i].Draw();
 		}
-		for (var i=0; i<this.m_bases[TEAM_2].length; i++) {
-			this.m_bases[TEAM_2][i].Draw();
+		for (var i=0; i<instance.m_bases[TEAM_2].length; i++) {
+			instance.m_bases[TEAM_2][i].Draw();
 		}
 		
 		// Draw tanks
 		cc.log('GSActionPhase Draw tanks');
-		for (var i=0; i<this.m_tanks[TEAM_1].length; i++) {
-			this.m_tanks[TEAM_1][i].Draw();
+		for (var i=0; i<instance.m_tanks[TEAM_1].length; i++) {
+			instance.m_tanks[TEAM_1][i].Draw();
 		}
-		for (var i=0; i<this.m_tanks[TEAM_2].length; i++) {
-			this.m_tanks[TEAM_2][i].Draw();
+		for (var i=0; i<instance.m_tanks[TEAM_2].length; i++) {
+			instance.m_tanks[TEAM_2][i].Draw();
 		}
 		
 		// Draw power up
 		cc.log('GSActionPhase Draw power up');
-		for (var i=0; i<this.m_powerUps.length; i++) {
-			this.m_powerUps[i].Draw();
+		for (var i=0; i<instance.m_powerUps.length; i++) {
+			instance.m_powerUps[i].Draw();
 		}
 		
 		// Draw bullets
 		cc.log('GSActionPhase Draw bullets');
-		for (var i=0; i<this.m_bullets[TEAM_1].length; i++) {
-			this.m_bullets[TEAM_1][i].Draw();
+		for (var i=0; i<instance.m_bullets[TEAM_1].length; i++) {
+			instance.m_bullets[TEAM_1][i].Draw();
 		}
-		for (var i=0; i<this.m_bullets[TEAM_2].length; i++) {
-			this.m_bullets[TEAM_2][i].Draw();
+		for (var i=0; i<instance.m_bullets[TEAM_2].length; i++) {
+			instance.m_bullets[TEAM_2][i].Draw();
 		}
 		
 		// Draw explosion
 		cc.log('GSActionPhase Draw explosion');
-		for (var i=0; i<this.m_explosions.length; i++) {
-			this.m_explosions[i].Draw();
+		for (var i=0; i<instance.m_explosions.length; i++) {
+			instance.m_explosions[i].Draw();
 		}
 		
 		// Draw strikes
 		cc.log('GSActionPhase Draw strikes');
-		for (var i=0; i<this.m_strikes[TEAM_1].length; i++) {
-			this.m_strikes[TEAM_1][i].Draw();
+		for (var i=0; i<instance.m_strikes[TEAM_1].length; i++) {
+			instance.m_strikes[TEAM_1][i].Draw();
 		}
-		for (var i=0; i<this.m_strikes[TEAM_2].length; i++) {
-			this.m_strikes[TEAM_2][i].Draw();
+		for (var i=0; i<instance.m_strikes[TEAM_2].length; i++) {
+			instance.m_strikes[TEAM_2][i].Draw();
 		}
 		
 		// Particle
 		cc.log('GSActionPhase Particle');
-		g_particleEngine.Draw (g_context, this.m_screenShakeX, this.m_screenShakeY, CANVAS_W, CANVAS_H);
+		g_particleEngine.Draw (g_context, instance.m_screenShakeX, instance.m_screenShakeY, CANVAS_W, CANVAS_H);
 		
 		//draw match result if needed
-		cc.log('GSActionPhase draw match result if needed', Utility.matchResultToString(this.m_matchResult));
-		if (this.m_matchResult != MATCH_RESULT_NOT_FINISH && this.m_time >= this.m_matchResultTime) {
-			var boardY = -RESULT_BOARD_H + (this.m_time - this.m_matchResultTime) * 80;
+		cc.log('GSActionPhase draw match result if needed', Utility.matchResultToString(instance.m_matchResult));
+		if (instance.m_matchResult != MATCH_RESULT_NOT_FINISH && instance.m_time >= instance.m_matchResultTime) {
+			var boardY = -RESULT_BOARD_H + (instance.m_time - instance.m_matchResultTime) * 80;
 			if (boardY > MAP_H * BLOCK_SIZE / 2 - RESULT_BOARD_H / 2) {
 				boardY = MAP_H * BLOCK_SIZE / 2 - RESULT_BOARD_H / 2;
 			}
-			g_graphicEngine.DrawFast (g_context, imgResultBoard[this.m_matchResult], MAP_W * BLOCK_SIZE / 2 + this.m_screenShakeX - RESULT_BOARD_W / 2, boardY + this.m_screenShakeY);
+			g_graphicEngine.DrawFast (g_context, imgResultBoard[instance.m_matchResult], MAP_W * BLOCK_SIZE / 2 + instance.m_screenShakeX - RESULT_BOARD_W / 2, boardY + instance.m_screenShakeY);
 		}
-		else if (this.m_matchResult != MATCH_RESULT_NOT_FINISH && this.m_matchResultTime <= 10) {
-			g_graphicEngine.DrawFast (g_context, imgResultBoard[this.m_matchResult], MAP_W * BLOCK_SIZE / 2 + this.m_screenShakeX - RESULT_BOARD_W / 2, MAP_H * BLOCK_SIZE / 2 + this.m_screenShakeY - RESULT_BOARD_H / 2);
+		else if (instance.m_matchResult != MATCH_RESULT_NOT_FINISH && instance.m_matchResultTime <= 10) {
+			g_graphicEngine.DrawFast (g_context, imgResultBoard[instance.m_matchResult], MAP_W * BLOCK_SIZE / 2 + instance.m_screenShakeX - RESULT_BOARD_W / 2, MAP_H * BLOCK_SIZE / 2 + instance.m_screenShakeY - RESULT_BOARD_H / 2);
 		}
 		
 		
 		g_graphicEngine.DrawFast (g_context, rightPanel, CANVAS_W - 305, 0);
 		
-		for (var i=this.m_inventory.length-1; i>=0; i--) {
-			if (this.m_time > this.m_inventory[i]["time"]) {
-				for (var j=0; j<this.m_inventory[i][TEAM_1].length; j++) {
-					g_graphicEngine.DrawFast (g_context, imgPowerUp[this.m_inventory[i][TEAM_1][j]], TEAM_1_INVENTORY_X + j * 45, TEAM_1_INVENTORY_Y);
+		for (var i=instance.m_inventory.length-1; i>=0; i--) {
+			if (instance.m_time > instance.m_inventory[i]["time"]) {
+				for (var j=0; j<instance.m_inventory[i][TEAM_1].length; j++) {
+					g_graphicEngine.DrawFast (g_context, imgPowerUp[instance.m_inventory[i][TEAM_1][j]], TEAM_1_INVENTORY_X + j * 45, TEAM_1_INVENTORY_Y);
 				}
-				for (var j=0; j<this.m_inventory[i][TEAM_2].length; j++) {
-					g_graphicEngine.DrawFast (g_context, imgPowerUp[this.m_inventory[i][TEAM_2][j]], TEAM_2_INVENTORY_X + j * 45, TEAM_2_INVENTORY_Y);
+				for (var j=0; j<instance.m_inventory[i][TEAM_2].length; j++) {
+					g_graphicEngine.DrawFast (g_context, imgPowerUp[instance.m_inventory[i][TEAM_2][j]], TEAM_2_INVENTORY_X + j * 45, TEAM_2_INVENTORY_Y);
 				}
 				
 				break;
@@ -744,14 +746,14 @@ function GSActionPhase () {
 		}
 		
 		
-		if (this.m_time > this.m_suddenDeathTime && this.m_suddenDeathTime != -1) {
-			//timeBoard.SetNumber (((timeCorrectionFactor - this.m_time) * PACKET_PROCESS_INTERVAL / 1000) >> 0, true);
-			var time = ((timeCorrectionFactor - this.m_time) * PACKET_PROCESS_INTERVAL / 1000) >> 0;
+		if (instance.m_time > instance.m_suddenDeathTime && instance.m_suddenDeathTime != -1) {
+			//timeBoard.SetNumber (((timeCorrectionFactor - instance.m_time) * PACKET_PROCESS_INTERVAL / 1000) >> 0, true);
+			var time = ((timeCorrectionFactor - instance.m_time) * PACKET_PROCESS_INTERVAL / 1000) >> 0;
 			g_graphicEngine.DrawTextRGB (g_context, time, TIME_BOARD_X, TIME_BOARD_Y, 200, "BlackOpsOne", 50, true, false, "center", "center", 193, 0, 12, 0.9, false, false, 150, 150, 150);
 		}
 		else {
-			//timeBoard.SetNumber ((((timeCorrectionFactor - this.m_time) * PACKET_PROCESS_INTERVAL / 1000) - SUDDEN_DEATH_DURATION) >> 0, false);
-			var time = (((timeCorrectionFactor - this.m_time) * PACKET_PROCESS_INTERVAL / 1000) - SUDDEN_DEATH_DURATION) >> 0;
+			//timeBoard.SetNumber ((((timeCorrectionFactor - instance.m_time) * PACKET_PROCESS_INTERVAL / 1000) - SUDDEN_DEATH_DURATION) >> 0, false);
+			var time = (((timeCorrectionFactor - instance.m_time) * PACKET_PROCESS_INTERVAL / 1000) - SUDDEN_DEATH_DURATION) >> 0;
 			g_graphicEngine.DrawTextRGB (g_context, time, TIME_BOARD_X, TIME_BOARD_Y, 200, "BlackOpsOne", 50, false, false, "center", "center", 189, 189, 189, 0.9, false, false, 150, 150, 150);
 		}
 		

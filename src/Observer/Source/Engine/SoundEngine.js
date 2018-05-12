@@ -1,4 +1,5 @@
 function SoundEngine() {
+	var instance = this;
 	// Allocate memory for the sound cache
 	var soundBuffer		= [];
 	var soundName    	= [];

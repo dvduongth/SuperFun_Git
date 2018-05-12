@@ -61,7 +61,7 @@ function Network(host, port) {
 		if (socketStatus == SOCKET_CONNECTED) {
 			var packet = "";
 			packet += EncodeUInt8(COMMAND_PING);
-			this.Send (packet);
+			instance.Send (packet);
 		}
 	};
 	this.SendStartConnectCommand = function () {
@@ -71,7 +71,7 @@ function Network(host, port) {
 			var packet = "";
 			packet += EncodeUInt8(COMMAND_SEND_KEY);
 			packet += EncodeInt8(-1);
-			this.Send (packet);
+			instance.Send (packet);
 		}
 	};
 	this.OnMessage = function (data) {

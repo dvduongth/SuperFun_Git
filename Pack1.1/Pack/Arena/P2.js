@@ -811,16 +811,16 @@ function OnPlaceTankRequest() {
 	// This function is called at the start of the game. You place your tank according
 	// to your strategy here.
 	if (GetMyTeam() == TEAM_1) {
-		PlaceTank(TANK_LIGHT, 7, 8);
-		PlaceTank(TANK_MEDIUM, 7, 9);
-		PlaceTank(TANK_HEAVY, 7, 7);
-		PlaceTank(TANK_LIGHT, 7, 6);
+		PlaceTank(TANK_LIGHT, 5, 2);
+		PlaceTank(TANK_MEDIUM, 3, 8);
+		PlaceTank(TANK_HEAVY, 6, 10);
+		PlaceTank(TANK_LIGHT, 4, 14);
 	}
 	else if (GetMyTeam() == TEAM_2) {
-		PlaceTank(TANK_LIGHT, 15, 15);
-		PlaceTank(TANK_MEDIUM, 15, 16);
-		PlaceTank(TANK_HEAVY, 15, 17);
-		PlaceTank(TANK_HEAVY, 15, 18);
+		PlaceTank(TANK_LIGHT, 16, 4);
+		PlaceTank(TANK_MEDIUM, 17, 8);
+		PlaceTank(TANK_HEAVY, 17, 13);
+		PlaceTank(TANK_HEAVY, 16, 19);
 	}
 	
 	// Leave this here, don't remove it.
@@ -907,15 +907,14 @@ function Update() {
 		if((tempTank == null) ||(tempTank.m_HP == 0))
 			continue;
 		
-		// CommandTank (i, null, false, true);
 		// Run randomly and fire as soon as cooldown finish.
 		// You may want a more ... intelligent algorithm here.
 		if (Math.random() > 0.9) {
 			var direction = (Math.random() * 4) >> 0;
-			CommandTank (i, direction + 1, Math.random() > 0.5, Math.random() > 0.5); // Turn into the direction, keep moving, and firing like there is no tomorrow
+			CommandTank (i, direction + 1, true, true); // Turn into the direction, keep moving, and firing like there is no tomorrow
 		}
 		else {
-			CommandTank (i, null, Math.random() > 0.5, Math.random() > 0.5); // Keep the old direction, keep on moving and firing.
+			CommandTank (i, null, true, true); // Keep the old direction, keep on moving and firing.
 		}
 	}
 	

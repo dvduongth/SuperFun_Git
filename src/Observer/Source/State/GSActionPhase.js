@@ -259,8 +259,8 @@ function GSActionPhase() {
                 for (var i = 0; i < MAP_W; i++) {
                     var tempTest = [];
                     for (var j = 0; j < MAP_H; j++) {
-                        //instance.m_map[j * MAP_W + i] = DecodeUInt8(data, readOffset);
-                        instance.m_map[j * MAP_W + i] = DecodeInt8(data, readOffset);
+                        instance.m_map[j * MAP_W + i] = DecodeUInt8(data, readOffset);
+                        //instance.m_map[j * MAP_W + i] = DecodeInt8(data, readOffset);
                         readOffset += 1;
 
                         if (_.isNaN(instance.m_map[j * MAP_W + i])) {

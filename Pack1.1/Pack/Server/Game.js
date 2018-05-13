@@ -456,8 +456,8 @@ module.exports = function Game(key1, key2, replayFilename) {
         for (var i = 0; i < Setting.MAP_W; i++) {
             //var tempTest = [];
             for (var j = 0; j < Setting.MAP_H; j++) {
-                packet += Network.EncodeInt8(instance.m_map[j * Setting.MAP_W + i]);
-                //packet += Network.EncodeUInt8(instance.m_map[j * Setting.MAP_W + i]);
+                packet += Network.EncodeUInt8(instance.m_map[j * Setting.MAP_W + i]);
+                //packet += Network.EncodeInt8(instance.m_map[j * Setting.MAP_W + i]);
                 //tempTest.push(Network.DecodeUInt8(Network.EncodeUInt8(instance.m_map[j * Setting.MAP_W + i])));
             }
             //mTest.push(tempTest.join(", "));
@@ -654,10 +654,9 @@ module.exports = function Game(key1, key2, replayFilename) {
             //Save replay, CloseServer will be called after done writing replay string to file
             if (loopBeforeEnding == 0) {
                 instance.SaveReplay();
-                return;
-            }
-            else if (loopBeforeEnding < 0) {
-                return;
+                return console.log("Save replay, CloseServer will be called after done writing replay string to file");
+            } else if (loopBeforeEnding < 0) {
+                return console.log("Game Update return loopBeforeEnding < 0");
             }
         }
 

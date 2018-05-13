@@ -389,8 +389,8 @@ var Client = function (key) {
                 for (var i = 0; i < MAP_W; i++) {
                     var tempTest = [];
                     for (var j = 0; j < MAP_H; j++) {
-                        //g_map[j * MAP_W + i] = DecodeUInt8(data, readOffset);
-                        g_map[j * MAP_W + i] = DecodeInt8(data, readOffset);
+                        g_map[j * MAP_W + i] = DecodeUInt8(data, readOffset);
+                        //g_map[j * MAP_W + i] = DecodeInt8(data, readOffset);
                         readOffset += 1;
 
                         if (_.isNaN(g_map[j * MAP_W + i])) {

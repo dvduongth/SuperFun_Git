@@ -211,7 +211,7 @@ Utility.blockToString = function(value) {
         case Enum.BLOCK_SOFT_OBSTACLE:
             return "Enum.BLOCK_SOFT_OBSTACLE";
         default :
-            return "BLOCK UNDEFINED";
+            return "BLOCK UNDEFINED " + value;
     }
 };
 
@@ -223,7 +223,7 @@ Utility.teamToString = function(value) {
         case Enum.TEAM_2:
             return "Enum.TEAM_2";
         default :
-            return "TEAM UNDEFINED";
+            return "TEAM UNDEFINED " + value;
     }
 };
 

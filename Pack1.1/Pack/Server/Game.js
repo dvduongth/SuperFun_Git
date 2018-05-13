@@ -451,15 +451,23 @@ module.exports = function Game(key1, key2, replayFilename) {
 
         // Map - (not this way)
         packet += Network.EncodeUInt8(Enum.COMMAND_UPDATE_MAP);
+
+        //var mTest = [];
         for (var i = 0; i < Setting.MAP_W; i++) {
+            //var tempTest = [];
             for (var j = 0; j < Setting.MAP_H; j++) {
-                packet += Network.EncodeUInt8(instance.m_map[j * Setting.MAP_W + i])
+                packet += Network.EncodeInt8(instance.m_map[j * Setting.MAP_W + i]);
+                //packet += Network.EncodeUInt8(instance.m_map[j * Setting.MAP_W + i]);
+                //tempTest.push(Network.DecodeUInt8(Network.EncodeUInt8(instance.m_map[j * Setting.MAP_W + i])));
             }
+            //mTest.push(tempTest.join(", "));
         }
+        //console.log("Game GetFullSyncPacket Enum.COMMAND_UPDATE_MAP\n", mTest.join("\n"));
 
         packet += instance.GetInventoryPacket(true);
         packet += instance.GetUpdatePacket(true);
 
+        console.log("Game GetFullSyncPacket Enum.COMMAND_UPDATE_MAP with packet.length", packet.length);
         return packet;
     };
 

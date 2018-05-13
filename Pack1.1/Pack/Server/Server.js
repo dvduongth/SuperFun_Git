@@ -67,7 +67,8 @@ var server = WS.createServer(function (socket) {
 
     // Receive a text
     socket.on("text", function (data) {
-        console.log("server Data received: " + Network.PacketToString(data));
+        //console.log("server Data received: " + Network.PacketToString(data));
+        console.log("server Data received: data.length" + data.length);
 
         game.OnCommand(socket.index, data);
     });
@@ -98,14 +99,15 @@ game.SetServerInstance(server);
 
 server.Send = function (playerIndex, data) {
     //console.log ("Server send to player: " + playerIndex + " with data: " + Network.PacketToString(data));
-    console.log ("Server send to player: " + playerIndex + " with data length: " + data.length);
+    console.log("Server send to player: " + playerIndex + " with data length: " + data.length);
     if (socketStatus[playerIndex] == SOCKET_STATUS_ONLINE) {
         socketList[playerIndex].sendText(data);
     }
 };
 
 server.Broadcast = function (data) {
-    console.log ("Server broadcast: " + Network.PacketToString(data));
+    //console.log ("Server broadcast: " + Network.PacketToString(data));
+    console.log("Server broadcast: data.length" + data.length);
     for (var i = 0; i < socketList.length; i++) {
         if (socketStatus[i] == SOCKET_STATUS_ONLINE) {
             socketList[i].sendText(data);

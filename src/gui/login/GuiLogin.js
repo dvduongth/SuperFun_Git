@@ -159,8 +159,8 @@ var GuiLogin = BaseGui.extend({
 
         //this.testHorse(PlayerColor.YELLOW);
 
+        //todo test
         this.createTestButton();
-
         //this.init();
     },
 
@@ -371,7 +371,7 @@ var GuiLogin = BaseGui.extend({
 
         this._wsiSendText.onmessage = function(evt) {
             self._sendTextTimes++;
-            var textStr = "response text msg: "+evt.data+", "+self._sendTextTimes;
+            var textStr = "response data.length " + evt.data.length + " text msg: "+evt.data+", "+self._sendTextTimes;
             cc.log(textStr);
 
             self._sendTextStatus.setString(textStr);
@@ -396,7 +396,7 @@ var GuiLogin = BaseGui.extend({
         this._wsiSendBinary.onmessage = function(evt) {
             self._sendBinaryTimes++;
             var binary = new Uint16Array(evt.data);
-            var binaryStr = "response bin msg: ";
+            var binaryStr = "response bin message data.length " + binary.length + " : ";
 
             var str = "";
             for (var i = 0; i < binary.length; i++) {

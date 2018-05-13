@@ -35,17 +35,18 @@ function Network(host, port) {
 			socketStatus = SOCKET_CONNECTED;
 			instance.SendStartConnectCommand();
 		};
-		socket.onmessage = function (evt) { 
+		socket.onmessage = function (evt) {
+			//cc.log('Network onmessage with evt', JSON.stringify(evt));
 			instance.OnMessage (evt.data);
 		};
 		socket.onclose = function() { 
 			socketStatus = SOCKET_IDLE;
 			socket = null;
-			console.log ("Socket closed");
+			console.log ("Network Socket closed");
 		};
 		
 		socketStatus = SOCKET_CONNECTING;
-		console.log ("Connect to: " + host + ":" + port);
+		console.log ("Network Connect to: " + host + ":" + port);
 	};
 	
 	this.GetStatus = function () {
@@ -53,7 +54,8 @@ function Network(host, port) {
 	};
 	
 	this.Send = function (data) {
-		console.log ("Socket send: " + PacketToString(data));
+		//console.log ("Socket send: " + PacketToString(data));
+		console.log ("Network Socket send: data.length" + data.length);
 		socket.send (data);
 	};
 
@@ -75,7 +77,8 @@ function Network(host, port) {
 		}
 	};
 	this.OnMessage = function (data) {
-		console.log ("Data received: " + PacketToString(data));
+		//console.log ("Data received: " + PacketToString(data));
+		console.log ("Network Data received: data.length" + data.length);
 		if (g_gsActionPhase) {
 			g_gsActionPhase.OnUpdatePacket(data);
 		}

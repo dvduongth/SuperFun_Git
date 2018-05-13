@@ -326,9 +326,10 @@ var Client = function (key) {
 
 
     socket = new WebSocket("ws://" + host + ":" + port);
+    socket.binaryType = "arraybuffer";
 
     socket.onopen = function () {
-        logger.print("Socket connected");
+        logger.print("Client Socket connected. Send Text WS was opened.");
         socketStatus = SOCKET_CONNECTED;
         SendKey();
     };
@@ -344,7 +345,7 @@ var Client = function (key) {
 
 
     function Send(data) {
-        //console.log ("Socket send: " + PacketToString(data));
+        //console.log ("Client Socket send: " + PacketToString(data));
         if (socket.sendText) {
             socket.sendText(data);
         } else {
@@ -352,9 +353,15 @@ var Client = function (key) {
         }
     }
     function OnMessage(data) {
-        console.log("Data received: " + PacketToString(data));
+        //console.log("Client Data received: " + PacketToString(data));
+        console.log("Client Data received: data.length" + data.length);
+
+        if(data.length >= 26) {
+            console.error("Client OnMessage with big data", PacketToString(data));
+        }
 
         var readOffset = 0;
+        var state;
 
         while (true) {
             var command = DecodeUInt8(data, readOffset);
@@ -377,12 +384,25 @@ var Client = function (key) {
                 }
             }
             else if (command == COMMAND_UPDATE_MAP) {
+                cc.log("Client COMMAND_UPDATE_MAP with data.length", data.length);
+                var mTest = [];
                 for (var i = 0; i < MAP_W; i++) {
+                    var tempTest = [];
                     for (var j = 0; j < MAP_H; j++) {
-                        g_map[j * MAP_W + i] = DecodeUInt8(data, readOffset);
+                        //g_map[j * MAP_W + i] = DecodeUInt8(data, readOffset);
+                        g_map[j * MAP_W + i] = DecodeInt8(data, readOffset);
                         readOffset += 1;
+
+                        if (_.isNaN(g_map[j * MAP_W + i])) {
+                            cc.error("Client DecodeUInt8 is NAN with data.length", data.length, 'and data', PacketToString(data), 'and readOffset', readOffset);
+                            g_map[j * MAP_W + i] = BLOCK_SOFT_OBSTACLE;
+                        }
+                        tempTest.push(g_map[j * MAP_W + i]);
                     }
+                    mTest.push(tempTest.join(", "));
                 }
+                cc.log("Client OnUpdatePacket COMMAND_UPDATE_MAP\n", mTest.join("\n"));
+                g_map = gv.MAP.slice(0);
             }
             else if (command == COMMAND_UPDATE_TIME) {
                 g_timeLeft = DecodeInt16(data, readOffset);
@@ -417,7 +437,7 @@ var Client = function (key) {
             }
             else {
                 readOffset++;
-                logger.print("Invalid command id: " + command)
+                logger.print("Client Invalid command id: " + command)
             }
 
             if (readOffset >= data.length) {
@@ -932,6 +952,7 @@ var Client = function (key) {
     }
 
     function Update() {
+        console.log("Client Update");
         // =========================================================================================================
         // Do nothing if the match is ended
         // You should keep this. Removing it probably won't affect much, but just keep it.
@@ -946,7 +967,7 @@ var Client = function (key) {
             else {
                 console.log("DRAW.. BORING!");
             }
-            return;
+            return console.log("Client Return Update with STATE_FINISHED", Utility.matchResultToString(g_matchResult));
         }
 
 

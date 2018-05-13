@@ -114,6 +114,6 @@ exports.blockToString = function(value) {
         case Enum.BLOCK_SOFT_OBSTACLE:
             return "Enum.BLOCK_SOFT_OBSTACLE";
         default :
-            return "BLOCK UNDEFINED";
+            return "BLOCK UNDEFINED " + value;
     }
 };

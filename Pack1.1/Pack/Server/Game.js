@@ -684,7 +684,7 @@ module.exports = function Game(key1, key2, replayFilename) {
     };
 
     this.AddToReplay = function (data) {
-        console.log('Game AddToReplay');
+        //console.log('Game AddToReplay');
         if (replayFilename != null) {
             console.log('add to replay');
             logger.print('add to replay');
@@ -696,6 +696,8 @@ module.exports = function Game(key1, key2, replayFilename) {
         }
     };
     this.SaveReplay = function () {
+        console.log("Game SaveReplay");
+        logger.print("Game SaveReplay");
         if (replayFilename != null) {
             var replayString = "";
             for (var i = 0; i < replayData.length; i++)

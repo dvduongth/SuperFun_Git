@@ -81,6 +81,15 @@ var server = WS.createServer(function (socket) {
                 socketStatus[i] = SOCKET_STATUS_OFFLINE;
             }
         }
+
+        var findIndex = socketStatus.findIndex(function (e, arr, idx) {
+            return e == SOCKET_STATUS_ONLINE;
+        });
+        if(findIndex == -1) {
+            //todo all user offline
+            console.log("All User Offline");
+            game.CloseServer();
+        }
     });
 
     // Error is treated same as disconnected

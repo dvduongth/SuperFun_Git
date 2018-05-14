@@ -264,8 +264,8 @@ function GSActionPhase() {
                         readOffset += 1;
 
                         if (_.isNaN(instance.m_map[j * MAP_W + i])) {
-                            cc.error("GSActionPhase DecodeUInt8 is NAN with data.length", data.length, 'and data', PacketToString(data), 'and readOffset', readOffset);
-                            instance.m_map[j * MAP_W + i] = BLOCK_SOFT_OBSTACLE;
+                            //cc.error("GSActionPhase DecodeUInt8 is NAN with data.length", data.length, 'and data', PacketToString(data), 'and readOffset', readOffset);
+                            instance.m_map[j * MAP_W + i] = gv.MAP[j * MAP_W + i];
                         }
                         tempTest.push(instance.m_map[j * MAP_W + i]);
                     }

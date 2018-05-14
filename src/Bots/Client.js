@@ -394,8 +394,8 @@ var Client = function (key) {
                         readOffset += 1;
 
                         if (_.isNaN(g_map[j * MAP_W + i])) {
-                            cc.error("Client DecodeUInt8 is NAN with data.length", data.length, 'and data', PacketToString(data), 'and readOffset', readOffset);
-                            g_map[j * MAP_W + i] = BLOCK_SOFT_OBSTACLE;
+                            //cc.error("Client DecodeUInt8 is NAN with data.length", data.length, 'and data', PacketToString(data), 'and readOffset', readOffset);
+                            g_map[j * MAP_W + i] = gv.MAP[j * MAP_W + i];
                         }
                         tempTest.push(g_map[j * MAP_W + i]);
                     }

@@ -120,7 +120,9 @@ function Base (game, id, team, type) {
 	
 	this.Draw = function () {
 		if (shouldDraw) {
+			cc.log('Base Should Draw');
 			if(instance.m_HP > 0) {
+				cc.log('Base instance.m_HP > 0 : ' + instance.m_HP);
 				g_graphicEngine.DrawFast (g_context, imgBase[instance.m_team][instance.m_type], instance.m_x * BLOCK_SIZE - BLOCK_SIZE/2 + g_gsActionPhase.m_screenShakeX , instance.m_y * BLOCK_SIZE - BLOCK_SIZE/2 + g_gsActionPhase.m_screenShakeY);
 				g_graphicEngine.FillCanvas (g_context, 192, 0, 0, 1, instance.m_x * BLOCK_SIZE - BLOCK_SIZE/2 + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE - BLOCK_SIZE/2 + g_gsActionPhase.m_screenShakeY + HP_BAR_OFFSET, BLOCK_SIZE * 2, 4);
 				g_graphicEngine.FillCanvas (g_context, 0, 192, 0, 1, instance.m_x * BLOCK_SIZE - BLOCK_SIZE/2 + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE - BLOCK_SIZE/2 + g_gsActionPhase.m_screenShakeY + HP_BAR_OFFSET, BLOCK_SIZE * 2 * (instance.m_HP / BASE_MAX_HP[instance.m_type]), 4);

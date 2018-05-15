@@ -135,6 +135,7 @@ function Strike (game, id, team) {
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
 		if (instance.m_live) {
+			cc.log('Strike Draw when live');
 			if (instance.m_countDown > 0 && instance.m_type == POWERUP_AIRSTRIKE) {
 				g_graphicEngine.DrawFast (g_context, imgAirPlane[instance.m_team], instance.m_x * BLOCK_SIZE + AIRPLANE_OFFSET + g_gsActionPhase.m_screenShakeX, -AIRPLANE_SPRITE_SIZE + instance.m_countDown * (CANVAS_H + AIRPLANE_SPRITE_SIZE) / AIRSTRIKE_COUNTDOWN + g_gsActionPhase.m_screenShakeY);
 			}

@@ -138,20 +138,24 @@ function Bullet (game, id, team) {
 			else if (instance.m_direction == DIRECTION_LEFT) {
 				angle = 270;
 			}
+			cc.log('Bullet Draw when live with angle ' + angle);
 			g_graphicEngine.SetDrawModeAddActive (g_context, true);
 			g_graphicEngine.Draw (g_context, imgBullet[instance.m_type], 0, 0, BLOCK_SIZE, BLOCK_SIZE, instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
 			g_graphicEngine.SetDrawModeAddActive (g_context, false);
 			
 			if (instance.m_type == TANK_HEAVY) {
+				cc.log('Bullet type == TANK_HEAVY and whiteSmoke.Pause');
 				whiteSmoke.Pause();
 			}
 			else {
+				cc.log('Bullet whiteSmoke.Resume');
 				whiteSmoke.Resume();
 				whiteSmoke.m_x = (instance.m_x + 0.5) * BLOCK_SIZE;
 				whiteSmoke.m_y = (instance.m_y + 0.5) * BLOCK_SIZE;
 			}
 		}
 		else {
+			cc.log('Bullet whiteSmoke.Pause when dead');
 			whiteSmoke.Pause();
 		}
 	};

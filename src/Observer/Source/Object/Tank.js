@@ -241,7 +241,7 @@ function Tank (game, id, team, type) {
 			else if (instance.m_direction == DIRECTION_LEFT) {
 				angle = 270;
 			}
-			
+			cc.log('Tank shouldDraw with angle ' + angle);
 			g_graphicEngine.Draw (g_context, imgTankS[instance.m_team][instance.m_type], 0, 0, BLOCK_SIZE, BLOCK_SIZE, instance.m_x * BLOCK_SIZE + TANK_SHADOW_OFFSET + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + TANK_SHADOW_OFFSET + g_gsActionPhase.m_screenShakeY, BLOCK_SIZE, BLOCK_SIZE, 1, false, false, angle);
 			
 			if (instance.m_HP > TANK_MAX_HP[instance.m_type] * 0.67) {

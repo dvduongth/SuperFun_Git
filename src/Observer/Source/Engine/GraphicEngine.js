@@ -57,9 +57,28 @@ function GraphicEngine() {
      * @return sprite
      * */
     this.GetImage = function (id) {
-        //return imageObjectArray[id];
         cc.log('GraphicEngine GetImage with id', id, imagePathArray[id]);
-        return fr.createSprite(imagePathArray[id]);
+        if(cc.pool.hasObject(cc.Sprite)){
+            cc.log("GraphicEngine GetImage getFromPool with id", id, imagePathArray[id]);
+            imageObjectArray[id] = cc.pool.getFromPool(cc.Sprite, imagePathArray[id]);
+        }else{
+            imageObjectArray[id] = fr.createSprite(imagePathArray[id]);
+            if(typeof imageObjectArray[id].unuse == "undefined"){
+                cc.log('create new function for sprite: reuse and unuse');
+                imageObjectArray[id].constructor.prototype.unuse = function () {
+                    this.retain();
+                    this.setVisible(false);
+                    this.removeFromParent(false);
+                }.bind(imageObjectArray[id]);
+                imageObjectArray[id].constructor.prototype.reuse = function (name) {
+                    //this.removeFromParent(false);
+                    this.setVisible(true);
+                    fr.changeSprite(this, name);
+                }.bind(imageObjectArray[id]);
+            }
+        }
+        //imageObjectArray[id].removeFromParent(false);
+        return imageObjectArray[id];
     };
     // ------------------------------------------------------------------
 

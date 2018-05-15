@@ -145,16 +145,16 @@ function Particle(context) {
 					return;
 				}
 				
-				/*if (navigator.isCocoonJS) {
+				if (cc.sys.isNative) {
 					offsetX = x;
 					offsetY = y;
-				}*/
+				}
 			}
 			
-			/*var sourceRect = instance.m_sourceRectArray[currentFrame];
+			var sourceRect = instance.m_sourceRectArray[currentFrame];
 			if (instance.m_drawAdd) instance.m_graphicEngine.SetDrawModeAddActive (context, true);
 			 instance.m_graphicEngine.Draw (context, sourceRect.m_id, sourceRect.m_x, sourceRect.m_y, sourceRect.m_w, sourceRect.m_h, instance.m_x - offsetX - (instance.m_w * 0.5) >> 0, instance.m_y - offsetY - (instance.m_h * 0.5) >> 0, instance.m_w, instance.m_h, instance.m_alpha, 0, 0, instance.m_angle);
-			if (instance.m_drawAdd) instance.m_graphicEngine.SetDrawModeAddActive (context, false);*/
+			if (instance.m_drawAdd) instance.m_graphicEngine.SetDrawModeAddActive (context, false);
 		}
 	};
 	
@@ -479,12 +479,14 @@ function ParticleEngine () {
 	};
 	
 	this.Draw = function (context, x, y, w, h) {
+		cc.log('ParticleEngine Draw');
 		for (var i=0; i<particlePool.length; i++) {
 			particlePool[i].Draw(context, x, y, w, h);
 		}
 	};
 	
 	this.Clean = function () {
+		cc.log('ParticleEngine Clean');
 		particlePool = [];
 		emitterPool = [];
 	};

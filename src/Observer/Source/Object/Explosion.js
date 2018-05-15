@@ -209,6 +209,7 @@ function Explosion (game, id) {
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
 		if (instance.m_live) {
+			cc.log('Explosion Draw when live');
 			var angle = 0;
 			if (EXPLOSION_ADDITIVE_DRAW[instance.m_type]) {
 				g_graphicEngine.SetDrawModeAddActive (g_context, true);
@@ -228,7 +229,7 @@ function Explosion (game, id) {
 		}
 	};
 	
-	
+	/**@return boolean*/
 	// Is this object free at this moment?
 	this.IsFreeAt = function (time) {
 		var anchor = null;

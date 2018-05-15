@@ -92,6 +92,7 @@ function Obstacle (game, id) {
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
 		if (shouldDraw) {
+			cc.log('Obstacle shouldDraw');
 			if(instance.m_HP > OBSTACLE_HP * 0.75)
 				g_graphicEngine.DrawFast (g_context, imgBrick[0], instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
 			else if(instance.m_HP > OBSTACLE_HP * 0.5)

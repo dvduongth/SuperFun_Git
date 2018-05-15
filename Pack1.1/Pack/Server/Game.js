@@ -767,13 +767,13 @@ module.exports = function Game(key1, key2, replayFilename) {
         }
 
         // Update all bullet
-        console.log("Game Update number bullets of TEAM_1 " + instance.m_bullets[TEAM_1].length);
-        logger.print("Game Update number bullets of TEAM_1 " + instance.m_bullets[TEAM_1].length);
+        console.log("Game Update number bullets of TEAM_1 " + instance.m_bullets[Enum.TEAM_1].length);
+        logger.print("Game Update number bullets of TEAM_1 " + instance.m_bullets[Enum.TEAM_1].length);
         for (var i = 0; i < instance.m_bullets[Enum.TEAM_1].length; i++) {
             instance.m_bullets[Enum.TEAM_1][i].Update();
         }
-        console.log("Game Update number bullets of TEAM_2 " + instance.m_bullets[TEAM_2].length);
-        logger.print("Game Update number bullets of TEAM_2 " + instance.m_bullets[TEAM_2].length);
+        console.log("Game Update number bullets of TEAM_2 " + instance.m_bullets[Enum.TEAM_2].length);
+        logger.print("Game Update number bullets of TEAM_2 " + instance.m_bullets[Enum.TEAM_2].length);
         for (var i = 0; i < instance.m_bullets[Enum.TEAM_2].length; i++) {
             instance.m_bullets[Enum.TEAM_2][i].Update();
         }
@@ -786,13 +786,13 @@ module.exports = function Game(key1, key2, replayFilename) {
         }
 
         // Update all strike
-        console.log("Game Update number strikes of TEAM_1 " + instance.m_strikes[TEAM_1].length);
-        logger.print("Game Update number strikes of TEAM_1 " + instance.m_strikes[TEAM_1].length);
+        console.log("Game Update number strikes of TEAM_1 " + instance.m_strikes[Enum.TEAM_1].length);
+        logger.print("Game Update number strikes of TEAM_1 " + instance.m_strikes[Enum.TEAM_1].length);
         for (var i = 0; i < instance.m_strikes[Enum.TEAM_1].length; i++) {
             instance.m_strikes[Enum.TEAM_1][i].Update();
         }
-        console.log("Game Update number strikes of TEAM_2 " + instance.m_strikes[TEAM_2].length);
-        logger.print("Game Update number strikes of TEAM_2 " + instance.m_strikes[TEAM_2].length);
+        console.log("Game Update number strikes of TEAM_2 " + instance.m_strikes[Enum.TEAM_2].length);
+        logger.print("Game Update number strikes of TEAM_2 " + instance.m_strikes[Enum.TEAM_2].length);
         for (var i = 0; i < instance.m_strikes[Enum.TEAM_2].length; i++) {
             instance.m_strikes[Enum.TEAM_2][i].Update();
         }

@@ -82,6 +82,7 @@ function PowerUp (game, id) {
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
 		if (instance.m_active) {
+			cc.log('PowerUp Draw when active');
 		    g_graphicEngine.DrawFast (g_context, imgPowerUp[instance.m_type], instance.m_x * BLOCK_SIZE + g_gsActionPhase.m_screenShakeX, instance.m_y * BLOCK_SIZE + g_gsActionPhase.m_screenShakeY);
 		}
 	}

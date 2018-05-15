@@ -739,8 +739,8 @@ function GSActionPhase() {
         g_graphicEngine.DrawFast(g_context, imgBackground, MAP_OFFSET_X + instance.m_screenShakeX, MAP_OFFSET_Y + instance.m_screenShakeY);
 
 
-        // Draw all undestructible obstacles
-        cc.log('GSActionPhase Draw all undestructible obstacles');
+        // Draw all indestructible obstacles
+        cc.log('GSActionPhase Draw all indestructible obstacles --> BLOCK_HARD_OBSTACLE');
         for (var i = 0; i < MAP_W; i++) {
             for (var j = 0; j < MAP_H; j++) {
                 //cc.log("GSActionPhase obstacles find block type", Utility.blockToString(instance.m_map[j * MAP_W + i]));
@@ -754,59 +754,70 @@ function GSActionPhase() {
         // Draw destructible obstacles
         cc.log('GSActionPhase Draw destructible obstacles');
         for (var i = 0; i < instance.m_obstacles.length; i++) {
+            cc.log('GSActionPhase obstacles ' + i + ' call Draw');
             instance.m_obstacles[i].Draw();
         }
 
         // Draw player bases
         cc.log('GSActionPhase Draw player bases');
         for (var i = 0; i < instance.m_bases[TEAM_1].length; i++) {
+            cc.log('GSActionPhase base of TEAM_1 at index ' + i + ' call Draw');
             instance.m_bases[TEAM_1][i].Draw();
         }
         for (var i = 0; i < instance.m_bases[TEAM_2].length; i++) {
+            cc.log('GSActionPhase base of TEAM_2 at index ' + i + ' call Draw');
             instance.m_bases[TEAM_2][i].Draw();
         }
 
         // Draw tanks
         cc.log('GSActionPhase Draw tanks');
         for (var i = 0; i < instance.m_tanks[TEAM_1].length; i++) {
+            cc.log('GSActionPhase tanks of TEAM_1 at index ' + i + ' call Draw');
             instance.m_tanks[TEAM_1][i].Draw();
         }
         for (var i = 0; i < instance.m_tanks[TEAM_2].length; i++) {
+            cc.log('GSActionPhase tanks of TEAM_2 at index ' + i + ' call Draw');
             instance.m_tanks[TEAM_2][i].Draw();
         }
 
         // Draw power up
         cc.log('GSActionPhase Draw power up');
         for (var i = 0; i < instance.m_powerUps.length; i++) {
+            cc.log('GSActionPhase powerUps ' + i + ' call Draw');
             instance.m_powerUps[i].Draw();
         }
 
         // Draw bullets
         cc.log('GSActionPhase Draw bullets');
         for (var i = 0; i < instance.m_bullets[TEAM_1].length; i++) {
+            cc.log('GSActionPhase bullets of TEAM_1 at index ' + i + ' call Draw');
             instance.m_bullets[TEAM_1][i].Draw();
         }
         for (var i = 0; i < instance.m_bullets[TEAM_2].length; i++) {
+            cc.log('GSActionPhase bullets of TEAM_2 at index ' + i + ' call Draw');
             instance.m_bullets[TEAM_2][i].Draw();
         }
 
         // Draw explosion
         cc.log('GSActionPhase Draw explosion');
         for (var i = 0; i < instance.m_explosions.length; i++) {
+            cc.log('GSActionPhase explosions ' + i + ' call Draw');
             instance.m_explosions[i].Draw();
         }
 
         // Draw strikes
         cc.log('GSActionPhase Draw strikes');
         for (var i = 0; i < instance.m_strikes[TEAM_1].length; i++) {
+            cc.log('GSActionPhase strikes of TEAM_1 at index ' + i + ' call Draw');
             instance.m_strikes[TEAM_1][i].Draw();
         }
         for (var i = 0; i < instance.m_strikes[TEAM_2].length; i++) {
+            cc.log('GSActionPhase strikes of TEAM_2 at index ' + i + ' call Draw');
             instance.m_strikes[TEAM_2][i].Draw();
         }
 
         // Particle
-        cc.log('GSActionPhase Particle');
+        cc.log('GSActionPhase ParticleEngine draw');
         g_particleEngine.Draw(g_context, instance.m_screenShakeX, instance.m_screenShakeY, CANVAS_W, CANVAS_H);
 
         //draw match result if needed
@@ -816,21 +827,27 @@ function GSActionPhase() {
             if (boardY > MAP_H * BLOCK_SIZE / 2 - RESULT_BOARD_H / 2) {
                 boardY = MAP_H * BLOCK_SIZE / 2 - RESULT_BOARD_H / 2;
             }
+            cc.log('GSActionPhase draw match result ' + Utility.matchResultToString(instance.m_matchResult));
             g_graphicEngine.DrawFast(g_context, imgResultBoard[instance.m_matchResult], MAP_W * BLOCK_SIZE / 2 + instance.m_screenShakeX - RESULT_BOARD_W / 2, boardY + instance.m_screenShakeY);
         }
         else if (instance.m_matchResult != MATCH_RESULT_NOT_FINISH && instance.m_matchResultTime <= 10) {
+            cc.log('GSActionPhase draw match result when instance.m_matchResultTime <= 10 ' + Utility.matchResultToString(instance.m_matchResult));
             g_graphicEngine.DrawFast(g_context, imgResultBoard[instance.m_matchResult], MAP_W * BLOCK_SIZE / 2 + instance.m_screenShakeX - RESULT_BOARD_W / 2, MAP_H * BLOCK_SIZE / 2 + instance.m_screenShakeY - RESULT_BOARD_H / 2);
         }
 
 
+        cc.log('GSActionPhase GraphicEngine DrawFast rightPanel');
         g_graphicEngine.DrawFast(g_context, rightPanel, CANVAS_W - 305, 0);
 
+        cc.log('GSActionPhase check inventory for draw');
         for (var i = instance.m_inventory.length - 1; i >= 0; i--) {
             if (instance.m_time > instance.m_inventory[i]["time"]) {
                 for (var j = 0; j < instance.m_inventory[i][TEAM_1].length; j++) {
+                    cc.log('GSActionPhase DrawFast inventory of TEAM_1 at i = ' + i + ' j = ' + j);
                     g_graphicEngine.DrawFast(g_context, imgPowerUp[instance.m_inventory[i][TEAM_1][j]], TEAM_1_INVENTORY_X + j * 45, TEAM_1_INVENTORY_Y);
                 }
                 for (var j = 0; j < instance.m_inventory[i][TEAM_2].length; j++) {
+                    cc.log('GSActionPhase DrawFast inventory of TEAM_2 at i = ' + i + ' j = ' + j);
                     g_graphicEngine.DrawFast(g_context, imgPowerUp[instance.m_inventory[i][TEAM_2][j]], TEAM_2_INVENTORY_X + j * 45, TEAM_2_INVENTORY_Y);
                 }
 
@@ -838,29 +855,39 @@ function GSActionPhase() {
             }
         }
 
+        //todo draw button
+        //draw rwButton
         if (playControlling == -1) {
+            cc.log('GSActionPhase draw rwButton when playControlling == -1');
             g_graphicEngine.Draw(g_context, rwButton, 0, RW_BUTTON_H, RW_BUTTON_W, RW_BUTTON_H, RW_BUTTON_X, RW_BUTTON_Y, RW_BUTTON_W, RW_BUTTON_H, 1);
         }
         else {
+            cc.log('GSActionPhase draw rwButton');
             g_graphicEngine.Draw(g_context, rwButton, 0, 0, RW_BUTTON_W, RW_BUTTON_H, RW_BUTTON_X, RW_BUTTON_Y, RW_BUTTON_W, RW_BUTTON_H, 1);
         }
+        //draw ffButton
         if (playControlling == 1) {
+            cc.log('GSActionPhase draw ffButton when playControlling == 1');
             g_graphicEngine.Draw(g_context, ffButton, 0, FF_BUTTON_H, FF_BUTTON_W, FF_BUTTON_H, FF_BUTTON_X, FF_BUTTON_Y, FF_BUTTON_W, FF_BUTTON_H, 1);
         }
         else {
+            cc.log('GSActionPhase draw ffButton');
             g_graphicEngine.Draw(g_context, ffButton, 0, 0, FF_BUTTON_W, FF_BUTTON_H, FF_BUTTON_X, FF_BUTTON_Y, FF_BUTTON_W, FF_BUTTON_H, 1);
         }
 
 
+        //todo draw time text
         if (instance.m_time > instance.m_suddenDeathTime && instance.m_suddenDeathTime != -1) {
             //timeBoard.SetNumber (((timeCorrectionFactor - instance.m_time) * PACKET_PROCESS_INTERVAL / 1000) >> 0, true);
             var time = ((timeCorrectionFactor - instance.m_time) * PACKET_PROCESS_INTERVAL / 1000) >> 0;
+            cc.log('GSActionPhase draw time text when instance.m_time > instance.m_suddenDeathTime && instance.m_suddenDeathTime != -1 : ' + time);
             g_graphicEngine.DrawTextRGB(g_context, time, TIME_BOARD_X, TIME_BOARD_Y, 200, "BlackOpsOne", 50, true, false, "center", "center", 193, 0, 12, 0.9, false, false, 150, 150, 150);
         }
         else {
             //timeBoard.SetNumber ((((timeCorrectionFactor - instance.m_time) * PACKET_PROCESS_INTERVAL / 1000) - SUDDEN_DEATH_DURATION) >> 0, false);
             var time = (((timeCorrectionFactor - instance.m_time) * PACKET_PROCESS_INTERVAL / 1000) - SUDDEN_DEATH_DURATION) >> 0;
             g_graphicEngine.DrawTextRGB(g_context, time, TIME_BOARD_X, TIME_BOARD_Y, 200, "BlackOpsOne", 50, false, false, "center", "center", 189, 189, 189, 0.9, false, false, 150, 150, 150);
+            cc.log('GSActionPhase draw time text : ' + time);
         }
 
     };

@@ -134,6 +134,7 @@ function Strike (game, id, team) {
 	
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
+		cc.log('Strike Draw with live ' + instance.m_live);
 		if (instance.m_live) {
 			cc.log('Strike Draw when live');
 			if (instance.m_countDown > 0 && instance.m_type == POWERUP_AIRSTRIKE) {

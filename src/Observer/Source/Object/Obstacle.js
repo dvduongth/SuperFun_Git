@@ -91,6 +91,7 @@ function Obstacle (game, id) {
 	
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
+		cc.log('Draw - obvious comment is obvious with shouldDraw ' + shouldDraw);
 		if (shouldDraw) {
 			cc.log('Obstacle shouldDraw');
 			if(instance.m_HP > OBSTACLE_HP * 0.75)

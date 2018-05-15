@@ -208,6 +208,7 @@ function Explosion (game, id) {
 	
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
+		cc.log('Explosion Draw with live ' + instance.m_live);
 		if (instance.m_live) {
 			cc.log('Explosion Draw when live');
 			var angle = 0;

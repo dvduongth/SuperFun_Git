@@ -119,6 +119,7 @@ function Base (game, id, team, type) {
 	};
 	
 	this.Draw = function () {
+		cc.log('Base Draw with shouldDraw ' + shouldDraw);
 		if (shouldDraw) {
 			cc.log('Base Should Draw');
 			if(instance.m_HP > 0) {

@@ -227,6 +227,7 @@ function Tank (game, id, team, type) {
 	
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
+		cc.log('Tank Draw with shouldDraw ' + shouldDraw);
 		if (shouldDraw) {
 			var angle = 0;
 			if (instance.m_direction == DIRECTION_UP) {

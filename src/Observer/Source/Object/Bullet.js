@@ -124,6 +124,8 @@ function Bullet (game, id, team) {
 	
 	// Draw - obvious comment is obvious
 	this.Draw = function () {
+		cc.log('Bullet Draw with live ' + instance.m_live);
+
 		if (instance.m_live) {
 			var angle = 0;
 			if (instance.m_direction == DIRECTION_UP) {

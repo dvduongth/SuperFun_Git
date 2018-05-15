@@ -166,6 +166,8 @@ module.exports = function Game(key1, key2, replayFilename) {
             instance.AddToReplay(matchResultPacket);
 
             setTimeout(function () {
+                console.log("Game SaveReplay on setTimeout");
+                logger.print("Game SaveReplay on setTimeout");
                 instance.SaveReplay();
             }, 2000);
         }
@@ -540,6 +542,9 @@ module.exports = function Game(key1, key2, replayFilename) {
 
     // ==================================================================
     // Game logic
+    /**
+     * @return boolean
+     * */
     this.PickTank = function (player, type, x, y) {
         console.log('pick tank', player, type, x, y);
         logger.print('pick tank ' + player + " type " + type + " x " + x + " y " + y);
@@ -751,31 +756,43 @@ module.exports = function Game(key1, key2, replayFilename) {
 
         // Update all tank
         console.log("Game Update num tank of TEAM_1 " + instance.m_tanks[Enum.TEAM_1].length);
+        logger.print("Game Update num tank of TEAM_1 " + instance.m_tanks[Enum.TEAM_1].length);
         for (var i = 0; i < instance.m_tanks[Enum.TEAM_1].length; i++) {
             instance.m_tanks[Enum.TEAM_1][i].Update();
         }
         console.log("Game Update num tank of TEAM_2 " + instance.m_tanks[Enum.TEAM_2].length);
+        logger.print("Game Update num tank of TEAM_2 " + instance.m_tanks[Enum.TEAM_2].length);
         for (var i = 0; i < instance.m_tanks[Enum.TEAM_2].length; i++) {
             instance.m_tanks[Enum.TEAM_2][i].Update();
         }
 
         // Update all bullet
+        console.log("Game Update number bullets of TEAM_1 " + instance.m_bullets[TEAM_1].length);
+        logger.print("Game Update number bullets of TEAM_1 " + instance.m_bullets[TEAM_1].length);
         for (var i = 0; i < instance.m_bullets[Enum.TEAM_1].length; i++) {
             instance.m_bullets[Enum.TEAM_1][i].Update();
         }
+        console.log("Game Update number bullets of TEAM_2 " + instance.m_bullets[TEAM_2].length);
+        logger.print("Game Update number bullets of TEAM_2 " + instance.m_bullets[TEAM_2].length);
         for (var i = 0; i < instance.m_bullets[Enum.TEAM_2].length; i++) {
             instance.m_bullets[Enum.TEAM_2][i].Update();
         }
 
         // Update all runes
+        console.log("Game Update number PowerUps " + instance.m_powerUps.length);
+        logger.print("Game Update number PowerUps " + instance.m_powerUps.length);
         for (var i = 0; i < instance.m_powerUps.length; i++) {
             instance.m_powerUps[i].Update();
         }
 
         // Update all strike
+        console.log("Game Update number strikes of TEAM_1 " + instance.m_strikes[TEAM_1].length);
+        logger.print("Game Update number strikes of TEAM_1 " + instance.m_strikes[TEAM_1].length);
         for (var i = 0; i < instance.m_strikes[Enum.TEAM_1].length; i++) {
             instance.m_strikes[Enum.TEAM_1][i].Update();
         }
+        console.log("Game Update number strikes of TEAM_2 " + instance.m_strikes[TEAM_2].length);
+        logger.print("Game Update number strikes of TEAM_2 " + instance.m_strikes[TEAM_2].length);
         for (var i = 0; i < instance.m_strikes[Enum.TEAM_2].length; i++) {
             instance.m_strikes[Enum.TEAM_2][i].Update();
         }
@@ -783,22 +800,30 @@ module.exports = function Game(key1, key2, replayFilename) {
         var stateUpdatePacket = "";
         var matchResultPacket = "";
         if (instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH) {
+            console.log("Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished");
+            logger.print("Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished");
             //le.huathi - check win-lost if match isn't finished
             if ((instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH) && (instance.CheckWinLost())) {
                 instance.m_state = Enum.STATE_FINISHED;
                 matchResultPacket = instance.GetMatchResultPackage();
                 stateUpdatePacket = instance.GetStateUpdatePacket();
+                console.log("Game Update instance.m_state = Enum.STATE_FINISHED");
+                logger.print("Game Update instance.m_state = Enum.STATE_FINISHED");
             }
             //Should turn on sudden death mode?
             else if ((instance.m_state == Enum.STATE_ACTION) && (instance.m_loopNumber >= Setting.LOOPS_SUDDEN_DEATH)) {
                 instance.SetSuddenDeathMode();
                 stateUpdatePacket = instance.GetStateUpdatePacket();
+                console.log("Game Update Should turn on sudden death mode");
+                logger.print("Game Update Should turn on sudden death mode");
             }
             //or time's up?
             else if ((instance.m_state == Enum.STATE_SUDDEN_DEATH) && (instance.m_loopNumber >= Setting.LOOPS_MATCH_END)) {
                 instance.ProcessTimeUp();
                 matchResultPacket = instance.GetMatchResultPackage();
                 stateUpdatePacket = instance.GetStateUpdatePacket();
+                console.log("Game Update time's up");
+                logger.print("Game Update time's up");
             }
         }
 
@@ -812,6 +837,9 @@ module.exports = function Game(key1, key2, replayFilename) {
         instance.AddToReplay(stateUpdatePacket + updatePacket + matchResultPacket);
     };
 
+    /**
+     * @return boolean
+     * */
     this.CheckWinLost = function () {
         var hasLoser = false;
         // Check bases
@@ -899,7 +927,9 @@ module.exports = function Game(key1, key2, replayFilename) {
 
         return false;
     };
-
+    /**
+     * @return boolean
+     * */
     this.CheckWinLostTimeUp = function () {
         //Check bases living
         var count1 = 0;
@@ -1006,6 +1036,9 @@ module.exports = function Game(key1, key2, replayFilename) {
     // Helper functions
     // ==================================================================
     //le.huathi - get existing obstacle at cell (x,y)
+    /**
+     * @return object
+     * */
     this.GetObstacle = function (x, y) {
         for (var i = 0; i < instance.m_obstacles.length; i++) {
             if ((instance.m_obstacles[i].m_x == x) && (instance.m_obstacles[i].m_y == y))
@@ -1013,7 +1046,9 @@ module.exports = function Game(key1, key2, replayFilename) {
         }
         return null;
     };
-
+    /**
+     * @return object
+     * */
     this.GetBase = function (x, y) {
         for (var i = 0; i < instance.m_bases[Enum.TEAM_1].length; i++) {
             if ((instance.m_bases[Enum.TEAM_1][i].m_x - 1 < x) && (instance.m_bases[Enum.TEAM_1][i].m_x + 1 > x)

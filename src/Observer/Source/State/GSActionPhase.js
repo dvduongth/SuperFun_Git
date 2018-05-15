@@ -719,7 +719,7 @@ function GSActionPhase() {
 
     // Draw all
     this.Draw = function () {
-        cc.log('GSActionPhase draw');
+        cc.log('GSActionPhase draw all');
         // Draw animated water
         cc.log('GSActionPhase Draw animated water');
         for (var i = 0; i < MAP_W; i++) {

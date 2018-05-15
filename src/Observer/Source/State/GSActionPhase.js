@@ -752,65 +752,69 @@ function GSActionPhase() {
         }
 
         // Draw destructible obstacles
-        cc.log('GSActionPhase Draw destructible obstacles');
+        cc.log('GSActionPhase Draw destructible obstacles with length ' + instance.m_obstacles.length);
         for (var i = 0; i < instance.m_obstacles.length; i++) {
             cc.log('GSActionPhase obstacles ' + i + ' call Draw');
             instance.m_obstacles[i].Draw();
         }
 
         // Draw player bases
-        cc.log('GSActionPhase Draw player bases');
+        cc.log('GSActionPhase Draw player bases TEAM_1 with length ' + instance.m_bases[TEAM_1].length);
         for (var i = 0; i < instance.m_bases[TEAM_1].length; i++) {
             cc.log('GSActionPhase base of TEAM_1 at index ' + i + ' call Draw');
             instance.m_bases[TEAM_1][i].Draw();
         }
+        cc.log('GSActionPhase Draw player bases TEAM_2 with length ' + instance.m_bases[TEAM_2].length);
         for (var i = 0; i < instance.m_bases[TEAM_2].length; i++) {
             cc.log('GSActionPhase base of TEAM_2 at index ' + i + ' call Draw');
             instance.m_bases[TEAM_2][i].Draw();
         }
 
         // Draw tanks
-        cc.log('GSActionPhase Draw tanks');
+        cc.log('GSActionPhase Draw tanks TEAM_1 with length ' + instance.m_tanks[TEAM_1].length);
         for (var i = 0; i < instance.m_tanks[TEAM_1].length; i++) {
             cc.log('GSActionPhase tanks of TEAM_1 at index ' + i + ' call Draw');
             instance.m_tanks[TEAM_1][i].Draw();
         }
+        cc.log('GSActionPhase Draw tanks TEAM_2 with length ' + instance.m_tanks[TEAM_2].length);
         for (var i = 0; i < instance.m_tanks[TEAM_2].length; i++) {
             cc.log('GSActionPhase tanks of TEAM_2 at index ' + i + ' call Draw');
             instance.m_tanks[TEAM_2][i].Draw();
         }
 
         // Draw power up
-        cc.log('GSActionPhase Draw power up');
+        cc.log('GSActionPhase Draw power up with length ' + instance.m_powerUps.length);
         for (var i = 0; i < instance.m_powerUps.length; i++) {
             cc.log('GSActionPhase powerUps ' + i + ' call Draw');
             instance.m_powerUps[i].Draw();
         }
 
         // Draw bullets
-        cc.log('GSActionPhase Draw bullets');
+        cc.log('GSActionPhase Draw bullets TEAM_1 with length ' + instance.m_bullets[TEAM_1].length);
         for (var i = 0; i < instance.m_bullets[TEAM_1].length; i++) {
             cc.log('GSActionPhase bullets of TEAM_1 at index ' + i + ' call Draw');
             instance.m_bullets[TEAM_1][i].Draw();
         }
+        cc.log('GSActionPhase Draw bullets TEAM_2 with length ' + instance.m_bullets[TEAM_2].length);
         for (var i = 0; i < instance.m_bullets[TEAM_2].length; i++) {
             cc.log('GSActionPhase bullets of TEAM_2 at index ' + i + ' call Draw');
             instance.m_bullets[TEAM_2][i].Draw();
         }
 
         // Draw explosion
-        cc.log('GSActionPhase Draw explosion');
+        cc.log('GSActionPhase Draw explosion with length ' + instance.m_explosions.length);
         for (var i = 0; i < instance.m_explosions.length; i++) {
             cc.log('GSActionPhase explosions ' + i + ' call Draw');
             instance.m_explosions[i].Draw();
         }
 
         // Draw strikes
-        cc.log('GSActionPhase Draw strikes');
+        cc.log('GSActionPhase Draw strikes TEAM_1 with length ' + instance.m_strikes[TEAM_1].length);
         for (var i = 0; i < instance.m_strikes[TEAM_1].length; i++) {
             cc.log('GSActionPhase strikes of TEAM_1 at index ' + i + ' call Draw');
             instance.m_strikes[TEAM_1][i].Draw();
         }
+        cc.log('GSActionPhase Draw strikes TEAM_2 with length ' + instance.m_strikes[TEAM_2].length);
         for (var i = 0; i < instance.m_strikes[TEAM_2].length; i++) {
             cc.log('GSActionPhase strikes of TEAM_2 at index ' + i + ' call Draw');
             instance.m_strikes[TEAM_2][i].Draw();
@@ -839,7 +843,7 @@ function GSActionPhase() {
         cc.log('GSActionPhase GraphicEngine DrawFast rightPanel');
         g_graphicEngine.DrawFast(g_context, rightPanel, CANVAS_W - 305, 0);
 
-        cc.log('GSActionPhase check inventory for draw');
+        cc.log('GSActionPhase check inventory for draw with length ' + instance.m_inventory.length);
         for (var i = instance.m_inventory.length - 1; i >= 0; i--) {
             if (instance.m_time > instance.m_inventory[i]["time"]) {
                 for (var j = 0; j < instance.m_inventory[i][TEAM_1].length; j++) {
@@ -874,7 +878,6 @@ function GSActionPhase() {
             cc.log('GSActionPhase draw ffButton');
             g_graphicEngine.Draw(g_context, ffButton, 0, 0, FF_BUTTON_W, FF_BUTTON_H, FF_BUTTON_X, FF_BUTTON_Y, FF_BUTTON_W, FF_BUTTON_H, 1);
         }
-
 
         //todo draw time text
         if (instance.m_time > instance.m_suddenDeathTime && instance.m_suddenDeathTime != -1) {

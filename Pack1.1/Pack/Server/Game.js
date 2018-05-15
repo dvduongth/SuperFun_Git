@@ -750,9 +750,11 @@ module.exports = function Game(key1, key2, replayFilename) {
         }
 
         // Update all tank
+        console.log("Game Update num tank of TEAM_1 " + instance.m_tanks[Enum.TEAM_1].length);
         for (var i = 0; i < instance.m_tanks[Enum.TEAM_1].length; i++) {
             instance.m_tanks[Enum.TEAM_1][i].Update();
         }
+        console.log("Game Update num tank of TEAM_2 " + instance.m_tanks[Enum.TEAM_2].length);
         for (var i = 0; i < instance.m_tanks[Enum.TEAM_2].length; i++) {
             instance.m_tanks[Enum.TEAM_2][i].Update();
         }

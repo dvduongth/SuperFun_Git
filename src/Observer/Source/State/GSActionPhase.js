@@ -380,7 +380,7 @@ function GSActionPhase() {
     };
 
     this.ProcessUpdateTankCommand = function (time, data, originalOffset) {
-        cc.log('GSActionPhase ProcessUpdateTankCommand');
+        cc.log('GSActionPhase ProcessUpdateTankCommand ' + data.length);
         var offset = originalOffset;
         var id = DecodeUInt8(data, offset);
         offset++;
@@ -410,6 +410,8 @@ function GSActionPhase() {
         if (instance.m_tanks[team][id] == null) {
             cc.log('create new Tank with id', id, Utility.teamToString(team));
             instance.m_tanks[team][id] = new Tank(instance, id, team, type);
+        }else{
+            cc.log("existed tank of team " + Utility.teamToString(team) + " with id " + id);
         }
         instance.m_tanks[team][id].AddDataAnchor(time, x, y, dir, HP, cooldown, disabled);
 
@@ -443,6 +445,8 @@ function GSActionPhase() {
         if (instance.m_bullets[team][id] == null) {
             cc.log('create new Bullet with id', id, Utility.teamToString(team));
             instance.m_bullets[team][id] = new Bullet(instance, id, team);
+        }else{
+            cc.log("existed bullets of team " + Utility.teamToString(team) + " with id " + id);
         }
         instance.m_bullets[team][id].AddDataAnchor(time, type, x, y, dir, live, hit, damage);
 
@@ -468,6 +472,8 @@ function GSActionPhase() {
         if (instance.m_bases[team][id] == null) {
             cc.log("create new Base with id", id, Utility.teamToString(team));
             instance.m_bases[team][id] = new Base(instance, id, team, type);
+        }else{
+            cc.log("existed bases of team " + Utility.teamToString(team) + " with id " + id);
         }
         instance.m_bases[team][id].AddDataAnchor(time, x, y, HP);
 
@@ -491,6 +497,8 @@ function GSActionPhase() {
         if (instance.m_powerUps[id] == null) {
             cc.log('GSActionPhase create new PowerUp with id', id);
             instance.m_powerUps[id] = new PowerUp(instance, id);
+        }else{
+            cc.log("existed power up with id " + id);
         }
         instance.m_powerUps[id].AddDataAnchor(time, x, y, active, type);
 
@@ -518,6 +526,8 @@ function GSActionPhase() {
         if (instance.m_strikes[team][id] == null) {
             cc.log('create new Strike with id', id, Utility.teamToString(team));
             instance.m_strikes[team][id] = new Strike(instance, id, team);
+        }else{
+            cc.log("existed strikes of team " + Utility.teamToString(team) + " with id " + id);
         }
         instance.m_strikes[team][id].AddDataAnchor(time, type, x, y, countDown, live);
 
@@ -574,6 +584,8 @@ function GSActionPhase() {
             cc.log('create new Explosion');
             tempExplosion = new Explosion(instance, instance.m_explosions.length);
             instance.m_explosions.push(tempExplosion);
+        }else{
+            cc.log("existed explosions with id " + instance.m_explosions.length);
         }
         tempExplosion.Spawn(time, type, x, y, angle, flipX, flipY);
     };
@@ -618,75 +630,90 @@ function GSActionPhase() {
 
         // Not enough data received to continue rendering
         if (instance.m_time >= packetCount - 1) {
-            cc.log('Not enough data received to continue rendering');
+            cc.log('GSActionPhase Update Not enough data received to continue rendering');
             // Revert, and don't update
             instance.m_time -= deltaTimeForRender;
-            return cc.log("Revert, and don't update");
+            return cc.log("GSActionPhase Update Revert, and don't update");
         }
         else if (instance.m_time < 1) {
             instance.m_time = 1;
-            return cc.log('return m_time < 1');
+            return cc.log('GSActionPhase Update return m_time < 1');
         }
 
+        cc.log("GSActionPhase Update call g_particleEngine.Update with deltaTimeForParticle " + deltaTimeForParticle);
         g_particleEngine.Update(deltaTimeForParticle);
 
         // Update destructible obstacles
+        cc.log("GSActionPhase Update number obstacles " + instance.m_obstacles.length);
         for (var i = 0; i < instance.m_obstacles.length; i++) {
             instance.m_obstacles[i].Update(instance.m_time);
         }
 
         // Update tank
+        cc.log("GSActionPhase Update number tanks of TEAM_1 " + instance.m_tanks[TEAM_1].length);
         for (var i = 0; i < instance.m_tanks[TEAM_1].length; i++) {
             instance.m_tanks[TEAM_1][i].Update(instance.m_time);
         }
+        cc.log("GSActionPhase Update number tanks of TEAM_2 " + instance.m_tanks[TEAM_2].length);
         for (var i = 0; i < instance.m_tanks[TEAM_2].length; i++) {
             instance.m_tanks[TEAM_2][i].Update(instance.m_time);
         }
 
         // Update bullet
+        cc.log("GSActionPhase Update number bullets of TEAM_1 " + instance.m_bullets[TEAM_1].length);
         for (var i = 0; i < instance.m_bullets[TEAM_1].length; i++) {
             instance.m_bullets[TEAM_1][i].Update(instance.m_time);
         }
+        cc.log("GSActionPhase Update number bullets of TEAM_2 " + instance.m_bullets[TEAM_2].length);
         for (var i = 0; i < instance.m_bullets[TEAM_2].length; i++) {
             instance.m_bullets[TEAM_2][i].Update(instance.m_time);
         }
 
         // Update strike
+        cc.log("GSActionPhase Update number strikes of TEAM_1 " + instance.m_strikes[TEAM_1].length);
         for (var i = 0; i < instance.m_strikes[TEAM_1].length; i++) {
             instance.m_strikes[TEAM_1][i].Update(instance.m_time);
         }
+        cc.log("GSActionPhase Update number strikes of TEAM_2 " + instance.m_strikes[TEAM_2].length);
         for (var i = 0; i < instance.m_strikes[TEAM_2].length; i++) {
             instance.m_strikes[TEAM_2][i].Update(instance.m_time);
         }
 
         // Update base
+        cc.log("GSActionPhase Update number bases of TEAM_1 " + instance.m_bases[TEAM_1].length);
         for (var i = 0; i < instance.m_bases[TEAM_1].length; i++) {
             instance.m_bases[TEAM_1][i].Update(instance.m_time);
         }
+        cc.log("GSActionPhase Update number bases of TEAM_2 " + instance.m_bases[TEAM_2].length);
         for (var i = 0; i < instance.m_bases[TEAM_2].length; i++) {
             instance.m_bases[TEAM_2][i].Update(instance.m_time);
         }
 
         // Update power up
+        cc.log("GSActionPhase Update number powerUps " + instance.m_powerUps.length);
         for (var i = 0; i < instance.m_powerUps.length; i++) {
             instance.m_powerUps[i].Update(instance.m_time);
         }
 
         // Update explosion
+        cc.log("GSActionPhase Update number explosions " + instance.m_explosions.length);
         for (var i = 0; i < instance.m_explosions.length; i++) {
             instance.m_explosions[i].Update(instance.m_time);
         }
 
         // Animate the water tiles
         waterAnimationCount += deltaTimeForParticle;
+        cc.log("GSActionPhase Update Animate the water tiles waterAnimationCount = " + waterAnimationCount);
         if (waterAnimationCount > MAP_WATER_FRAME_DURATION) {
             waterAnimation++;
             if (waterAnimation >= MAP_WATER_FRAME_NUMBER) {
                 waterAnimation = 0;
             }
             waterAnimationCount -= MAP_WATER_FRAME_DURATION;
+            cc.log("change values waterAnimation = " + waterAnimation + " waterAnimationCount = " + waterAnimationCount);
         }
 
+        cc.log("GSActionPhase Update call g_soundEngine.Update");
         g_soundEngine.Update(deltaTime);
     };
 

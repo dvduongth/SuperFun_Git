@@ -346,11 +346,13 @@ var Client = function (key) {
 
     function Send(data) {
         //console.log ("Client Socket send: " + PacketToString(data));
-        if (socket.sendText) {
-            socket.sendText(data);
-        } else {
-            socket.send(data);
-        }
+        socket.send(data);
+        //
+        //if (socket.sendText) {
+        //    socket.sendText(data);
+        //} else {
+        //    socket.send(data);
+        //}
     }
     function OnMessage(data) {
         //console.log("Client Data received: " + PacketToString(data));

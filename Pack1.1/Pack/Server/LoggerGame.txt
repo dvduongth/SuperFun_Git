@@ -1,0 +1,722 @@
+game on command
+game command Enum.COMMAND_SEND_KEY
+wait for both player are connected. State: Enum.STATE_WAITING_FOR_PLAYERS
+game send key team 1 key 30
+Game GetFullSyncPacket Enum.COMMAND_UPDATE_MAP with packet.length 817
+game request send data to player 0 819
+Game Send big data with data.length 819
+wait for both player are connected. State: Enum.STATE_WAITING_FOR_PLAYERS . m_player1Index: 0 . m_player2Index: -1
+The end of the packet reach ok
+game on command
+game command Enum.COMMAND_SEND_KEY
+wait for both player are connected. State: Enum.STATE_WAITING_FOR_PLAYERS
+game send key team 2 key 11
+Game GetFullSyncPacket Enum.COMMAND_UPDATE_MAP with packet.length 817
+game request send data to player 1 819
+Game Send big data with data.length 819
+Change to state place tank, and announce to all party
+game request broadcast 2
+The end of the packet reach ok
+game on command
+game command Enum.COMMAND_CONTROL_PLACE
+wait for both player are connected. State: Enum.STATE_TANK_PLACEMENT
+command control place. Only allow to place tank during this state
+Oh, the correct player sent it, state tank placement
+Who send? 1
+perform pick tank
+pick tank 1 type 1 x 5 y 2
+push tank id 0 x 5 y 2 player 1 type 1
+not enough tank picked, wait ...
+game command Enum.COMMAND_CONTROL_PLACE
+wait for both player are connected. State: Enum.STATE_TANK_PLACEMENT
+command control place. Only allow to place tank during this state
+Oh, the correct player sent it, state tank placement
+Who send? 1
+perform pick tank
+pick tank 1 type 2 x 3 y 8
+push tank id 1 x 3 y 8 player 1 type 2
+not enough tank picked, wait ...
+game command Enum.COMMAND_CONTROL_PLACE
+wait for both player are connected. State: Enum.STATE_TANK_PLACEMENT
+command control place. Only allow to place tank during this state
+Oh, the correct player sent it, state tank placement
+Who send? 1
+perform pick tank
+pick tank 1 type 3 x 6 y 10
+push tank id 2 x 6 y 10 player 1 type 3
+not enough tank picked, wait ...
+game command Enum.COMMAND_CONTROL_PLACE
+wait for both player are connected. State: Enum.STATE_TANK_PLACEMENT
+command control place. Only allow to place tank during this state
+Oh, the correct player sent it, state tank placement
+Who send? 1
+perform pick tank
+pick tank 1 type 1 x 4 y 14
+push tank id 3 x 4 y 14 player 1 type 1
+not enough tank picked, wait ...
+The end of the packet reach ok
+game on command
+game command Enum.COMMAND_CONTROL_PLACE
+wait for both player are connected. State: Enum.STATE_TANK_PLACEMENT
+command control place. Only allow to place tank during this state
+Oh, the correct player sent it, state tank placement
+Who send? 2
+perform pick tank
+pick tank 2 type 1 x 16 y 4
+push tank id 0 x 16 y 4 player 2 type 1
+not enough tank picked, wait ...
+game command Enum.COMMAND_CONTROL_PLACE
+wait for both player are connected. State: Enum.STATE_TANK_PLACEMENT
+command control place. Only allow to place tank during this state
+Oh, the correct player sent it, state tank placement
+Who send? 2
+perform pick tank
+pick tank 2 type 2 x 17 y 8
+push tank id 1 x 17 y 8 player 2 type 2
+not enough tank picked, wait ...
+game command Enum.COMMAND_CONTROL_PLACE
+wait for both player are connected. State: Enum.STATE_TANK_PLACEMENT
+command control place. Only allow to place tank during this state
+Oh, the correct player sent it, state tank placement
+Who send? 2
+perform pick tank
+pick tank 2 type 3 x 17 y 13
+push tank id 2 x 17 y 13 player 2 type 3
+not enough tank picked, wait ...
+game command Enum.COMMAND_CONTROL_PLACE
+wait for both player are connected. State: Enum.STATE_TANK_PLACEMENT
+command control place. Only allow to place tank during this state
+Oh, the correct player sent it, state tank placement
+Who send? 2
+perform pick tank
+pick tank 2 type 3 x 16 y 19
+push tank id 3 x 16 y 19 player 2 type 3
+When enough tank picked, start the game.
+Game GetFullSyncPacket Enum.COMMAND_UPDATE_MAP with packet.length 1001
+game request broadcast 1001
+Game Broadcast big data with data.length 1001
+game start
+game spawn power up
+The end of the packet reach ok
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 16
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+game on command
+game command Enum.COMMAND_SEND_KEY
+wait for both player are connected. State: Enum.STATE_ACTION
+game send key team undefined key -1
+Game GetFullSyncPacket Enum.COMMAND_UPDATE_MAP with packet.length 1013
+game request send data to player 2 1013
+Game Send big data with data.length 1013
+wait for both player are connected. State: Enum.STATE_ACTION . m_player1Index: 0 . m_player2Index: 1
+The end of the packet reach ok
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+game on command
+game command Enum.COMMAND_SEND_KEY
+wait for both player are connected. State: Enum.STATE_ACTION
+game send key team undefined key -1
+Game GetFullSyncPacket Enum.COMMAND_UPDATE_MAP with packet.length 1013
+game request send data to player 3 1013
+Game Send big data with data.length 1013
+wait for both player are connected. State: Enum.STATE_ACTION . m_player1Index: 0 . m_player2Index: 1
+The end of the packet reach ok
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game Update num tank of TEAM_1 4
+Game Update num tank of TEAM_2 4
+Game Update number bullets of TEAM_1 0
+Game Update number bullets of TEAM_2 0
+Game Update number PowerUps 1
+Game Update number strikes of TEAM_1 0
+Game Update number strikes of TEAM_2 0
+Game Update instance.m_matchResult == Enum.MATCH_RESULT_NOT_FINISH -- check win-lost if match isn't finished
+game request broadcast 4
+Game CloseServer

@@ -272,7 +272,7 @@ function GSActionPhase() {
                     mTest.push(tempTest.join(", "));
                 }
                 cc.log("GSActionPhase OnUpdatePacket COMMAND_UPDATE_MAP\n", mTest.join("\n"));
-                instance.m_map = gv.MAP.slice(0);
+                //instance.m_map = gv.MAP.slice(0);
             }
             else if (command == COMMAND_UPDATE_OBSTACLE) {
                 readOffset += instance.ProcessUpdateObstacleCommand(packetCount, data, readOffset);

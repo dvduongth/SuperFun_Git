@@ -193,8 +193,8 @@ module.exports = function Game(key1, key2, replayFilename) {
         }
     };
     this.Broadcast = function (data) {
-        console.log("game request broadcast", data.length);
-        logger.print("game request broadcast " + data.length);
+        console.log("game request broadcast data.length", data.length);
+        logger.print("game request broadcast data.length " + data.length);
         if (data.length >= 26) {
             console.error("Game Broadcast big data with data.length", data.length);
             logger.print("Game Broadcast big data with data.length " + data.length);
@@ -593,6 +593,8 @@ module.exports = function Game(key1, key2, replayFilename) {
         }
 
         // All valid
+        console.log('All valid');
+        logger.print('All valid');
         var id = instance.m_tanks[player].length;
         var tempTank = new Tank(instance, id, x, y, player, type);
         console.log('push tank id', id, x, y, player, type);

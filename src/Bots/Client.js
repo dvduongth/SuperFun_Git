@@ -404,7 +404,7 @@ var Client = function (key) {
                     mTest.push(tempTest.join(", "));
                 }
                 cc.log("Client OnUpdatePacket COMMAND_UPDATE_MAP\n", mTest.join("\n"));
-                g_map = gv.MAP.slice(0);
+                //g_map = gv.MAP.slice(0);
             }
             else if (command == COMMAND_UPDATE_TIME) {
                 g_timeLeft = DecodeInt16(data, readOffset);

@@ -48,63 +48,6 @@ console.log('create new game with key', key1, key2, replayFilename);
 var game = new Game(key1, key2, replayFilename);
 
 console.log("create server listeningPort", listeningPort);
-/*var server = WS.createServer(function (socket) {
-    // Detect to see if this socket have already connected before
-    console.log('Detect to see if this socket have already connected before');
-    for (var i = 0; i < socketList.length; i++) {
-        if (socketList[i] == socket) {
-            socketStatus[i] = SOCKET_STATUS_ONLINE;
-            console.log("Returned client connected.");
-            return;
-        }
-    }
-
-    // This socket is new
-    var index = socketList.length;
-    socketList[index] = socket;
-    socketStatus[index] = SOCKET_STATUS_ONLINE;
-    socket.index = index;
-
-    console.log("New socket connected.");
-
-    // Receive a text
-    socket.on("text", function (data) {
-        //console.log("server Data received: " + Network.PacketToString(data));
-        console.log("server Data received: data.length" + data.length);
-
-        game.OnCommand(socket.index, data);
-    });
-
-    // This socket disconnected
-    socket.on("close", function (code, reason) {
-        console.log("Socket closed :" + code + " / " + reason);
-        for (var i = 0; i < socketList.length; i++) {
-            if (socketList[i] == socket) {
-                socketStatus[i] = SOCKET_STATUS_OFFLINE;
-            }
-        }
-
-        var findIndex = socketStatus.findIndex(function (e, arr, idx) {
-            return e == SOCKET_STATUS_ONLINE;
-        });
-        if(findIndex == -1) {
-            //todo all user offline
-            console.log("All User Offline");
-            game.CloseServer();
-        }
-    });
-
-    // Error is treated same as disconnected
-    socket.on("error", function (code, reason) {
-        console.log("Socket error :" + code + " / " + reason);
-        for (var i = 0; i < socketList.length; i++) {
-            if (socketList[i] == socket) {
-                socketStatus[i] = SOCKET_STATUS_OFFLINE;
-            }
-        }
-    });
-}).listen(listeningPort);*/
-
 
 var server = new WebSocket.Server({ port: listeningPort });
 

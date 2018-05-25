@@ -1,8 +1,8 @@
 {
   "version": 1,
   "storeType": 1,
-  "widthDesign": 960,
-  "heightDesign": 640,
+  "widthDesign": 1180,
+  "heightDesign": 880,
   "minScreenRatio": 1.5,
   "selectScale": 0.5,
   "resources": [

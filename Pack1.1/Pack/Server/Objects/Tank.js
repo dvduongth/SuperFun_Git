@@ -3,6 +3,7 @@ var Setting = require("./../Config/Setting");
 var Network = require("./../Network");
 
 module.exports = function Tank (game, id, x, y, team, type) {
+	var instance = this;
 	// Position
 	this.m_x = x;
 	this.m_y = y;
@@ -38,40 +39,40 @@ module.exports = function Tank (game, id, x, y, team, type) {
 	// Called by the client
 	this.Turn = function(direction) {
 		commandTurn = direction;
-	}
+	};
 	this.Move = function() {
 		commandMove = true;
-	}
+	};
 	this.Shoot = function() {
 		commandShoot = true;
-	}
+	};
 	
 	// Called by the server to update based on command
 	this.Update = function() {
-		if (this.m_HP > 0) {
-			if (this.m_disabled <= 0) {
+		if (instance.m_HP > 0) {
+			if (instance.m_disabled <= 0) {
 				if (commandTurn == Enum.DIRECTION_DOWN || commandTurn == Enum.DIRECTION_RIGHT
 				||  commandTurn == Enum.DIRECTION_LEFT || commandTurn == Enum.DIRECTION_UP) {
-					this.m_direction = commandTurn;
-					this.m_dirty = true;
+					instance.m_direction = commandTurn;
+					instance.m_dirty = true;
 				}
 				
 				if (commandMove) {
 					// Move the tank to an imaginary position first
-					var newX = this.m_x;
-					var newY = this.m_y;
+					var newX = instance.m_x;
+					var newY = instance.m_y;
 					var newPositionOK = false;
-					if (this.m_direction == Enum.DIRECTION_UP) {
-						newY = this.m_y - this.m_speed;
+					if (instance.m_direction == Enum.DIRECTION_UP) {
+						newY = instance.m_y - instance.m_speed;
 					}
-					else if (this.m_direction == Enum.DIRECTION_DOWN) {
-						newY = this.m_y + this.m_speed;
+					else if (instance.m_direction == Enum.DIRECTION_DOWN) {
+						newY = instance.m_y + instance.m_speed;
 					}
-					else if (this.m_direction == Enum.DIRECTION_LEFT) {
-						newX = this.m_x - this.m_speed;
+					else if (instance.m_direction == Enum.DIRECTION_LEFT) {
+						newX = instance.m_x - instance.m_speed;
 					}
-					else if (this.m_direction == Enum.DIRECTION_RIGHT) {
-						newX = this.m_x + this.m_speed;
+					else if (instance.m_direction == Enum.DIRECTION_RIGHT) {
+						newX = instance.m_x + instance.m_speed;
 					}
 					
 					// Round up on a square, because, in javascript, sometimes:
@@ -83,29 +84,29 @@ module.exports = function Tank (game, id, x, y, team, type) {
 					if (newY % 1 > 0.95) newY = (newY >> 0) + 1;
 					
 					// Check to see if that position is valid (no collision)
-					newPositionOK = this.CheckForCollision(newX, newY);
+					newPositionOK = instance.CheckForCollision(newX, newY);
 
 					// Update if OK.
 					if (newPositionOK) {
-						this.m_x = newX;
-						this.m_y = newY;
-						this.m_dirty = true;
+						instance.m_x = newX;
+						instance.m_y = newY;
+						instance.m_dirty = true;
 					}
 				}
 				
 				if (commandShoot) {
-					if (this.m_HP > 0) {
-						if (this.m_coolDown == 0) {
-							this.m_coolDown = this.m_rateOfFire;
-							game.Fire (this);
+					if (instance.m_HP > 0) {
+						if (instance.m_coolDown == 0) {
+							instance.m_coolDown = instance.m_rateOfFire;
+							game.Fire (instance);
 						}
 					}
 				}
 			}
 			else {
-				this.m_disabled --;
-				if (this.m_disabled == 0) {
-					this.m_dirty = true;
+				instance.m_disabled --;
+				if (instance.m_disabled == 0) {
+					instance.m_dirty = true;
 				}
 			}
 			
@@ -115,24 +116,24 @@ module.exports = function Tank (game, id, x, y, team, type) {
 			commandShoot = false;
 			
 			// Internal stuff
-			if (this.m_coolDown > 0 && this.m_disabled <= 0) {
-				this.m_coolDown --;
+			if (instance.m_coolDown > 0 && instance.m_disabled <= 0) {
+				instance.m_coolDown --;
 			}
 		}
 		else {
 			//le.huathi - reset m_dirty if already died last frame
-			if (this.m_dirty) {
-				this.m_dirty = false;
+			if (instance.m_dirty) {
+				instance.m_dirty = false;
 			}
 		}
-	}
+	};
 	
 	this.CheckForCollision = function (newX, newY) {
 		// Check landscape
 		var roundedX = newX >> 0;
 		var roundedY = newY >> 0;
-		var squareNeedToCheckX = new Array();
-		var squareNeedToCheckY = new Array();
+		var squareNeedToCheckX = [];
+		var squareNeedToCheckY = [];
 		
 		// Find the square the tank occupy (even part of)
 		if (newX == roundedX && newY == roundedY) {
@@ -167,7 +168,7 @@ module.exports = function Tank (game, id, x, y, team, type) {
 		
 		// If landscape is valid, time to check collision with other tanks.
 		for (var i=0; i<game.m_tanks[Enum.TEAM_1].length; i++) {
-			if (this.m_team == Enum.TEAM_1 && this.m_id == i) {
+			if (instance.m_team == Enum.TEAM_1 && instance.m_id == i) {
 				continue;
 			}
 			var tempTank = game.m_tanks[Enum.TEAM_1][i];
@@ -176,7 +177,7 @@ module.exports = function Tank (game, id, x, y, team, type) {
 			}
 		}
 		for (var i=0; i<game.m_tanks[Enum.TEAM_2].length; i++) {
-			if (this.m_team == Enum.TEAM_2 && this.m_id == i) {
+			if (instance.m_team == Enum.TEAM_2 && instance.m_id == i) {
 				continue;
 			}
 			var tempTank = game.m_tanks[Enum.TEAM_2][i];
@@ -186,51 +187,51 @@ module.exports = function Tank (game, id, x, y, team, type) {
 		}
 		
 		return true;
-	}
+	};
 	
 	//le.huathi - call this when tank meet opponent's bullet
 	this.Hit = function(damage) {
-		if(this.m_HP == 0) //do nothing if already died
+		if(instance.m_HP == 0) //do nothing if already died
 			return;
-		this.m_HP -= damage;
-		this.m_dirty = true;
-		if (this.m_HP <= 0) {
+		instance.m_HP -= damage;
+		instance.m_dirty = true;
+		if (instance.m_HP <= 0) {
 			// BOOM!
-			this.m_HP = 0;
+			instance.m_HP = 0;
 		}
-	}
-	
+	};
+
 	this.EMP = function(duration) {
-		if(this.m_HP == 0) //do nothing if already died
+		if(instance.m_HP == 0) //do nothing if already died
 			return;
-		this.m_disabled = duration;
-		this.m_dirty = true;
-	}
+		instance.m_disabled = duration;
+		instance.m_dirty = true;
+	};
 	
 	// tien.dinhvan - call this when tank picks a rune
 	this.PickRune = function(rune) {
-		rune.m_state = this.m_team;
-	}
+		rune.m_state = instance.m_team;
+	};
 	
 	this.ToPacket = function(forceUpdate) {
 		var packet = "";
-		if (this.m_dirty || forceUpdate) {
+		if (instance.m_dirty || forceUpdate) {
 			packet += Network.EncodeUInt8(Enum.COMMAND_UPDATE_TANK);
-			packet += Network.EncodeUInt8(this.m_id);
-			packet += Network.EncodeUInt8(this.m_team);
-			packet += Network.EncodeUInt8(this.m_type);
-			packet += Network.EncodeUInt16(this.m_HP);
-			packet += Network.EncodeUInt8(this.m_direction);
-			packet += Network.EncodeFloat32(this.m_speed);
-			packet += Network.EncodeUInt8(this.m_rateOfFire);
-			packet += Network.EncodeUInt8(this.m_coolDown);
-			packet += Network.EncodeUInt8(this.m_damage);
-			packet += Network.EncodeUInt8(this.m_disabled);
-			packet += Network.EncodeFloat32(this.m_x);
-			packet += Network.EncodeFloat32(this.m_y);
-			
-			this.m_dirty = false;
+			packet += Network.EncodeUInt8(instance.m_id);
+			packet += Network.EncodeUInt8(instance.m_team);
+			packet += Network.EncodeUInt8(instance.m_type);
+			packet += Network.EncodeUInt16(instance.m_HP);
+			packet += Network.EncodeUInt8(instance.m_direction);
+			packet += Network.EncodeFloat32(instance.m_speed);
+			packet += Network.EncodeUInt8(instance.m_rateOfFire);
+			packet += Network.EncodeUInt8(instance.m_coolDown);
+			packet += Network.EncodeUInt8(instance.m_damage);
+			packet += Network.EncodeUInt8(instance.m_disabled);
+			packet += Network.EncodeFloat32(instance.m_x);
+			packet += Network.EncodeFloat32(instance.m_y);
+
+			instance.m_dirty = false;
 		}
 		return packet;
-	}
-}
+	};
+};

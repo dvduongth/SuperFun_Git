@@ -3,6 +3,7 @@ var Setting = require("./../Config/Setting");
 var Network = require("./../Network");
 
 module.exports = function PowerUp (game, id) {
+	var instance = this;
 	// Position
 	this.m_id = id;
 	this.m_x = 0;
@@ -36,30 +37,30 @@ module.exports = function PowerUp (game, id) {
 		// If there are free slots, random from those slots
 		if (availableSpawnPoint.length > 0) {
 			var slot = (Math.random() * availableSpawnPoint.length) >> 0;
-			this.m_x = availableSpawnPoint[slot][0];
-			this.m_y = availableSpawnPoint[slot][1];
+			instance.m_x = availableSpawnPoint[slot][0];
+			instance.m_y = availableSpawnPoint[slot][1];
 			
 			// Get a random type
-			this.m_type = spawnType[(Math.random() * spawnType.length) >> 0];
+			instance.m_type = spawnType[(Math.random() * spawnType.length) >> 0];
 			
 			// Mark to announce its appearance
-			this.m_active = 1;
-			this.m_dirty = true;
+			instance.m_active = 1;
+			instance.m_dirty = true;
 		}
-	}
+	};
     
     this.CheckForCollision = function () {
         // Check collision with any tanks.
         for (var i=0; i < game.m_tanks[Enum.TEAM_1].length; i++) {
             var tempTank = game.m_tanks[Enum.TEAM_1][i]; 
 			if (tempTank == null || tempTank.m_HP == 0) continue;
-            if (Math.abs(this.m_x - tempTank.m_x) < 1 && Math.abs(this.m_y - tempTank.m_y) < 1) {
-				this.m_active = 0;
-                this.m_dirty = true;
-				this.m_x = -1;
-				this.m_y = -1;
+            if (Math.abs(instance.m_x - tempTank.m_x) < 1 && Math.abs(instance.m_y - tempTank.m_y) < 1) {
+				instance.m_active = 0;
+				instance.m_dirty = true;
+				instance.m_x = -1;
+				instance.m_y = -1;
 				
-				game.AcquirePowerup (Enum.TEAM_1, this.m_type);
+				game.AcquirePowerup (Enum.TEAM_1, instance.m_type);
                 
                 return;
             }
@@ -68,38 +69,38 @@ module.exports = function PowerUp (game, id) {
         for (var i=0; i < game.m_tanks[Enum.TEAM_2].length; i++) {
             var tempTank = game.m_tanks[Enum.TEAM_2][i]; 
 			if (tempTank == null || tempTank.m_HP == 0) continue;
-            if (Math.abs(this.m_x - tempTank.m_x) < 1 && Math.abs(this.m_y - tempTank.m_y) < 1) {
-				this.m_active = 0;
-                this.m_dirty = true;
-				this.m_x = -1;
-				this.m_y = -1;
+            if (Math.abs(instance.m_x - tempTank.m_x) < 1 && Math.abs(instance.m_y - tempTank.m_y) < 1) {
+				instance.m_active = 0;
+				instance.m_dirty = true;
+				instance.m_x = -1;
+				instance.m_y = -1;
                 
-				game.AcquirePowerup (Enum.TEAM_2, this.m_type);
+				game.AcquirePowerup (Enum.TEAM_2, instance.m_type);
 				
                 return;
             }
         }		
-    }
+    };
 	
 	this.Update = function() {
-		if (this.m_active == 1) {
-			this.CheckForCollision();
+		if (instance.m_active == 1) {
+			instance.CheckForCollision();
 		}
-	}
+	};
     
 	this.ToPacket = function(forceUpdate) {
 		var packet = "";
-		if (this.m_dirty || forceUpdate) {
+		if (instance.m_dirty || forceUpdate) {
 			packet += Network.EncodeUInt8(Enum.COMMAND_UPDATE_POWERUP);
-			packet += Network.EncodeUInt8(this.m_id);
-            packet += Network.EncodeUInt8(this.m_active);
-			packet += Network.EncodeUInt8(this.m_type);
-			packet += Network.EncodeFloat32(this.m_x);
-			packet += Network.EncodeFloat32(this.m_y);
-			
-			this.m_dirty = false;
+			packet += Network.EncodeUInt8(instance.m_id);
+            packet += Network.EncodeUInt8(instance.m_active);
+			packet += Network.EncodeUInt8(instance.m_type);
+			packet += Network.EncodeFloat32(instance.m_x);
+			packet += Network.EncodeFloat32(instance.m_y);
+
+			instance.m_dirty = false;
 		}
 		
 		return packet;
-	} 
-} 
+	};
+};

@@ -82,7 +82,7 @@ var Client = function (key) {
      var logger = new Logger();
      */
     var console = cc;
-    var Logger = function Logger() {
+    function Logger() {
         var instance = this;
         var wstream = null;
 
@@ -288,14 +288,6 @@ var Client = function (key) {
 // =============================================
 // Protocol - Sending and updating
 // =============================================
-    /*var WebSocket;
-     try {
-     WebSocket = require("./NodeWS");
-     }
-     catch (e) {
-     WebSocket = require("./../NodeWS");
-     }*/
-    var WebSocket = WebSocket || window.WebSocket || window.MozWebSocket;
 
     var SOCKET_IDLE = 0;
     var SOCKET_CONNECTING = 1;
@@ -325,6 +317,22 @@ var Client = function (key) {
     var socketStatus = SOCKET_IDLE;
 
 
+
+    socket = WebSocket.connect ("ws://" + host + ":" + port, [], function () {
+        logger.print("Client Socket connected. Send Text WS was opened.");
+        socketStatus = SOCKET_CONNECTED;
+        SendKey();
+    });
+    socket.on("error", function (code, reason) {
+        socketStatus = SOCKET_IDLE;
+        logger.print ("Socket error: " + code);
+    });
+    socket.on("text", function (data) {
+        OnMessage (data);
+    });
+    socketStatus = SOCKET_CONNECTING;
+
+/*
     socket = new WebSocket("ws://" + host + ":" + port);
     socket.binaryType = "arraybuffer";
 
@@ -342,6 +350,7 @@ var Client = function (key) {
         OnMessage(evt.data);
     };
     socketStatus = SOCKET_CONNECTING;
+*/
 
 
     function Send(data) {
